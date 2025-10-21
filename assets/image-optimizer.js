@@ -128,7 +128,7 @@ class ImageOptimizer {
     });
   }
 
-  // Preload critical images
+  // Preload critical images for LCP optimization
   preloadCriticalImages() {
     const criticalImages = document.querySelectorAll('img[fetchpriority="high"], img[loading="eager"]');
     
@@ -138,10 +138,21 @@ class ImageOptimizer {
       const imageUrl = img.src || img.dataset.src;
       if (!imageUrl) return;
       
+      // Create preload link with high priority
       const link = document.createElement('link');
       link.rel = 'preload';
       link.as = 'image';
       link.href = imageUrl;
+      link.fetchPriority = 'high';
+      
+      // Add media query for responsive images
+      if (img.sizes) {
+        const sizes = img.getAttribute('sizes');
+        if (sizes && sizes.includes('max-width')) {
+          link.media = '(max-width: 749px)';
+        }
+      }
+      
       document.head.appendChild(link);
     });
   }

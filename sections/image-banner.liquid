@@ -2,6 +2,12 @@
 <link rel="preload" href="{{ 'section-image-banner.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="{{ 'section-image-banner.css' | asset_url }}"></noscript>
 
+<!-- Preload critical banner image for LCP optimization -->
+{%- if section.settings.image != blank -%}
+  <link rel="preload" as="image" href="{{ section.settings.image | image_url: width: 1920 }}" fetchpriority="high">
+  <link rel="preload" as="image" href="{{ section.settings.image | image_url: width: 750 }}" media="(max-width: 749px)" fetchpriority="high">
+{%- endif -%}
+
 {%- if section.settings.image_height == 'adapt' and section.settings.image != blank -%}
   {%- style -%}
     @media screen and (max-width: 749px) {
@@ -81,9 +87,9 @@
           class: image_class,
           sizes: sizes,
           widths: widths,
-          fetchpriority: fetch_priority,
+          fetchpriority: "high",
           loading: "eager",
-          decoding: "async"
+          decoding: "sync"
       }}
     </div>
   {%- elsif section.settings.image_2 == blank -%}

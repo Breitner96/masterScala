@@ -54,19 +54,35 @@ src="https://www.facebook.com/tr?id=797521048922948&ev=PageView&noscript=1"
 
     {% render 'meta-tags' %}
 
-    <!-- Critical JavaScript - Load immediately -->
+    <!-- Critical JavaScript - Load immediately with high priority -->
     <script src="{{ 'constants.js' | asset_url }}" defer></script>
     <script src="{{ 'pubsub.js' | asset_url }}" defer></script>
     
-    <!-- Non-critical JavaScript - Load after DOM is ready -->
+    <!-- LCP optimization script -->
     <script>
-      // Load global.js after critical scripts
-      window.addEventListener('DOMContentLoaded', function() {
-        const script = document.createElement('script');
-        script.src = '{{ 'global.js' | asset_url }}';
-        script.defer = true;
-        document.head.appendChild(script);
-      });
+      // Optimize LCP by preloading critical resources
+      (function() {
+        // Preload critical images immediately
+        const criticalImages = document.querySelectorAll('img[fetchpriority="high"]');
+        criticalImages.forEach(img => {
+          if (img.src) {
+            const link = document.createElement('link');
+            link.rel = 'preload';
+            link.as = 'image';
+            link.href = img.src;
+            link.fetchPriority = 'high';
+            document.head.appendChild(link);
+          }
+        });
+        
+        // Load global.js after critical scripts
+        window.addEventListener('DOMContentLoaded', function() {
+          const script = document.createElement('script');
+          script.src = '{{ 'global.js' | asset_url }}';
+          script.defer = true;
+          document.head.appendChild(script);
+        });
+      })();
     </script>
     
     {%- if settings.animations_reveal_on_scroll -%}
@@ -90,6 +106,39 @@ src="https://www.facebook.com/tr?id=797521048922948&ev=PageView&noscript=1"
     %}
 
     {% style %}
+      /* Critical CSS for LCP optimization */
+      .banner {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 50vh;
+      }
+      
+      .banner__media {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+      }
+      
+      .banner__media img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+      
+      .banner__content {
+        position: relative;
+        z-index: 2;
+        text-align: center;
+        padding: 2rem;
+      }
+      
+      /* Font loading optimization */
       {{ settings.type_body_font | font_face: font_display: 'swap' }}
       {{ body_font_bold | font_face: font_display: 'swap' }}
       {{ body_font_italic | font_face: font_display: 'swap' }}
@@ -430,6 +479,9 @@ src="https://www.facebook.com/tr?id=797521048922948&ev=PageView&noscript=1"
     <!-- Preload critical resources -->
     <link rel="preload" href="{{ 'constants.js' | asset_url }}" as="script">
     <link rel="preload" href="{{ 'pubsub.js' | asset_url }}" as="script">
+    
+    <!-- LCP Optimizer (critical for LCP performance) -->
+    <script src="{{ 'lcp-optimizer.js' | asset_url }}" defer></script>
     
     <!-- Image Optimizer (handles all image loading) -->
     <script src="{{ 'image-optimizer.js' | asset_url }}" defer></script>

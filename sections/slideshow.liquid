@@ -151,9 +151,9 @@
                   height: height, 
                   sizes: sizes, 
                   widths: widths, 
-                  fetchpriority: fetch_priority,
+                  fetchpriority: "high",
                   loading: "eager",
-                  decoding: "async"
+                  decoding: "sync"
               }}
             {%- else -%}
               {{
