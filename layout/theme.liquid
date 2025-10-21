@@ -4,22 +4,27 @@
 <meta name="facebook-domain-verification" content="pc8h5zmnfoii5ci3p88o9z4ym705pv" />
 
 
-    <!-- Meta Pixel Code - Optimized -->
+    <!-- Meta Pixel Code - Ultra Optimized for Performance -->
 <script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-</script>
-<script>
-// Defer Facebook Pixel initialization to improve FCP
-window.addEventListener('DOMContentLoaded', function() {
-  fbq('init', '797521048922948');
-  fbq('track', 'PageView');
+// Defer Facebook Pixel to avoid blocking critical rendering
+window.addEventListener('load', function() {
+  // Load Facebook Pixel asynchronously after page load
+  (function(f,b,e,v,n,t,s) {
+    if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s);
+  })(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
+  
+  // Initialize after script loads
+  setTimeout(function() {
+    if(typeof fbq !== 'undefined') {
+      fbq('init', '797521048922948');
+      fbq('track', 'PageView');
+    }
+  }, 100);
 });
 </script>
 <noscript><img height="1" width="1" style="display:none"
@@ -54,13 +59,19 @@ src="https://www.facebook.com/tr?id=797521048922948&ev=PageView&noscript=1"
 
     {% render 'meta-tags' %}
 
-    <!-- Critical JavaScript - Load immediately with high priority -->
-    <script src="{{ 'constants.js' | asset_url }}" defer></script>
-    <script src="{{ 'pubsub.js' | asset_url }}" defer></script>
-    
-    <!-- LCP optimization script -->
+    <!-- Ultra-minimal critical JavaScript for immediate execution -->
     <script>
-      // Optimize LCP by preloading critical resources
+      // Minimal critical JavaScript - inline for zero blocking
+      window.Shopify = window.Shopify || {};
+      window.Shopify.routes = {
+        cart_add_url: '{{ routes.cart_add_url }}',
+        cart_change_url: '{{ routes.cart_change_url }}',
+        cart_update_url: '{{ routes.cart_update_url }}',
+        cart_url: '{{ routes.cart_url }}',
+        predictive_search_url: '{{ routes.predictive_search_url }}',
+      };
+      
+      // LCP optimization - immediate execution
       (function() {
         // Preload critical images immediately
         const criticalImages = document.querySelectorAll('img[fetchpriority="high"]');
@@ -74,15 +85,31 @@ src="https://www.facebook.com/tr?id=797521048922948&ev=PageView&noscript=1"
             document.head.appendChild(link);
           }
         });
+      })();
+    </script>
+    
+    <!-- Load non-critical JavaScript after page load -->
+    <script>
+      window.addEventListener('load', function() {
+        // Load constants and pubsub after page load
+        const constantsScript = document.createElement('script');
+        constantsScript.src = '{{ 'constants.js' | asset_url }}';
+        constantsScript.defer = true;
+        document.head.appendChild(constantsScript);
+        
+        const pubsubScript = document.createElement('script');
+        pubsubScript.src = '{{ 'pubsub.js' | asset_url }}';
+        pubsubScript.defer = true;
+        document.head.appendChild(pubsubScript);
         
         // Load global.js after critical scripts
-        window.addEventListener('DOMContentLoaded', function() {
-          const script = document.createElement('script');
-          script.src = '{{ 'global.js' | asset_url }}';
-          script.defer = true;
-          document.head.appendChild(script);
-        });
-      })();
+        setTimeout(function() {
+          const globalScript = document.createElement('script');
+          globalScript.src = '{{ 'global.js' | asset_url }}';
+          globalScript.defer = true;
+          document.head.appendChild(globalScript);
+        }, 100);
+      });
     </script>
     
     {%- if settings.animations_reveal_on_scroll -%}
@@ -460,6 +487,20 @@ src="https://www.facebook.com/tr?id=797521048922948&ev=PageView&noscript=1"
       }
     </style>
 
+    <!-- Critical CSS inline for immediate rendering -->
+    <style>
+      /* Critical above-the-fold styles */
+      body { margin: 0; font-family: system-ui, -apple-system, sans-serif; }
+      .banner { position: relative; display: flex; align-items: center; justify-content: center; min-height: 50vh; }
+      .banner__media { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; }
+      .banner__media img { width: 100%; height: 100%; object-fit: cover; display: block; }
+      .banner__content { position: relative; z-index: 2; text-align: center; padding: 2rem; }
+      .page-width { max-width: 120rem; margin: 0 auto; padding: 0 1.5rem; }
+      .visually-hidden { position: absolute !important; overflow: hidden; width: 1px; height: 1px; margin: -1px; padding: 0; border: 0; clip: rect(0 0 0 0); }
+      .no-js:not(html) { display: none !important; }
+      html.no-js .no-js:not(html) { display: block !important; }
+    </style>
+    
     <!-- Load non-critical CSS asynchronously -->
     <link rel="preload" href="{{ 'base.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="{{ 'base.css' | asset_url }}"></noscript>
@@ -480,14 +521,8 @@ src="https://www.facebook.com/tr?id=797521048922948&ev=PageView&noscript=1"
     <link rel="preload" href="{{ 'constants.js' | asset_url }}" as="script">
     <link rel="preload" href="{{ 'pubsub.js' | asset_url }}" as="script">
     
-    <!-- LCP Optimizer (critical for LCP performance) -->
-    <script src="{{ 'lcp-optimizer.js' | asset_url }}" defer></script>
-    
-    <!-- Image Optimizer (handles all image loading) -->
-    <script src="{{ 'image-optimizer.js' | asset_url }}" defer></script>
-    
-    <!-- Performance Optimizer (handles non-image optimizations) -->
-    <script src="{{ 'performance-optimizer.js' | asset_url }}" defer></script>
+    <!-- Ultra Performance Optimizer - Single optimized script -->
+    <script src="{{ 'ultra-performance-optimizer.js' | asset_url }}" defer></script>
 
     {%- if localization.available_countries.size > 1 or localization.available_languages.size > 1 -%}
       <link rel="preload" href="{{ 'component-localization-form.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">

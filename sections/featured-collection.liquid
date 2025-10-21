@@ -16,9 +16,24 @@
 {%- endif -%}
 
 {%- if section.settings.enable_quick_add -%}
-  {{ 'quick-add.css' | asset_url | stylesheet_tag }}
-  <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
-  <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+  <!-- Load quick add resources asynchronously -->
+  <link rel="preload" href="{{ 'quick-add.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="{{ 'quick-add.css' | asset_url }}"></noscript>
+  
+  <script>
+    // Load quick add scripts after page load
+    window.addEventListener('load', function() {
+      const quickAddScript = document.createElement('script');
+      quickAddScript.src = '{{ 'quick-add.js' | asset_url }}';
+      quickAddScript.defer = true;
+      document.head.appendChild(quickAddScript);
+      
+      const productFormScript = document.createElement('script');
+      productFormScript.src = '{{ 'product-form.js' | asset_url }}';
+      productFormScript.defer = true;
+      document.head.appendChild(productFormScript);
+    });
+  </script>
 {%- endif -%}
 
 {%- style -%}
