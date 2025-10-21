@@ -1,4 +1,4 @@
-<!-- Critical CSS for header -->
+<!-- Load component CSS asynchronously for better performance -->
 <link rel="preload" href="{{ 'component-list-menu.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <link rel="preload" href="{{ 'component-search.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <link rel="preload" href="{{ 'component-menu-drawer.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -127,13 +127,40 @@
   }
 {%- endstyle -%}
 
-<script src="{{ 'details-disclosure.js' | asset_url }}" defer="defer"></script>
-<script src="{{ 'details-modal.js' | asset_url }}" defer="defer"></script>
-<script src="{{ 'cart-notification.js' | asset_url }}" defer="defer"></script>
-<script src="{{ 'search-form.js' | asset_url }}" defer="defer"></script>
-{%- if settings.cart_type == "drawer" -%}
-  <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
-{%- endif -%}
+<!-- Load JavaScript asynchronously for better performance -->
+<script>
+  // Load critical scripts immediately
+  const criticalScripts = [
+    '{{ 'details-disclosure.js' | asset_url }}',
+    '{{ 'details-modal.js' | asset_url }}'
+  ];
+  
+  criticalScripts.forEach(src => {
+    const script = document.createElement('script');
+    script.src = src;
+    script.defer = true;
+    document.head.appendChild(script);
+  });
+
+  // Load non-critical scripts after DOM is ready
+  window.addEventListener('DOMContentLoaded', function() {
+    const nonCriticalScripts = [
+      '{{ 'cart-notification.js' | asset_url }}',
+      '{{ 'search-form.js' | asset_url }}'
+    ];
+
+    {%- if settings.cart_type == "drawer" -%}
+      nonCriticalScripts.push('{{ 'cart-drawer.js' | asset_url }}');
+    {%- endif -%}
+
+    nonCriticalScripts.forEach(src => {
+      const script = document.createElement('script');
+      script.src = src;
+      script.defer = true;
+      document.head.appendChild(script);
+    });
+  });
+</script>
 
 <svg xmlns="http://www.w3.org/2000/svg" class="hidden">
   <symbol id="icon-search" viewbox="0 0 18 19" fill="none">
@@ -384,11 +411,11 @@
       this.preventReveal = false;
       this.predictiveSearch = this.querySelector('predictive-search');
 
-      this.onScrollHandler = this.onScroll.bind(this);
+      this.onScrollHandler = throttle(this.onScroll.bind(this), 16);
       this.hideHeaderOnScrollUp = () => this.preventReveal = true;
 
       this.addEventListener('preventHeaderReveal', this.hideHeaderOnScrollUp);
-      window.addEventListener('scroll', this.onScrollHandler, false);
+      window.addEventListener('scroll', this.onScrollHandler, { passive: true });
 
       this.createObserver();
     }

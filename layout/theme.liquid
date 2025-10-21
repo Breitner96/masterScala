@@ -1,40 +1,37 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
-    <meta name="facebook-domain-verification" content="pc8h5zmnfoii5ci3p88o9z4ym705pv" />
+<meta name="facebook-domain-verification" content="pc8h5zmnfoii5ci3p88o9z4ym705pv" />
+
+
+    <!-- Meta Pixel Code - Optimized -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+</script>
+<script>
+// Defer Facebook Pixel initialization to improve FCP
+window.addEventListener('DOMContentLoaded', function() {
+  fbq('init', '797521048922948');
+  fbq('track', 'PageView');
+});
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=797521048922948&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
     
-    <!-- EXTREME Critical CSS - Inline for instant rendering -->
-    <style>
-      {%- render 'extreme-critical-css' -%}
-    </style>
-    
-    <!-- Preload critical fonts immediately -->
-    {%- unless settings.type_header_font.system? -%}
-      <link rel="preload" as="font" href="{{ settings.type_header_font | font_url }}" type="font/woff2" crossorigin>
-    {%- endunless -%}
-    {%- unless settings.type_body_font.system? -%}
-      <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
-      <link rel="preload" as="font" href="{{ settings.type_body_font | font_modify: 'weight', 'bold' | font_url }}" type="font/woff2" crossorigin>
-    {%- endunless -%}
-    
-    <!-- Preload critical resources -->
-    <link rel="preload" href="{{ 'base.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="{{ 'base.css' | asset_url }}"></noscript>
-        
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="theme-color" content="{{ settings.color_schemes[0].settings.background | default: '#ffffff' }}">
+    <meta name="theme-color" content="">
     <link rel="canonical" href="{{ canonical_url }}">
-    
-    <!-- Ultra Performance hints -->
-    <link rel="dns-prefetch" href="//cdn.shopify.com">
-    <link rel="dns-prefetch" href="//fonts.shopifycdn.com">
-    <link rel="dns-prefetch" href="//connect.facebook.net">
-    <link rel="dns-prefetch" href="//www.google-analytics.com">
-    <link rel="preconnect" href="//cdn.shopify.com" crossorigin>
-    <link rel="preconnect" href="//fonts.shopifycdn.com" crossorigin>
-    <link rel="preconnect" href="//connect.facebook.net" crossorigin>
 
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
@@ -42,7 +39,6 @@
 
     {%- unless settings.type_header_font.system? and settings.type_body_font.system? -%}
       <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
-      <link rel="dns-prefetch" href="https://fonts.shopifycdn.com">
     {%- endunless -%}
 
     <title>
@@ -58,78 +54,32 @@
 
     {% render 'meta-tags' %}
 
-    <!-- EXTREME Critical JavaScript - Zero Blocking -->
+    <!-- Critical JavaScript - Load immediately -->
+    <script src="{{ 'constants.js' | asset_url }}" defer></script>
+    <script src="{{ 'pubsub.js' | asset_url }}" defer></script>
+    
+    <!-- Non-critical JavaScript - Load after DOM is ready -->
     <script>
-      // EXTREME optimized script loading - ZERO render blocking
-      (function() {
-        var criticalScripts = ['{{ 'constants.js' | asset_url }}', '{{ 'pubsub.js' | asset_url }}', '{{ 'extreme-preload.js' | asset_url }}'];
-        var highPriorityScripts = ['{{ 'global.js' | asset_url }}', '{{ 'lazy-loading.js' | asset_url }}', '{{ 'extreme-performance.js' | asset_url }}'];
-        var mediumPriorityScripts = ['{{ 'performance-config.js' | asset_url }}', '{{ 'advanced-performance.js' | asset_url }}'];
-        var lowPriorityScripts = [];
-        
-        {%- if settings.animations_reveal_on_scroll -%}
-        lowPriorityScripts.push('{{ 'animations.js' | asset_url }}');
-        {%- endif -%}
-        
-        function loadScript(src, priority, callback) {
-          var script = document.createElement('script');
-          script.src = src;
-          script.async = true;
-          script.defer = true;
-          script.onload = callback || function(){};
-          script.onerror = function(){console.warn('Failed to load:', src);};
-          
-          if (priority === 'critical') {
-            document.head.insertBefore(script, document.head.firstChild);
-          } else if (priority === 'high') {
-            var firstScript = document.head.querySelector('script');
-            if (firstScript) {
-              document.head.insertBefore(script, firstScript);
-            } else {
-              document.head.appendChild(script);
-            }
-          } else {
-            document.head.appendChild(script);
-          }
-        }
-        
-        function loadScripts(scripts, priority, delay) {
-          if (delay) {
-            setTimeout(function() {
-              scripts.forEach(function(src, index) {
-                setTimeout(function() {
-                  loadScript(src, priority);
-                }, index * 10);
-              });
-            }, delay);
-          } else {
-            scripts.forEach(function(src, index) {
-              setTimeout(function() {
-                loadScript(src, priority);
-              }, index * 5);
-            });
-          }
-        }
-        
-        // Load critical scripts immediately
-        loadScripts(criticalScripts, 'critical', 0);
-        
-        // Load high priority scripts with minimal delay
-        loadScripts(highPriorityScripts, 'high', 50);
-        
-        // Load medium priority scripts after page is interactive
-        loadScripts(mediumPriorityScripts, 'medium', 200);
-        
-        // Load low priority scripts after page is fully loaded
-        if (document.readyState === 'complete') {
-          loadScripts(lowPriorityScripts, 'low', 500);
-        } else {
-          window.addEventListener('load', function() {
-            loadScripts(lowPriorityScripts, 'low', 500);
-          });
-        }
-      })();
+      // Load global.js after critical scripts
+      window.addEventListener('DOMContentLoaded', function() {
+        const script = document.createElement('script');
+        script.src = '{{ 'global.js' | asset_url }}';
+        script.defer = true;
+        document.head.appendChild(script);
+      });
     </script>
+    
+    {%- if settings.animations_reveal_on_scroll -%}
+      <script>
+        // Load animations only when needed
+        window.addEventListener('DOMContentLoaded', function() {
+          const script = document.createElement('script');
+          script.src = '{{ 'animations.js' | asset_url }}';
+          script.defer = true;
+          document.head.appendChild(script);
+        });
+      </script>
+    {%- endif -%}
 
     {{ content_for_header }}
 
@@ -145,15 +95,6 @@
       {{ body_font_italic | font_face: font_display: 'swap' }}
       {{ body_font_bold_italic | font_face: font_display: 'swap' }}
       {{ settings.type_header_font | font_face: font_display: 'swap' }}
-      
-      /* Font loading optimization */
-      @font-face {
-        font-family: 'system-ui';
-        font-style: normal;
-        font-weight: 400;
-        font-display: swap;
-        src: local('system-ui'), local('-apple-system'), local('BlinkMacSystemFont'), local('Segoe UI'), local('Roboto'), local('Helvetica Neue'), local('Arial'), local('sans-serif');
-      }
 
       {% for scheme in settings.color_schemes -%}
         {% assign scheme_classes = scheme_classes | append: ', .color-' | append: scheme.id %}
@@ -356,15 +297,141 @@
       }
     {% endstyle %}
 
-    <!-- base.css already loaded with preload above -->
+    <!-- Critical CSS - Inline for immediate rendering -->
+    <style>
+      /* Critical CSS - Essential styles for above-the-fold content */
+      :root {
+        --font-body-family: {{ settings.type_body_font.family }}, {{ settings.type_body_font.fallback_families }};
+        --font-heading-family: {{ settings.type_header_font.family }}, {{ settings.type_header_font.fallback_families }};
+        --color-background: #daeeef;
+        --color-foreground: #014450;
+        --page-width: {{ settings.page_width | divided_by: 10 }}rem;
+        --spacing-sections-desktop: {{ settings.spacing_sections }}px;
+        --spacing-sections-mobile: {% if settings.spacing_sections < 24 %}{{ settings.spacing_sections }}{% else %}{{ settings.spacing_sections | times: 0.7 | round | at_least: 20 }}{% endif %}px;
+      }
 
+      body {
+        display: grid;
+        grid-template-rows: auto auto 1fr auto;
+        grid-template-columns: 100%;
+        min-height: 100vh;
+        margin: 0;
+        font-size: 1.5rem;
+        line-height: 1.6;
+        font-family: var(--font-body-family);
+        color: rgba(var(--color-foreground), 0.75);
+        background-color: rgb(var(--color-background));
+      }
+
+      .header {
+        display: grid;
+        grid-template-areas: 'left-icons heading icons';
+        grid-template-columns: 1fr 2fr 1fr;
+        align-items: center;
+        padding: 1rem 3rem;
+        background-color: rgb(var(--color-background));
+        border-bottom: 1px solid rgba(var(--color-foreground), 0.1);
+      }
+
+      .header__heading {
+        justify-self: center;
+        font-family: var(--font-heading-family);
+        font-weight: bold;
+        font-size: 2.4rem;
+        text-align: center;
+      }
+
+      .header__icons {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        justify-self: end;
+      }
+
+      .skip-to-content-link {
+        position: absolute;
+        top: -100px;
+        left: 0;
+        z-index: 1000;
+        padding: 0.8rem 1.6rem;
+        background-color: rgb(var(--color-button));
+        color: rgb(var(--color-button-text));
+        text-decoration: none;
+        border-radius: 4px;
+      }
+
+      .skip-to-content-link:focus {
+        top: 0;
+      }
+
+      .visually-hidden {
+        position: absolute !important;
+        overflow: hidden;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+        border: 0;
+        clip: rect(0 0 0 0);
+        word-wrap: normal !important;
+      }
+
+      .button {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        border: 0;
+        padding: 1.5rem 3rem;
+        cursor: pointer;
+        text-decoration: none;
+        background-color: rgb(var(--color-button));
+        color: rgb(var(--color-button-text));
+        border-radius: 4px;
+        font-family: inherit;
+        font-size: 1.4rem;
+        letter-spacing: 0.1rem;
+        line-height: 1.2;
+        text-align: center;
+        text-transform: uppercase;
+        transition: box-shadow 0.1s ease;
+      }
+
+      .button:hover {
+        box-shadow: 0 0 0 0.1rem rgb(var(--color-button));
+      }
+
+      @media screen and (min-width: 750px) {
+        body {
+          font-size: 1.6rem;
+        }
+        
+        .header__heading {
+          font-size: 3.2rem;
+        }
+      }
+    </style>
+
+    <!-- Load non-critical CSS asynchronously -->
+    <link rel="preload" href="{{ 'base.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="{{ 'base.css' | asset_url }}"></noscript>
+
+    <!-- Preload critical fonts with highest priority -->
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
-      <link rel="preload" as="font" href="{{ settings.type_body_font | font_modify: 'weight', 'bold' | font_url }}" type="font/woff2" crossorigin>
     {%- endunless -%}
     {%- unless settings.type_header_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_header_font | font_url }}" type="font/woff2" crossorigin>
     {%- endunless -%}
+
+    <!-- Preload critical resources -->
+    <link rel="preload" href="{{ 'constants.js' | asset_url }}" as="script">
+    <link rel="preload" href="{{ 'pubsub.js' | asset_url }}" as="script">
+    
+    <!-- Performance Optimizer -->
+    <script src="{{ 'performance-optimizer.js' | asset_url }}" defer></script>
+    
+    <!-- Image Optimizer -->
+    <script src="{{ 'image-optimizer.js' | asset_url }}" defer></script>
 
     {%- if localization.available_countries.size > 1 or localization.available_languages.size > 1 -%}
       <link rel="preload" href="{{ 'component-localization-form.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -451,13 +518,13 @@
 
     {%- if settings.predictive_search_enabled -%}
       <script>
-        // Load predictive search asynchronously
-        (function() {
-          var script = document.createElement('script');
+        // Load predictive search only when needed
+        window.addEventListener('DOMContentLoaded', function() {
+          const script = document.createElement('script');
           script.src = '{{ 'predictive-search.js' | asset_url }}';
           script.defer = true;
           document.head.appendChild(script);
-        })();
+        });
       </script>
     {%- endif -%}
   </body>

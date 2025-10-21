@@ -34,6 +34,7 @@
                 src="{{ article.image | image_url: width: 1100 }}"
                 loading="eager"
                 fetchpriority="high"
+                decoding="async"
                 width="{{ article.image.width }}"
                 height="{{ article.image.height }}"
                 alt="{{ article.image.alt | escape }}"

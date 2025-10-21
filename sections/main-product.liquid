@@ -3,45 +3,21 @@
   class="section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}"
   data-section="{{ section.id }}"
 >
-  <!-- Critical CSS for product page -->
-  <link rel="preload" href="{{ 'section-main-product.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="{{ 'section-main-product.css' | asset_url }}"></noscript>
-  
-  <!-- Non-critical CSS - Load asynchronously -->
-  <link rel="preload" href="{{ 'component-accordion.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="{{ 'component-price.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="{{ 'component-slider.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="{{ 'component-rating.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="{{ 'component-deferred-media.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="{{ 'skala-base.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  
+  {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
+  {{ 'component-accordion.css' | asset_url | stylesheet_tag }}
+  {{ 'component-price.css' | asset_url | stylesheet_tag }}
+  {{ 'component-slider.css' | asset_url | stylesheet_tag }}
+  {{ 'component-rating.css' | asset_url | stylesheet_tag }}
+  {{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
+  {{ 'skala-base.css' | asset_url | stylesheet_tag }}
   {% unless product.has_only_default_variant %}
-    <link rel="preload" href="{{ 'component-product-variant-picker.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <link rel="preload" href="{{ 'component-swatch-input.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <link rel="preload" href="{{ 'component-swatch.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    {{ 'component-product-variant-picker.css' | asset_url | stylesheet_tag }}
+    {{ 'component-swatch-input.css' | asset_url | stylesheet_tag }}
+    {{ 'component-swatch.css' | asset_url | stylesheet_tag }}
   {% endunless %}
-  
   {%- if product.quantity_price_breaks_configured? -%}
-    <link rel="preload" href="{{ 'component-volume-pricing.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    {{ 'component-volume-pricing.css' | asset_url | stylesheet_tag }}
   {%- endif -%}
-  
-  <!-- Fallback for noscript -->
-  <noscript>
-    <link rel="stylesheet" href="{{ 'component-accordion.css' | asset_url }}">
-    <link rel="stylesheet" href="{{ 'component-price.css' | asset_url }}">
-    <link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}">
-    <link rel="stylesheet" href="{{ 'component-rating.css' | asset_url }}">
-    <link rel="stylesheet" href="{{ 'component-deferred-media.css' | asset_url }}">
-    <link rel="stylesheet" href="{{ 'skala-base.css' | asset_url }}">
-    {% unless product.has_only_default_variant %}
-      <link rel="stylesheet" href="{{ 'component-product-variant-picker.css' | asset_url }}">
-      <link rel="stylesheet" href="{{ 'component-swatch-input.css' | asset_url }}">
-      <link rel="stylesheet" href="{{ 'component-swatch.css' | asset_url }}">
-    {% endunless %}
-    {%- if product.quantity_price_breaks_configured? -%}
-      <link rel="stylesheet" href="{{ 'component-volume-pricing.css' | asset_url }}">
-    {%- endif -%}
-  </noscript>
 
   {%- style -%}
     .section-{{ section.id }}-padding {
@@ -57,44 +33,19 @@
     }
   {%- endstyle -%}
 
-  <!-- Critical JavaScript for product functionality -->
   <script src="{{ 'product-info.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
-  
-  <!-- Conditional JavaScript - Load asynchronously -->
-  <script>
-    // Load conditional scripts asynchronously
-    {%- if product.quantity_price_breaks_configured? -%}
-    (function() {
-      var scripts = ['{{ 'show-more.js' | asset_url }}', '{{ 'price-per-item.js' | asset_url }}'];
-      scripts.forEach(function(src) {
-        var script = document.createElement('script');
-        script.src = src;
-        script.defer = true;
-        document.head.appendChild(script);
-      });
-    })();
-    {%- endif -%}
-    
-    {% if section.settings.image_zoom == 'hover' %}
-    (function() {
-      var script = document.createElement('script');
-      script.id = 'EnableZoomOnHover-main';
-      script.src = '{{ 'magnify.js' | asset_url }}';
-      script.defer = true;
-      document.head.appendChild(script);
-    })();
-    {% endif %}
-    
-    {%- if request.design_mode -%}
-    (function() {
-      var script = document.createElement('script');
-      script.src = '{{ 'theme-editor.js' | asset_url }}';
-      script.defer = true;
-      document.head.appendChild(script);
-    })();
-    {%- endif -%}
-  </script>
+  {%- if product.quantity_price_breaks_configured? -%}
+    <script src="{{ 'show-more.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'price-per-item.js' | asset_url }}" defer="defer"></script>
+  {%- endif -%}
+
+  {% if section.settings.image_zoom == 'hover' %}
+    <script id="EnableZoomOnHover-main" src="{{ 'magnify.js' | asset_url }}" defer="defer"></script>
+  {% endif %}
+  {%- if request.design_mode -%}
+    <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
+  {%- endif -%}
 
   {%- assign first_3d_model = product.media | where: 'media_type', 'model' | first -%}
   {%- if first_3d_model -%}

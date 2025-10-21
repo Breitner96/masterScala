@@ -1,4 +1,6 @@
-{{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
+<!-- Load banner CSS asynchronously for better performance -->
+<link rel="preload" href="{{ 'section-image-banner.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="{{ 'section-image-banner.css' | asset_url }}"></noscript>
 
 {%- if section.settings.image_height == 'adapt' and section.settings.image != blank -%}
   {%- style -%}
@@ -79,7 +81,9 @@
           class: image_class,
           sizes: sizes,
           widths: widths,
-          fetchpriority: fetch_priority
+          fetchpriority: fetch_priority,
+          loading: "eager",
+          decoding: "async"
       }}
     </div>
   {%- elsif section.settings.image_2 == blank -%}
@@ -111,7 +115,9 @@
           class: image_class_2,
           sizes: sizes,
           widths: widths,
-          fetchpriority: fetch_priority
+          fetchpriority: fetch_priority,
+          loading: "lazy",
+          decoding: "async"
       }}
     </div>
   {%- endif -%}

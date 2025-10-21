@@ -1,14 +1,6 @@
-<!-- EXTREME Critical Slideshow CSS - Above the fold -->
-<link rel="preload" href="{{ 'section-image-banner.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<link rel="preload" href="{{ 'component-slider.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<link rel="preload" href="{{ 'component-slideshow.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-
-<!-- Fallback for noscript -->
-<noscript>
-  <link rel="stylesheet" href="{{ 'section-image-banner.css' | asset_url }}">
-  <link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}">
-  <link rel="stylesheet" href="{{ 'component-slideshow.css' | asset_url }}">
-</noscript>
+{{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
+{{ 'component-slider.css' | asset_url | stylesheet_tag }}
+{{ 'component-slideshow.css' | asset_url | stylesheet_tag }}
 
 {%- if section.settings.slide_height == 'adapt_image' and section.blocks.first.settings.image != blank -%}
   {%- style -%}
@@ -155,13 +147,24 @@
               {{
                 block.settings.image
                 | image_url: width: 3840
-                | image_tag: height: height, sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                | image_tag: 
+                  height: height, 
+                  sizes: sizes, 
+                  widths: widths, 
+                  fetchpriority: fetch_priority,
+                  loading: "eager",
+                  decoding: "async"
               }}
             {%- else -%}
               {{
                 block.settings.image
                 | image_url: width: 3840
-                | image_tag: loading: 'lazy', height: height, sizes: sizes, widths: widths
+                | image_tag: 
+                  loading: 'lazy', 
+                  height: height, 
+                  sizes: sizes, 
+                  widths: widths,
+                  decoding: "async"
               }}
             {%- endif -%}
           {%- else -%}

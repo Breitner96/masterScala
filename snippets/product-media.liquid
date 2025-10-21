@@ -30,11 +30,10 @@
     src="{{ media.preview_image | image_url: width: 1445 }}"
     alt="{{ media.alt | escape }}"
     loading="lazy"
-    fetchpriority="auto"
+    decoding="async"
     width="1100"
     height="{{ 1100 | divided_by: media.preview_image.aspect_ratio | ceil }}"
     data-media-id="{{ media.id }}"
-    decoding="async"
   >
 {%- else -%}
   {%- if media.media_type == 'model' -%}

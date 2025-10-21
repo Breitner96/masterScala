@@ -1,57 +1,16 @@
-<!-- Ultra Critical Collection CSS - Preload for maximum performance -->
-<link rel="preload" href="{{ 'template-collection.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<link rel="preload" href="{{ 'component-card.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<link rel="preload" href="{{ 'component-price.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+{{ 'template-collection.css' | asset_url | stylesheet_tag }}
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
 
 {% if section.settings.image_shape == 'blob' %}
-  <link rel="preload" href="{{ 'mask-blobs.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  {{ 'mask-blobs.css' | asset_url | stylesheet_tag }}
 {%- endif -%}
 
 {%- if section.settings.enable_quick_add -%}
-  <link rel="preload" href="{{ 'quick-add.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <script>
-    // Ultra optimized script loading for collection page
-    (function() {
-      function loadCollectionScripts() {
-        var scripts = [
-          '{{ 'quick-add.js' | asset_url }}',
-          '{{ 'product-form.js' | asset_url }}'
-        ];
-        
-        scripts.forEach(function(src, index) {
-          setTimeout(function() {
-            var script = document.createElement('script');
-            script.src = src;
-            script.defer = true;
-            script.async = true;
-            document.head.appendChild(script);
-          }, index * 50); // Stagger loading
-        });
-      }
-      
-      if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', loadCollectionScripts);
-      } else {
-        loadCollectionScripts();
-      }
-    })();
-  </script>
+  {{ 'quick-add.css' | asset_url | stylesheet_tag }}
+  <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
-
-<!-- Fallback for noscript -->
-<noscript>
-  <link rel="stylesheet" href="{{ 'template-collection.css' | asset_url }}">
-  <link rel="stylesheet" href="{{ 'component-card.css' | asset_url }}">
-  <link rel="stylesheet" href="{{ 'component-price.css' | asset_url }}">
-  {% if section.settings.image_shape == 'blob' %}
-    <link rel="stylesheet" href="{{ 'mask-blobs.css' | asset_url }}">
-  {%- endif -%}
-  {%- if section.settings.enable_quick_add -%}
-    <link rel="stylesheet" href="{{ 'quick-add.css' | asset_url }}">
-    <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
-    <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
-  {%- endif -%}
-</noscript>
 
 {%- style -%}
   .section-{{ section.id }}-padding {

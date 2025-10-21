@@ -1,19 +1,9 @@
 {% comment %}theme-check-disable UndefinedObject{% endcomment %}
-<!-- Footer CSS - Load asynchronously -->
-<link rel="preload" href="{{ 'section-footer.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<link rel="preload" href="{{ 'component-newsletter.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<link rel="preload" href="{{ 'component-list-menu.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<link rel="preload" href="{{ 'component-list-payment.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<link rel="preload" href="{{ 'component-list-social.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-
-<!-- Fallback for noscript -->
-<noscript>
-  <link rel="stylesheet" href="{{ 'section-footer.css' | asset_url }}">
-  <link rel="stylesheet" href="{{ 'component-newsletter.css' | asset_url }}">
-  <link rel="stylesheet" href="{{ 'component-list-menu.css' | asset_url }}">
-  <link rel="stylesheet" href="{{ 'component-list-payment.css' | asset_url }}">
-  <link rel="stylesheet" href="{{ 'component-list-social.css' | asset_url }}">
-</noscript>
+{{ 'section-footer.css' | asset_url | stylesheet_tag }}
+{{ 'component-newsletter.css' | asset_url | stylesheet_tag }}
+{{ 'component-list-menu.css' | asset_url | stylesheet_tag }}
+{{ 'component-list-payment.css' | asset_url | stylesheet_tag }}
+{{ 'component-list-social.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
   .footer {
