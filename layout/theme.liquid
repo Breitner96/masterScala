@@ -61,7 +61,7 @@ src="https://www.facebook.com/tr?id=797521048922948&ev=PageView&noscript=1"
 
     <!-- Ultra-minimal critical JavaScript for immediate execution -->
     <script>
-      // Minimal critical JavaScript - inline for zero blocking
+      // Minimal critical JavaScript - PageSpeed Insights optimized
       window.Shopify = window.Shopify || {};
       window.Shopify.routes = {
         cart_add_url: '{{ routes.cart_add_url }}',
@@ -71,8 +71,22 @@ src="https://www.facebook.com/tr?id=797521048922948&ev=PageView&noscript=1"
         predictive_search_url: '{{ routes.predictive_search_url }}',
       };
       
-      // LCP optimization - immediate execution
+      // Critical resource hints for LCP optimization
       (function() {
+        // DNS prefetch for external resources
+        const dnsPrefetchDomains = [
+          'https://cdn.shopify.com',
+          'https://fonts.shopifycdn.com',
+          'https://monorail-edge.shopifysvc.com'
+        ];
+        
+        dnsPrefetchDomains.forEach(domain => {
+          const link = document.createElement('link');
+          link.rel = 'dns-prefetch';
+          link.href = domain;
+          document.head.appendChild(link);
+        });
+        
         // Preload critical images immediately
         const criticalImages = document.querySelectorAll('img[fetchpriority="high"]');
         criticalImages.forEach(img => {
@@ -489,16 +503,69 @@ src="https://www.facebook.com/tr?id=797521048922948&ev=PageView&noscript=1"
 
     <!-- Critical CSS inline for immediate rendering -->
     <style>
-      /* Critical above-the-fold styles */
-      body { margin: 0; font-family: system-ui, -apple-system, sans-serif; }
-      .banner { position: relative; display: flex; align-items: center; justify-content: center; min-height: 50vh; }
-      .banner__media { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; }
-      .banner__media img { width: 100%; height: 100%; object-fit: cover; display: block; }
-      .banner__content { position: relative; z-index: 2; text-align: center; padding: 2rem; }
-      .page-width { max-width: 120rem; margin: 0 auto; padding: 0 1.5rem; }
-      .visually-hidden { position: absolute !important; overflow: hidden; width: 1px; height: 1px; margin: -1px; padding: 0; border: 0; clip: rect(0 0 0 0); }
+      /* Critical above-the-fold styles - PageSpeed Insights optimized */
+      * { box-sizing: border-box; }
+      body { 
+        margin: 0; 
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        background: #fff;
+      }
+      .banner { 
+        position: relative; 
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        min-height: 50vh;
+        overflow: hidden;
+      }
+      .banner__media { 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        width: 100%; 
+        height: 100%; 
+        z-index: 1;
+      }
+      .banner__media img { 
+        width: 100%; 
+        height: 100%; 
+        object-fit: cover; 
+        object-position: center;
+        display: block;
+        max-width: 100%;
+        height: auto;
+      }
+      .banner__content { 
+        position: relative; 
+        z-index: 2; 
+        text-align: center; 
+        padding: 2rem;
+        max-width: 100%;
+      }
+      .page-width { 
+        max-width: 120rem; 
+        margin: 0 auto; 
+        padding: 0 1.5rem;
+      }
+      .visually-hidden { 
+        position: absolute !important; 
+        overflow: hidden; 
+        width: 1px; 
+        height: 1px; 
+        margin: -1px; 
+        padding: 0; 
+        border: 0; 
+        clip: rect(0 0 0 0);
+      }
       .no-js:not(html) { display: none !important; }
       html.no-js .no-js:not(html) { display: block !important; }
+      
+      /* Prevent CLS */
+      img { max-width: 100%; height: auto; display: block; }
+      .card__media { aspect-ratio: 1 / 1; overflow: hidden; }
+      .card__media img { width: 100%; height: 100%; object-fit: cover; }
     </style>
     
     <!-- Load non-critical CSS asynchronously -->
@@ -511,18 +578,22 @@ src="https://www.facebook.com/tr?id=797521048922948&ev=PageView&noscript=1"
 
     <!-- Preload critical fonts with highest priority -->
     {%- unless settings.type_body_font.system? -%}
-      <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
+      <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin fetchpriority="high">
     {%- endunless -%}
     {%- unless settings.type_header_font.system? -%}
-      <link rel="preload" as="font" href="{{ settings.type_header_font | font_url }}" type="font/woff2" crossorigin>
+      <link rel="preload" as="font" href="{{ settings.type_header_font | font_url }}" type="font/woff2" crossorigin fetchpriority="high">
     {%- endunless -%}
+    
+    <!-- Preconnect to external domains for faster loading -->
+    <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
+    <link rel="preconnect" href="https://monorail-edge.shopifysvc.com" crossorigin>
 
     <!-- Preload critical resources -->
     <link rel="preload" href="{{ 'constants.js' | asset_url }}" as="script">
     <link rel="preload" href="{{ 'pubsub.js' | asset_url }}" as="script">
     
-    <!-- Ultra Performance Optimizer - Single optimized script -->
-    <script src="{{ 'ultra-performance-optimizer.js' | asset_url }}" defer></script>
+    <!-- PageSpeed Insights Optimizer - Implements all PSI recommendations -->
+    <script src="{{ 'pagespeed-optimizer.js' | asset_url }}" defer></script>
 
     {%- if localization.available_countries.size > 1 or localization.available_languages.size > 1 -%}
       <link rel="preload" href="{{ 'component-localization-form.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">

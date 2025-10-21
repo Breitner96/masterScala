@@ -4,8 +4,10 @@
 
 <!-- Preload critical banner image for LCP optimization -->
 {%- if section.settings.image != blank -%}
-  <link rel="preload" as="image" href="{{ section.settings.image | image_url: width: 1920 }}" fetchpriority="high">
-  <link rel="preload" as="image" href="{{ section.settings.image | image_url: width: 750 }}" media="(max-width: 749px)" fetchpriority="high">
+  <link rel="preload" as="image" href="{{ section.settings.image | image_url: width: 1920 }}" fetchpriority="high" type="image/webp">
+  <link rel="preload" as="image" href="{{ section.settings.image | image_url: width: 750 }}" media="(max-width: 749px)" fetchpriority="high" type="image/webp">
+  <link rel="preload" as="image" href="{{ section.settings.image | image_url: width: 1920 }}" fetchpriority="high" type="image/jpeg">
+  <link rel="preload" as="image" href="{{ section.settings.image | image_url: width: 750 }}" media="(max-width: 749px)" fetchpriority="high" type="image/jpeg">
 {%- endif -%}
 
 {%- if section.settings.image_height == 'adapt' and section.settings.image != blank -%}
@@ -80,16 +82,17 @@
       -%}
       {{
         section.settings.image
-        | image_url: width: 3840
+        | image_url: width: 1920
         | image_tag:
           width: section.settings.image.width,
           height: image_height,
           class: image_class,
           sizes: sizes,
-          widths: widths,
+          widths: '375, 550, 750, 1100, 1500, 1920',
           fetchpriority: "high",
           loading: "eager",
-          decoding: "sync"
+          decoding: "sync",
+          alt: section.settings.image.alt | escape
       }}
     </div>
   {%- elsif section.settings.image_2 == blank -%}
