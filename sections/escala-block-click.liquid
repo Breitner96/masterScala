@@ -1,0 +1,45 @@
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  
+        window.addEventListener("contextmenu", (e) => {
+          e.preventDefault();
+        });
+        document.addEventListener("selectstart", (e) => {
+          e.preventDefault();
+        });
+        document.addEventListener('DOMContentLoaded', function() {
+          document.querySelectorAll('img').forEach(img => {
+            img.addEventListener('dragstart', function(e) {
+              e.preventDefault();
+            })
+          })
+        })
+        function ctrlShiftKey(e, keyCode) {
+          return e.ctrlKey && e.shiftKey && e.keyCode === keyCode.charCodeAt(0);
+        }
+        document.addEventListener('keydown', function(e) {
+          if (
+            event.keyCode === 123 ||
+            ctrlShiftKey(e, 'I') ||
+            ctrlShiftKey(e, 'J') ||
+            ctrlShiftKey(e, 'C') ||
+            (e.ctrlKey && e.keyCode === 'U'.charCodeAt(0))
+          ) {
+            e.preventDefault();
+          }
+        })
+      
+});
+</script>
+
+{% schema %}
+{
+  "name": "Deshabilitar Clicks",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Dehabilitar Clicks"
+    }
+  ]
+}
+{% endschema %}

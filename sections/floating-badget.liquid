@@ -1,0 +1,83 @@
+{% schema %}
+{
+  "name": "Mensajes flotantes",
+  "class": "announcement-bar-section",
+  "settings": [
+    {
+      "type": "color",
+      "id": "color_bg",
+      "label": "Color de fondo",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "color_text",
+      "label": "Color de Texto",
+      "default": "#000000"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Mensajes flotantes"
+    }
+  ]
+}
+{% endschema %}
+
+<div id="mensaje-flotante" style="border-radius: 5px; background: {{ section.settings.color_bg }}; color: {{ section.settings.color_text }}; padding: 10px 10px; position: absolute; top: 10px; z-index: 9999999999; display: flex; align-items: center; gap: 10px;">
+  <img src="{{ product.featured_image | img_url: "40x40" }}" alt="{{product.featured_image.alt}}" style="object-fit: cover; border-radius: 50%; width: 50px; height: 50px"/>
+  <div id="texto">
+    <p style="margin: 0; font-weight: bold; margin-bottom: -5px;">Alguien en Bogotá</p>
+    <p style="line-height: 16px; margin: 0">Compró {{ product.title }} hace x horas</p>
+  </div>
+</div>
+
+<style>
+    @media (max-width: 700px) {
+        #mensaje-flotante {
+          left: 10px;
+          right: 10px;
+    }
+  }
+</style>
+
+<script>
+  const ciudadesColombia = ["Bogotá", "Medellín", "Cali", "Barranquilla", "Cartagena", "Santa Marta", "Pereira", "Manizales", "Bucaramanga", "Cúcuta", "Ibagué", "Villavicencio", "Pasto", "Neiva", "Montería", "Popayán", "Valledupar", "Armenia", "Riohacha", "Sincelejo"];
+
+    function obtenerCiudadAleatoria() {
+      return ciudadesColombia[Math.floor(Math.random() * ciudadesColombia.length)];
+    }
+
+    function obtenerHorasAleatorias() {
+      return Math.floor(Math.random() * 24) + 1;
+    }
+
+    function actualizarContenido() {
+      const nombreCiudad = obtenerCiudadAleatoria();
+      const horas = obtenerHorasAleatorias();
+
+      document.getElementById('texto').innerHTML = `
+        <p style="margin: 0; font-weight: bold; margin-bottom: -1px; font-size: 1.1rem;">Alguien en ${nombreCiudad}</p>
+        <p style="line-height: 13px; margin: 0; font-size: 1.1rem;">Compró {{product.title}} hace ${horas} horas</p>
+      `;
+    }
+
+    function desplazarBanner() {
+      const mensajeFlotante = document.getElementById('mensaje-flotante');
+      
+      mensajeFlotante.style.transition = 'transform 0.5s';
+      mensajeFlotante.style.transform = 'translateY(-120%)';
+      
+      setTimeout(() => {
+        mensajeFlotante.style.transform = 'translateY(0)';
+        actualizarContenido();
+      }, 10000);
+    }
+
+    desplazarBanner();
+    
+    setInterval(() => {
+      desplazarBanner();
+    }, 20000);
+</script>
+

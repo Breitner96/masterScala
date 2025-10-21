@@ -1,0 +1,224 @@
+{{ 'section-rich-text.css' | asset_url | stylesheet_tag }}
+
+{% schema %}
+  {
+    "name": "Antes y Después",
+    "class": "index-section",
+    "settings": [
+      {
+"type": "text",
+"id": "title",
+"label": "Titulo de sección"
+      },
+{
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+            {
+              "value": "h2",
+              "label": "t:sections.all.heading_size.options__1.label"
+            },
+            {
+              "value": "h1",
+              "label": "t:sections.all.heading_size.options__2.label"
+            },
+            {
+              "value": "h0",
+              "label": "t:sections.all.heading_size.options__3.label"
+            }
+          ],
+          "default": "h2",
+          "label": "t:sections.all.heading_size.label"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_after",
+          "label": "Image Antes"
+        },
+        {
+        "type": "image_picker",
+        "id": "image_before",
+        "label": "Image Después"
+      },
+      {
+      "type": "checkbox",
+      "id": "slid_aftr_bfr_en-over",
+      "label": "Activar superposición",
+      "default": true
+      },
+      {
+        "type": "color",
+        "id": "color_slid_aftr_bfr_over",
+        "label": "Color de superposición",
+        "default": "#000000"
+      },
+      {
+        "type": "range",
+        "id": "slide_aftr_bfr_opacity",
+        "label": "Opacidad",
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "unit": "%",
+        "default": 50
+      }
+    ],
+      "presets": [
+    {
+      "name": "Slider Antes y Después",
+      "category": "Image"
+    }
+  ]
+  }
+{% endschema %}
+
+<div class="showboth page-width" id="slider-after-before">
+  {% if section.settings.title != blank %}
+    <h1 class="title inline-richtext {{ section.settings.heading_size }}" style="text-align: center;">{{ section.settings.title | escape }}</h1>
+  {% endif %}
+  <div class="slid_aftr_bfr_container--{{ section.id }}">
+    <div class="img_slid_aftr_bfr--{{ section.id }} background-img">.</div>
+    <div class="img_slid_aftr_bfr--{{ section.id }} foreground-img {% if section.settings.slid_aftr_bfr_en-over %} before_slider--{{section.id}} {% endif %}">
+      .
+    </div>
+    <input type="range" min="1" max="100" value="50" class="slider" name="slider" id="slid_aftr_bfr--{{ section.id }}">
+    <div class="slider-button"></div>
+  </div>
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Encuentra el elemento del deslizador por ID
+  var slider = document.getElementById('slid_aftr_bfr--{{ section.id }}');
+
+  // Verifica si el deslizador existe
+  if(slider) {
+    // Función para manejar eventos 'input' y 'change'
+    var handleSliderChange = function(e) {
+      var sliderPos = e.target.value;
+      
+      // Actualiza el ancho de la imagen de primer plano
+      var foregroundImgs = document.querySelectorAll('.foreground-img');
+      foregroundImgs.forEach(function(img) {
+        img.style.width = sliderPos + '%';
+      });
+      
+      // Actualiza la posición del botón deslizante
+      var sliderButtons = document.querySelectorAll('.slider-button');
+      sliderButtons.forEach(function(button) {
+        button.style.left = `calc(${sliderPos}% - 18px)`;
+      });
+    };
+
+    // Añade event listeners para 'input' y 'change'
+    slider.addEventListener('input', handleSliderChange);
+    slider.addEventListener('change', handleSliderChange);
+  }
+});
+</script>
+
+{% style %}
+   .slid_aftr_bfr_container--{{ section.id }} {
+  	 position: relative;
+  	 border: 2px solid white;
+       aspect-ratio: 1;
+     margin-left: auto;
+        margin-right: auto;
+
+  }
+   .slid_aftr_bfr_container--{{ section.id }} .img_slid_aftr_bfr--{{ section.id }} {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    background-repeat: no-repeat;
+  }
+   .slid_aftr_bfr_container--{{ section.id }} .background-img {
+  	 background-image: url('{{section.settings.image_before | img_url: ''}}');
+       background-size: cover;
+  }
+   .slid_aftr_bfr_container--{{ section.id }} .foreground-img {
+  	 background-image: url('{{section.settings.image_after | img_url: ''}}');
+  	 width: 50%;
+     background-size: cover;
+  }
+   .slid_aftr_bfr_container--{{ section.id }} .slider {
+  	 position: absolute;
+  	 -webkit-appearance: none;
+  	 appearance: none;
+  	 width: 100%;
+  	 height: 100%;
+  	 background: rgba(242, 242, 242, .1);
+  	 outline: none;
+  	 margin: 0;
+  	 transition: all 0.2s;
+  	 display: flex;
+  	 justify-content: center;
+  	 align-items: center;
+  }
+   .slid_aftr_bfr_container--{{ section.id }} .slider::-webkit-slider-thumb {
+  	 -webkit-appearance: none;
+  	 appearance: none;
+  	 width: 3px;
+    	 height: 350px;
+  	 background: white;
+  	 cursor: pointer;
+  }
+   .slid_aftr_bfr_container--{{ section.id }} .slider::-moz-range-thumb {
+  	 width: 3px;
+  	 height: 350px;
+  	 background: white;
+  	 cursor: pointer;
+  }
+   .slid_aftr_bfr_container--{{ section.id }} .slider-button {
+  	 pointer-events: none;
+  	 position: absolute;
+  	 width: 30px;
+  	 height: 30px;
+  	 border-radius: 50%;
+  	 background-color: white;
+  	 left: calc(50% - 18px);
+  	 top: calc(50% - 18px);
+  	 display: flex;
+  	 justify-content: center;
+  	 align-items: center;
+  }
+   .slid_aftr_bfr_container--{{ section.id }} .slider-button:after {
+  	 content: '';
+  	 padding: 3px;
+  	 display: inline-block;
+  	 border: solid #5d5d5d;
+  	 border-width: 0 2px 2px 0;
+  	 transform: rotate(-45deg);
+  }
+   .slid_aftr_bfr_container--{{ section.id }} .slider-button:before {
+  	 content: '';
+  	 padding: 3px;
+  	 display: inline-block;
+  	 border: solid #5d5d5d;
+  	 border-width: 0 2px 2px 0;
+  	 transform: rotate(135deg);
+  }
+
+
+          .before_slider--{{section.id}}::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: {{ section.settings.color_slid_aftr_bfr_over}};
+        opacity: {{section.settings.slide_aftr_bfr_opacity}}%;
+          }
+  @media only screen and (max-width: 749px) {
+  .small--hide {
+      display: none !important;
+  }
+  }
+                        @media screen and (min-width: 750px) {
+  .medium-up--hide {
+      display: none !important;
+  }
+            }
+{% endstyle %}

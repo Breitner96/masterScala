@@ -1,0 +1,50 @@
+{% comment %}
+  Ultra Critical CSS - Maximum Performance
+  Contains only the absolute minimum styles needed for above-the-fold rendering
+  Optimized for instant visual stability and fastest paint
+{% endcomment %}
+
+/* Ultra Critical Reset - Minimal */
+*,*::before,*::after{box-sizing:border-box}html{font-size:62.5%;-webkit-text-size-adjust:100%}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;font-size:1.5rem;line-height:1.6;color:#000;background:#fff;overflow-x:hidden}img{max-width:100%;height:auto;display:block;border:0}a{color:inherit;text-decoration:none;background-color:transparent}button{border:0;background:0 0;cursor:pointer;font:inherit}
+
+/* Critical Layout - Above Fold Only */
+.page-width{max-width:120rem;margin:0 auto;padding:0 1.5rem}.header{position:sticky;top:0;z-index:100;background:#fff;border-bottom:1px solid #e0e0e0}.header__inner{display:flex;align-items:center;justify-content:space-between;padding:1rem 0;min-height:6rem}.header__logo{max-width:15rem;height:auto;flex-shrink:0}
+
+/* Critical Product Cards - First Row Only */
+.product-card{position:relative;display:flex;flex-direction:column;border-radius:4px;overflow:hidden;transition:transform .2s ease}.product-card__media{position:relative;overflow:hidden;aspect-ratio:1;background:#f5f5f5}.product-card__image{width:100%;height:100%;object-fit:cover;transition:opacity .3s ease}.product-card__content{padding:1.5rem;flex-grow:1}.product-card__title{font-size:1.4rem;font-weight:500;margin:0 0 .5rem;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.product-card__price{font-size:1.6rem;font-weight:600;color:#000;margin:0}
+
+/* Critical Buttons - Primary Actions Only */
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:1.2rem 2.4rem;border:1px solid transparent;border-radius:4px;font-size:1.4rem;font-weight:500;text-decoration:none;cursor:pointer;transition:all .15s ease;min-height:4.4rem;text-align:center}.btn--primary{background:#000;color:#fff;border-color:#000}.btn--primary:hover{background:#333;border-color:#333}
+
+/* Critical Grid - First Row Only */
+.grid{display:grid;gap:2rem}.grid--1-col{grid-template-columns:1fr}.grid--2-col{grid-template-columns:repeat(2,1fr)}.grid--3-col{grid-template-columns:repeat(3,1fr)}.grid--4-col{grid-template-columns:repeat(4,1fr)}
+
+/* Critical Utilities - Essential Only */
+.text-center{text-align:center}.visually-hidden{position:absolute!important;overflow:hidden;width:1px;height:1px;margin:-1px;padding:0;border:0;clip:rect(0,0,0,0);white-space:nowrap}.loading{opacity:.6;pointer-events:none}
+
+/* Critical Loading States */
+.loading-spinner{display:inline-block;width:2rem;height:2rem;border:2px solid rgba(0,0,0,.1);border-top:2px solid #000;border-radius:50%;animation:spin 1s linear infinite}@keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+
+/* Critical Responsive - Mobile First */
+@media screen and (max-width:749px){.grid--2-col,.grid--3-col,.grid--4-col{grid-template-columns:1fr}.page-width{padding:0 1rem}.header__inner{padding:.5rem 0;min-height:5rem}.product-card__content{padding:1rem}.btn{padding:1rem 2rem;font-size:1.3rem}}
+
+/* Critical Performance Optimizations */
+.lazy{opacity:0;transition:opacity .3s ease}.loaded{opacity:1}.defer{display:none}.defer.loaded{display:block}.will-change-transform{will-change:transform}.will-change-opacity{will-change:opacity}
+
+/* Critical Font Loading Optimization */
+@font-face{font-family:'system-ui';font-style:normal;font-weight:400;font-display:swap;src:local('system-ui'),local('-apple-system'),local('BlinkMacSystemFont'),local('Segoe UI'),local('Roboto'),local('Helvetica Neue'),local('Arial'),local('sans-serif')}
+
+/* Critical Above-the-fold Content */
+.hero{position:relative;min-height:50vh;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#f5f7fa 0%,#c3cfe2 100%)}.hero__content{text-align:center;max-width:60rem;padding:0 2rem}.hero__title{font-size:4rem;font-weight:700;margin:0 0 1rem;line-height:1.2}.hero__subtitle{font-size:1.8rem;margin:0 0 2rem;opacity:.8}
+
+/* Critical Navigation */
+.nav{display:flex;align-items:center;gap:2rem;list-style:none;margin:0;padding:0}.nav__item{position:relative}.nav__link{display:block;padding:.5rem 1rem;font-weight:500;transition:color .2s ease}.nav__link:hover{color:#666}
+
+/* Critical Search */
+.search{position:relative;max-width:40rem;width:100%}.search__input{width:100%;padding:1rem 4rem 1rem 1rem;border:1px solid #ddd;border-radius:4px;font-size:1.4rem}.search__button{position:absolute;right:1rem;top:50%;transform:translateY(-50%);background:0 0;border:0;cursor:pointer;padding:.5rem}
+
+/* Critical Cart */
+.cart{position:relative}.cart__count{position:absolute;top:-.5rem;right:-.5rem;background:#ff4444;color:#fff;border-radius:50%;width:2rem;height:2rem;display:flex;align-items:center;justify-content:center;font-size:1.2rem;font-weight:600;min-width:2rem}
+
+/* Critical Performance - Reduce Layout Shift */
+.aspect-ratio{position:relative;width:100%;height:0;padding-bottom:100%}.aspect-ratio--square{padding-bottom:100%}.aspect-ratio--portrait{padding-bottom:125%}.aspect-ratio--landscape{padding-bottom:75%}.aspect-ratio__content{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover}

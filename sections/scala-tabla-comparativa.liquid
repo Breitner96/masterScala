@@ -1,0 +1,246 @@
+{{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
+
+
+{% schema %}
+{
+  "name": "Tabla comparativa",
+  "max_blocks": 5,
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Titulo"
+    },
+    {
+      "type": "color",
+      "id": "color-picker",
+      "label": "Color",
+      "default": "#000000"
+    },
+    {
+          "type": "select",
+          "id": "text_size",
+          "options": [
+            {
+              "value": "small",
+              "label": "t:sections.image-with-text.blocks.caption.settings.caption_size.options__1.label"
+            },
+            {
+              "value": "medium",
+              "label": "t:sections.image-with-text.blocks.caption.settings.caption_size.options__2.label"
+            },
+            {
+              "value": "large",
+              "label": "t:sections.image-with-text.blocks.caption.settings.caption_size.options__3.label"
+            }
+          ],
+          "default": "medium",
+          "label": "t:sections.image-with-text.blocks.caption.settings.caption_size.label"
+        }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "Característica",
+      "settings": [
+        {
+          "type": "text",
+          "id": "row_title",
+          "label": "Título",
+          "default": "Feature"
+        },
+        {
+          "type": "checkbox",
+          "id": "store_check",
+          "label": "Tienda Check",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "others_check",
+          "label": "Otros Check",
+          "default": false
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Tabla Comparativa",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+
+<div class="comparison-table-container" style="margin-top: 20px">
+  <h1 class="title h1" style="text-align: center;">{{ section.settings.title }}</h1>
+  <table class="comparison-table">
+    <thead>
+      <tr>
+        <th> </th>
+        <th class="comparison-table__others" align="center">
+          {%- if settings.logo != blank -%}
+              <div class="header__heading-logo-wrapper" style="max-width: 75%">
+                {%- assign logo_alt = settings.logo.alt | default: shop.name | escape -%}
+                {%- assign logo_height = settings.logo_width | divided_by: settings.logo.aspect_ratio -%}
+                {% capture sizes %}(max-width: {{ settings.logo_width | times: 2 }}px) 50vw, {{ settings.logo_width }}px{% endcapture %}
+                {% capture widths %}{{ settings.logo_width }}, {{ settings.logo_width | times: 1.5 | round }}, {{ settings.logo_width | times: 2 }}{% endcapture %}
+                {{ settings.logo | image_url: width: 600 | image_tag:
+                  class: 'header__heading-logo motion-reduce',
+                  widths: widths,
+                  height: logo_height,
+                  width: settings.logo_width,
+                  alt: logo_alt,
+                  sizes: sizes,
+                  preload: true
+                }}
+              </div>
+            {%- else -%}
+              {{ shop.name }}
+            {%- endif -%}
+        </th>
+        <th class="comparison-table__others" align="center">Otros</th>
+      </tr>
+    </thead>
+    <tbody>
+{% for block in section.blocks %}
+      <tr>
+        <td align="center" class="comparison-table__row-name">
+          <h3 class="subtitle--{{ section.settings.text_size }}">{{ block.settings.row_title }}</h3>
+        </td>
+        <td align="center" class="color-background-1">
+          {% if block.settings.store_check %}
+             <svg class="comparison-table__checkmark" id="Layer_3" data-name="Layer 3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.45 25.43">
+              <defs><style>.cls-1{fill:#00c420;}</style></defs><polygon class="cls-1" points="25.45 0 24.06 0 9.5 15.27 2.12 10.24 0 12.55 9.28 25.43 25.45 2.48 25.45 0"></polygon>
+            </svg>
+          {% else %}
+            <div class="comparison-table__x">
+              <span></span>
+              <span></span>
+            </div>
+          {% endif %}
+        </td>
+        <td align="center" class="color-background-1">
+          {% if block.settings.others_check %}
+             <svg class="comparison-table__checkmark" id="Layer_3" data-name="Layer 3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.45 25.43">
+              <defs><style>.cls-1{fill:#00c420;}</style></defs><polygon class="cls-1" points="25.45 0 24.06 0 9.5 15.27 2.12 10.24 0 12.55 9.28 25.43 25.45 2.48 25.45 0"></polygon>
+            </svg>
+          {% else %}
+            <div class="comparison-table__x">
+              <span></span>
+              <span></span>
+            </div>
+          {% endif %}
+        </td>
+      </tr>
+{% endfor %}
+    </tbody>
+  </table>
+  </div>
+  
+{% style %}
+  .comparison-table-container {
+    display: flex;
+    flex-direction: column!important;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 50rem;
+    padding-bottom: 30px;
+}
+
+.comparison-table {
+    padding: 0 20px;
+    flex-grow: 1;
+    border-spacing: 0;
+    width: 100%;
+} 
+
+.comparison-table th {
+  padding: 0.5rem 0.75rem;
+  font-size: 1.8rem;
+  line-height: 0;
+  margin-bottom: 5px;
+}
+
+.comparison-table td {
+    padding: 1rem 1.5rem;
+    text-align: center;
+    box-shadow: inset 0 -.1rem 0 0 rgba(253, 251, 247,.05),inset 0 .1rem 0 0 rgba(253, 251, 247,.05)
+}
+
+.comparison-table tbody tr:first-of-type .comparison-table__row-name{
+  border-radius: 2rem 0 0;
+}
+
+.comparison-table tbody td:not(.comparison-table__row-name){
+  padding: 1rem 2rem;
+}
+
+.comparison-table tbody tr:first-of-type td:last-child{
+  border-radius: 0 2rem 0 0;
+}
+
+.comparison-table tbody tr:last-of-type .comparison-table__row-name{
+  border-radius: 0 0 0 2rem;
+}
+
+.comparison-table tbody tr:last-of-type td:last-child{
+  border-radius: 0 0 2rem;
+}
+
+.comparison-table tbody {
+  box-shadow: 0.5rem 0.5rem 1rem rgba(18, 18, 18,.2),0 0 0 0.2rem rgba(18, 18, 18,.07);
+  border-radius: 2rem;
+}
+
+.comparison-table .comparison-table__row-name h3{
+  margin: 0;
+}
+  
+.comparison-table__row-name {
+    background-color: {{section.settings.color-picker}};
+}
+
+.comparison-table__checkmark{
+  width: 1.8rem!important;
+  height: 1.8rem!important;
+}
+
+.comparison-table__row-name h3 {
+  color: white!important;
+}
+
+.comparison-table__x {
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.comparison-table__x span {
+    content: "";
+    display: block;
+    height: 0.3rem;
+    width: 1.8rem;
+    background: rgb(var(--color-foreground));
+    border-radius: 1rem;
+    transform: rotate(45deg);
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+ .comparison-table__x span:nth-child(2) {
+    position: absolute;
+    transform: rotate(-45deg);
+}
+
+.comparison-table__others{
+    max-width: 140px;
+}
+  
+{% endstyle %}

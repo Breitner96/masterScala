@@ -1,0 +1,112 @@
+{% schema %}
+  {
+  "name": "Caja de Iconos",
+    "max_blocks": 5,
+    "settings": [
+      {
+        "type": "color",
+        "id": "icon_box_background_color",
+        "label": "Color de fondo",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "icon_box_text_color",
+        "label": "Color del texto",
+        "default": "#000000"
+      }
+    ],
+    "blocks": [
+    {
+      "type": "icon-card",
+      "name": "Icono",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon_box_icon",
+          "label": "Icono"
+        },
+        {
+          "type": "text",
+          "id": "icon_box_title",
+          "label": "Titulo",
+          "default": "Título 1"
+        },
+        {
+          "type": "textarea",
+          "id": "icon_box_text",
+          "label": "Descripción corta",
+          "default": "Descripción corta que acompaña el icono"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Caja de Iconos",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+
+<!-- Section: Icon Boxes -->
+<section class="icon-boxes" style="background-color:{{ section.settings.icon_box_background_color }};">
+  <div class="container">
+    {% for block in section.blocks %}
+      <div class="icon-box" style="color:{{ section.settings.icon_box_text_color }};">
+        {% if block.settings.icon_box_icon != blank %}
+          <div class="icon">
+            <img src="{{ block.settings.icon_box_icon | img_url: 'master' }}" alt="{{ block.settings.icon_box_title }}">
+          </div>
+        {% endif %}
+        <h3 style="color:{{ section.settings.icon_box_text_color }};">{{ block.settings.icon_box_title }}</h3>
+        <p style="color:{{ section.settings.icon_box_text_color }};">{{ block.settings.icon_box_text }}</p>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+{% stylesheet %}
+
+.icon-boxes {
+  text-align: center;
+  padding: 40px 0;
+  margin: 40px 0;
+}
+
+.icon-box {
+  display: inline-block;
+  margin: 0 20px;
+  padding: 20px;
+  border-radius: 4px;
+  border: 0;
+}
+
+
+.icon-box .icon {
+  width: 100px; /* Ajusta el ancho como sea necesario */
+  height: 100px; /* Ajusta la altura como sea necesario */
+  margin: 0 auto 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-box .icon img {
+  max-width: 100%; /* Asegura que el icono sea responsive y no exceda el tamaño de su contenedor */
+  height: auto;
+}
+
+.icon-box h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333; /* Cambia el color del título si es necesario */
+}
+
+.icon-box p {
+  font-size: 14px;
+  color: #666; /* Cambia el color del texto si es necesario */
+}
+
+{% endstylesheet %}
