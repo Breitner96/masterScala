@@ -414,6 +414,10 @@ src="https://www.facebook.com/tr?id=797521048922948&ev=PageView&noscript=1"
     <!-- Load non-critical CSS asynchronously -->
     <link rel="preload" href="{{ 'base.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="{{ 'base.css' | asset_url }}"></noscript>
+    
+    <!-- Image loading optimizations -->
+    <link rel="preload" href="{{ 'component-image-loading.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="{{ 'component-image-loading.css' | asset_url }}"></noscript>
 
     <!-- Preload critical fonts with highest priority -->
     {%- unless settings.type_body_font.system? -%}
@@ -427,11 +431,11 @@ src="https://www.facebook.com/tr?id=797521048922948&ev=PageView&noscript=1"
     <link rel="preload" href="{{ 'constants.js' | asset_url }}" as="script">
     <link rel="preload" href="{{ 'pubsub.js' | asset_url }}" as="script">
     
-    <!-- Performance Optimizer -->
-    <script src="{{ 'performance-optimizer.js' | asset_url }}" defer></script>
-    
-    <!-- Image Optimizer -->
+    <!-- Image Optimizer (handles all image loading) -->
     <script src="{{ 'image-optimizer.js' | asset_url }}" defer></script>
+    
+    <!-- Performance Optimizer (handles non-image optimizations) -->
+    <script src="{{ 'performance-optimizer.js' | asset_url }}" defer></script>
 
     {%- if localization.available_countries.size > 1 or localization.available_languages.size > 1 -%}
       <link rel="preload" href="{{ 'component-localization-form.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">

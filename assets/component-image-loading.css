@@ -1,0 +1,108 @@
+/* Image Loading Optimizations for Skala Theme */
+
+/* Smooth loading transitions */
+img {
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Loading state for images */
+img:not(.loaded):not([complete]) {
+  opacity: 0.8;
+  background-color: #f3f4f6;
+  background-image: linear-gradient(90deg, #f3f4f6 25%, #e5e7eb 50%, #f3f4f6 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+/* Loaded state */
+img.loaded {
+  opacity: 1;
+  background: none;
+  animation: none;
+}
+
+/* Error state */
+img.error {
+  opacity: 0.5;
+  background-color: #fef2f2;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23ef4444' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cline x1='12' y1='8' x2='12' y2='12'/%3E%3Cline x1='12' y1='16' x2='12.01' y2='16'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px 24px;
+}
+
+/* Shimmer animation for loading state */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+/* Product card images */
+.card__media img {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.card__media:hover img {
+  transform: scale(1.02);
+}
+
+/* Lazy loading placeholder */
+.lazy-placeholder {
+  background-color: #f3f4f6;
+  background-image: linear-gradient(90deg, #f3f4f6 25%, #e5e7eb 50%, #f3f4f6 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #9ca3af;
+  font-size: 0.875rem;
+}
+
+/* Critical images - no fade effect */
+img[fetchpriority="high"],
+img[loading="eager"] {
+  opacity: 1 !important;
+  background: none !important;
+  animation: none !important;
+}
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  img {
+    transition: none;
+  }
+  
+  .card__media img {
+    transition: none;
+  }
+  
+  .lazy-placeholder {
+    animation: none;
+  }
+  
+  img:not(.loaded):not([complete]) {
+    animation: none;
+  }
+}
+
+/* High DPI displays */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  img {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+  }
+}
+
+/* Print styles */
+@media print {
+  img {
+    opacity: 1 !important;
+    background: none !important;
+    animation: none !important;
+  }
+}

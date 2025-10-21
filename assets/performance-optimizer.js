@@ -5,63 +5,13 @@ class PerformanceOptimizer {
   }
 
   init() {
-    this.setupLazyLoading();
-    this.setupImageOptimization();
+    // Skip image optimization as it's handled by image-optimizer.js
     this.setupResourceHints();
     this.setupCriticalResourcePreloading();
     this.setupIntersectionObserver();
     this.setupPerformanceMonitoring();
-  }
-
-  // Lazy loading for images and media
-  setupLazyLoading() {
-    if ('IntersectionObserver' in window) {
-      const imageObserver = new IntersectionObserver((entries, observer) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            const img = entry.target;
-            if (img.dataset.src) {
-              img.src = img.dataset.src;
-              img.classList.remove('lazy');
-              observer.unobserve(img);
-            }
-          }
-        });
-      }, {
-        rootMargin: '50px 0px',
-        threshold: 0.01
-      });
-
-      // Observe all lazy images
-      document.querySelectorAll('img[data-src]').forEach(img => {
-        imageObserver.observe(img);
-      });
-    }
-  }
-
-  // Image optimization and responsive loading
-  setupImageOptimization() {
-    // Preload critical images
-    const criticalImages = document.querySelectorAll('img[fetchpriority="high"]');
-    criticalImages.forEach(img => {
-      if (img.complete) return;
-      
-      const link = document.createElement('link');
-      link.rel = 'preload';
-      link.as = 'image';
-      link.href = img.src;
-      document.head.appendChild(link);
-    });
-
-    // Optimize image loading
-    document.querySelectorAll('img').forEach(img => {
-      if (!img.loading) {
-        img.loading = 'lazy';
-      }
-      if (!img.decoding) {
-        img.decoding = 'async';
-      }
-    });
+    this.optimizeScrollPerformance();
+    this.optimizeResizePerformance();
   }
 
   // Resource hints for better performance
