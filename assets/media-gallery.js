@@ -4,19 +4,38 @@ if (!customElements.get('media-gallery')) {
     class MediaGallery extends HTMLElement {
       constructor() {
         super();
+        console.log('🔍 MediaGallery constructor called');
         this.elements = {
           liveRegion: this.querySelector('[id^="GalleryStatus"]'),
           viewer: this.querySelector('[id^="GalleryViewer"]'),
           thumbnails: this.querySelector('[id^="GalleryThumbnails"]'),
         };
+        console.log('🔍 MediaGallery elements:', this.elements);
         this.mql = window.matchMedia('(min-width: 750px)');
-        if (!this.elements.thumbnails) return;
+        if (!this.elements.thumbnails) {
+          console.log('❌ No thumbnails element found, returning early');
+          return;
+        }
 
-        this.elements.viewer.addEventListener('slideChanged', debounce(this.onSlideChanged.bind(this), 500));
-        this.elements.thumbnails.querySelectorAll('[data-target]').forEach((mediaToSwitch) => {
-          mediaToSwitch
-            .querySelector('button')
-            .addEventListener('click', this.setActiveMedia.bind(this, mediaToSwitch.dataset.target, false));
+        // Check if debounce function exists
+        if (typeof debounce === 'function') {
+          this.elements.viewer.addEventListener('slideChanged', debounce(this.onSlideChanged.bind(this), 500));
+        } else {
+          console.log('⚠️ debounce function not available, using direct binding');
+          this.elements.viewer.addEventListener('slideChanged', this.onSlideChanged.bind(this));
+        }
+        const thumbnailElements = this.elements.thumbnails.querySelectorAll('[data-target]');
+        console.log('🔍 Found thumbnail elements:', thumbnailElements.length);
+        thumbnailElements.forEach((mediaToSwitch, index) => {
+          const button = mediaToSwitch.querySelector('button');
+          console.log(`🔍 Setting up thumbnail ${index + 1}:`, {
+            element: mediaToSwitch,
+            button: button,
+            dataTarget: mediaToSwitch.dataset.target
+          });
+          if (button) {
+            button.addEventListener('click', this.setActiveMedia.bind(this, mediaToSwitch.dataset.target, false));
+          }
         });
         if (this.dataset.desktopLayout.includes('thumbnail') && this.mql.matches) this.removeListSemantic();
       }
@@ -29,11 +48,18 @@ if (!customElements.get('media-gallery')) {
       }
 
       setActiveMedia(mediaId, prepend) {
+        console.log('🔍 setActiveMedia called with mediaId:', mediaId);
         const activeMedia = this.elements.viewer.querySelector(`[data-media-id="${mediaId}"]`);
+        console.log('🔍 Found activeMedia:', activeMedia);
         this.elements.viewer.querySelectorAll('[data-media-id]').forEach((element) => {
           element.classList.remove('is-active');
         });
-        activeMedia.classList.add('is-active');
+        if (activeMedia) {
+          activeMedia.classList.add('is-active');
+          console.log('✅ Set active media:', activeMedia);
+        } else {
+          console.log('❌ Active media not found for ID:', mediaId);
+        }
 
         if (prepend) {
           activeMedia.parentElement.prepend(activeMedia);

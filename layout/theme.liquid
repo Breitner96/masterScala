@@ -126,8 +126,18 @@ src="https://www.facebook.com/tr?id=797521048922948&ev=PageView&noscript=1"
           // Load media-gallery.js after global.js
           setTimeout(function() {
             const mediaGalleryScript = document.createElement('script');
-            mediaGalleryScript.src = '{{ 'media-gallery.js' | asset_url }}';
-            mediaGalleryScript.defer = true;
+            mediaGalleryScript.src = '{{ 'media-gallery-fixed.js' | asset_url }}';
+            mediaGalleryScript.onload = function() {
+              console.log('✅ media-gallery-fixed.js loaded successfully');
+              // Load debug script after media-gallery is loaded
+              const debugScript = document.createElement('script');
+              debugScript.src = '{{ 'debug-media-gallery.js' | asset_url }}';
+              debugScript.defer = true;
+              document.head.appendChild(debugScript);
+            };
+            mediaGalleryScript.onerror = function() {
+              console.log('❌ Error loading media-gallery-fixed.js');
+            };
             document.head.appendChild(mediaGalleryScript);
           }, 50);
         }, 100);
