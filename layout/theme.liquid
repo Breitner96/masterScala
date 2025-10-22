@@ -122,6 +122,14 @@ src="https://www.facebook.com/tr?id=797521048922948&ev=PageView&noscript=1"
           globalScript.src = '{{ 'global.js' | asset_url }}';
           globalScript.defer = true;
           document.head.appendChild(globalScript);
+          
+          // Load media-gallery.js after global.js
+          setTimeout(function() {
+            const mediaGalleryScript = document.createElement('script');
+            mediaGalleryScript.src = '{{ 'media-gallery.js' | asset_url }}';
+            mediaGalleryScript.defer = true;
+            document.head.appendChild(mediaGalleryScript);
+          }, 50);
         }, 100);
       });
     </script>
