@@ -1,1 +1,625 @@
-{"sections":{"escala_announcement_bar_a4MbLA":{"type":"escala-announcement-bar","blocks":{"text_GtHUPP":{"type":"text","settings":{"title":"Bienvenido a Escala 100K"}},"text_M3n6Qd":{"type":"text","settings":{"title":"Bienvenido a Escala 100K"}}},"block_order":["text_GtHUPP","text_M3n6Qd"],"settings":{"visibility":"always-display","speed":3,"mobile_spacing":60,"desktop_spacing":100,"bg_color":"#000000","text_color":"#ffffff","mobile_text_size":8,"desktop_text_size":18,"italic_text":false,"uppercase_text":false,"bold_text":false,"mobile_image_height":26,"desktop_image_height":40,"mobile_padding_top":12,"mobile_padding_bottom":12,"desktop_padding_top":16,"desktop_padding_bottom":16}},"main":{"type":"main-product","blocks":{"title_6HhGEd":{"type":"title","settings":{}},"reviews_DCyymX":{"type":"reviews","settings":{}},"price_tQkBTf":{"type":"price","settings":{"show_skala_price":true,"border_radius_percent":8,"border_percent_color":"#ff0000","save_bg_color":"#006172","save_text_color":"#ffffff","price_color":"#006172","comparation_price_color":"#8a8f9b"}},"like_section_QeCfAP":{"type":"like-section","settings":{"name_select":"Mixto","bg_color":"#006172","border_color":"#031b1e","text_color":"#ffffff","border_radius":7}},"variant_picker":{"type":"variant_picker","settings":{"picker_type":"button","swatch_shape":"circle"}},"quantity_selector":{"type":"quantity_selector","disabled":true,"settings":{}},"buy_buttons":{"type":"buy_buttons","settings":{"show_dynamic_checkout":true,"show_gift_card_recipient":true}},"description":{"type":"description","disabled":true,"settings":{}}},"block_order":["title_6HhGEd","reviews_DCyymX","price_tQkBTf","like_section_QeCfAP","variant_picker","quantity_selector","buy_buttons","description"],"settings":{"enable_sticky_info":true,"color_scheme":"scheme-1","border_image_radius":15,"media_size":"small","constrain_to_viewport":true,"media_fit":"cover","gallery_layout":"thumbnail_slider","media_position":"left","image_zoom":"none","mobile_thumbnails":"show","hide_variants":true,"enable_video_looping":false,"padding_top":0,"padding_bottom":12}},"related-products":{"type":"related-products","disabled":true,"settings":{"heading":"You may also like","heading_size":"h2","products_to_show":4,"columns_desktop":4,"color_scheme":"scheme-1","image_ratio":"square","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":false,"columns_mobile":"2","padding_top":36,"padding_bottom":28}},"image_with_text_dbxKHk":{"type":"image-with-text","blocks":{"heading_qLXPUP":{"type":"heading","settings":{"heading":"Punto de dolor o beneficio","heading_size":"h2"}},"text_4Q9byF":{"type":"text","settings":{"text":"<p>texto corto que complemente el titulo<\/p>","text_style":"body"}}},"block_order":["heading_qLXPUP","text_4Q9byF"],"settings":{"image":"shopify:\/\/shop_images\/gif_1_cortado.gif","border_image_radius":16,"height":"adapt","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"middle","desktop_content_alignment":"center","content_layout":"no-overlap","section_color_scheme":"","color_scheme":"","image_behavior":"none","mobile_content_alignment":"center","padding_top":36,"padding_bottom":36}},"image_with_text_HWVLfw":{"type":"image-with-text","blocks":{"heading_UMCTae":{"type":"heading","settings":{"heading":"Como lo hace","heading_size":"h2"}},"text_GNn4cp":{"type":"text","settings":{"text":"<p>Explica mejor como lo hace<\/p>","text_style":"body"}}},"block_order":["heading_UMCTae","text_GNn4cp"],"settings":{"image":"shopify:\/\/shop_images\/gif_1_cortado.gif","border_image_radius":15,"height":"adapt","desktop_image_width":"medium","layout":"text_first","desktop_content_position":"middle","desktop_content_alignment":"center","content_layout":"no-overlap","section_color_scheme":"","color_scheme":"","image_behavior":"none","mobile_content_alignment":"center","padding_top":36,"padding_bottom":36}},"image_with_text_A76Pqy":{"type":"image-with-text","blocks":{"heading_7G68fN":{"type":"heading","settings":{"heading":"Habla del resultado deseado","heading_size":"h2"}},"text_jLbcL7":{"type":"text","settings":{"text":"<p>Complementa el resultado deseado<\/p>","text_style":"body"}}},"block_order":["heading_7G68fN","text_jLbcL7"],"settings":{"image":"shopify:\/\/shop_images\/gif_1_cortado.gif","border_image_radius":15,"height":"adapt","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"top","desktop_content_alignment":"left","content_layout":"no-overlap","section_color_scheme":"","color_scheme":"","image_behavior":"none","mobile_content_alignment":"center","padding_top":36,"padding_bottom":36}},"image_with_text_HN6rAC":{"type":"image-with-text","blocks":{"heading_NJ9cdX":{"type":"heading","settings":{"heading":"Medidas y características","heading_size":"h1"}},"text_fH6z4L":{"type":"text","settings":{"text":"<p>Refuerzo de calidad<\/p>","text_style":"body"}}},"block_order":["heading_NJ9cdX","text_fH6z4L"],"settings":{"image":"shopify:\/\/shop_images\/img_6.jpg","border_image_radius":15,"height":"adapt","desktop_image_width":"medium","layout":"text_first","desktop_content_position":"top","desktop_content_alignment":"left","content_layout":"no-overlap","section_color_scheme":"","color_scheme":"","image_behavior":"none","mobile_content_alignment":"center","padding_top":36,"padding_bottom":36}},"rich_text_hgy9Et":{"type":"rich-text","blocks":{"heading_Nmgcia":{"type":"heading","settings":{"heading":"🚨 Generar urgencia muy pocas unidades disponibles 🚨","heading_size":"h2"}}},"block_order":["heading_Nmgcia"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":40,"padding_bottom":52}},"scala_antes_despues_UGP9DD":{"type":"scala-antes-despues","settings":{"title":"Comprueba los cambios","heading_size":"h2","image_after":"shopify:\/\/shop_images\/Despues.jpg","image_before":"shopify:\/\/shop_images\/img5.jpg","slid_aftr_bfr_en-over":false,"color_slid_aftr_bfr_over":"#000000","slide_aftr_bfr_opacity":50}},"rich_text_WpWJMQ":{"type":"rich-text","blocks":{"heading_teADHh":{"type":"heading","settings":{"heading":"Características","heading_size":"h2"}},"text_9cwCMU":{"type":"text","settings":{"text":"<p>✅ Diseñadas para resistir alta presión, garantizando un rendimiento duradero. <\/p><p>✅ Con un imán poderoso que asegura que los tornillos no resbalen ni se extravíen.<\/p><p>✅ Puntas diseñadas para resistir el desgaste, prolongando su vida útil.<\/p><p>✅ Disponibles en cinco tamaños diferentes, cubriendo todas tus necesidades.<\/p><p>✅ Realiza tus labores con una precisión insuperable, obteniendo resultados impecables.<\/p>"}}},"block_order":["heading_teADHh","text_9cwCMU"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":40,"padding_bottom":52}},"escala_announcement_bar_cRDUNd":{"type":"escala-announcement-bar","blocks":{"text_LRDz4G":{"type":"text","settings":{"title":"Bienvenido a Escala 100K"}},"text_wJ9kNg":{"type":"text","settings":{"title":"Bienvenido a Escala 100K"}},"text_erWNBF":{"type":"text","settings":{"title":"Bienvenido a Escala 100K"}}},"block_order":["text_LRDz4G","text_wJ9kNg","text_erWNBF"],"settings":{"visibility":"always-display","speed":3,"mobile_spacing":60,"desktop_spacing":100,"bg_color":"#181414","text_color":"#dd1d1d","mobile_text_size":16,"desktop_text_size":18,"italic_text":false,"uppercase_text":false,"bold_text":false,"mobile_image_height":26,"desktop_image_height":40,"mobile_padding_top":12,"mobile_padding_bottom":12,"desktop_padding_top":16,"desktop_padding_bottom":16}},"scala_tabla_comparativa_7Jjgf7":{"type":"scala-tabla-comparativa","blocks":{"text_x8N97K":{"type":"text","settings":{"row_title":"Envío rápido","store_check":true,"others_check":false}},"text_KdbArt":{"type":"text","settings":{"row_title":"Paga en casa","store_check":true,"others_check":true}},"text_ADrmDr":{"type":"text","settings":{"row_title":"Garantía","store_check":true,"others_check":false}},"text_3PYBdw":{"type":"text","settings":{"row_title":"Feature","store_check":true,"others_check":false}}},"block_order":["text_x8N97K","text_KdbArt","text_ADrmDr","text_3PYBdw"],"settings":{"title":"","color-picker":"#006172","text_size":"medium"}},"scala_icon_box_BAArDq":{"type":"scala-icon-box","blocks":{"icon_card_PJKAet":{"type":"icon-card","settings":{"icon_box_icon":"shopify:\/\/shop_images\/proteger.png","icon_box_title":"Tienda verificada","icon_box_text":"Descripción corta que acompaña el icono"}}},"block_order":["icon_card_PJKAet"],"settings":{"icon_box_background_color":"#ffffff","icon_box_text_color":"#000000"}},"testimonios_c4AhJA":{"type":"testimonios","blocks":{"slide_JwkpPm":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/Captura_de_pantalla_2024-02-29_a_la_s_8.46.03_p._m..png","subheading":"El imán cumple con lo que promete","testimonialName":"Javier Jaramillo","box_align":"middle-center","show_text_box":true,"text_alignment":"center","image_overlay_opacity":0,"color_scheme":"","text_alignment_mobile":"center"}},"slide_J7yF9R":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/giphy_3.gif","subheading":"Me encanto, funciono muy bien","testimonialName":"Juan Carlos","box_align":"middle-center","show_text_box":true,"text_alignment":"center","image_overlay_opacity":0,"color_scheme":"scheme-1","text_alignment_mobile":"center"}}},"block_order":["slide_JwkpPm","slide_J7yF9R"],"settings":{"header_testimonials":"Testimonios","layout":"grid","slide_height":"medium","slider_visual":"counter","auto_rotate":false,"change_slides_speed":5,"image_behavior":"none","show_text_below":true,"accessibility_info":"Slideshow about our brand"}},"collapsible_content_3jp9mq":{"type":"collapsible-content","blocks":{"collapsible_row_TxWRrT":{"type":"collapsible_row","settings":{"heading":"Collapsible row","text_size":"h4","icon":"check_mark","row_content":"","page":""}},"collapsible_row_8VFTR3":{"type":"collapsible_row","settings":{"heading":"Collapsible row","text_size":"h4","icon":"check_mark","row_content":"","page":""}},"collapsible_row_FHUMdc":{"type":"collapsible_row","settings":{"heading":"Collapsible row","text_size":"h4","icon":"check_mark","row_content":"","page":""}},"collapsible_row_tTEm8U":{"type":"collapsible_row","settings":{"heading":"Collapsible row","text_size":"h4","icon":"check_mark","row_content":"","page":""}}},"block_order":["collapsible_row_TxWRrT","collapsible_row_8VFTR3","collapsible_row_FHUMdc","collapsible_row_tTEm8U"],"settings":{"caption":"","heading":"Preguntas frecuentes","heading_size":"h1","heading_alignment":"center","layout":"none","color_scheme":"","container_color_scheme":"","open_first_collapsible_row":false,"image_ratio":"adapt","desktop_layout":"image_second","padding_top":36,"padding_bottom":36}}},"order":["escala_announcement_bar_a4MbLA","main","related-products","image_with_text_dbxKHk","image_with_text_HWVLfw","image_with_text_A76Pqy","image_with_text_HN6rAC","rich_text_hgy9Et","scala_antes_despues_UGP9DD","rich_text_WpWJMQ","escala_announcement_bar_cRDUNd","scala_tabla_comparativa_7Jjgf7","scala_icon_box_BAArDq","testimonios_c4AhJA","collapsible_content_3jp9mq"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "escala_announcement_bar_a4MbLA": {
+      "type": "escala-announcement-bar",
+      "blocks": {
+        "text_GtHUPP": {
+          "type": "text",
+          "settings": {
+            "title": "Bienvenido a Escala 100K"
+          }
+        },
+        "text_M3n6Qd": {
+          "type": "text",
+          "settings": {
+            "title": "Bienvenido a Escala 100K"
+          }
+        }
+      },
+      "block_order": [
+        "text_GtHUPP",
+        "text_M3n6Qd"
+      ],
+      "settings": {
+        "visibility": "always-display",
+        "speed": 3,
+        "mobile_spacing": 60,
+        "desktop_spacing": 100,
+        "bg_color": "#000000",
+        "text_color": "#ffffff",
+        "mobile_text_size": 8,
+        "desktop_text_size": 18,
+        "italic_text": false,
+        "uppercase_text": false,
+        "bold_text": false,
+        "mobile_image_height": 26,
+        "desktop_image_height": 40,
+        "mobile_padding_top": 12,
+        "mobile_padding_bottom": 12,
+        "desktop_padding_top": 16,
+        "desktop_padding_bottom": 16
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title_6HhGEd": {
+          "type": "title",
+          "settings": {}
+        },
+        "reviews_DCyymX": {
+          "type": "reviews",
+          "settings": {}
+        },
+        "price_tQkBTf": {
+          "type": "price",
+          "settings": {
+            "show_skala_price": true,
+            "border_radius_percent": 8,
+            "border_percent_color": "#ff0000",
+            "save_bg_color": "#006172",
+            "save_text_color": "#ffffff",
+            "price_color": "#006172",
+            "comparation_price_color": "#8a8f9b"
+          }
+        },
+        "like_section_QeCfAP": {
+          "type": "like-section",
+          "settings": {
+            "name_select": "Mixto",
+            "bg_color": "#006172",
+            "border_color": "#031b1e",
+            "text_color": "#ffffff",
+            "border_radius": 7
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_6HhGEd",
+        "reviews_DCyymX",
+        "price_tQkBTf",
+        "like_section_QeCfAP",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "border_image_radius": 15,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "cover",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "none",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 0,
+        "padding_bottom": 12
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "image_with_text_dbxKHk": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_qLXPUP": {
+          "type": "heading",
+          "settings": {
+            "heading": "Punto de dolor o beneficio",
+            "heading_size": "h2"
+          }
+        },
+        "text_4Q9byF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>texto corto que complemente el titulo</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qLXPUP",
+        "text_4Q9byF"
+      ],
+      "settings": {
+        "border_image_radius": 16,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_HWVLfw": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_UMCTae": {
+          "type": "heading",
+          "settings": {
+            "heading": "Como lo hace",
+            "heading_size": "h2"
+          }
+        },
+        "text_GNn4cp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Explica mejor como lo hace</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_UMCTae",
+        "text_GNn4cp"
+      ],
+      "settings": {
+        "border_image_radius": 15,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_A76Pqy": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_7G68fN": {
+          "type": "heading",
+          "settings": {
+            "heading": "Habla del resultado deseado",
+            "heading_size": "h2"
+          }
+        },
+        "text_jLbcL7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Complementa el resultado deseado</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7G68fN",
+        "text_jLbcL7"
+      ],
+      "settings": {
+        "border_image_radius": 15,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_HN6rAC": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_NJ9cdX": {
+          "type": "heading",
+          "settings": {
+            "heading": "Medidas y características",
+            "heading_size": "h1"
+          }
+        },
+        "text_fH6z4L": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Refuerzo de calidad</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NJ9cdX",
+        "text_fH6z4L"
+      ],
+      "settings": {
+        "border_image_radius": 15,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_hgy9Et": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Nmgcia": {
+          "type": "heading",
+          "settings": {
+            "heading": "🚨 Generar urgencia muy pocas unidades disponibles 🚨",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Nmgcia"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "scala_antes_despues_UGP9DD": {
+      "type": "scala-antes-despues",
+      "settings": {
+        "title": "Comprueba los cambios",
+        "heading_size": "h2",
+        "slid_aftr_bfr_en-over": false,
+        "color_slid_aftr_bfr_over": "#000000",
+        "slide_aftr_bfr_opacity": 50
+      }
+    },
+    "rich_text_WpWJMQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_teADHh": {
+          "type": "heading",
+          "settings": {
+            "heading": "Características",
+            "heading_size": "h2"
+          }
+        },
+        "text_9cwCMU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>✅ Diseñadas para resistir alta presión, garantizando un rendimiento duradero. </p><p>✅ Con un imán poderoso que asegura que los tornillos no resbalen ni se extravíen.</p><p>✅ Puntas diseñadas para resistir el desgaste, prolongando su vida útil.</p><p>✅ Disponibles en cinco tamaños diferentes, cubriendo todas tus necesidades.</p><p>✅ Realiza tus labores con una precisión insuperable, obteniendo resultados impecables.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_teADHh",
+        "text_9cwCMU"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "escala_announcement_bar_cRDUNd": {
+      "type": "escala-announcement-bar",
+      "blocks": {
+        "text_LRDz4G": {
+          "type": "text",
+          "settings": {
+            "title": "Bienvenido a Escala 100K"
+          }
+        },
+        "text_wJ9kNg": {
+          "type": "text",
+          "settings": {
+            "title": "Bienvenido a Escala 100K"
+          }
+        },
+        "text_erWNBF": {
+          "type": "text",
+          "settings": {
+            "title": "Bienvenido a Escala 100K"
+          }
+        }
+      },
+      "block_order": [
+        "text_LRDz4G",
+        "text_wJ9kNg",
+        "text_erWNBF"
+      ],
+      "settings": {
+        "visibility": "always-display",
+        "speed": 3,
+        "mobile_spacing": 60,
+        "desktop_spacing": 100,
+        "bg_color": "#181414",
+        "text_color": "#dd1d1d",
+        "mobile_text_size": 16,
+        "desktop_text_size": 18,
+        "italic_text": false,
+        "uppercase_text": false,
+        "bold_text": false,
+        "mobile_image_height": 26,
+        "desktop_image_height": 40,
+        "mobile_padding_top": 12,
+        "mobile_padding_bottom": 12,
+        "desktop_padding_top": 16,
+        "desktop_padding_bottom": 16
+      }
+    },
+    "scala_tabla_comparativa_7Jjgf7": {
+      "type": "scala-tabla-comparativa",
+      "blocks": {
+        "text_x8N97K": {
+          "type": "text",
+          "settings": {
+            "row_title": "Envío rápido",
+            "store_check": true,
+            "others_check": false
+          }
+        },
+        "text_KdbArt": {
+          "type": "text",
+          "settings": {
+            "row_title": "Paga en casa",
+            "store_check": true,
+            "others_check": true
+          }
+        },
+        "text_ADrmDr": {
+          "type": "text",
+          "settings": {
+            "row_title": "Garantía",
+            "store_check": true,
+            "others_check": false
+          }
+        },
+        "text_3PYBdw": {
+          "type": "text",
+          "settings": {
+            "row_title": "Feature",
+            "store_check": true,
+            "others_check": false
+          }
+        }
+      },
+      "block_order": [
+        "text_x8N97K",
+        "text_KdbArt",
+        "text_ADrmDr",
+        "text_3PYBdw"
+      ],
+      "settings": {
+        "title": "",
+        "color-picker": "#006172",
+        "text_size": "medium"
+      }
+    },
+    "scala_icon_box_BAArDq": {
+      "type": "scala-icon-box",
+      "blocks": {
+        "icon_card_PJKAet": {
+          "type": "icon-card",
+          "settings": {
+            "icon_box_title": "Tienda verificada",
+            "icon_box_text": "Descripción corta que acompaña el icono"
+          }
+        }
+      },
+      "block_order": [
+        "icon_card_PJKAet"
+      ],
+      "settings": {
+        "icon_box_background_color": "#ffffff",
+        "icon_box_text_color": "#000000"
+      }
+    },
+    "testimonios_c4AhJA": {
+      "type": "testimonios",
+      "blocks": {
+        "slide_JwkpPm": {
+          "type": "slide",
+          "settings": {
+            "subheading": "El imán cumple con lo que promete",
+            "testimonialName": "Javier Jaramillo",
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_J7yF9R": {
+          "type": "slide",
+          "settings": {
+            "subheading": "Me encanto, funciono muy bien",
+            "testimonialName": "Juan Carlos",
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_JwkpPm",
+        "slide_J7yF9R"
+      ],
+      "settings": {
+        "header_testimonials": "Testimonios",
+        "layout": "grid",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "collapsible_content_3jp9mq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_TxWRrT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "text_size": "h4",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_8VFTR3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "text_size": "h4",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_FHUMdc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "text_size": "h4",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_tTEm8U": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "text_size": "h4",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_TxWRrT",
+        "collapsible_row_8VFTR3",
+        "collapsible_row_FHUMdc",
+        "collapsible_row_tTEm8U"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Preguntas frecuentes",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_dpVgT8": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div>\n    <style>\n  #popup-postura {\n    position: fixed;\n    top: 20px;\n    left: 50%;\n    transform: translateX(-50%);\n    display: none;\n    align-items: center;\n    background-color: #f2f2f2;\n    color: #000;\n    padding: 10px 18px;\n    border-radius: 12px;\n    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);\n    z-index: 9999;\n    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n    font-size: 13px;\n    animation: fadeIn 0.3s ease-in-out;\n    width: 280px;\n    gap: 12px;\n  }\n\n  #popup-postura img {\n    width: 42px;\n    height: 42px;\n    border-radius: 8px;\n    object-fit: cover;\n    flex-shrink: 0;\n  }\n\n  #popup-text {\n    line-height: 1.4;\n    font-weight: 400;\n    color: #000;\n    word-wrap: break-word;\n  }\n\n  #popup-text .name {\n    color: #1877f2;\n    font-weight: 600;\n    display: inline-flex;\n    align-items: center;\n  }\n\n  .verified-icon {\n    display: inline-block;\n    margin-left: 5px;\n    vertical-align: middle;\n  }\n\n  .city {\n    color: #000;\n  }\n\n  .product {\n    font-weight: 500;\n  }\n\n  .time {\n    color: #999;\n    font-size: 12px;\n    font-style: italic;\n  }\n\n  @keyframes fadeIn {\n    from { opacity: 0; transform: translateY(-10px); }\n    to { opacity: 1; transform: translateY(0); }\n  }\n</style>\n\n<div id=\"popup-postura\" style=\"display: none;\">\n  <img id=\"popup-img\" src=\"https://cdn.shopify.com/s/files/1/0657/2779/1155/files/61QLOQh6D7L._AC_SX679.jpg?v=17597860725\" alt=\"Producto\">\n  <div id=\"popup-text\">\n        <strong class=\"name\">\n          Valeria Rodríguez\n          <span class=\"verified-icon\" aria-label=\"Verificado\" role=\"img\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\" fill=\"#1877f2\" width=\"16\" height=\"16\">\n              <circle cx=\"8\" cy=\"8\" r=\"8\" fill=\"#1877f2\"></circle>\n              <path d=\"M6.8 10.4L4.6 8.2l-.8.8 3 3 5-5-.8-.8z\" fill=\"#fff\"></path>\n            </svg>\n          </span>\n        </strong> compró <strong class=\"product\">X2 Helicoptero a control AeroFly</strong> en <span class=\"city\">Ibagué</span><span class=\"time\"> — hace 1 minuto</span>\n      </div>\n</div>\n\n<audio id=\"popup-sound\" preload=\"auto\">\n  <source src=\"https://cdn.pixabay.com/audio/2022/03/15/audio_4db5cf1ee4.mp3\" type=\"audio/mpeg\">\n</audio>\n\n<script>\n  document.addEventListener(\"DOMContentLoaded\", function () {\n    const mujeres = [\n      \"Valeria Rodríguez\", \"Daniela Gómez\", \"Camila Herrera\",\n      \"Sofía Morales\", \"Mariana Cruz\", \"Paula Jiménez\",\n      \"Natalia Salazar\", \"Isabela Ríos\", \"Laura Martínez\", \"Andrea Vargas\"\n    ];\n\n    const municipios = [\n      \"Soacha\", \"Chía\", \"Envigado\", \"Itagüí\", \"Pereira\",\n      \"Rionegro\", \"Cúcuta\", \"Ibagué\", \"Villavicencio\", \"Bucaramanga\",\n      \"Palmira\", \"Tunja\", \"Girardot\", \"Sabaneta\", \"Yumbo\"\n    ];\n\n    const tiempos = [\"Ahora\", \"1 minuto\", \"2 minutos\", \"3 minutos\"];\n\n    const popup = document.getElementById(\"popup-postura\");\n    const texto = document.getElementById(\"popup-text\");\n    const sonido = document.getElementById(\"popup-sound\");\n\n    let lastIndex = -1;\n\n    function getRandomIndexExcept(length, except) {\n      let index = Math.floor(Math.random() * length);\n      while (index === except) index = Math.floor(Math.random() * length);\n      return index;\n    }\n\n    function mostrarPopup() {\n      const index = getRandomIndexExcept(mujeres.length, lastIndex);\n      lastIndex = index;\n\n      const nombre = mujeres[index];\n      const ciudad = municipios[Math.floor(Math.random() * municipios.length)];\n      const tiempo = tiempos[Math.floor(Math.random() * tiempos.length)];\n      const tiempoTexto = tiempo === \"Ahora\" ? tiempo : `hace ${tiempo}`;\n\n      texto.innerHTML = `\n        <strong class=\"name\">\n          ${nombre}\n          <span class=\"verified-icon\" aria-label=\"Verificado\" role=\"img\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\" fill=\"#1877f2\" width=\"16\" height=\"16\">\n              <circle cx=\"8\" cy=\"8\" r=\"8\" fill=\"#1877f2\"/>\n              <path d=\"M6.8 10.4L4.6 8.2l-.8.8 3 3 5-5-.8-.8z\" fill=\"#fff\"/>\n            </svg>\n          </span>\n        </strong> compró <strong class=\"product\">X2 Helicoptero a control AeroFly</strong> en <span class=\"city\">${ciudad}</span><span class=\"time\"> — ${tiempoTexto}</span>\n      `;\n\n      popup.style.display = \"flex\";\n      sonido.currentTime = 0;\n      sonido.play();\n\n      setTimeout(() => {\n        popup.style.display = \"none\";\n      }, 7000);\n    }\n\n    setTimeout(() => {\n      mostrarPopup();\n      setInterval(mostrarPopup, 25000);\n    }, 3000);\n  });\n</script>\n    </div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "escala_announcement_bar_a4MbLA",
+    "main",
+    "related-products",
+    "image_with_text_dbxKHk",
+    "image_with_text_HWVLfw",
+    "image_with_text_A76Pqy",
+    "image_with_text_HN6rAC",
+    "rich_text_hgy9Et",
+    "scala_antes_despues_UGP9DD",
+    "rich_text_WpWJMQ",
+    "escala_announcement_bar_cRDUNd",
+    "scala_tabla_comparativa_7Jjgf7",
+    "scala_icon_box_BAArDq",
+    "testimonios_c4AhJA",
+    "collapsible_content_3jp9mq",
+    "custom_liquid_dpVgT8"
+  ]
+}
