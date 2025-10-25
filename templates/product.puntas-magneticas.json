@@ -358,7 +358,7 @@
       "type": "video",
       "name": "t:sections.video.presets.name",
       "settings": {
-        "heading": "✨ <strong>La Tecnología Que Convertirá Tu Casa en Espectáculo</strong>",
+        "heading": "",
         "heading_size": "h2",
         "enable_video_looping": true,
         "video": "shopify://files/videos/img-3653_4GmxmmGK.mp4",
@@ -385,23 +385,11 @@
           "settings": {
             "text": "<p>Nuestra <strong>Cortina LED Smart </strong>trae <strong>400 LEDs</strong> inteligentes, permitiéndote crear desde <strong>diseños</strong> simples hasta <strong>animaciones</strong> complejas que sincronizas con música navideña.</p>"
           }
-        },
-        "button_XyEtCG": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "heading_6qjfem",
-        "text_7LtTpk",
-        "button_XyEtCG"
+        "text_7LtTpk"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
@@ -409,8 +397,8 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "collapsible_content_VBCVkJ": {
