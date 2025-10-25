@@ -81,10 +81,18 @@
             "text_style": "body"
           }
         },
-        "custom_liquid_FhQhVw": {
-          "type": "custom_liquid",
+        "text_CBicGD": {
+          "type": "text",
           "settings": {
-            "custom_liquid": "<!-- ✅ Bullets personalizados Navidad RGB -->\n\n<div class=\"xmas-bullets\">\n  <div class=\"bullet-item\">\n    <div class=\"bullet-icon\">✔</div>\n    <p class=\"bullet-text\">\n      Controla 16 millones de colores desde tu smartphone. Sin electricista, sin complicaciones, sin estrés.\n      Solo magia navideña que tus hijos recordarán para siempre.\n    </p>\n  </div>\n\n  <div class=\"bullet-item\">\n    <div class=\"bullet-icon\">★</div>\n    <p class=\"bullet-text\">\n      Crea animaciones espectaculares dignas de centros comerciales en tu ventana.\n      Cambia el diseño cada noche de diciembre desde tu sofá con un solo toque.\n    </p>\n  </div>\n</div>\n\n<style>\n  .xmas-bullets {\n    display: grid;\n    gap: 14px;\n    margin: 20px 0;\n  }\n\n  .bullet-item {\n    display: flex;\n    align-items: flex-start;\n    gap: 12px;\n  }\n\n  .bullet-icon {\n    width: 26px;\n    height: 26px;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    font-size: 22px;\n    line-height: 1;\n    font-weight: bold;\n    color: #FF0000; /* 🔴 Color navideño */\n  }\n\n  .bullet-text {\n    font-size: 16px;\n    line-height: 1.45;\n    font-weight: 500;\n    color: #1A1A1A; /* Texto oscuro */\n  }\n\n  /* ✅ Responsive */\n  @media (max-width: 480px) {\n    .bullet-text {\n      font-size: 15px;\n    }\n  }\n</style>"
+            "text": "Controla <strong>16 millones de colores </strong>desde tu smartphone, sin <strong>complicaciones</strong>, sin <strong>estrés</strong>.",
+            "text_style": "body"
+          }
+        },
+        "text_j6HUfw": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Crea animaciones</strong> espectaculares. Cambia el diseño cada noche de <strong>diciembre</strong> con un solo toque.",
+            "text_style": "body"
           }
         },
         "inventory_XhcCAE": {
@@ -93,19 +101,6 @@
             "text_style": "uppercase",
             "inventory_threshold": 18,
             "show_inventory_quantity": true
-          }
-        },
-        "sku_mW4Xmt": {
-          "type": "sku",
-          "settings": {
-            "text_style": "body"
-          }
-        },
-        "popup_hDaLd7": {
-          "type": "popup",
-          "settings": {
-            "text": "Pop-up link text",
-            "page": ""
           }
         },
         "reviews_DCyymX": {
@@ -163,10 +158,9 @@
         "viewers_LDML9m",
         "title_6HhGEd",
         "text_P3gfqR",
-        "custom_liquid_FhQhVw",
+        "text_CBicGD",
+        "text_j6HUfw",
         "inventory_XhcCAE",
-        "sku_mW4Xmt",
-        "popup_hDaLd7",
         "reviews_DCyymX",
         "price_tQkBTf",
         "like_section_QeCfAP",
