@@ -234,52 +234,14 @@
         "desktop_padding_bottom": 16
       }
     },
-    "rich_text_4cjtiy": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_jimB6c": {
-          "type": "heading",
-          "settings": {
-            "heading": "¿Desperdicias dinero en decoración navideña cada año?",
-            "heading_size": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "heading_jimB6c"
-      ],
-      "name": "t:sections.rich-text.presets.name",
+    "custom_liquid_Wc8Edt": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "custom_liquid": "<div style=\"text-align:center; font-size:18px; line-height:1.45; color:#111; margin:20px 0;\">\n  <p style=\"margin-bottom:12px; font-weight:600;\">\n    ¿Desperdicias dinero en decoración navideña cada año?\n  </p>\n  <p style=\"margin-bottom:12px; font-weight:600;\">\n    ¿Te avergüenzan tus luces comparadas con las casas vecinas que brillan con decoraciones modernas?\n  </p>\n</div>",
         "color_scheme": "",
-        "full_width": true,
-        "padding_top": 12,
-        "padding_bottom": 8
-      }
-    },
-    "rich_text_R3Y7qt": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_zUwTxU": {
-          "type": "heading",
-          "settings": {
-            "heading": "¿Te avergüenzan tus luces comparadas con las casas vecinas que brillan con decoraciones modernas?",
-            "heading_size": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "heading_zUwTxU"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 12,
-        "padding_bottom": 8
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "image_with_text_CUUfwa": {
@@ -787,8 +749,7 @@
     "main",
     "related-products",
     "escala_announcement_bar_btzJMz",
-    "rich_text_4cjtiy",
-    "rich_text_R3Y7qt",
+    "custom_liquid_Wc8Edt",
     "image_with_text_CUUfwa",
     "image_with_text_dbxKHk",
     "image_with_text_HWVLfw",
