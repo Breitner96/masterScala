@@ -276,6 +276,60 @@
         "padding_bottom": 0
       }
     },
+    "slideshow_4qBzeU": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_xhTQQj": {
+          "type": "slide",
+          "settings": {
+            "heading": "✨ <strong>Tu casa será LA CASA de Instagram y TikTok del barrio</strong>",
+            "heading_size": "h2",
+            "subheading": "Tus vecinos pedirán consejos, tus amigos compartirán fotos de tu fachada, y tus hijos estarán orgullosos de vivir en \"la casa más bonita de la cuadra\"",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_ni7DaR": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_xhTQQj",
+        "slide_ni7DaR"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "image_with_text_dbxKHk": {
       "type": "image-with-text",
       "blocks": {
@@ -744,6 +798,7 @@
     "escala_announcement_bar_btzJMz",
     "custom_liquid_Wc8Edt",
     "image_with_text_CUUfwa",
+    "slideshow_4qBzeU",
     "image_with_text_dbxKHk",
     "image_with_text_HWVLfw",
     "image_with_text_A76Pqy",
