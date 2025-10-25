@@ -276,76 +276,70 @@
         "padding_bottom": 0
       }
     },
-    "slideshow_4qBzeU": {
-      "type": "slideshow",
+    "collapsible_content_ekD3m3": {
+      "type": "collapsible-content",
       "blocks": {
-        "slide_xhTQQj": {
-          "type": "slide",
+        "collapsible_row_4pUHad": {
+          "type": "collapsible_row",
           "settings": {
-            "heading": "✨ <strong>Tu casa será LA CASA de Instagram y TikTok del barrio</strong>",
-            "heading_size": "h2",
-            "subheading": "Tus vecinos pedirán consejos, tus amigos compartirán fotos de tu fachada, y tus hijos estarán orgullosos de vivir en \"la casa más bonita de la cuadra\"",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
+            "heading": "✨ Tu casa será LA CASA de Instagram y TikTok del barrio",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Tus vecinos pedirán consejos, tus amigos compartirán fotos de tu fachada, y tus hijos estarán orgullosos de vivir en \"la casa más bonita de la cuadra\"</p>",
+            "page": ""
           }
         },
-        "slide_ni7DaR": {
-          "type": "slide",
+        "collapsible_row_B3wyCX": {
+          "type": "collapsible_row",
           "settings": {
-            "heading": "🎨 <strong>400+ diseños navideños pregrabados + crea los tuyos propios</strong>",
-            "heading_size": "h2",
-            "subheading": "Cambia el diseño cada noche sin repetir: árboles de Navidad, mensajes personalizados, villancicos sincronizados, animaciones de nieve, banderas, y todo lo que imagines",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
+            "heading": "Collapsible row",
+            "text_size": "h4",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
           }
         },
-        "slide_kXzKU8": {
-          "type": "slide",
+        "collapsible_row_QVGcpg": {
+          "type": "collapsible_row",
           "settings": {
-            "heading": "📱 <strong>Instalación en 10 minutos, control total desde tu sofá</strong> -",
-            "heading_size": "h2",
-            "subheading": "Cuelga, conecta y listo. Ni cables enredados, ni herramientas, ni ayuda de nadie. Todo desde tu celular en español con la app más fácil que has usado",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
+            "heading": "Collapsible row",
+            "text_size": "h4",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_ktDEBe": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "text_size": "h4",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
           }
         }
       },
       "block_order": [
-        "slide_xhTQQj",
-        "slide_ni7DaR",
-        "slide_kXzKU8"
+        "collapsible_row_4pUHad",
+        "collapsible_row_B3wyCX",
+        "collapsible_row_QVGcpg",
+        "collapsible_row_ktDEBe"
       ],
-      "name": "t:sections.slideshow.presets.name",
+      "name": "t:sections.collapsible_content.presets.name",
       "settings": {
-        "layout": "grid",
-        "slide_height": "adapt_image",
-        "slider_visual": "dots",
-        "auto_rotate": true,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
+        "caption": "",
+        "heading": "BENEFICIOS PRINCIPALES",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "image_with_text_dbxKHk": {
@@ -816,7 +810,7 @@
     "escala_announcement_bar_btzJMz",
     "custom_liquid_Wc8Edt",
     "image_with_text_CUUfwa",
-    "slideshow_4qBzeU",
+    "collapsible_content_ekD3m3",
     "image_with_text_dbxKHk",
     "image_with_text_HWVLfw",
     "image_with_text_A76Pqy",
