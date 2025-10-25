@@ -137,7 +137,16 @@
         "collapsible_tab_mVEnkb": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "PASOS SIMPLES (4 pasos)",
+            "heading": "🎁 ¿QUE INCLUYE LA OFERTA NAVIDEÑA?",
+            "icon": "none",
+            "content": "<p><strong>PASO 1:</strong> 📦 <strong>ORDENA HOY CON 50% OFF</strong><br/><br/>Haz clic en el botón de compra, confirma y paga contra entrega. Proceso seguro en menos de 2 minutos.</p><p><strong>PASO 2:</strong> 🚚 <strong>RECIBE EN 2-3 DÍAS</strong><br/><br/>Tu cortina llega a tu puerta con envío gratis. Rastreo en tiempo real por WhatsApp para que sepas exactamente cuándo llegará.</p><p><strong>PASO 3:</strong> ⚡ <strong>INSTALA EN 10 MINUTOS</strong><br/><br/>Cuelga los ganchos, desenrolla las tiras, conecta a corriente y descarga la app gratuita. Video-tutorial incluido (pero no lo necesitarás, es súper intuitivo).</p><p><strong>PASO 4:</strong> 🎄 <strong>DISFRUTA TU ESPECTÁCULO</strong><br/><br/>Abre la app, elige uno de los 400+ diseños pregrabados o crea el tuyo propio. Cambia cuando quieras, tantas veces quieras. ¡Tu casa ya es la sensación del barrio!</p><p></p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_Jyx774": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "⏳ PASOS SIMPLES (4 pasos)",
             "icon": "none",
             "content": "<p><strong>PASO 1:</strong> 📦 <strong>ORDENA HOY CON 50% OFF</strong><br/><br/>Haz clic en el botón de compra, confirma y paga contra entrega. Proceso seguro en menos de 2 minutos.</p><p><strong>PASO 2:</strong> 🚚 <strong>RECIBE EN 2-3 DÍAS</strong><br/><br/>Tu cortina llega a tu puerta con envío gratis. Rastreo en tiempo real por WhatsApp para que sepas exactamente cuándo llegará.</p><p><strong>PASO 3:</strong> ⚡ <strong>INSTALA EN 10 MINUTOS</strong><br/><br/>Cuelga los ganchos, desenrolla las tiras, conecta a corriente y descarga la app gratuita. Video-tutorial incluido (pero no lo necesitarás, es súper intuitivo).</p><p><strong>PASO 4:</strong> 🎄 <strong>DISFRUTA TU ESPECTÁCULO</strong><br/><br/>Abre la app, elige uno de los 400+ diseños pregrabados o crea el tuyo propio. Cambia cuando quieras, tantas veces quieras. ¡Tu casa ya es la sensación del barrio!</p><p></p>",
             "page": ""
@@ -181,6 +190,7 @@
         "buy_buttons",
         "custom_liquid_zLGwpg",
         "collapsible_tab_mVEnkb",
+        "collapsible_tab_Jyx774",
         "collapsible_tab_7CP7KH",
         "like_section_QeCfAP",
         "description"
