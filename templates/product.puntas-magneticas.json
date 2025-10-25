@@ -247,23 +247,15 @@
     "image_with_text_CUUfwa": {
       "type": "image-with-text",
       "blocks": {
-        "heading_HjMFAt": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
         "text_QgLmYA": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Cortina LED Smart Navideña crea displays profesionales en minutos desde tu celular, haciendo que tus vecinos se detengan a fotografiar y tus hijos vivan la Navidad más mágica.</p>",
             "text_style": "body"
           }
         }
       },
       "block_order": [
-        "heading_HjMFAt",
         "text_QgLmYA"
       ],
       "name": "t:sections.image-with-text.presets.name",
