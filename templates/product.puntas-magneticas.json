@@ -70,6 +70,38 @@
           "type": "title",
           "settings": {}
         },
+        "viewers_LDML9m": {
+          "type": "viewers",
+          "settings": {}
+        },
+        "inventory_XhcCAE": {
+          "type": "inventory",
+          "settings": {
+            "text_style": "body",
+            "inventory_threshold": 10,
+            "show_inventory_quantity": true
+          }
+        },
+        "sku_mW4Xmt": {
+          "type": "sku",
+          "settings": {
+            "text_style": "body"
+          }
+        },
+        "popup_hDaLd7": {
+          "type": "popup",
+          "settings": {
+            "text": "Pop-up link text",
+            "page": ""
+          }
+        },
+        "text_P3gfqR": {
+          "type": "text",
+          "settings": {
+            "text": "Text block",
+            "text_style": "body"
+          }
+        },
         "reviews_DCyymX": {
           "type": "reviews",
           "settings": {}
@@ -123,6 +155,11 @@
       },
       "block_order": [
         "title_6HhGEd",
+        "viewers_LDML9m",
+        "inventory_XhcCAE",
+        "sku_mW4Xmt",
+        "popup_hDaLd7",
+        "text_P3gfqR",
         "reviews_DCyymX",
         "price_tQkBTf",
         "like_section_QeCfAP",
