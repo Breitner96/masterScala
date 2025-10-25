@@ -676,6 +676,53 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "escala_announcement_bar_8apiYY": {
+      "type": "escala-announcement-bar",
+      "blocks": {
+        "text_aUXKqX": {
+          "type": "text",
+          "settings": {
+            "title": "🎄 +3,200 hogares colombianos"
+          }
+        },
+        "text_NLytna": {
+          "type": "text",
+          "settings": {
+            "title": "⭐ 4.9/5 estrellas"
+          }
+        },
+        "text_yDNqHf": {
+          "type": "text",
+          "settings": {
+            "title": "💚 96% lo recomendaría"
+          }
+        }
+      },
+      "block_order": [
+        "text_aUXKqX",
+        "text_NLytna",
+        "text_yDNqHf"
+      ],
+      "settings": {
+        "visibility": "always-display",
+        "speed": 3,
+        "mobile_spacing": 60,
+        "desktop_spacing": 100,
+        "bg_color": "#efb810",
+        "text_color": "#ffffff",
+        "mobile_text_size": 18,
+        "desktop_text_size": 18,
+        "italic_text": false,
+        "uppercase_text": true,
+        "bold_text": true,
+        "mobile_image_height": 26,
+        "desktop_image_height": 40,
+        "mobile_padding_top": 12,
+        "mobile_padding_bottom": 12,
+        "desktop_padding_top": 16,
+        "desktop_padding_bottom": 16
+      }
+    },
     "collapsible_content_3jp9mq": {
       "type": "collapsible-content",
       "blocks": {
@@ -801,6 +848,7 @@
     "escala_announcement_bar_cRDUNd",
     "scala_icon_box_BAArDq",
     "testimonios_c4AhJA",
+    "escala_announcement_bar_8apiYY",
     "collapsible_content_3jp9mq",
     "custom_liquid_dpVgT8"
   ]
