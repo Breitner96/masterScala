@@ -299,10 +299,10 @@
         "slide_ni7DaR": {
           "type": "slide",
           "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
+            "heading": "🎨 <strong>400+ diseños navideños pregrabados + crea los tuyos propios</strong>",
+            "heading_size": "h2",
+            "subheading": "Cambia el diseño cada noche sin repetir: árboles de Navidad, mensajes personalizados, villancicos sincronizados, animaciones de nieve, banderas, y todo lo que imagines",
+            "button_label": "",
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-center",
@@ -312,18 +312,36 @@
             "color_scheme": "",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_kXzKU8": {
+          "type": "slide",
+          "settings": {
+            "heading": "📱 <strong>Instalación en 10 minutos, control total desde tu sofá</strong> -",
+            "heading_size": "h2",
+            "subheading": "Cuelga, conecta y listo. Ni cables enredados, ni herramientas, ni ayuda de nadie. Todo desde tu celular en español con la app más fácil que has usado",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "slide_xhTQQj",
-        "slide_ni7DaR"
+        "slide_ni7DaR",
+        "slide_kXzKU8"
       ],
       "name": "t:sections.slideshow.presets.name",
       "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "counter",
-        "auto_rotate": false,
+        "layout": "grid",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": true,
         "change_slides_speed": 5,
         "image_behavior": "none",
         "show_text_below": true,
