@@ -111,10 +111,10 @@
           "type": "like-section",
           "settings": {
             "name_select": "Mixto",
-            "bg_color": "#b2b3b6",
-            "border_color": "#031b1e",
-            "text_color": "#ffffff",
-            "border_radius": 7
+            "bg_color": "#f2f2f5",
+            "border_color": "#b2b3b6",
+            "text_color": "#242833",
+            "border_radius": 5
           }
         },
         "buy_buttons": {
