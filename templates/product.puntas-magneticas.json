@@ -134,6 +134,13 @@
             "custom_liquid": "<div style=\"margin: 10px; padding: 0;\">\n  <img \n    src=\"https://cdn.shopify.com/s/files/1/0633/5856/6463/files/18a1aae0-e787-434b-9213-3b51db7c2fcb_optimized.webp?v=1761421616\" \n    alt=\"Banner Navidad\"\n    style=\"width: 100%; height: auto; display: block;\"\n    loading=\"lazy\"\n  >\n</div>"
           }
         },
+        "text_zVAkQT": {
+          "type": "text",
+          "settings": {
+            "text": "✨ <strong>Así de Fácil es Tener La Casa Más Bonita del Barrio</strong>",
+            "text_style": "body"
+          }
+        },
         "collapsible_tab_mVEnkb": {
           "type": "collapsible_tab",
           "settings": {
@@ -189,6 +196,7 @@
         "price_tQkBTf",
         "buy_buttons",
         "custom_liquid_zLGwpg",
+        "text_zVAkQT",
         "collapsible_tab_mVEnkb",
         "collapsible_tab_Jyx774",
         "collapsible_tab_7CP7KH",
