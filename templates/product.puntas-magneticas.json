@@ -23,11 +23,18 @@
           "settings": {
             "title": "50% OFF - SOLO HOY"
           }
+        },
+        "text_Ud7GPk": {
+          "type": "text",
+          "settings": {
+            "title": "GARANTÍA 30 DIAS"
+          }
         }
       },
       "block_order": [
         "text_GtHUPP",
-        "text_M3n6Qd"
+        "text_M3n6Qd",
+        "text_Ud7GPk"
       ],
       "settings": {
         "visibility": "always-display",
