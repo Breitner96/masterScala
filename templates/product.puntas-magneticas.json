@@ -340,11 +340,11 @@
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
         "caption": "",
-        "heading": "BENEFICIOS PRINCIPALES",
+        "heading": "BENEFICIOS PRINCIPALES 🔔",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "row",
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "container_color_scheme": "scheme-2",
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
