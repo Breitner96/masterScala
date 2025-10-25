@@ -50,7 +50,7 @@
         "desktop_spacing": 100,
         "bg_color": "#bb2528",
         "text_color": "#ffffff",
-        "mobile_text_size": 8,
+        "mobile_text_size": 16,
         "desktop_text_size": 10,
         "italic_text": false,
         "uppercase_text": true,
