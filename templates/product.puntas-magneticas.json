@@ -95,6 +95,13 @@
             "text_style": "body"
           }
         },
+        "variant_picker_TAXqBm": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
         "price_tQkBTf": {
           "type": "price",
           "settings": {
@@ -143,6 +150,7 @@
         "text_P3gfqR",
         "text_CBicGD",
         "text_j6HUfw",
+        "variant_picker_TAXqBm",
         "price_tQkBTf",
         "buy_buttons",
         "text_mMYGpT",
