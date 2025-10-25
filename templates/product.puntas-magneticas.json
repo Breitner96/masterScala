@@ -370,6 +370,49 @@
         "padding_bottom": 0
       }
     },
+    "rich_text_i4HUit": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6qjfem": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_7LtTpk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nuestra <strong>Cortina LED Smart </strong>trae <strong>400 LEDs</strong> inteligentes, permitiéndote crear desde <strong>diseños</strong> simples hasta <strong>animaciones</strong> complejas que sincronizas con música navideña.</p>"
+          }
+        },
+        "button_XyEtCG": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_6qjfem",
+        "text_7LtTpk",
+        "button_XyEtCG"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "collapsible_content_VBCVkJ": {
       "type": "collapsible-content",
       "blocks": {
@@ -950,6 +993,7 @@
     "image_with_text_CUUfwa",
     "collapsible_content_ekD3m3",
     "video_VYcjPR",
+    "rich_text_i4HUit",
     "collapsible_content_VBCVkJ",
     "image_with_text_dbxKHk",
     "image_with_text_HWVLfw",
