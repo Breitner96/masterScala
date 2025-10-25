@@ -630,52 +630,6 @@
         "icon_box_text_color": "#000000"
       }
     },
-    "testimonios_c4AhJA": {
-      "type": "testimonios",
-      "blocks": {
-        "slide_JwkpPm": {
-          "type": "slide",
-          "settings": {
-            "subheading": "El imán cumple con lo que promete",
-            "testimonialName": "Javier Jaramillo",
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_J7yF9R": {
-          "type": "slide",
-          "settings": {
-            "subheading": "Me encanto, funciono muy bien",
-            "testimonialName": "Juan Carlos",
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "slide_JwkpPm",
-        "slide_J7yF9R"
-      ],
-      "settings": {
-        "header_testimonials": "Testimonios",
-        "layout": "grid",
-        "slide_height": "medium",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
     "escala_announcement_bar_8apiYY": {
       "type": "escala-announcement-bar",
       "blocks": {
@@ -847,7 +801,6 @@
     "rich_text_hgy9Et",
     "escala_announcement_bar_cRDUNd",
     "scala_icon_box_BAArDq",
-    "testimonios_c4AhJA",
     "escala_announcement_bar_8apiYY",
     "collapsible_content_3jp9mq",
     "custom_liquid_dpVgT8"
