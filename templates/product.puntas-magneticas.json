@@ -260,9 +260,10 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "border_image_radius": 15,
+        "image": "shopify://shop_images/S4c1639a8756f47cd9dbf7cfb53bae2b50_jpg_960x960q75_jpg.avif",
+        "border_image_radius": 6,
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "large",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
