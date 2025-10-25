@@ -66,6 +66,10 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "viewers_LDML9m": {
+          "type": "viewers",
+          "settings": {}
+        },
         "title_6HhGEd": {
           "type": "title",
           "settings": {}
@@ -77,15 +81,17 @@
             "text_style": "body"
           }
         },
-        "viewers_LDML9m": {
-          "type": "viewers",
-          "settings": {}
+        "custom_liquid_FhQhVw": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<!-- ✅ Bullets personalizados Navidad RGB -->\n\n<div class=\"xmas-bullets\">\n  <div class=\"bullet-item\">\n    <div class=\"bullet-icon\">✔</div>\n    <p class=\"bullet-text\">\n      Controla 16 millones de colores desde tu smartphone. Sin electricista, sin complicaciones, sin estrés.\n      Solo magia navideña que tus hijos recordarán para siempre.\n    </p>\n  </div>\n\n  <div class=\"bullet-item\">\n    <div class=\"bullet-icon\">★</div>\n    <p class=\"bullet-text\">\n      Crea animaciones espectaculares dignas de centros comerciales en tu ventana.\n      Cambia el diseño cada noche de diciembre desde tu sofá con un solo toque.\n    </p>\n  </div>\n</div>\n\n<style>\n  .xmas-bullets {\n    display: grid;\n    gap: 14px;\n    margin: 20px 0;\n  }\n\n  .bullet-item {\n    display: flex;\n    align-items: flex-start;\n    gap: 12px;\n  }\n\n  .bullet-icon {\n    width: 26px;\n    height: 26px;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    font-size: 22px;\n    line-height: 1;\n    font-weight: bold;\n    color: #FF0000; /* 🔴 Color navideño */\n  }\n\n  .bullet-text {\n    font-size: 16px;\n    line-height: 1.45;\n    font-weight: 500;\n    color: #1A1A1A; /* Texto oscuro */\n  }\n\n  /* ✅ Responsive */\n  @media (max-width: 480px) {\n    .bullet-text {\n      font-size: 15px;\n    }\n  }\n</style>"
+          }
         },
         "inventory_XhcCAE": {
           "type": "inventory",
           "settings": {
-            "text_style": "body",
-            "inventory_threshold": 10,
+            "text_style": "uppercase",
+            "inventory_threshold": 18,
             "show_inventory_quantity": true
           }
         },
@@ -154,9 +160,10 @@
         }
       },
       "block_order": [
+        "viewers_LDML9m",
         "title_6HhGEd",
         "text_P3gfqR",
-        "viewers_LDML9m",
+        "custom_liquid_FhQhVw",
         "inventory_XhcCAE",
         "sku_mW4Xmt",
         "popup_hDaLd7",
