@@ -694,20 +694,40 @@
         "collapsible_row_FHUMdc": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "¿Es seguro el pago? ¿Qué métodos aceptan?",
             "text_size": "h4",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Totalmente seguro. Miles de colombianos ya han comprado con nosotros sin ningún problema. Confirma tu pedido y paga cuando recibes.</p>",
             "page": ""
           }
         },
         "collapsible_row_tTEm8U": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "¿Funciona realmente o es muy complicada de usar?",
             "text_size": "h4",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>¡Funciona INCREÍBLEMENTE! De hecho, el 94% de nuestras clientas reportan que fue \"mucho más fácil de lo esperado\". La app es en español, súper intuitiva (como Instagram) y tiene más de 400 diseños pregrabados: solo seleccionas y listo. Si quieres crear tus propios diseños, hay un editor drag-and-drop facilísimo. Tenemos clientas de 60+ años usándola sin problemas.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_86feaC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Para quién es realmente este producto?",
+            "text_size": "h4",
+            "icon": "check_mark",
+            "row_content": "<p>Esta cortina es perfecta para:</p><ul><li>Mamás/papás que quieren crear Navidades mágicas memorables para sus hijos</li><li>Familias que valoran las tradiciones pero con toque moderno</li><li>Personas que les gusta ser el centro de admiración en su vecindario</li><li>Quienes están cansados de decoración anticuada y aburrida</li><li>Cualquiera que quiera decoración espectacular SIN complicaciones técnicas</li><li>Hogares estratos 3-6 en ciudades principales que buscan calidad y estatus</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_DK9Arj": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Cómo la instalo? ¿Necesito electricista o herramientas?",
+            "text_size": "h4",
+            "icon": "check_mark",
+            "row_content": "<p>¡CERO herramientas, CERO electricista! Es literalmente plug & play:</p><ol><li>Marca donde van los ganchos en la pared/ventana</li><li>Pega los ganchos con cinta adhesiva o clávalo si prefieres</li><li>Cuelga las 20 tiras verticales (vienen unidas, solo desenrollas)</li><li>Conecta el transformador a cualquier toma corriente 110V</li><li>Descarga app gratuita, conecta por Bluetooth/WiFi</li><li>¡Listo! Tiempo total: 8-12 minutos. Incluimos video paso a paso que puedes seguir.</li></ol>",
             "page": ""
           }
         }
@@ -716,7 +736,9 @@
         "collapsible_row_TxWRrT",
         "collapsible_row_8VFTR3",
         "collapsible_row_FHUMdc",
-        "collapsible_row_tTEm8U"
+        "collapsible_row_tTEm8U",
+        "collapsible_row_86feaC",
+        "collapsible_row_DK9Arj"
       ],
       "settings": {
         "caption": "",
