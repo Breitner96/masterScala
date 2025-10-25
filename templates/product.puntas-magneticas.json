@@ -511,228 +511,26 @@
         "padding_bottom": 0
       }
     },
-    "image_with_text_dbxKHk": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_qLXPUP": {
-          "type": "heading",
-          "settings": {
-            "heading": "Punto de dolor o beneficio",
-            "heading_size": "h2"
-          }
-        },
-        "text_4Q9byF": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "body"
-          }
-        },
-        "caption_LP38kp": {
-          "type": "caption",
-          "settings": {
-            "caption": "¿Te has sentido frustrada al ver que cada año gastas una fortuna en decoración navideña que terminas guardando o desechando?",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        }
-      },
-      "block_order": [
-        "heading_qLXPUP",
-        "text_4Q9byF",
-        "caption_LP38kp"
-      ],
-      "settings": {
-        "border_image_radius": 16,
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_HWVLfw": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_UMCTae": {
-          "type": "heading",
-          "settings": {
-            "heading": "Como lo hace",
-            "heading_size": "h2"
-          }
-        },
-        "text_GNn4cp": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Explica mejor como lo hace</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_UMCTae",
-        "text_GNn4cp"
-      ],
-      "settings": {
-        "border_image_radius": 15,
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_A76Pqy": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_7G68fN": {
-          "type": "heading",
-          "settings": {
-            "heading": "Habla del resultado deseado",
-            "heading_size": "h2"
-          }
-        },
-        "text_jLbcL7": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Complementa el resultado deseado</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_7G68fN",
-        "text_jLbcL7"
-      ],
-      "settings": {
-        "border_image_radius": 15,
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_HN6rAC": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_NJ9cdX": {
-          "type": "heading",
-          "settings": {
-            "heading": "Medidas y características",
-            "heading_size": "h1"
-          }
-        },
-        "text_fH6z4L": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Refuerzo de calidad</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_NJ9cdX",
-        "text_fH6z4L"
-      ],
-      "settings": {
-        "border_image_radius": 15,
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "rich_text_hgy9Et": {
       "type": "rich-text",
       "blocks": {
-        "heading_Nmgcia": {
-          "type": "heading",
-          "settings": {
-            "heading": "🚨 Generar urgencia muy pocas unidades disponibles 🚨",
-            "heading_size": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "heading_Nmgcia"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "scala_antes_despues_UGP9DD": {
-      "type": "scala-antes-despues",
-      "settings": {
-        "title": "Comprueba los cambios",
-        "heading_size": "h2",
-        "slid_aftr_bfr_en-over": false,
-        "color_slid_aftr_bfr_over": "#000000",
-        "slide_aftr_bfr_opacity": 50
-      }
-    },
-    "rich_text_WpWJMQ": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_teADHh": {
-          "type": "heading",
-          "settings": {
-            "heading": "Características",
-            "heading_size": "h2"
-          }
-        },
-        "text_9cwCMU": {
+        "text_t3GEet": {
           "type": "text",
           "settings": {
-            "text": "<p>✅ Diseñadas para resistir alta presión, garantizando un rendimiento duradero. </p><p>✅ Con un imán poderoso que asegura que los tornillos no resbalen ni se extravíen.</p><p>✅ Puntas diseñadas para resistir el desgaste, prolongando su vida útil.</p><p>✅ Disponibles en cinco tamaños diferentes, cubriendo todas tus necesidades.</p><p>✅ Realiza tus labores con una precisión insuperable, obteniendo resultados impecables.</p>"
+            "text": "<h3><strong>🔴 INVENTARIO CRÍTICO: Último lote disponible antes de Navidad - Stock limitado</strong></h3>"
           }
         }
       },
       "block_order": [
-        "heading_teADHh",
-        "text_9cwCMU"
+        "text_t3GEet"
       ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 0,
+        "padding_bottom": 8
       }
     },
     "escala_announcement_bar_cRDUNd": {
@@ -780,54 +578,6 @@
         "mobile_padding_bottom": 12,
         "desktop_padding_top": 16,
         "desktop_padding_bottom": 16
-      }
-    },
-    "scala_tabla_comparativa_7Jjgf7": {
-      "type": "scala-tabla-comparativa",
-      "blocks": {
-        "text_x8N97K": {
-          "type": "text",
-          "settings": {
-            "row_title": "Envío rápido",
-            "store_check": true,
-            "others_check": false
-          }
-        },
-        "text_KdbArt": {
-          "type": "text",
-          "settings": {
-            "row_title": "Paga en casa",
-            "store_check": true,
-            "others_check": true
-          }
-        },
-        "text_ADrmDr": {
-          "type": "text",
-          "settings": {
-            "row_title": "Garantía",
-            "store_check": true,
-            "others_check": false
-          }
-        },
-        "text_3PYBdw": {
-          "type": "text",
-          "settings": {
-            "row_title": "Feature",
-            "store_check": true,
-            "others_check": false
-          }
-        }
-      },
-      "block_order": [
-        "text_x8N97K",
-        "text_KdbArt",
-        "text_ADrmDr",
-        "text_3PYBdw"
-      ],
-      "settings": {
-        "title": "",
-        "color-picker": "#006172",
-        "text_size": "medium"
       }
     },
     "scala_icon_box_BAArDq": {
@@ -983,15 +733,8 @@
     "rich_text_i4HUit",
     "video_VYcjPR",
     "collapsible_content_VBCVkJ",
-    "image_with_text_dbxKHk",
-    "image_with_text_HWVLfw",
-    "image_with_text_A76Pqy",
-    "image_with_text_HN6rAC",
     "rich_text_hgy9Et",
-    "scala_antes_despues_UGP9DD",
-    "rich_text_WpWJMQ",
     "escala_announcement_bar_cRDUNd",
-    "scala_tabla_comparativa_7Jjgf7",
     "scala_icon_box_BAArDq",
     "testimonios_c4AhJA",
     "collapsible_content_3jp9mq",
