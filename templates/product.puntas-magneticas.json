@@ -342,7 +342,7 @@
       "settings": {
         "caption": "",
         "heading": "BENEFICIOS PRINCIPALES 🔔",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "heading_alignment": "center",
         "layout": "row",
         "color_scheme": "scheme-1",
@@ -366,6 +366,83 @@
         "description": "",
         "full_width": true,
         "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "collapsible_content_VBCVkJ": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_WtF6b7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "✨ Tu casa será LA CASA de Instagram y TikTok del barrio",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Tus vecinos pedirán consejos, tus amigos compartirán fotos de tu fachada, y tus hijos estarán orgullosos de vivir en <strong>\"</strong>l<strong>a casa más bonita de la cuadra\"</strong></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_jVPkcD": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🎨 400+ diseños navideños pregrabados + crea los tuyos propios",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Cambia el diseño cada noche sin repetir: árboles de Navidad, mensajes personalizados, villancicos sincronizados, animaciones de nieve, banderas, y todo lo que imagines</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_fKAaN9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "📱 Instalación en 10 minutos, control total desde tu sofá",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Cuelga, conecta y listo. Ni cables enredados, ni herramientas, ni ayuda de nadie. Todo desde tu celular en español con la app más fácil que has usado</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_cQAdrX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "💰 Inversión inteligente que se paga corto plazo",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Reemplaza años de decoración desechable, electricistas, y compras repetitivas. <strong>Úsala en Navidad, cumpleaños, Halloween y fiestas temáticas todo el año</strong></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_kWfTJE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🛡️ Resistente al agua y sol + Garantía de 3 años",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Fabricada para clima colombiano. Resiste lluvia, sol intenso y polvo. Si algo falla en 3 años, te la cambiamos sin preguntas</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_WtF6b7",
+        "collapsible_row_jVPkcD",
+        "collapsible_row_fKAaN9",
+        "collapsible_row_cQAdrX",
+        "collapsible_row_kWfTJE"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "ESPECIFICACIONES DESTACADAS 🦌",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "row",
+        "color_scheme": "scheme-1",
+        "container_color_scheme": "scheme-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -840,6 +917,7 @@
     "image_with_text_CUUfwa",
     "collapsible_content_ekD3m3",
     "video_VYcjPR",
+    "collapsible_content_VBCVkJ",
     "image_with_text_dbxKHk",
     "image_with_text_HWVLfw",
     "image_with_text_A76Pqy",
