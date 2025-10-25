@@ -132,11 +132,11 @@
         "like_section_QeCfAP": {
           "type": "like-section",
           "settings": {
-            "name_select": "Mixto",
+            "name_select": "Masculino",
             "bg_color": "#f2f2f5",
             "border_color": "#b2b3b6",
             "text_color": "#242833",
-            "border_radius": 5
+            "border_radius": 50
           }
         },
         "description": {
