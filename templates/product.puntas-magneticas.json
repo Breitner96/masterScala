@@ -84,23 +84,15 @@
         "text_CBicGD": {
           "type": "text",
           "settings": {
-            "text": "Controla <strong>16 millones de colores </strong>desde tu smartphone, sin <strong>complicaciones</strong>, sin <strong>estrés</strong>.",
+            "text": "✔ Controla <strong>16 millones de colores </strong>desde tu smartphone, sin <strong>complicaciones</strong>, sin <strong>estrés</strong>.",
             "text_style": "body"
           }
         },
         "text_j6HUfw": {
           "type": "text",
           "settings": {
-            "text": "<strong>Crea animaciones</strong> espectaculares. Cambia el diseño cada noche de <strong>diciembre</strong> con un solo toque.",
+            "text": "✔ <strong>Crea animaciones</strong> espectaculares. Cambia el diseño cada noche de <strong>diciembre</strong> con un solo toque.",
             "text_style": "body"
-          }
-        },
-        "inventory_XhcCAE": {
-          "type": "inventory",
-          "settings": {
-            "text_style": "uppercase",
-            "inventory_threshold": 18,
-            "show_inventory_quantity": true
           }
         },
         "price_tQkBTf": {
@@ -156,7 +148,6 @@
         "text_P3gfqR",
         "text_CBicGD",
         "text_j6HUfw",
-        "inventory_XhcCAE",
         "price_tQkBTf",
         "like_section_QeCfAP",
         "variant_picker",
