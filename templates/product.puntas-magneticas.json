@@ -18,6 +18,12 @@
             "title": "ENVÍO GRATIS"
           }
         },
+        "text_Qqpizn": {
+          "type": "text",
+          "settings": {
+            "title": "PAGO CONTRA ENTREGA"
+          }
+        },
         "text_M3n6Qd": {
           "type": "text",
           "settings": {
@@ -33,6 +39,7 @@
       },
       "block_order": [
         "text_GtHUPP",
+        "text_Qqpizn",
         "text_M3n6Qd",
         "text_Ud7GPk"
       ],
