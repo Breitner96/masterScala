@@ -539,26 +539,19 @@
         "text_LRDz4G": {
           "type": "text",
           "settings": {
-            "title": "Bienvenido a Escala 100K"
+            "title": "🎁 El precio pre-navideño más bajo del año"
           }
         },
         "text_wJ9kNg": {
           "type": "text",
           "settings": {
-            "title": "Bienvenido a Escala 100K"
-          }
-        },
-        "text_erWNBF": {
-          "type": "text",
-          "settings": {
-            "title": "Bienvenido a Escala 100K"
+            "title": "⏱️ Oferta 50% OFF"
           }
         }
       },
       "block_order": [
         "text_LRDz4G",
-        "text_wJ9kNg",
-        "text_erWNBF"
+        "text_wJ9kNg"
       ],
       "settings": {
         "visibility": "always-display",
@@ -570,8 +563,8 @@
         "mobile_text_size": 18,
         "desktop_text_size": 18,
         "italic_text": false,
-        "uppercase_text": false,
-        "bold_text": false,
+        "uppercase_text": true,
+        "bold_text": true,
         "mobile_image_height": 26,
         "desktop_image_height": 40,
         "mobile_padding_top": 12,
