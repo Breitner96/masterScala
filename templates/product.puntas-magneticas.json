@@ -111,7 +111,7 @@
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": false,
-            "show_gift_card_recipient": true
+            "show_gift_card_recipient": false
           }
         },
         "text_mMYGpT": {
@@ -232,14 +232,23 @@
         "text_4Q9byF": {
           "type": "text",
           "settings": {
-            "text": "<p>texto corto que complemente el titulo</p>",
+            "text": "",
             "text_style": "body"
+          }
+        },
+        "caption_LP38kp": {
+          "type": "caption",
+          "settings": {
+            "caption": "¿Te has sentido frustrada al ver que cada año gastas una fortuna en decoración navideña que terminas guardando o desechando?",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
           }
         }
       },
       "block_order": [
         "heading_qLXPUP",
-        "text_4Q9byF"
+        "text_4Q9byF",
+        "caption_LP38kp"
       ],
       "settings": {
         "border_image_radius": 16,
