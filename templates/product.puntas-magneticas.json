@@ -66,12 +66,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "reviews_DCyymX": {
-          "type": "reviews",
-          "settings": {}
-        },
         "title_6HhGEd": {
           "type": "title",
+          "settings": {}
+        },
+        "reviews_DCyymX": {
+          "type": "reviews",
           "settings": {}
         },
         "text_P3gfqR": {
@@ -138,8 +138,8 @@
         }
       },
       "block_order": [
-        "reviews_DCyymX",
         "title_6HhGEd",
+        "reviews_DCyymX",
         "text_P3gfqR",
         "text_CBicGD",
         "text_j6HUfw",
