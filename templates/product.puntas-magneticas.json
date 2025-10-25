@@ -95,13 +95,6 @@
             "text_style": "body"
           }
         },
-        "variant_picker_TAXqBm": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
         "price_tQkBTf": {
           "type": "price",
           "settings": {
@@ -112,6 +105,14 @@
             "save_text_color": "#ffffff",
             "price_color": "#031b1e",
             "comparation_price_color": "#8a8f9b"
+          }
+        },
+        "inventory_nzc3Eb": {
+          "type": "inventory",
+          "settings": {
+            "text_style": "uppercase",
+            "inventory_threshold": 4,
+            "show_inventory_quantity": true
           }
         },
         "buy_buttons": {
@@ -150,8 +151,8 @@
         "text_P3gfqR",
         "text_CBicGD",
         "text_j6HUfw",
-        "variant_picker_TAXqBm",
         "price_tQkBTf",
+        "inventory_nzc3Eb",
         "buy_buttons",
         "text_mMYGpT",
         "like_section_QeCfAP",
