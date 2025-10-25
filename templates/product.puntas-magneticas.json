@@ -114,6 +114,13 @@
             "show_gift_card_recipient": true
           }
         },
+        "text_mMYGpT": {
+          "type": "text",
+          "settings": {
+            "text": "🎁 <strong>QUIERO LA CASA MÁS ESPECTACULAR DEL BARRIO</strong>",
+            "text_style": "body"
+          }
+        },
         "like_section_QeCfAP": {
           "type": "like-section",
           "settings": {
@@ -138,6 +145,7 @@
         "text_j6HUfw",
         "price_tQkBTf",
         "buy_buttons",
+        "text_mMYGpT",
         "like_section_QeCfAP",
         "description"
       ],
