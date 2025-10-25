@@ -101,9 +101,9 @@
             "show_skala_price": true,
             "border_radius_percent": 10,
             "border_percent_color": "#ff0000",
-            "save_bg_color": "#006172",
+            "save_bg_color": "#007207",
             "save_text_color": "#ffffff",
-            "price_color": "#006172",
+            "price_color": "#031b1e",
             "comparation_price_color": "#8a8f9b"
           }
         },
