@@ -138,6 +138,12 @@
             "border_radius": 50
           }
         },
+        "custom_liquid_zLGwpg": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"margin: 0; padding: 0;\">\n  <img \n    src=\"https://cdn.shopify.com/s/files/1/0633/5856/6463/files/18a1aae0-e787-434b-9213-3b51db7c2fcb_optimized.webp?v=1761421616\" \n    alt=\"Banner Navidad\"\n    style=\"width: 100%; height: auto; display: block;\"\n    loading=\"lazy\"\n  >\n</div>"
+          }
+        },
         "description": {
           "type": "description",
           "disabled": true,
@@ -155,6 +161,7 @@
         "price_tQkBTf",
         "buy_buttons",
         "like_section_QeCfAP",
+        "custom_liquid_zLGwpg",
         "description"
       ],
       "settings": {
@@ -240,6 +247,30 @@
       },
       "block_order": [
         "heading_jimB6c"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 8
+      }
+    },
+    "rich_text_R3Y7qt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_zUwTxU": {
+          "type": "heading",
+          "settings": {
+            "heading": "¿Te avergüenzan tus luces comparadas con las casas vecinas que brillan con decoraciones modernas?",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zUwTxU"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
@@ -757,6 +788,7 @@
     "related-products",
     "escala_announcement_bar_btzJMz",
     "rich_text_4cjtiy",
+    "rich_text_R3Y7qt",
     "image_with_text_CUUfwa",
     "image_with_text_dbxKHk",
     "image_with_text_HWVLfw",
