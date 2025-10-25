@@ -227,6 +227,30 @@
         "desktop_padding_bottom": 16
       }
     },
+    "rich_text_4cjtiy": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jimB6c": {
+          "type": "heading",
+          "settings": {
+            "heading": "¿Desperdicias dinero en decoración navideña cada año?",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jimB6c"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 8
+      }
+    },
     "image_with_text_CUUfwa": {
       "type": "image-with-text",
       "blocks": {
@@ -732,6 +756,7 @@
     "main",
     "related-products",
     "escala_announcement_bar_btzJMz",
+    "rich_text_4cjtiy",
     "image_with_text_CUUfwa",
     "image_with_text_dbxKHk",
     "image_with_text_HWVLfw",
