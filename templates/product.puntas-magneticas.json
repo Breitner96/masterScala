@@ -114,14 +114,6 @@
             "text_style": "body"
           }
         },
-        "inventory_nzc3Eb": {
-          "type": "inventory",
-          "settings": {
-            "text_style": "uppercase",
-            "inventory_threshold": 4,
-            "show_inventory_quantity": true
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -153,7 +145,6 @@
         "text_j6HUfw",
         "price_tQkBTf",
         "text_mMYGpT",
-        "inventory_nzc3Eb",
         "buy_buttons",
         "like_section_QeCfAP",
         "description"
