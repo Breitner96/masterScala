@@ -95,6 +95,13 @@
             "text_style": "body"
           }
         },
+        "text_mMYGpT": {
+          "type": "text",
+          "settings": {
+            "text": "🎁 <strong>QUIERO LA CASA MÁS ESPECTACULAR DEL BARRIO</strong>",
+            "text_style": "body"
+          }
+        },
         "price_tQkBTf": {
           "type": "price",
           "settings": {
@@ -105,13 +112,6 @@
             "save_text_color": "#ffffff",
             "price_color": "#031b1e",
             "comparation_price_color": "#8a8f9b"
-          }
-        },
-        "text_mMYGpT": {
-          "type": "text",
-          "settings": {
-            "text": "🎁 <strong>QUIERO LA CASA MÁS ESPECTACULAR DEL BARRIO</strong>",
-            "text_style": "body"
           }
         },
         "buy_buttons": {
@@ -143,8 +143,8 @@
         "text_P3gfqR",
         "text_CBicGD",
         "text_j6HUfw",
-        "price_tQkBTf",
         "text_mMYGpT",
+        "price_tQkBTf",
         "buy_buttons",
         "like_section_QeCfAP",
         "description"
