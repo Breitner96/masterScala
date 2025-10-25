@@ -66,8 +66,8 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "viewers_LDML9m": {
-          "type": "viewers",
+        "reviews_DCyymX": {
+          "type": "reviews",
           "settings": {}
         },
         "title_6HhGEd": {
@@ -102,10 +102,6 @@
             "inventory_threshold": 18,
             "show_inventory_quantity": true
           }
-        },
-        "reviews_DCyymX": {
-          "type": "reviews",
-          "settings": {}
         },
         "price_tQkBTf": {
           "type": "price",
@@ -155,13 +151,12 @@
         }
       },
       "block_order": [
-        "viewers_LDML9m",
+        "reviews_DCyymX",
         "title_6HhGEd",
         "text_P3gfqR",
         "text_CBicGD",
         "text_j6HUfw",
         "inventory_XhcCAE",
-        "reviews_DCyymX",
         "price_tQkBTf",
         "like_section_QeCfAP",
         "variant_picker",
