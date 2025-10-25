@@ -102,11 +102,18 @@
             "text_style": "body"
           }
         },
+        "variant_picker_KDFFAb": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "square"
+          }
+        },
         "price_tQkBTf": {
           "type": "price",
           "settings": {
             "show_skala_price": true,
-            "border_radius_percent": 10,
+            "border_radius_percent": 1,
             "border_percent_color": "#ff0000",
             "save_bg_color": "#007207",
             "save_text_color": "#ffffff",
@@ -144,6 +151,7 @@
         "text_CBicGD",
         "text_j6HUfw",
         "text_mMYGpT",
+        "variant_picker_KDFFAb",
         "price_tQkBTf",
         "buy_buttons",
         "like_section_QeCfAP",
