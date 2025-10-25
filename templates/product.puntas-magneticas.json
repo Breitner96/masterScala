@@ -111,23 +111,11 @@
           "type": "like-section",
           "settings": {
             "name_select": "Mixto",
-            "bg_color": "#006172",
+            "bg_color": "#b2b3b6",
             "border_color": "#031b1e",
             "text_color": "#ffffff",
             "border_radius": 7
           }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "disabled": true,
-          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -150,8 +138,6 @@
         "text_j6HUfw",
         "price_tQkBTf",
         "like_section_QeCfAP",
-        "variant_picker",
-        "quantity_selector",
         "buy_buttons",
         "description"
       ],
