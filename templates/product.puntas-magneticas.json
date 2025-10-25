@@ -134,6 +134,24 @@
             "custom_liquid": "<div style=\"margin: 10px; padding: 0;\">\n  <img \n    src=\"https://cdn.shopify.com/s/files/1/0633/5856/6463/files/18a1aae0-e787-434b-9213-3b51db7c2fcb_optimized.webp?v=1761421616\" \n    alt=\"Banner Navidad\"\n    style=\"width: 100%; height: auto; display: block;\"\n    loading=\"lazy\"\n  >\n</div>"
           }
         },
+        "collapsible_tab_mVEnkb": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "PASOS SIMPLES (4 pasos)",
+            "icon": "none",
+            "content": "<p><strong>PASO 1:</strong> 📦 <strong>ORDENA HOY CON 50% OFF</strong><br/><br/>Haz clic en el botón de compra, confirma y paga contra entrega. Proceso seguro en menos de 2 minutos.</p><p><strong>PASO 2:</strong> 🚚 <strong>RECIBE EN 2-3 DÍAS</strong><br/><br/>Tu cortina llega a tu puerta con envío gratis. Rastreo en tiempo real por WhatsApp para que sepas exactamente cuándo llegará.</p><p><strong>PASO 3:</strong> ⚡ <strong>INSTALA EN 10 MINUTOS</strong><br/><br/>Cuelga los ganchos, desenrolla las tiras, conecta a corriente y descarga la app gratuita. Video-tutorial incluido (pero no lo necesitarás, es súper intuitivo).</p><p><strong>PASO 4:</strong> 🎄 <strong>DISFRUTA TU ESPECTÁCULO</strong><br/><br/>Abre la app, elige uno de los 400+ diseños pregrabados o crea el tuyo propio. Cambia cuando quieras, tantas veces quieras. ¡Tu casa ya es la sensación del barrio!</p><p></p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_7CP7KH": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "🛡️ GARANTÍA PREMIUM \"NAVIDAD SIN RIESGO\"",
+            "icon": "none",
+            "content": "<p>Estamos tan seguros de que amarás tu Cortina LED Smart que te damos una garantía que ninguna otra tienda ofrece: Si en cualquier momento durante los primeros 3 años tu cortina presenta algún defecto de fabricación, te la reemplazamos completamente SIN COSTO y sin preguntas incómodas. Además, tienes 30 días para probarla: si no ilumina tu Navidad como prometimos, te devolvemos el 100% de tu dinero. El riesgo es completamente nuestro, la magia es completamente tuya.</p><p></p>",
+            "page": ""
+          }
+        },
         "like_section_QeCfAP": {
           "type": "like-section",
           "disabled": true,
@@ -162,6 +180,8 @@
         "price_tQkBTf",
         "buy_buttons",
         "custom_liquid_zLGwpg",
+        "collapsible_tab_mVEnkb",
+        "collapsible_tab_7CP7KH",
         "like_section_QeCfAP",
         "description"
       ],
