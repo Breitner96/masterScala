@@ -285,46 +285,13 @@
             "heading": "✨ Tu casa será LA CASA de Instagram y TikTok del barrio",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Tus vecinos pedirán consejos, tus amigos compartirán fotos de tu fachada, y tus hijos estarán orgullosos de vivir en \"la casa más bonita de la cuadra\"</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_B3wyCX": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "text_size": "h4",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_QVGcpg": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "text_size": "h4",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_ktDEBe": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "text_size": "h4",
-            "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Tus vecinos pedirán consejos, tus amigos compartirán fotos de tu fachada, y tus hijos estarán orgullosos de vivir en <strong>\"</strong>l<strong>a casa más bonita de la cuadra\"</strong></p>",
             "page": ""
           }
         }
       },
       "block_order": [
-        "collapsible_row_4pUHad",
-        "collapsible_row_B3wyCX",
-        "collapsible_row_QVGcpg",
-        "collapsible_row_ktDEBe"
+        "collapsible_row_4pUHad"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
