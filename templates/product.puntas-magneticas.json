@@ -70,6 +70,13 @@
           "type": "title",
           "settings": {}
         },
+        "text_P3gfqR": {
+          "type": "text",
+          "settings": {
+            "text": "🎄 <strong>Tu Casa Será LA Sensación del Barrio Esta Navidad</strong>",
+            "text_style": "body"
+          }
+        },
         "viewers_LDML9m": {
           "type": "viewers",
           "settings": {}
@@ -93,13 +100,6 @@
           "settings": {
             "text": "Pop-up link text",
             "page": ""
-          }
-        },
-        "text_P3gfqR": {
-          "type": "text",
-          "settings": {
-            "text": "Text block",
-            "text_style": "body"
           }
         },
         "reviews_DCyymX": {
@@ -155,11 +155,11 @@
       },
       "block_order": [
         "title_6HhGEd",
+        "text_P3gfqR",
         "viewers_LDML9m",
         "inventory_XhcCAE",
         "sku_mW4Xmt",
         "popup_hDaLd7",
-        "text_P3gfqR",
         "reviews_DCyymX",
         "price_tQkBTf",
         "like_section_QeCfAP",
@@ -182,7 +182,7 @@
         "hide_variants": true,
         "enable_video_looping": false,
         "padding_top": 0,
-        "padding_bottom": 12
+        "padding_bottom": 0
       }
     },
     "related-products": {
