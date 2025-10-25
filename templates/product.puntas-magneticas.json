@@ -128,6 +128,12 @@
             "show_gift_card_recipient": false
           }
         },
+        "custom_liquid_zLGwpg": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"margin: 0; padding: 0;\">\n  <img \n    src=\"https://cdn.shopify.com/s/files/1/0633/5856/6463/files/18a1aae0-e787-434b-9213-3b51db7c2fcb_optimized.webp?v=1761421616\" \n    alt=\"Banner Navidad\"\n    style=\"width: 100%; height: auto; display: block;\"\n    loading=\"lazy\"\n  >\n</div>"
+          }
+        },
         "like_section_QeCfAP": {
           "type": "like-section",
           "settings": {
@@ -136,12 +142,6 @@
             "border_color": "#b2b3b6",
             "text_color": "#242833",
             "border_radius": 50
-          }
-        },
-        "custom_liquid_zLGwpg": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div style=\"margin: 0; padding: 0;\">\n  <img \n    src=\"https://cdn.shopify.com/s/files/1/0633/5856/6463/files/18a1aae0-e787-434b-9213-3b51db7c2fcb_optimized.webp?v=1761421616\" \n    alt=\"Banner Navidad\"\n    style=\"width: 100%; height: auto; display: block;\"\n    loading=\"lazy\"\n  >\n</div>"
           }
         },
         "description": {
@@ -160,8 +160,8 @@
         "variant_picker_KDFFAb",
         "price_tQkBTf",
         "buy_buttons",
-        "like_section_QeCfAP",
         "custom_liquid_zLGwpg",
+        "like_section_QeCfAP",
         "description"
       ],
       "settings": {
