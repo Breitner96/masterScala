@@ -70,19 +70,6 @@
           "type": "title",
           "settings": {}
         },
-        "f7dcc24e-3b26-4cb1-b6db-3e7a70d112e6": {
-          "type": "shopify://apps/audien-reviews/blocks/star_rating/ce002b21-24e0-4d65-87ca-18c9770b24d4",
-          "disabled": true,
-          "settings": {
-            "size": 16,
-            "rating_text": "",
-            "rating_hide_text": false,
-            "widget_alignment": "left",
-            "rating_color_for_star": "rgba(0,0,0,0)",
-            "primary_color_for_star": "rgba(0,0,0,0)",
-            "custom_css": ""
-          }
-        },
         "reviews_DCyymX": {
           "type": "reviews",
           "settings": {}
@@ -200,7 +187,6 @@
       },
       "block_order": [
         "title_6HhGEd",
-        "f7dcc24e-3b26-4cb1-b6db-3e7a70d112e6",
         "reviews_DCyymX",
         "text_P3gfqR",
         "text_CBicGD",
