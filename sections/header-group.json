@@ -37,7 +37,6 @@
     },
     "floating_badget_EfnGdX": {
       "type": "floating-badget",
-      "disabled": true,
       "name": "Mensajes flotantes",
       "settings": {
         "color_bg": "#ffffff",
