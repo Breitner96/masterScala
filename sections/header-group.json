@@ -11,6 +11,19 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
+    "escala_block_click_YRcyWt": {
+      "type": "escala-block-click",
+      "name": "Dehabilitar Clicks",
+      "settings": {}
+    },
+    "floating_badget_EfnGdX": {
+      "type": "floating-badget",
+      "name": "Mensajes flotantes",
+      "settings": {
+        "color_bg": "#ffffff",
+        "color_text": "#000000"
+      }
+    },
     "header": {
       "type": "header",
       "settings": {
@@ -28,24 +41,11 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
-    },
-    "escala_block_click_YRcyWt": {
-      "type": "escala-block-click",
-      "name": "Dehabilitar Clicks",
-      "settings": {}
-    },
-    "floating_badget_EfnGdX": {
-      "type": "floating-badget",
-      "name": "Mensajes flotantes",
-      "settings": {
-        "color_bg": "#ffffff",
-        "color_text": "#000000"
-      }
     }
   },
   "order": [
-    "header",
     "escala_block_click_YRcyWt",
-    "floating_badget_EfnGdX"
+    "floating_badget_EfnGdX",
+    "header"
   ]
 }
