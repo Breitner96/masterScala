@@ -273,142 +273,6 @@
         "desktop_padding_bottom": 16
       }
     },
-    "custom_liquid_Wc8Edt": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<div style=\"text-align:center; font-size:18px; line-height:1.45; color:#111; margin:20px 10px;\">\n  <p style=\"margin-bottom:12px; font-weight:600;\">\n    ¿Desperdicias dinero en decoración navideña cada año?\n  </p>\n  <p style=\"margin-bottom:12px; font-weight:600;\">\n    ¿Te avergüenzan tus luces comparadas con las casas vecinas que brillan con decoraciones modernas?\n  </p>\n</div>",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "image_banner_4rnVya": {
-      "type": "image-banner",
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/giphy_1.webp",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "image_with_text_CUUfwa": {
-      "type": "image-with-text",
-      "blocks": {
-        "text_QgLmYA": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Con la <strong>Cortina LED Smart Navideña</strong> crea diseños profesionales en minutos desde tu celular, haciendo que tus vecinos se detengan a fotografiar y tus hijos vivan la Navidad más mágica.</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "text_QgLmYA"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/S4c1639a8756f47cd9dbf7cfb53bae2b50_jpg_960x960q75_jpg.avif",
-        "border_image_radius": 6,
-        "height": "adapt",
-        "desktop_image_width": "large",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "collapsible_content_ekD3m3": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_4pUHad": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "✨ Tu casa será LA CASA de Instagram y TikTok del barrio",
-            "text_size": "h5",
-            "icon": "none",
-            "row_content": "<p>Tus vecinos pedirán consejos, tus amigos compartirán fotos de tu fachada, y tus hijos estarán orgullosos de vivir en <strong>\"</strong>l<strong>a casa más bonita de la cuadra\"</strong></p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_yFmHQh": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "🎨 400+ diseños navideños pregrabados + crea los tuyos propios",
-            "text_size": "h5",
-            "icon": "none",
-            "row_content": "<p>Cambia el diseño cada noche sin repetir: árboles de Navidad, mensajes personalizados, villancicos sincronizados, animaciones de nieve, banderas, y todo lo que imagines</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_cYxTrd": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "📱 Instalación en 10 minutos, control total desde tu sofá",
-            "text_size": "h5",
-            "icon": "none",
-            "row_content": "<p>Cuelga, conecta y listo. Ni cables enredados, ni herramientas, ni ayuda de nadie. Todo desde tu celular en español con la app más fácil que has usado</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_yhgTJQ": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "💰 Inversión inteligente que se paga corto plazo",
-            "text_size": "h5",
-            "icon": "none",
-            "row_content": "<p>Reemplaza años de decoración desechable, electricistas, y compras repetitivas. <strong>Úsala en Navidad, cumpleaños, Halloween y fiestas temáticas todo el año</strong></p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_cGwEJR": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "🛡️ Resistente al agua y sol + Garantía de 3 años",
-            "text_size": "h5",
-            "icon": "none",
-            "row_content": "<p>Fabricada para clima colombiano. Resiste lluvia, sol intenso y polvo. Si algo falla en 3 años, te la cambiamos sin preguntas</p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_4pUHad",
-        "collapsible_row_yFmHQh",
-        "collapsible_row_cYxTrd",
-        "collapsible_row_yhgTJQ",
-        "collapsible_row_cGwEJR"
-      ],
-      "name": "t:sections.collapsible_content.presets.name",
-      "settings": {
-        "caption": "",
-        "heading": "BENEFICIOS PRINCIPALES 🔔",
-        "heading_size": "h2",
-        "heading_alignment": "center",
-        "layout": "row",
-        "color_scheme": "scheme-1",
-        "container_color_scheme": "scheme-2",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "rich_text_i4HUit": {
       "type": "rich-text",
       "blocks": {
@@ -436,8 +300,25 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 0,
+        "padding_top": 12,
         "padding_bottom": 8
+      }
+    },
+    "image_banner_4rnVya": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/giphy_1.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "collapsible_content_VBCVkJ": {
@@ -547,6 +428,125 @@
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
         "padding_top": 12,
+        "padding_bottom": 0
+      }
+    },
+    "custom_liquid_Wc8Edt": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div style=\"text-align:center; font-size:18px; line-height:1.45; color:#111; margin:20px 10px;\">\n  <p style=\"margin-bottom:12px; font-weight:600;\">\n    ¿Desperdicias dinero en decoración navideña cada año?\n  </p>\n  <p style=\"margin-bottom:12px; font-weight:600;\">\n    ¿Te avergüenzan tus luces comparadas con las casas vecinas que brillan con decoraciones modernas?\n  </p>\n</div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_CUUfwa": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_QgLmYA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Con la <strong>Cortina LED Smart Navideña</strong> crea diseños profesionales en minutos desde tu celular, haciendo que tus vecinos se detengan a fotografiar y tus hijos vivan la Navidad más mágica.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_QgLmYA"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/S4c1639a8756f47cd9dbf7cfb53bae2b50_jpg_960x960q75_jpg.avif",
+        "border_image_radius": 6,
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "collapsible_content_ekD3m3": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_4pUHad": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "✨ Tu casa será LA CASA de Instagram y TikTok del barrio",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Tus vecinos pedirán consejos, tus amigos compartirán fotos de tu fachada, y tus hijos estarán orgullosos de vivir en <strong>\"</strong>l<strong>a casa más bonita de la cuadra\"</strong></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_yFmHQh": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🎨 400+ diseños navideños pregrabados + crea los tuyos propios",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Cambia el diseño cada noche sin repetir: árboles de Navidad, mensajes personalizados, villancicos sincronizados, animaciones de nieve, banderas, y todo lo que imagines</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_cYxTrd": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "📱 Instalación en 10 minutos, control total desde tu sofá",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Cuelga, conecta y listo. Ni cables enredados, ni herramientas, ni ayuda de nadie. Todo desde tu celular en español con la app más fácil que has usado</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_yhgTJQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "💰 Inversión inteligente que se paga corto plazo",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Reemplaza años de decoración desechable, electricistas, y compras repetitivas. <strong>Úsala en Navidad, cumpleaños, Halloween y fiestas temáticas todo el año</strong></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_cGwEJR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🛡️ Resistente al agua y sol + Garantía de 3 años",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Fabricada para clima colombiano. Resiste lluvia, sol intenso y polvo. Si algo falla en 3 años, te la cambiamos sin preguntas</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_4pUHad",
+        "collapsible_row_yFmHQh",
+        "collapsible_row_cYxTrd",
+        "collapsible_row_yhgTJQ",
+        "collapsible_row_cGwEJR"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "BENEFICIOS PRINCIPALES 🔔",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "row",
+        "color_scheme": "scheme-1",
+        "container_color_scheme": "scheme-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
@@ -805,10 +805,10 @@
     "main",
     "related-products",
     "escala_announcement_bar_btzJMz",
-    "custom_liquid_Wc8Edt",
+    "rich_text_i4HUit",
     "image_banner_4rnVya",
     "collapsible_content_VBCVkJ",
-    "rich_text_i4HUit",
+    "custom_liquid_Wc8Edt",
     "image_with_text_CUUfwa",
     "collapsible_content_ekD3m3",
     "rich_text_hgy9Et",
