@@ -308,6 +308,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
+        "image": "shopify://shop_images/giphy_16_600x_15b6a2bb-8b08-4561-86ee-be738185af33.webp",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -445,6 +446,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "image": "shopify://shop_images/giphy_19_600x_6aaaaeaf-3141-473e-913d-adb76d404a09.webp",
         "border_image_radius": 6,
         "height": "adapt",
         "desktop_image_width": "large",
