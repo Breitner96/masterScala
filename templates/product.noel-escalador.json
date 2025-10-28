@@ -336,10 +336,10 @@
         "collapsible_row_jVPkcD": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "💡 400 LEDs RGB individuales",
+            "heading": "⚡ Sistema de luces",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Cada luz se controla independientemente para animaciones profesionales</p>",
+            "row_content": "<p>220 LEDs cálidos (3000K) con 8 modos programables + función de memoria</p>",
             "page": ""
           }
         },
