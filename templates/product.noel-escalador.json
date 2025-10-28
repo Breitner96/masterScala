@@ -1,0 +1,822 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "escala_announcement_bar_a4MbLA": {
+      "type": "escala-announcement-bar",
+      "blocks": {
+        "text_GtHUPP": {
+          "type": "text",
+          "settings": {
+            "title": "ENVÍO GRATIS"
+          }
+        },
+        "text_Qqpizn": {
+          "type": "text",
+          "settings": {
+            "title": "PAGO CONTRA ENTREGA"
+          }
+        },
+        "text_M3n6Qd": {
+          "type": "text",
+          "settings": {
+            "title": "50% OFF - SOLO HOY"
+          }
+        },
+        "text_Ud7GPk": {
+          "type": "text",
+          "settings": {
+            "title": "GARANTÍA 30 DIAS"
+          }
+        }
+      },
+      "block_order": [
+        "text_GtHUPP",
+        "text_Qqpizn",
+        "text_M3n6Qd",
+        "text_Ud7GPk"
+      ],
+      "settings": {
+        "visibility": "desktop-hidden",
+        "speed": 2.5,
+        "mobile_spacing": 60,
+        "desktop_spacing": 100,
+        "bg_color": "#bb2528",
+        "text_color": "#ffffff",
+        "mobile_text_size": 16,
+        "desktop_text_size": 10,
+        "italic_text": false,
+        "uppercase_text": true,
+        "bold_text": true,
+        "mobile_image_height": 26,
+        "desktop_image_height": 40,
+        "mobile_padding_top": 12,
+        "mobile_padding_bottom": 12,
+        "desktop_padding_top": 16,
+        "desktop_padding_bottom": 16
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title_6HhGEd": {
+          "type": "title",
+          "settings": {}
+        },
+        "reviews_DCyymX": {
+          "type": "reviews",
+          "settings": {}
+        },
+        "text_P3gfqR": {
+          "type": "text",
+          "settings": {
+            "text": "🏠 <strong>Tu Casa Será LA Sensación del Barrio Esta Navidad </strong>",
+            "text_style": "body"
+          }
+        },
+        "text_CBicGD": {
+          "type": "text",
+          "settings": {
+            "text": "✔ Controla <strong>16 millones de colores </strong>desde tu smartphone, sin <strong>complicaciones</strong>, sin <strong>estrés</strong>.",
+            "text_style": "body"
+          }
+        },
+        "text_j6HUfw": {
+          "type": "text",
+          "settings": {
+            "text": "✔ <strong>Crea animaciones</strong> espectaculares. Cambia el diseño cada noche de <strong>diciembre</strong> con un solo toque.",
+            "text_style": "body"
+          }
+        },
+        "text_mMYGpT": {
+          "type": "text",
+          "settings": {
+            "text": "🎁 <strong>QUIERO LA CASA MÁS ESPECTACULAR DEL BARRIO</strong>",
+            "text_style": "body"
+          }
+        },
+        "variant_picker_KDFFAb": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "price_tQkBTf": {
+          "type": "price",
+          "settings": {
+            "show_skala_price": true,
+            "border_radius_percent": 1,
+            "border_percent_color": "#ff0000",
+            "save_bg_color": "#007207",
+            "save_text_color": "#ffffff",
+            "price_color": "#031b1e",
+            "comparation_price_color": "#8a8f9b"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "custom_liquid_zLGwpg": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"margin: 10px; padding: 0;\">\n  <img \n    src=\"https://cdn.shopify.com/s/files/1/0633/5856/6463/files/banneroferta-tv_2pdf_optimized.png?v=1761521003\" \n    alt=\"Banner Navidad\"\n    style=\"width: 100%; height: auto; display: block;\"\n    loading=\"lazy\"\n  >\n</div>"
+          }
+        },
+        "text_zVAkQT": {
+          "type": "text",
+          "settings": {
+            "text": "✨ <strong>Así de Fácil es Tener La Casa Más Bonita del Barrio</strong>",
+            "text_style": "subtitle"
+          }
+        },
+        "collapsible_tab_mVEnkb": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "🎁 ¿QUE INCLUYE LA OFERTA NAVIDEÑA?",
+            "icon": "none",
+            "content": "<p>✅ <strong>1 Cortina LED Smart Navideña</strong> (3m × 3m / o 2m x 2m con 400 LEDs inteligentes)</p><p>✅ <strong>App Premium</strong> en español (iOS y Android) - Control total desde tu celular</p><p>✅ <strong>Transformador 110V certificado</strong> (cable de 2 metros para máxima flexibilidad)</p><p>✅ <strong>Guía de Inicio Rápido</strong> con códigos QR a video-tutoriales en español</p><p>✅ <strong>Garantía Premium </strong>(cualquier falla te la cambiamos sin preguntas)</p><p>✅ <strong>BONUS: Participación en el Sorteo Navideño</strong> + Televisor 40\" (valor $1.200.000)</p><p>✅ <strong>BONUS: </strong>Libro 3D para colorear (valor $39,900)</p><p>✅ <strong>BONUS: </strong> Novena Navidad<strong> </strong>(valor $38.700)</p><p>✅ <strong>BONUS: Envío GRATIS</strong> a todo el país (valor $25,000)</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_Jyx774": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "⏳ PASOS SIMPLES (4 pasos)",
+            "icon": "none",
+            "content": "<p><strong>PASO 1:</strong> 📦 <strong>ORDENA HOY CON 50% OFF</strong><br/><br/>Haz clic en el botón de compra, confirma y paga contra entrega. Proceso seguro en menos de 2 minutos.</p><p><strong>PASO 2:</strong> 🚚 <strong>RECIBE EN 2-3 DÍAS</strong><br/><br/>Tu cortina llega a tu puerta con envío gratis. Rastreo en tiempo real por WhatsApp para que sepas exactamente cuándo llegará.</p><p><strong>PASO 3:</strong> ⚡ <strong>INSTALA EN 10 MINUTOS</strong><br/><br/>Cuelga los ganchos, desenrolla las tiras, conecta a corriente y descarga la app gratuita. Video-tutorial incluido (pero no lo necesitarás, es súper intuitivo).</p><p><strong>PASO 4:</strong> 🎄 <strong>DISFRUTA TU ESPECTÁCULO</strong><br/><br/>Abre la app, elige uno de los 400+ diseños pregrabados o crea el tuyo propio. Cambia cuando quieras, tantas veces quieras. ¡Tu casa ya es la sensación del barrio!</p><p></p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_7CP7KH": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "🛡️ GARANTÍA PREMIUM \"NAVIDAD SIN RIESGO\"",
+            "icon": "none",
+            "content": "<p>Estamos tan seguros de que amarás tu Cortina LED Smart que te damos una garantía que ninguna otra tienda ofrece: Si en cualquier momento durante los primeros 3 años tu cortina presenta algún defecto de fabricación, te la reemplazamos completamente SIN COSTO y sin preguntas incómodas. Además, tienes 30 días para probarla: si no ilumina tu Navidad como prometimos, te devolvemos el 100% de tu dinero. El riesgo es completamente nuestro, la magia es completamente tuya.</p><p></p>",
+            "page": ""
+          }
+        },
+        "like_section_QeCfAP": {
+          "type": "like-section",
+          "disabled": true,
+          "settings": {
+            "name_select": "Masculino",
+            "bg_color": "#f2f2f5",
+            "border_color": "#b2b3b6",
+            "text_color": "#242833",
+            "border_radius": 50
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_6HhGEd",
+        "reviews_DCyymX",
+        "text_P3gfqR",
+        "text_CBicGD",
+        "text_j6HUfw",
+        "text_mMYGpT",
+        "variant_picker_KDFFAb",
+        "price_tQkBTf",
+        "buy_buttons",
+        "custom_liquid_zLGwpg",
+        "text_zVAkQT",
+        "collapsible_tab_mVEnkb",
+        "collapsible_tab_Jyx774",
+        "collapsible_tab_7CP7KH",
+        "like_section_QeCfAP",
+        "description"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "border_image_radius": 0,
+        "media_size": "medium",
+        "constrain_to_viewport": false,
+        "media_fit": "cover",
+        "gallery_layout": "columns",
+        "media_position": "left",
+        "image_zoom": "none",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "escala_announcement_bar_btzJMz": {
+      "type": "escala-announcement-bar",
+      "blocks": {
+        "text_Pqkjbt": {
+          "type": "text",
+          "settings": {
+            "title": "⚡ OFERTA PRE-NAVIDAD: 50% OFF + ENVÍO GRATIS | Solo quedan 47 unidades"
+          }
+        }
+      },
+      "block_order": [
+        "text_Pqkjbt"
+      ],
+      "name": "Barra de anuncios",
+      "settings": {
+        "visibility": "desktop-hidden",
+        "speed": 2.5,
+        "mobile_spacing": 60,
+        "desktop_spacing": 100,
+        "bg_color": "#bb2528",
+        "text_color": "#ffffff",
+        "mobile_text_size": 16,
+        "desktop_text_size": 18,
+        "italic_text": false,
+        "uppercase_text": false,
+        "bold_text": true,
+        "mobile_image_height": 26,
+        "desktop_image_height": 40,
+        "mobile_padding_top": 12,
+        "mobile_padding_bottom": 12,
+        "desktop_padding_top": 16,
+        "desktop_padding_bottom": 16
+      }
+    },
+    "rich_text_i4HUit": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6qjfem": {
+          "type": "heading",
+          "settings": {
+            "heading": "✨ <strong>La Tecnología Que Convertirá Tu Casa en Espectáculo</strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_7LtTpk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nuestra <strong>Cortina LED Smart </strong>trae <strong>400 LEDs</strong> inteligentes, permitiéndote crear desde <strong>diseños</strong> simples hasta <strong>animaciones</strong> complejas que sincronizas con música navideña.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6qjfem",
+        "text_7LtTpk"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 8
+      }
+    },
+    "image_banner_4rnVya": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/giphy_1.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "collapsible_content_VBCVkJ": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_WtF6b7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "📏 Dimensiones",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>3 x 3 mts o 2 x 2 mts- Cubre ventanas grandes, balcones o paredes completas</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_jVPkcD": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "💡 400 LEDs RGB individuales",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Cada luz se controla independientemente para animaciones profesionales</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_fKAaN9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🌈 16 millones de colores",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Desde blancos cálidos navideños hasta colores vibrantes para cualquier ocasión</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_cQAdrX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "📱 App gratuita",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>en español para iOS y Android - Interfaz intuitiva que aprendes en 3 minutos</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_kWfTJE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🎵 Sincronización con música",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Micrófono integrado que hace que las luces bailen al ritmo de villancicos</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_y7JUPK": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "⚡ Consumo ultra bajo:",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Gasta menos que un bombillo tradicional - 24W total (10 veces más eficiente)</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_EqKamn": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🛡️ Certificación IP65",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Resistente al agua, lluvia, sol y polvo - Ideal para exteriores colombianos</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_mMGwPC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🔌 Instalación plug & play",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Solo cuelga con ganchos incluidos y conecta a cualquier toma corriente 110V</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_WtF6b7",
+        "collapsible_row_jVPkcD",
+        "collapsible_row_fKAaN9",
+        "collapsible_row_cQAdrX",
+        "collapsible_row_kWfTJE",
+        "collapsible_row_y7JUPK",
+        "collapsible_row_EqKamn",
+        "collapsible_row_mMGwPC"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "ESPECIFICACIONES DESTACADAS 🦌",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "section",
+        "color_scheme": "scheme-1",
+        "container_color_scheme": "scheme-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 12,
+        "padding_bottom": 0
+      }
+    },
+    "custom_liquid_Wc8Edt": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div style=\"text-align:center; font-size:18px; line-height:1.45; color:#111; margin:20px 10px;\">\n  <p style=\"margin-bottom:12px; font-weight:600;\">\n    ¿Desperdicias dinero en decoración navideña cada año?\n  </p>\n  <p style=\"margin-bottom:12px; font-weight:600;\">\n    ¿Te avergüenzan tus luces comparadas con las casas vecinas que brillan con decoraciones modernas?\n  </p>\n</div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_CUUfwa": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_QgLmYA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Con la <strong>Cortina LED Smart Navideña</strong> crea diseños profesionales en minutos desde tu celular, haciendo que tus vecinos se detengan a fotografiar y tus hijos vivan la Navidad más mágica.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_QgLmYA"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/S4c1639a8756f47cd9dbf7cfb53bae2b50_jpg_960x960q75_jpg.avif",
+        "border_image_radius": 6,
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "collapsible_content_ekD3m3": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_4pUHad": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "✨ Tu casa será LA CASA de Instagram y TikTok del barrio",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Tus vecinos pedirán consejos, tus amigos compartirán fotos de tu fachada, y tus hijos estarán orgullosos de vivir en <strong>\"</strong>l<strong>a casa más bonita de la cuadra\"</strong></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_yFmHQh": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🎨 400+ diseños navideños pregrabados + crea los tuyos propios",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Cambia el diseño cada noche sin repetir: árboles de Navidad, mensajes personalizados, villancicos sincronizados, animaciones de nieve, banderas, y todo lo que imagines</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_cYxTrd": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "📱 Instalación en 10 minutos, control total desde tu sofá",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Cuelga, conecta y listo. Ni cables enredados, ni herramientas, ni ayuda de nadie. Todo desde tu celular en español con la app más fácil que has usado</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_yhgTJQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "💰 Inversión inteligente que se paga corto plazo",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Reemplaza años de decoración desechable, electricistas, y compras repetitivas. <strong>Úsala en Navidad, cumpleaños, Halloween y fiestas temáticas todo el año</strong></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_cGwEJR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🛡️ Resistente al agua y sol + Garantía de 3 años",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Fabricada para clima colombiano. Resiste lluvia, sol intenso y polvo. Si algo falla en 3 años, te la cambiamos sin preguntas</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_4pUHad",
+        "collapsible_row_yFmHQh",
+        "collapsible_row_cYxTrd",
+        "collapsible_row_yhgTJQ",
+        "collapsible_row_cGwEJR"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "BENEFICIOS PRINCIPALES 🔔",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "row",
+        "color_scheme": "scheme-1",
+        "container_color_scheme": "scheme-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_hgy9Et": {
+      "type": "rich-text",
+      "blocks": {
+        "text_t3GEet": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>🔴 INVENTARIO CRÍTICO: Último lote disponible antes de Navidad - Stock limitado</strong></h3>"
+          }
+        }
+      },
+      "block_order": [
+        "text_t3GEet"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 8
+      }
+    },
+    "escala_announcement_bar_cRDUNd": {
+      "type": "escala-announcement-bar",
+      "blocks": {
+        "text_LRDz4G": {
+          "type": "text",
+          "settings": {
+            "title": "🎁 El precio pre-navideño más bajo del año"
+          }
+        },
+        "text_wJ9kNg": {
+          "type": "text",
+          "settings": {
+            "title": "⏱️ Oferta 50% OFF"
+          }
+        }
+      },
+      "block_order": [
+        "text_LRDz4G",
+        "text_wJ9kNg"
+      ],
+      "settings": {
+        "visibility": "always-display",
+        "speed": 3,
+        "mobile_spacing": 60,
+        "desktop_spacing": 100,
+        "bg_color": "#bb2528",
+        "text_color": "#ffffff",
+        "mobile_text_size": 18,
+        "desktop_text_size": 18,
+        "italic_text": false,
+        "uppercase_text": true,
+        "bold_text": true,
+        "mobile_image_height": 26,
+        "desktop_image_height": 40,
+        "mobile_padding_top": 12,
+        "mobile_padding_bottom": 12,
+        "desktop_padding_top": 16,
+        "desktop_padding_bottom": 16
+      }
+    },
+    "image_banner_FRp8Yi": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Disparador_2_Fondo_Blanco_e1ef2bd3-ab69-45ed-9872-ca286b86884a.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "top-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
+      }
+    },
+    "escala_announcement_bar_8apiYY": {
+      "type": "escala-announcement-bar",
+      "blocks": {
+        "text_aUXKqX": {
+          "type": "text",
+          "settings": {
+            "title": "🎄 +3,200 hogares colombianos"
+          }
+        },
+        "text_NLytna": {
+          "type": "text",
+          "settings": {
+            "title": "⭐ 4.9/5 estrellas"
+          }
+        },
+        "text_yDNqHf": {
+          "type": "text",
+          "settings": {
+            "title": "💚 96% lo recomendaría"
+          }
+        }
+      },
+      "block_order": [
+        "text_aUXKqX",
+        "text_NLytna",
+        "text_yDNqHf"
+      ],
+      "settings": {
+        "visibility": "always-display",
+        "speed": 3,
+        "mobile_spacing": 60,
+        "desktop_spacing": 100,
+        "bg_color": "#efb810",
+        "text_color": "#ffffff",
+        "mobile_text_size": 18,
+        "desktop_text_size": 18,
+        "italic_text": false,
+        "uppercase_text": true,
+        "bold_text": true,
+        "mobile_image_height": 26,
+        "desktop_image_height": 40,
+        "mobile_padding_top": 12,
+        "mobile_padding_bottom": 12,
+        "desktop_padding_top": 16,
+        "desktop_padding_bottom": 16
+      }
+    },
+    "ce002b21-24e0-4d65-87ca-18c9770b24d4": {
+      "type": "apps",
+      "blocks": {
+        "ce002b21-24e0-4d65-87ca-18c9770b24d4": {
+          "type": "shopify://apps/audien-reviews/blocks/review_list/ce002b21-24e0-4d65-87ca-18c9770b24d4",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "ce002b21-24e0-4d65-87ca-18c9770b24d4"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "collapsible_content_3jp9mq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_TxWRrT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Cuánto tarda el envío y llegará antes de Diciembre?",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Nuestro envío llega en 2-3 días hábiles a Bogotá, Medellín, Cali, Barranquilla y Cartagena. Para otras ciudades puede tomar 4-5 días. Si ordenas hoy, tienes garantizado recibirla antes del 1 de diciembre con tiempo sobrado para instalar y empezar a brillar. El envío es GRATIS (normalmente cuesta $35,000) y te enviamos número de rastreo por WhatsApp el mismo día del despacho.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_8VFTR3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Qué incluye exactamente el paquete que recibo?",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Recibes todo listo para instalar y usar:</p><ul><li>1 Cortina LED Smart (3m×3m o 2m x 2m, 400 LEDs RGB)</li><li>Transformador 110V certificado con cable de 2m</li><li>Guía de inicio rápido con QR a video-tutoriales</li><li>Acceso a app  (gratis, en español)</li><li>Garantía </li><li><strong>BONUS: </strong>Guía 3D de colorear edición navideña<strong> </strong>(valor $29,900)</li><li><strong>BONUS: Envío GRATIS</strong> a todo el país (valor $35,000)</li><li><strong>BONUS: Participación en el Sorteo Navideño</strong> + Televisor 40\" (valor $1.200.000)</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_FHUMdc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Es seguro el pago? ¿Qué métodos aceptan?",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Totalmente seguro. Miles de colombianos ya han comprado con nosotros sin ningún problema. Confirma tu pedido y paga cuando recibes.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_tTEm8U": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Funciona realmente o es muy complicada de usar?",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>¡Funciona INCREÍBLEMENTE! De hecho, el 94% de nuestras clientas reportan que fue \"mucho más fácil de lo esperado\". La app es en español, súper intuitiva (como Instagram) y tiene más de 400 diseños pregrabados: solo seleccionas y listo. Si quieres crear tus propios diseños, hay un editor drag-and-drop facilísimo. Tenemos clientas de 60+ años usándola sin problemas.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_86feaC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Para quién es realmente este producto?",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Esta cortina es perfecta para:</p><ul><li>Mamás/papás que quieren crear Navidades mágicas memorables para sus hijos</li><li>Familias que valoran las tradiciones pero con toque moderno</li><li>Personas que les gusta ser el centro de admiración en su vecindario</li><li>Quienes están cansados de decoración anticuada y aburrida</li><li>Cualquiera que quiera decoración espectacular SIN complicaciones técnicas</li><li>Hogares estratos 3-6 en ciudades principales que buscan calidad y estatus</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_DK9Arj": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Cómo la instalo? ¿Necesito electricista o herramientas?",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>¡CERO herramientas, CERO electricista! Es literalmente plug & play:</p><ol><li>Marca donde van los ganchos en la pared/ventana</li><li>Pega los ganchos con cinta adhesiva o clávalo si prefieres</li><li>Cuelga las 20 tiras verticales (vienen unidas, solo desenrollas)</li><li>Conecta el transformador a cualquier toma corriente 110V</li><li>Descarga app gratuita, conecta por Bluetooth/WiFi</li><li>¡Listo! Tiempo total: 8-12 minutos. Incluimos video paso a paso que puedes seguir.</li></ol>",
+            "page": ""
+          }
+        },
+        "collapsible_row_YxaCUc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Puedo contactarlos si tengo problemas o dudas después?",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>¡Por supuesto! Tenemos soporte técnico en español disponible de 3 formas:</p><ul><li>WhatsApp: de contacto (Lun-Dom 8am-8pm)</li><li>Email: <a href=\"mailto:soporte@cortinaledcolombia.com\">aura.tienda77@gmail.com</a> (respuesta &lt;24 hrs)</li></ul><p>El 89% de consultas se resuelven en la primera conversación. Nuestro equipo conoce el producto al dedillo y está para ayudarte a crear la mejor decoración posible.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_TxWRrT",
+        "collapsible_row_8VFTR3",
+        "collapsible_row_FHUMdc",
+        "collapsible_row_tTEm8U",
+        "collapsible_row_86feaC",
+        "collapsible_row_DK9Arj",
+        "collapsible_row_YxaCUc"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "💬 <strong>Todo Lo Que Necesitas Saber Para Decidir Con Confianza</strong>",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_dpVgT8": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div>\n    <style>\n  #popup-postura {\n    position: fixed;\n    top: 20px;\n    left: 50%;\n    transform: translateX(-50%);\n    display: none;\n    align-items: center;\n    background-color: #f2f2f2;\n    color: #000;\n    padding: 10px 18px;\n    border-radius: 12px;\n    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);\n    z-index: 9999;\n    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n    font-size: 13px;\n    animation: fadeIn 0.3s ease-in-out;\n    width: 280px;\n    gap: 12px;\n  }\n\n  #popup-postura img {\n    width: 42px;\n    height: 42px;\n    border-radius: 8px;\n    object-fit: cover;\n    flex-shrink: 0;\n  }\n\n  #popup-text {\n    line-height: 1.4;\n    font-weight: 400;\n    color: #000;\n    word-wrap: break-word;\n  }\n\n  #popup-text .name {\n    color: #1877f2;\n    font-weight: 600;\n    display: inline-flex;\n    align-items: center;\n  }\n\n  .verified-icon {\n    display: inline-block;\n    margin-left: 5px;\n    vertical-align: middle;\n  }\n\n  .city {\n    color: #000;\n  }\n\n  .product {\n    font-weight: 500;\n  }\n\n  .time {\n    color: #999;\n    font-size: 12px;\n    font-style: italic;\n  }\n\n  @keyframes fadeIn {\n    from { opacity: 0; transform: translateY(-10px); }\n    to { opacity: 1; transform: translateY(0); }\n  }\n</style>\n\n<div id=\"popup-postura\" style=\"display: none;\">\n  <img id=\"popup-img\" src=\"https://cdn.shopify.com/s/files/1/0633/5856/6463/files/S82b22ba20bd14f9e96f3b681f431b4cbQ_jpg_960x960q75_jpg.avif?v=1761435305\" alt=\"Producto\">\n  <div id=\"popup-text\">\n        <strong class=\"name\">\n          Valeria Rodríguez\n          <span class=\"verified-icon\" aria-label=\"Verificado\" role=\"img\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\" fill=\"#1877f2\" width=\"16\" height=\"16\">\n              <circle cx=\"8\" cy=\"8\" r=\"8\" fill=\"#1877f2\"></circle>\n              <path d=\"M6.8 10.4L4.6 8.2l-.8.8 3 3 5-5-.8-.8z\" fill=\"#fff\"></path>\n            </svg>\n          </span>\n        </strong> compró <strong class=\"product\">X2 Helicoptero a control AeroFly</strong> en <span class=\"city\">Ibagué</span><span class=\"time\"> — hace 1 minuto</span>\n      </div>\n</div>\n\n<audio id=\"popup-sound\" preload=\"auto\">\n  <source src=\"https://cdn.pixabay.com/audio/2022/03/15/audio_4db5cf1ee4.mp3\" type=\"audio/mpeg\">\n</audio>\n\n<script>\n  document.addEventListener(\"DOMContentLoaded\", function () {\n    const mujeres = [\n      \"Valeria Rodríguez\", \"Daniela Gómez\", \"Camila Herrera\",\n      \"Sofía Morales\", \"Mariana Cruz\", \"Paula Jiménez\",\n      \"Natalia Salazar\", \"Isabela Ríos\", \"Laura Martínez\", \"Andrea Vargas\"\n    ];\n\n    const municipios = [\n      \"Soacha\", \"Chía\", \"Envigado\", \"Itagüí\", \"Pereira\",\n      \"Rionegro\", \"Cúcuta\", \"Ibagué\", \"Villavicencio\", \"Bucaramanga\",\n      \"Palmira\", \"Tunja\", \"Girardot\", \"Sabaneta\", \"Yumbo\"\n    ];\n\n    const tiempos = [\"Ahora\", \"1 minuto\", \"2 minutos\", \"3 minutos\"];\n\n    const popup = document.getElementById(\"popup-postura\");\n    const texto = document.getElementById(\"popup-text\");\n    const sonido = document.getElementById(\"popup-sound\");\n\n    let lastIndex = -1;\n\n    function getRandomIndexExcept(length, except) {\n      let index = Math.floor(Math.random() * length);\n      while (index === except) index = Math.floor(Math.random() * length);\n      return index;\n    }\n\n    function mostrarPopup() {\n      const index = getRandomIndexExcept(mujeres.length, lastIndex);\n      lastIndex = index;\n\n      const nombre = mujeres[index];\n      const ciudad = municipios[Math.floor(Math.random() * municipios.length)];\n      const tiempo = tiempos[Math.floor(Math.random() * tiempos.length)];\n      const tiempoTexto = tiempo === \"Ahora\" ? tiempo : `hace ${tiempo}`;\n\n      texto.innerHTML = `\n        <strong class=\"name\">\n          ${nombre}\n          <span class=\"verified-icon\" aria-label=\"Verificado\" role=\"img\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\" fill=\"#1877f2\" width=\"16\" height=\"16\">\n              <circle cx=\"8\" cy=\"8\" r=\"8\" fill=\"#1877f2\"/>\n              <path d=\"M6.8 10.4L4.6 8.2l-.8.8 3 3 5-5-.8-.8z\" fill=\"#fff\"/>\n            </svg>\n          </span>\n        </strong> compró <strong class=\"product\">{{product.title}}</strong> en <span class=\"city\">${ciudad}</span><span class=\"time\"> — ${tiempoTexto}</span>\n      `;\n\n      popup.style.display = \"flex\";\n      sonido.currentTime = 0;\n      sonido.play();\n\n      setTimeout(() => {\n        popup.style.display = \"none\";\n      }, 7000);\n    }\n\n    setTimeout(() => {\n      mostrarPopup();\n      setInterval(mostrarPopup, 25000);\n    }, 3000);\n  });\n</script>\n    </div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "escala_announcement_bar_a4MbLA",
+    "main",
+    "related-products",
+    "escala_announcement_bar_btzJMz",
+    "rich_text_i4HUit",
+    "image_banner_4rnVya",
+    "collapsible_content_VBCVkJ",
+    "custom_liquid_Wc8Edt",
+    "image_with_text_CUUfwa",
+    "collapsible_content_ekD3m3",
+    "rich_text_hgy9Et",
+    "escala_announcement_bar_cRDUNd",
+    "image_banner_FRp8Yi",
+    "escala_announcement_bar_8apiYY",
+    "ce002b21-24e0-4d65-87ca-18c9770b24d4",
+    "collapsible_content_3jp9mq",
+    "custom_liquid_dpVgT8"
+  ]
+}
