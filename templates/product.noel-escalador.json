@@ -279,7 +279,7 @@
         "heading_6qjfem": {
           "type": "heading",
           "settings": {
-            "heading": "✨ <strong>La Tecnología Que Convertirá Tu Casa en Espectáculo</strong>",
+            "heading": "✨ ¿Qué hace al Papá Noel Escalador tan especial?",
             "heading_size": "h2"
           }
         },
@@ -457,7 +457,6 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/S4c1639a8756f47cd9dbf7cfb53bae2b50_jpg_960x960q75_jpg.avif",
         "border_image_radius": 6,
         "height": "adapt",
         "desktop_image_width": "large",
