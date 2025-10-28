@@ -714,20 +714,20 @@
         "collapsible_row_tTEm8U": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Funciona realmente o es muy complicada de usar?",
+            "heading": "¿Funciona realmente? ¿Se ve como en las fotos?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>¡Funciona INCREÍBLEMENTE! De hecho, el 94% de nuestras clientas reportan que fue \"mucho más fácil de lo esperado\". La app es en español, súper intuitiva (como Instagram) y tiene más de 400 diseños pregrabados: solo seleccionas y listo. Si quieres crear tus propios diseños, hay un editor drag-and-drop facilísimo. Tenemos clientas de 60+ años usándola sin problemas.</p>",
+            "row_content": "<p>Sí y sí. Todas nuestras fotos son del producto real, no renders ni mockups editados. Tenemos más de 1.000 reseñas verificadas con un promedio de 4.7/5 estrellas. El 91% de nuestros clientes lo recomiendan activamente. La pregunta que nos hacen con más frecuencia es \"¿por qué no lo compré antes?\" Las luces LED son realmente brillantes y cálidas, y los materiales se sienten premium al tacto.</p>",
             "page": ""
           }
         },
         "collapsible_row_86feaC": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Para quién es realmente este producto?",
+            "heading": "¿Para quién es este producto?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Esta cortina es perfecta para:</p><ul><li>Mamás/papás que quieren crear Navidades mágicas memorables para sus hijos</li><li>Familias que valoran las tradiciones pero con toque moderno</li><li>Personas que les gusta ser el centro de admiración en su vecindario</li><li>Quienes están cansados de decoración anticuada y aburrida</li><li>Cualquiera que quiera decoración espectacular SIN complicaciones técnicas</li><li>Hogares estratos 3-6 en ciudades principales que buscan calidad y estatus</li></ul>",
+            "row_content": "<p>Perfecto si: vives en apartamento o casa con espacio limitado, te gusta decorar pero odias complicarte la vida, quieres algo que se vea caro sin serlo, buscas decoración navideña que no sea la misma de todos, o simplemente quieres sorprender a tus visitas. También es un regalo increíble para amigos que se acaban de mudar o familiares que viven en depas.</p>",
             "page": ""
           }
         },
