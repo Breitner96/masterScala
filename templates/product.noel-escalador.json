@@ -286,7 +286,7 @@
         "text_7LtTpk": {
           "type": "text",
           "settings": {
-            "text": "<p>Nuestra <strong>Cortina LED Smart </strong>trae <strong>400 LEDs</strong> inteligentes, permitiéndote crear desde <strong>diseños</strong> simples hasta <strong>animaciones</strong> complejas que sincronizas con música navideña.</p>"
+            "text": "<p>Porque un generador de <strong>momentos</strong> <strong>inolvidables</strong> que además puedes reutilizar año tras año porque está hecho para <strong>durar</strong>, no para la temporada.</p>"
           }
         }
       },
@@ -308,7 +308,6 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/giphy_1.webp",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
