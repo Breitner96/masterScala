@@ -366,10 +366,10 @@
         "collapsible_row_kWfTJE": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "🎵 Sincronización con música",
+            "heading": "🎅 Figura Santa",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Micrófono integrado que hace que las luces bailen al ritmo de villancicos</p>",
+            "row_content": "<p>30cm de altura, tela de calidad premium con detalles bordados, saco removible</p>",
             "page": ""
           }
         },
@@ -386,20 +386,10 @@
         "collapsible_row_EqKamn": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "🛡️ Certificación IP65",
+            "heading": "🪟 Sistema de montaje:",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Resistente al agua, lluvia, sol y polvo - Ideal para exteriores colombianos</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_mMGwPC": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "🔌 Instalación plug & play",
-            "text_size": "h5",
-            "icon": "none",
-            "row_content": "<p>Solo cuelga con ganchos incluidos y conecta a cualquier toma corriente 110V</p>",
+            "row_content": "<p>Solo cuelga con ganchos  y conecta a cualquier toma corriente 110V</p>",
             "page": ""
           }
         }
@@ -411,8 +401,7 @@
         "collapsible_row_cQAdrX",
         "collapsible_row_kWfTJE",
         "collapsible_row_y7JUPK",
-        "collapsible_row_EqKamn",
-        "collapsible_row_mMGwPC"
+        "collapsible_row_EqKamn"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
