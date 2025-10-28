@@ -734,10 +734,10 @@
         "collapsible_row_DK9Arj": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Cómo la instalo? ¿Necesito electricista o herramientas?",
+            "heading": "¿Cómo lo instalo exactamente? ¿Necesito herramientas?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>¡CERO herramientas, CERO electricista! Es literalmente plug & play:</p><ol><li>Marca donde van los ganchos en la pared/ventana</li><li>Pega los ganchos con cinta adhesiva o clávalo si prefieres</li><li>Cuelga las 20 tiras verticales (vienen unidas, solo desenrollas)</li><li>Conecta el transformador a cualquier toma corriente 110V</li><li>Descarga app gratuita, conecta por Bluetooth/WiFi</li><li>¡Listo! Tiempo total: 8-12 minutos. Incluimos video paso a paso que puedes seguir.</li></ol>",
+            "row_content": "<p>Cero herramientas necesarias. Opción 1 (ventanas): Limpia la superficie del vidrio, presiona las 2 ventosas firmemente contra la ventana, cuelga la escalera de los ganchos, conecta el enchufe. Opción 2 (pared/puerta): Pega los 4 ganchos adhesivos formando rectángulo, cuelga la escalera, conecta. En ambos casos toma menos de 2 minutos. Viene con instrucciones visuales paso a paso súper claras. Si tu ventana tiene textura o no es lisa, usa los ganchos adhesivos.</p>",
             "page": ""
           }
         },
