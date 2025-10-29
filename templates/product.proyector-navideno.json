@@ -436,7 +436,7 @@
         "text_QgLmYA": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Papá Noel Escalador</strong>: la decoración navideña diseñada específicamente para espacios  modernos. Es la solución perfecta que combina máximo impacto visual con mínimo esfuerzo, Ya no tienes que elegir entre un look premium y la facilidad de instalación.</p>",
+            "text": "<p>Casas impresionantes usan <strong>Proyector Navideño Premium</strong>. Un dispositivo profesional que proyecta patrones luminosos de alta definición  en minutos sin riesgos.</p>",
             "text_style": "body"
           }
         }
@@ -446,7 +446,6 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/giphy_19_600x_6aaaaeaf-3141-473e-913d-adb76d404a09.webp",
         "border_image_radius": 6,
         "height": "adapt",
         "desktop_image_width": "large",
