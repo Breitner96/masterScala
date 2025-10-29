@@ -572,6 +572,22 @@
         "padding_bottom": 8
       }
     },
+    "video_qg9QmT": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": true,
+        "video": "shopify://files/videos/6145964d3f58414db28bb5afd67b72b6.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 4,
+        "padding_bottom": 16
+      }
+    },
     "escala_announcement_bar_cRDUNd": {
       "type": "escala-announcement-bar",
       "blocks": {
@@ -812,6 +828,7 @@
     "image_with_text_CUUfwa",
     "collapsible_content_ekD3m3",
     "rich_text_hgy9Et",
+    "video_qg9QmT",
     "escala_announcement_bar_cRDUNd",
     "image_banner_FRp8Yi",
     "escala_announcement_bar_8apiYY",
