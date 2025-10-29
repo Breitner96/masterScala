@@ -308,7 +308,6 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/giphy_16_600x_15b6a2bb-8b08-4561-86ee-be738185af33.webp",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -327,70 +326,70 @@
         "collapsible_row_WtF6b7": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "📏 Dimensiones",
+            "heading": "📏 Cobertura",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>2 mts de altura x 25cm de ancho - Perfecto para ventanas estándar de apartamento</p>",
+            "row_content": "<p>Proyecta hasta 120m² de área (ideal para casas de 1-2 pisos)</p>",
             "page": ""
           }
         },
         "collapsible_row_jVPkcD": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "⚡ Sistema de luces",
+            "heading": "⚡ Potencia LED",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>220 LEDs cálidos (3000K) con 8 modos programables + función de memoria</p>",
+            "row_content": "<p>8W de alto rendimiento con vida útil de 50,000 horas</p>",
             "page": ""
           }
         },
         "collapsible_row_fKAaN9": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "🛡️ Resistencia",
+            "heading": "🛡️ Protección Climática",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>IP44 resistente al agua para uso interior/exterior + materiales UV-protegidos</p>",
+            "row_content": "<p>IP65 certificado (resistente a lluvia, polvo, humedad)</p>",
             "page": ""
           }
         },
         "collapsible_row_cQAdrX": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "🔌 Alimentación",
+            "heading": "🎨 Patrones Incluidos:",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Adaptador de 30V incluido (cable de 3m) - Bajo voltaje, seguro al tacto</p>",
+            "row_content": "<p>4 diapositivas HD intercambiables con animación fluida</p>",
             "page": ""
           }
         },
         "collapsible_row_kWfTJE": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "🎅 Figura Santa",
+            "heading": "🔌 Alimentación",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>30cm de altura, tela de calidad premium con detalles bordados, saco removible</p>",
+            "row_content": "<p>Cable de 3 metros + adaptador 110V-240V (compatible Colombia)</p>",
             "page": ""
           }
         },
         "collapsible_row_y7JUPK": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "⚡ Consumo ultra bajo:",
+            "heading": "📐 Soporte Giratorio",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Gasta menos que un bombillo tradicional - 24W total (10 veces más eficiente)</p>",
+            "row_content": "<p>Ajuste de ángulo 180° con base estable para jardín o tu sala.</p>",
             "page": ""
           }
         },
         "collapsible_row_EqKamn": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "🪟 Sistema de montaje:",
+            "heading": "🌡️ Temperatura de Operación",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Solo cuelga con ganchos  y conecta a cualquier toma corriente 110V</p>",
+            "row_content": "<p>-10°C a 45°C (funciona en cualquier clima)</p>",
             "page": ""
           }
         }
