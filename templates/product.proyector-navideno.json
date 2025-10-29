@@ -554,7 +554,7 @@
         "text_t3GEet": {
           "type": "text",
           "settings": {
-            "text": "<h3><strong>🔴 INVENTARIO CRÍTICO: Último lote disponible antes de Navidad - Stock limitado</strong></h3>"
+            "text": "<h3><strong>🚨 ALERTA: Inventario cayendo rápido | Se vendieron 83 unidades en las últimas 24 horas</strong></h3>"
           }
         }
       },
