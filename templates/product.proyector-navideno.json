@@ -745,10 +745,10 @@
         "collapsible_row_DK9Arj": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Cómo lo instalo exactamente? ¿Necesito herramientas?",
+            "heading": "¿Cómo lo uso/instalo?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Cero herramientas necesarias. Opción 1 (ventanas): Limpia la superficie del vidrio, presiona las 2 ventosas firmemente contra la ventana, cuelga la escalera de los ganchos, conecta el enchufe. Opción 2 (pared/puerta): Pega los 4 ganchos adhesivos formando rectángulo, cuelga la escalera, conecta. En ambos casos toma menos de 2 minutos. Viene con instrucciones visuales paso a paso súper claras. Si tu ventana tiene textura o no es lisa, usa los ganchos adhesivos.</p>",
+            "row_content": "<p>Es súper simple: </p><ol><li>Inserta una diapositiva en el proyector,</li><li>Colócalo en tu jardín o superficie plana apuntando a la pared plana.</li><li>Conéctalo a corriente.</li><li>Ajusta el ángulo con el soporte giratorio,</li></ol><p><strong>Tiempo total: 3-5 minutos</strong>.</p>",
             "page": ""
           }
         },
