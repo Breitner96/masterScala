@@ -392,6 +392,16 @@
             "row_content": "<p>-10°C a 45°C (funciona en cualquier clima)</p>",
             "page": ""
           }
+        },
+        "collapsible_row_zrGxwY": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "📦 Dimensiones",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>18cm x 11cm x 12cm | Peso: 650g (súper portable)</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -401,7 +411,8 @@
         "collapsible_row_cQAdrX",
         "collapsible_row_kWfTJE",
         "collapsible_row_y7JUPK",
-        "collapsible_row_EqKamn"
+        "collapsible_row_EqKamn",
+        "collapsible_row_zrGxwY"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
