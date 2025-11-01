@@ -757,26 +757,6 @@
             "row_content": "<p>Cada paquete incluye <strong>4 fundas navideñas + 4 luces micro LED</strong>, una combinación ideal para decorar tu hogar completo.</p>",
             "page": ""
           }
-        },
-        "collapsible_row_DK9Arj": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "¿Cómo lo uso/instalo?",
-            "text_size": "h5",
-            "icon": "none",
-            "row_content": "<p>Es súper simple: </p><ol><li>Inserta una diapositiva en el proyector,</li><li>Colócalo en tu jardín o superficie plana apuntando a la pared plana.</li><li>Conéctalo a corriente.</li><li>Ajusta el ángulo con el soporte giratorio,</li></ol><p><strong>Tiempo total: 3-5 minutos</strong>.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_YxaCUc": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "¿Puedo contactarlos si tengo problemas o dudas después?",
-            "text_size": "h5",
-            "icon": "none",
-            "row_content": "<p>¡Por supuesto! Tenemos soporte técnico en español disponible de 3 formas:</p><ul><li>WhatsApp: de contacto (Lun-Dom 8am-8pm)</li><li>Email: <a href=\"mailto:soporte@cortinaledcolombia.com\">aura.tienda77@gmail.com</a> (respuesta &lt;24 hrs)</li></ul><p>El 89% de consultas se resuelven en la primera conversación. Nuestro equipo conoce el producto al dedillo y está para ayudarte a crear la mejor decoración posible.</p>",
-            "page": ""
-          }
         }
       },
       "block_order": [
@@ -784,9 +764,7 @@
         "collapsible_row_8VFTR3",
         "collapsible_row_FHUMdc",
         "collapsible_row_tTEm8U",
-        "collapsible_row_86feaC",
-        "collapsible_row_DK9Arj",
-        "collapsible_row_YxaCUc"
+        "collapsible_row_86feaC"
       ],
       "settings": {
         "caption": "",
