@@ -279,7 +279,7 @@
         "heading_6qjfem": {
           "type": "heading",
           "settings": {
-            "heading": "Tu sala merece brillar con la misma alegría con la que brillas tú.",
+            "heading": "Tu sala merece brillar con la misma alegría con la que brillas tú. 💫",
             "heading_size": "h2"
           }
         },
@@ -308,7 +308,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/GIF_1_9f95d46f-202b-4c98-abed-e35834e00cda.webp",
+        "image": "shopify://shop_images/giphy-downsized-large_81a22e6c-d86a-422a-b9b6-4760d3309761.webp",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
