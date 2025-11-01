@@ -731,7 +731,7 @@
         "collapsible_row_FHUMdc": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Es seguro el pago? ¿Qué métodos aceptan?",
+            "heading": "¿Qué tipo de batería usan las luces LED?",
             "text_size": "h5",
             "icon": "none",
             "row_content": "<p>Totalmente seguro. Miles de colombianos ya han comprado con nosotros sin ningún problema. Confirma tu pedido y paga cuando recibes.</p>",
