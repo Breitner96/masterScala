@@ -152,6 +152,7 @@
         },
         "collapsible_tab_Jyx774": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "✨ Así de Simple es Decorar Como Profesional",
             "icon": "none",
