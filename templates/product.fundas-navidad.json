@@ -409,11 +409,28 @@
         "padding_bottom": 0
       }
     },
+    "image_banner_4MJn6E": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/ezgif.com-video-to-webp-converter_2_fdaf1edb-580f-4e2f-bd65-facb8b2457f1.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "custom_liquid_Wc8Edt": {
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<div style=\"text-align:center; font-size:18px; line-height:1.45; color:#111; margin:20px 10px;\">\n  <p style=\"margin-bottom:12px; font-weight:600;\">\n    ¿Te ha pasado que cada diciembre empiezas con toda la ilusión de decorar tu casa para Navidad, pero terminas frustrada a mitad del proceso? \n  </p>\n  \n</div>",
+        "custom_liquid": "<div style=\"text-align:center; font-size:18px; line-height:1.45; color:#111; margin:20px 10px;\">\n  <p style=\"margin-bottom:12px; font-weight:600;\">\n   💫 La magia empieza con estos pequeños detalles.\n  </p>\n  \n</div>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -802,6 +819,7 @@
     "rich_text_i4HUit",
     "image_banner_4rnVya",
     "collapsible_content_VBCVkJ",
+    "image_banner_4MJn6E",
     "custom_liquid_Wc8Edt",
     "image_with_text_CUUfwa",
     "collapsible_content_ekD3m3",
