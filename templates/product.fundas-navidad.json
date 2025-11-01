@@ -364,43 +364,23 @@
             "page": ""
           }
         },
-        "collapsible_row_kWfTJE": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "🔌 Alimentación",
-            "text_size": "h5",
-            "icon": "none",
-            "row_content": "<p>Cable Adaptador 110V-240V (compatible Colombia)</p>",
-            "page": ""
-          }
-        },
         "collapsible_row_y7JUPK": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "📐 Soporte Giratorio",
+            "heading": "Recomendación",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Ajuste de ángulo 180° con base estable para jardín o tu sala.</p>",
+            "row_content": "<p>Retira las luces antes de lavar para evitar daños.</p>",
             "page": ""
           }
         },
-        "collapsible_row_EqKamn": {
+        "collapsible_row_kWfTJE": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "🌡️ Temperatura de Operación",
+            "heading": "🚫 Importante: No incluye relleno",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>-10°C a 45°C (funciona en cualquier clima)</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_zrGxwY": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "📦 Dimensiones",
-            "text_size": "h5",
-            "icon": "none",
-            "row_content": "<p>18cm x 11cm x 12cm | Peso: 650g (súper portable)</p>",
+            "row_content": "<p>🚫 No incluye relleno (solo fundas y luces LED).</p>",
             "page": ""
           }
         }
@@ -410,10 +390,8 @@
         "collapsible_row_jVPkcD",
         "collapsible_row_fKAaN9",
         "collapsible_row_cQAdrX",
-        "collapsible_row_kWfTJE",
         "collapsible_row_y7JUPK",
-        "collapsible_row_EqKamn",
-        "collapsible_row_zrGxwY"
+        "collapsible_row_kWfTJE"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
