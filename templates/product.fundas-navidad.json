@@ -504,20 +504,10 @@
         "collapsible_row_yhgTJQ": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "💡 Crea un ambiente cálido y acogedor en segundos.",
+            "heading": "💡 Envío nacional confiable.",
             "text_size": "h5",
             "icon": "none",
             "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_cGwEJR": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "📸 Digno de Instagram",
-            "text_size": "h5",
-            "icon": "none",
-            "row_content": "<p>Tus amigos y vecinos preguntarán \"¿dónde conseguiste eso?\" Convierte tu casa en el punto de encuentro navideño del barrio.</p>",
             "page": ""
           }
         }
@@ -526,8 +516,7 @@
         "collapsible_row_4pUHad",
         "collapsible_row_yFmHQh",
         "collapsible_row_cYxTrd",
-        "collapsible_row_yhgTJQ",
-        "collapsible_row_cGwEJR"
+        "collapsible_row_yhgTJQ"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
