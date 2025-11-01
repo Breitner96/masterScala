@@ -95,6 +95,13 @@
             "text_style": "body"
           }
         },
+        "text_zHwM6d": {
+          "type": "text",
+          "settings": {
+            "text": "✔ 89% Diseños exclusivos que no encontrarás en tiendas tradicionales.",
+            "text_style": "body"
+          }
+        },
         "text_mMYGpT": {
           "type": "text",
           "settings": {
@@ -192,6 +199,7 @@
         "text_P3gfqR",
         "text_CBicGD",
         "text_j6HUfw",
+        "text_zHwM6d",
         "text_mMYGpT",
         "variant_picker_KDFFAb",
         "price_tQkBTf",
