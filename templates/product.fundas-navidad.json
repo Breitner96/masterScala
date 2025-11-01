@@ -427,14 +427,26 @@
         "show_text_below": true
       }
     },
-    "custom_liquid_Wc8Edt": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
+    "rich_text_TNPtMH": {
+      "type": "rich-text",
+      "blocks": {
+        "text_Hcihn7": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>💫 La magia empieza con estos pequeños detalles.</h2>"
+          }
+        }
+      },
+      "block_order": [
+        "text_Hcihn7"
+      ],
       "settings": {
-        "custom_liquid": "<div style=\"text-align:center; font-size:18px; line-height:1.45; color:#111; margin:20px 10px;\">\n  <p style=\"margin-bottom:12px; font-weight:600;\">\n   💫 La magia empieza con estos pequeños detalles.\n  </p>\n  \n</div>",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 12
       }
     },
     "image_with_text_CUUfwa": {
@@ -811,7 +823,7 @@
     "image_banner_4rnVya",
     "collapsible_content_VBCVkJ",
     "image_banner_4MJn6E",
-    "custom_liquid_Wc8Edt",
+    "rich_text_TNPtMH",
     "image_with_text_CUUfwa",
     "collapsible_content_ekD3m3",
     "rich_text_hgy9Et",
