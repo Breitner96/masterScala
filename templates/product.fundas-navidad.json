@@ -442,7 +442,7 @@
         "text_QgLmYA": {
           "type": "text",
           "settings": {
-            "text": "<p>Casas impresionantes usan <strong>Proyector Navideño Premium</strong>. Un dispositivo profesional que proyecta patrones luminosos de alta definición  en minutos sin riesgos.</p>",
+            "text": "",
             "text_style": "body"
           }
         }
@@ -474,40 +474,40 @@
         "collapsible_row_4pUHad": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "✨ Impacto Visual Inmediato",
+            "heading": "✨ Iluminación LED de bajo consumo y larga duración.",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Cubre hasta 120m² de fachada con patrones navideños profesionales (Santa, renos, copos de nieve, árboles) que se ven nítidos desde la calle o en tu hogar.</p>",
+            "row_content": "",
             "page": ""
           }
         },
         "collapsible_row_yFmHQh": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "⚡ Instalación Express en 3 Minutos",
+            "heading": "⚡ Material resistente, duradero y suave al tacto.",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Sin escaleras, sin perforaciones, sin electricista. Solo conectar, apuntar y ajustar el ángulo con el soporte giratorio 180°.</p>",
+            "row_content": "",
             "page": ""
           }
         },
         "collapsible_row_cYxTrd": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "🛡️ Resistencia Total al Clima",
+            "heading": "🛡️ Ideal para sofás, camas o espacios de reunión.",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Certificación IP65 que soporta lluvia, viento y sol intenso. Diseñado específicamente para exteriores colombianos.</p>",
+            "row_content": "",
             "page": ""
           }
         },
         "collapsible_row_yhgTJQ": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "💡 Ahorro Real vs Luces Tradicionales:",
+            "heading": "💡 Crea un ambiente cálido y acogedor en segundos.",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Consume 80% menos energía que guirnaldas LED. Reutilizable por 5+ años. No requiere reemplazo de bombillas.</p>",
+            "row_content": "",
             "page": ""
           }
         },
@@ -532,7 +532,7 @@
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
         "caption": "",
-        "heading": "BENEFICIOS PRINCIPALES 🔔",
+        "heading": "",
         "heading_size": "h2",
         "heading_alignment": "center",
         "layout": "row",
