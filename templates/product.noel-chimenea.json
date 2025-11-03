@@ -308,6 +308,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
+        "image": "shopify://shop_images/1.SANTACHIMENEA-gif_720x720_bc493bb1-95cc-4df5-b47e-2d9d14993ca8.webp",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -446,6 +447,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "image": "shopify://shop_images/2._SANTA_CHIMENEA_-_gif_600x_5333aeaf-ff2b-4cbd-8dad-426de840a9ab.webp",
         "border_image_radius": 6,
         "height": "adapt",
         "desktop_image_width": "large",
