@@ -356,20 +356,20 @@
         "collapsible_row_cQAdrX": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "🔌 Alimentación",
+            "heading": "🛡️ Materiales Premium",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Adaptador de 30V incluido (cable de 3m) - Bajo voltaje, seguro al tacto</p>",
+            "row_content": "<p>Plástico ABS resistente + tela de terciopelo rojo en Santa - diseñado para durar múltiples temporadas</p>",
             "page": ""
           }
         },
         "collapsible_row_kWfTJE": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "🎅 Figura Santa",
+            "heading": "🔄 Movimiento Continuo",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>30cm de altura, tela de calidad premium con detalles bordados, saco removible</p>",
+            "row_content": "<p>Motor silencioso de calidad que permite escalamiento suave durante horas sin sobrecalentamiento.</p>",
             "page": ""
           }
         },
