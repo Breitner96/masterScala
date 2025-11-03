@@ -376,20 +376,10 @@
         "collapsible_row_y7JUPK": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "⚡ Consumo ultra bajo:",
+            "heading": "⭐ Diseño 2025",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Gasta menos que un bombillo tradicional - 24W total (10 veces más eficiente)</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_EqKamn": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "🪟 Sistema de montaje:",
-            "text_size": "h5",
-            "icon": "none",
-            "row_content": "<p>Solo cuelga con ganchos  y conecta a cualquier toma corriente 110V</p>",
+            "row_content": "<p>Edición actualizada con detalles mejorados y mecanismo más duradero que versiones anteriores</p>",
             "page": ""
           }
         }
@@ -400,8 +390,7 @@
         "collapsible_row_fKAaN9",
         "collapsible_row_cQAdrX",
         "collapsible_row_kWfTJE",
-        "collapsible_row_y7JUPK",
-        "collapsible_row_EqKamn"
+        "collapsible_row_y7JUPK"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
