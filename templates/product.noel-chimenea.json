@@ -623,13 +623,13 @@
         "text_aUXKqX": {
           "type": "text",
           "settings": {
-            "title": "🎄 +3,200 hogares colombianos"
+            "title": "🌟 +2,340 Mamás Están de Acuerdo: Es La Mejor Inversión Navideña"
           }
         },
         "text_NLytna": {
           "type": "text",
           "settings": {
-            "title": "⭐ 4.9/5 estrellas"
+            "title": "❤️ Lo Que Dicen Las Familias Que Ya Crearon Su Tradición"
           }
         },
         "text_yDNqHf": {
@@ -646,7 +646,7 @@
       ],
       "settings": {
         "visibility": "always-display",
-        "speed": 3,
+        "speed": 2,
         "mobile_spacing": 60,
         "desktop_spacing": 100,
         "bg_color": "#efb810",
