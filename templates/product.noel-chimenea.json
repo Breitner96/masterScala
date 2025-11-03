@@ -408,14 +408,26 @@
         "padding_bottom": 0
       }
     },
-    "custom_liquid_Wc8Edt": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
+    "rich_text_hgy9Et": {
+      "type": "rich-text",
+      "blocks": {
+        "text_t3GEet": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Sabemos lo frustrante que es gastar tu tiempo y dinero en adornos que nadie aprecia!!</h2>"
+          }
+        }
+      },
+      "block_order": [
+        "text_t3GEet"
+      ],
       "settings": {
-        "custom_liquid": "<div style=\"text-align:center; font-size:18px; line-height:1.45; color:#111; margin:20px 10px;\">\n  <p style=\"margin-bottom:12px; font-weight:600;\">\n    ¿Has pasado horas buscando decoraciones que no parezcan baratas pero que tampoco te dejen en quiebra?\n  </p>\n  <p style=\"margin-bottom:12px; font-weight:600;\">\n    ¿Te encanta la Navidad pero vives en un apartamento donde taladrar está prohibido?\n  </p>\n</div>",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 12
       }
     },
     "image_with_text_CUUfwa": {
@@ -527,10 +539,10 @@
         "padding_bottom": 0
       }
     },
-    "rich_text_hgy9Et": {
+    "rich_text_HxEWBB": {
       "type": "rich-text",
       "blocks": {
-        "text_t3GEet": {
+        "text_M6gnQ4": {
           "type": "text",
           "settings": {
             "text": "<h3><strong>🔴 INVENTARIO CRÍTICO: Último lote disponible antes de Navidad - Stock limitado</strong></h3>"
@@ -538,7 +550,7 @@
         }
       },
       "block_order": [
-        "text_t3GEet"
+        "text_M6gnQ4"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -785,10 +797,10 @@
     "rich_text_i4HUit",
     "image_banner_4rnVya",
     "collapsible_content_VBCVkJ",
-    "custom_liquid_Wc8Edt",
+    "rich_text_hgy9Et",
     "image_with_text_CUUfwa",
     "collapsible_content_ekD3m3",
-    "rich_text_hgy9Et",
+    "rich_text_HxEWBB",
     "escala_announcement_bar_cRDUNd",
     "image_banner_FRp8Yi",
     "escala_announcement_bar_8apiYY",
