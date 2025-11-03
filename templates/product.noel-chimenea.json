@@ -446,7 +446,6 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/giphy_19_600x_6aaaaeaf-3141-473e-913d-adb76d404a09.webp",
         "border_image_radius": 6,
         "height": "adapt",
         "desktop_image_width": "large",
@@ -468,20 +467,20 @@
         "collapsible_row_4pUHad": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "✨ Instalación de 2 minutos sin herramientas",
+            "heading": "✨ Entretenimiento Mágico Automático",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Ventosas de succión ultra-fuertes que se adhieren a cualquier ventana lisa. Lo colocas, enchufas y listo: magia navideña instantánea sin agujeros ni complicaciones.</p>",
+            "row_content": "<p>Tus hijos se quedarán hipnotizados viendo a Santa escalar arriba y abajo de la chimenea con música alegre, dándote 20-30 minutos preciosos múltiples veces al día para cocinar, trabajar o simplemente disfrutar una taza de café caliente.</p>",
             "page": ""
           }
         },
         "collapsible_row_yFmHQh": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "📸 Diseñado para ser viral:",
+            "heading": "⚡ Ensamble de 60 Segundos, Alegría de 30 Días",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Luces LED cálidas con 8 modos de parpadeo que crean ese \"Waoo\". Tus visitas preguntarán \"¿dónde lo compraste?\".</p>",
+            "row_content": "<p>Olvídate de ensamblajes complicados que requieren herramientas o 3 horas de tu tiempo. Solo inserta las baterías, presiona el botón y listo: espectáculo completo que funciona en cualquier repisa, mesita o escritorio.</p>",
             "page": ""
           }
         },
