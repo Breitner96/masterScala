@@ -356,10 +356,10 @@
         "collapsible_row_cQAdrX": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "📱 App gratuita",
+            "heading": "💡 Efecto Llama Realista",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>en español para iOS y Android - Interfaz intuitiva que aprendes en 3 minutos</p>",
+            "row_content": "<p>LED con parpadeo intermitente que simula velas reales</p>",
             "page": ""
           }
         },
