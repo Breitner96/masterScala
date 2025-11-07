@@ -279,7 +279,7 @@
         "heading_6qjfem": {
           "type": "heading",
           "settings": {
-            "heading": "✨ <strong>La Tecnología Que Convertirá Tu Casa en Espectáculo</strong>",
+            "heading": "✨ Lo Que Hace Estas Velas Verdaderamente Especiales",
             "heading_size": "h2"
           }
         },
@@ -308,7 +308,6 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/giphy_1.webp",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -327,30 +326,30 @@
         "collapsible_row_WtF6b7": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "📏 Dimensiones",
+            "heading": "📏 Tamaño Perfecto",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>3 x 3 mts o 2 x 2 mts- Cubre ventanas grandes, balcones o paredes completas</p>",
+            "row_content": "<p>4.5cm altura x 3.8cm diámetro (caben en cualquier portavelas estándar)</p>",
             "page": ""
           }
         },
         "collapsible_row_jVPkcD": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "💡 400 LEDs RGB individuales",
+            "heading": "⚡ Baterías Incluidas",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Cada luz se controla independientemente para animaciones profesionales</p>",
+            "row_content": "<p>3 pilas tipo botón CR2032 por vela (¡listas para usar al abrir!)</p>",
             "page": ""
           }
         },
         "collapsible_row_fKAaN9": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "🌈 16 millones de colores",
+            "heading": "🛡️ Seguridad Certificada",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Desde blancos cálidos navideños hasta colores vibrantes para cualquier ocasión</p>",
+            "row_content": "<p>0% calor, 0% fuego, 100% aptas para niños y mascotas</p>",
             "page": ""
           }
         },
