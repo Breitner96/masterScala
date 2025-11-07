@@ -308,7 +308,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/giphy_16_600x_15b6a2bb-8b08-4561-86ee-be738185af33.webp",
+        "image": "shopify://shop_images/gif4_600x_0690ab41-2666-4ce6-acc1-6f664ba268e2.webp",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -380,17 +380,7 @@
             "heading": "📦 Todo Incluido",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>1 Papa Noel + 1 Paracaídas + Sistema de suspensión + Manual en español</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_EqKamn": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "🪟 Sistema de montaje:",
-            "text_size": "h5",
-            "icon": "none",
-            "row_content": "<p>Solo cuelga con ganchos  y conecta a cualquier toma corriente 110V</p>",
+            "row_content": "<p> 1 Papa Noel + 1 Paracaídas + Sistema de suspensión + Gancho de techo + Manual en español</p>",
             "page": ""
           }
         }
@@ -401,8 +391,7 @@
         "collapsible_row_fKAaN9",
         "collapsible_row_cQAdrX",
         "collapsible_row_kWfTJE",
-        "collapsible_row_y7JUPK",
-        "collapsible_row_EqKamn"
+        "collapsible_row_y7JUPK"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
