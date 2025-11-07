@@ -386,20 +386,20 @@
         "collapsible_row_EqKamn": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "🛡️ Certificación IP65",
+            "heading": "💎 Resistente a Caídas",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Resistente al agua, lluvia, sol y polvo - Ideal para exteriores colombianos</p>",
+            "row_content": "<p>Material plástico premium que no se rompe como vidrio</p>",
             "page": ""
           }
         },
         "collapsible_row_mMGwPC": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "🔌 Instalación plug & play",
+            "heading": "🎁 Pack Completo",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Solo cuelga con ganchos incluidos y conecta a cualquier toma corriente 110V</p>",
+            "row_content": "<p>24 velas idénticas</p>",
             "page": ""
           }
         }
