@@ -493,24 +493,13 @@
             "row_content": "<p>or menos de $110.000 obtienes una decoración que usarás durante 5-10 años y que genera más impacto visual que árboles de $300.000.</p>",
             "page": ""
           }
-        },
-        "collapsible_row_cGwEJR": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "🎁 Look premium, precio accesible",
-            "text_size": "h5",
-            "icon": "none",
-            "row_content": "<p>Materiales resistentes a la intemperie con acabado que parece mucho más caro de lo que cuesta. Decoración digna de revista de diseño sin el precio de revista.</p>",
-            "page": ""
-          }
         }
       },
       "block_order": [
         "collapsible_row_4pUHad",
         "collapsible_row_yFmHQh",
         "collapsible_row_cYxTrd",
-        "collapsible_row_yhgTJQ",
-        "collapsible_row_cGwEJR"
+        "collapsible_row_yhgTJQ"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
