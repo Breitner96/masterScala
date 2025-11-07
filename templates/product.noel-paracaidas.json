@@ -523,7 +523,7 @@
         "text_t3GEet": {
           "type": "text",
           "settings": {
-            "text": "<h3><strong>🔴 INVENTARIO CRÍTICO: Último lote disponible antes de Navidad - Stock limitado</strong></h3>"
+            "text": "<h2>⚠️ ALERTA: Solo quedan 127 unidades en inventario para toda Colombia.</h2>"
           }
         }
       },
