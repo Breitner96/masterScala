@@ -721,6 +721,16 @@
             "page": ""
           }
         },
+        "collapsible_row_fxFt6q": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿La garantía cubre si se daña?",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Sí. Tienes garantía de 30 dias por defectos de fabricación o fallas en el motor/sistema eléctrico. Si algo falla (que es súper raro), nos contactas, evaluamos el caso, y si aplica, te enviamos reemplazo sin costo. La garantía NO cubre daños por mal uso (caídas, agua, niños jugando con él). Por eso recomendamos colgarlo fuera del alcance de los más pequeños.</p>",
+            "page": ""
+          }
+        },
         "collapsible_row_YxaCUc": {
           "type": "collapsible_row",
           "settings": {
@@ -739,6 +749,7 @@
         "collapsible_row_tTEm8U",
         "collapsible_row_86feaC",
         "collapsible_row_DK9Arj",
+        "collapsible_row_fxFt6q",
         "collapsible_row_YxaCUc"
       ],
       "settings": {
