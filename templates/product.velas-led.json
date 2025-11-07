@@ -745,10 +745,10 @@
         "collapsible_row_DK9Arj": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Cómo la instalo? ¿Necesito electricista o herramientas?",
+            "heading": "¿Cómo las uso? ¿Son complicadas?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>¡CERO herramientas, CERO electricista! Es literalmente plug & play:</p><ol><li>Marca donde van los ganchos en la pared/ventana</li><li>Pega los ganchos con cinta adhesiva o clávalo si prefieres</li><li>Cuelga las 20 tiras verticales (vienen unidas, solo desenrollas)</li><li>Conecta el transformador a cualquier toma corriente 110V</li><li>Descarga app gratuita, conecta por Bluetooth/WiFi</li><li>¡Listo! Tiempo total: 8-12 minutos. Incluimos video paso a paso que puedes seguir.</li></ol>",
+            "row_content": "<p>Para nada. Abres la caja, tomas una vela, volteas la base, deslizas el interruptor de OFF a ON. Se enciende automáticamente con luz cálida parpadeante. Para apagarla, repites el proceso (OFF). </p>",
             "page": ""
           }
         },
