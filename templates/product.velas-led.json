@@ -435,7 +435,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<div style=\"text-align:center; font-size:18px; line-height:1.45; color:#111; margin:20px 10px;\">\n  <p style=\"margin-bottom:12px; font-weight:600;\">\n    ¿Desperdicias dinero en decoración navideña cada año?\n  </p>\n  <p style=\"margin-bottom:12px; font-weight:600;\">\n    ¿Te avergüenzan tus luces comparadas con las casas vecinas que brillan con decoraciones modernas?\n  </p>\n</div>",
+        "custom_liquid": "<div style=\"text-align:center; font-size:18px; line-height:1.45; color:#111; margin:20px 10px;\">\n  <p style=\"margin-bottom:12px; font-weight:600;\">\n   ¿Te pasa que quieres llenar tu casa con esa calidez navideña que dan las velas, pero el miedo te paraliza? \n  </p>\n  <p style=\"margin-bottom:12px; font-weight:600;\">\n    \n  </p>\n</div>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
