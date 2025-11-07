@@ -457,7 +457,6 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/S4c1639a8756f47cd9dbf7cfb53bae2b50_jpg_960x960q75_jpg.avif",
         "border_image_radius": 6,
         "height": "adapt",
         "desktop_image_width": "large",
@@ -479,17 +478,17 @@
         "collapsible_row_4pUHad": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "✨ Tu casa será LA CASA de Instagram y TikTok del barrio",
+            "heading": "✨ Zero Vigilancia Requerida",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Tus vecinos pedirán consejos, tus amigos compartirán fotos de tu fachada, y tus hijos estarán orgullosos de vivir en <strong>\"</strong>l<strong>a casa más bonita de la cuadra\"</strong></p>",
+            "row_content": "<p>Déjalas encendidas toda la noche, sal de casa, duerme tranquila. Sin fuego real = sin posibilidad de accidentes con niños curiosos o mascotas juguetonas.</p>",
             "page": ""
           }
         },
         "collapsible_row_yFmHQh": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "🎨 400+ diseños navideños pregrabados + crea los tuyos propios",
+            "heading": "🕯️ Más Impactante que Velas Reales",
             "text_size": "h5",
             "icon": "none",
             "row_content": "<p>Cambia el diseño cada noche sin repetir: árboles de Navidad, mensajes personalizados, villancicos sincronizados, animaciones de nieve, banderas, y todo lo que imagines</p>",
@@ -499,30 +498,30 @@
         "collapsible_row_cYxTrd": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "📱 Instalación en 10 minutos, control total desde tu sofá",
+            "heading": "🎄 Decoración Casa Completa",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Cuelga, conecta y listo. Ni cables enredados, ni herramientas, ni ayuda de nadie. Todo desde tu celular en español con la app más fácil que has usado</p>",
+            "row_content": "<p>Sala, comedor, recámara, baño, cocina, escaleras... Con un solo pack creas ambiente navideño en TODOS los espacios sin comprar múltiples sets.</p><p></p>",
             "page": ""
           }
         },
         "collapsible_row_yhgTJQ": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "💰 Inversión inteligente que se paga corto plazo",
+            "heading": "💰 Más Económicas que Velas Tradicionales",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Reemplaza años de decoración desechable, electricistas, y compras repetitivas. <strong>Úsala en Navidad, cumpleaños, Halloween y fiestas temáticas todo el año</strong></p>",
+            "row_content": "<p>Olvídate de comprar velas nuevas cada semana. Una sola inversión dura toda la temporada navideña (Nov-Ene) sin reemplazos constantes.</p>",
             "page": ""
           }
         },
         "collapsible_row_cGwEJR": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "🛡️ Resistente al agua y sol + Garantía de 3 años",
+            "heading": "🛡️ Cero Cera Derretida, Cero Limpieza",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Fabricada para clima colombiano. Resiste lluvia, sol intenso y polvo. Si algo falla en 3 años, te la cambiamos sin preguntas</p>",
+            "row_content": "<p>Nunca más raspar cera de manteles, muebles o alfombras. Tu decoración permanece impecable sin el desastre pegajoso de velas tradicionales.</p>",
             "page": ""
           }
         }
