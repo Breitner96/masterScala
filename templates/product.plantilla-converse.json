@@ -175,72 +175,6 @@
         "padding_bottom": 28
       }
     },
-    "collapsible_content_VYyyVK": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_eyA4xc": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "text_size": "h4",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_VhdL89": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "text_size": "h4",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_XAakHw": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "text_size": "h4",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_HjAfYr": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "text_size": "h4",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_eyA4xc",
-        "collapsible_row_VhdL89",
-        "collapsible_row_XAakHw",
-        "collapsible_row_HjAfYr"
-      ],
-      "name": "t:sections.collapsible_content.presets.name",
-      "settings": {
-        "caption": "",
-        "heading": "Collapsible content",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "1762659360e64cbdab": {
       "type": "apps",
       "blocks": {
@@ -254,6 +188,138 @@
       ],
       "settings": {
         "include_margins": true
+      }
+    },
+    "collapsible_content_VYyyVK": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_eyA4xc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Esto es real o hay trampa?",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Es real. Dos pares, pagás uno. Sin asteriscos raros ni condiciones escondidas. Queremos que pruebes la calidad y vuelvas a comprar, así de simple.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_VhdL89": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Por qué tan barato si son buenos?",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Porque no pagamos locales costosos ni publicidad en televisión. Vendemos directo, sin intermediarios. Lo que nos ahorramos, te lo pasamos a vos.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_fd8Vt7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Van a llegar los dos pares o solo uno?",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Van a llegar los dos. En el mismo paquete. Con su caja y todo. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_QTfCFi": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Si pido dos tallas diferentes, ¿funciona el 2x1?",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Sí. Podés pedir 39 y 43, o dos 42, o uno blanco 40 y uno negro 38. Como quieras. Perfecto para compartir o tener dos pares para vos.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_recNjJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Cuánto tardan en llegar?",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>3 a 8 días hábiles a toda Colombia. Si estás en Bogotá, Medellín, Cali o Barranquilla, normalmente llegan en 2-3 días. Te mandamos el tracking para que sigas tu pedido.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Rgmyx7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Y si me quedan grandes o no me gustan?",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Tenés 15 días para devolverlos si no los usaste y tienen las etiquetas. Te devolvemos tu plata, sin dramas. Pero te adelanto que el 97% de la gente se los queda.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_kDVMWL": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Son cómodos de verdad o solo se ven bien?",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Son cómodos de verdad. Plantilla acolchada, suela con amortiguación, materiales que respiran. No son esos zapatos bonitos que te destrozan los pies. Podés usarlos todo el día.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_yPJagE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿El 2x1 es solo por hoy?",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>La promoción dura mientras haya stock de los modelos participantes. No sabemos cuándo se acaba porque depende de cuánto se venda. Si ves el producto disponible con etiqueta \"2x1\", todavía aplicás.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Mttx7K": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Son de buena calidad o me van a durar un mes?",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Mirá las reseñas reales de arriba. Gente que los usa hace meses y siguen enteros. Usamos materiales que aguantan, costuras reforzadas, y cada par pasa inspección. No vendemos basura, vendemos zapatos que duran.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_LzeTYz": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Puedo pagar contraentrega?",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>í, aceptamos pago contraentrega en la mayoría de ciudades. </p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_eyA4xc",
+        "collapsible_row_VhdL89",
+        "collapsible_row_fd8Vt7",
+        "collapsible_row_QTfCFi",
+        "collapsible_row_recNjJ",
+        "collapsible_row_Rgmyx7",
+        "collapsible_row_kDVMWL",
+        "collapsible_row_yPJagE",
+        "collapsible_row_Mttx7K",
+        "collapsible_row_LzeTYz"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Preguntas Frecuentes 💬",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
