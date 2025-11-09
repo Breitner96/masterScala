@@ -105,6 +105,40 @@
         "padding_bottom": 0
       }
     },
+    "escala_announcement_bar_bbtPbP": {
+      "type": "escala-announcement-bar",
+      "blocks": {
+        "text_hkwAjY": {
+          "type": "text",
+          "settings": {
+            "title": "⭐️⭐️⭐️⭐️⭐️ Más de 15.000 pares vendidos."
+          }
+        }
+      },
+      "block_order": [
+        "text_hkwAjY"
+      ],
+      "name": "Barra de anuncios",
+      "settings": {
+        "visibility": "desktop-hidden",
+        "speed": 2,
+        "mobile_spacing": 60,
+        "desktop_spacing": 100,
+        "bg_color": "#c41e3a",
+        "text_color": "#ffffff",
+        "mobile_text_size": 16,
+        "desktop_text_size": 18,
+        "italic_text": false,
+        "uppercase_text": true,
+        "bold_text": true,
+        "mobile_image_height": 26,
+        "desktop_image_height": 40,
+        "mobile_padding_top": 12,
+        "mobile_padding_bottom": 12,
+        "desktop_padding_top": 16,
+        "desktop_padding_bottom": 16
+      }
+    },
     "image_banner_ygiGEb": {
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
@@ -409,6 +443,7 @@
     "escala_announcement_bar_qDVcdK",
     "image_banner_cL3ADr",
     "main",
+    "escala_announcement_bar_bbtPbP",
     "image_banner_ygiGEb",
     "image_banner_4ApXqQ",
     "image_banner_rnYhEh",
