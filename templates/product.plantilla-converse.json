@@ -360,46 +360,32 @@
         "show_text_below": true
       }
     },
-    "escala_announcement_bar_Mz4khE": {
+    "escala_announcement_bar_8wzEQe": {
       "type": "escala-announcement-bar",
       "blocks": {
-        "text_wBRepC": {
+        "text_pmMMMC": {
           "type": "text",
           "settings": {
-            "title": "Bienvenido a Escala 100K"
-          }
-        },
-        "text_tRNfnW": {
-          "type": "text",
-          "settings": {
-            "title": "Bienvenido a Escala 100K"
-          }
-        },
-        "text_Q6LBCH": {
-          "type": "text",
-          "settings": {
-            "title": "Bienvenido a Escala 100K"
+            "title": "Te van a preguntar dónde los compraste. Y vas a decir 'te paso el link'!!!."
           }
         }
       },
       "block_order": [
-        "text_wBRepC",
-        "text_tRNfnW",
-        "text_Q6LBCH"
+        "text_pmMMMC"
       ],
       "name": "Barra de anuncios",
       "settings": {
-        "visibility": "always-display",
-        "speed": 3,
+        "visibility": "desktop-hidden",
+        "speed": 2,
         "mobile_spacing": 60,
         "desktop_spacing": 100,
-        "bg_color": "",
-        "text_color": "",
+        "bg_color": "#c41e3a",
+        "text_color": "#ffffff",
         "mobile_text_size": 16,
         "desktop_text_size": 18,
         "italic_text": false,
-        "uppercase_text": false,
-        "bold_text": false,
+        "uppercase_text": true,
+        "bold_text": true,
         "mobile_image_height": 26,
         "desktop_image_height": 40,
         "mobile_padding_top": 12,
@@ -589,7 +575,7 @@
     "image_banner_H34i6B",
     "escala_announcement_bar_VfLmTF",
     "image_banner_yGFVyV",
-    "escala_announcement_bar_Mz4khE",
+    "escala_announcement_bar_8wzEQe",
     "related-products",
     "1762659360e64cbdab",
     "collapsible_content_VYyyVK"
