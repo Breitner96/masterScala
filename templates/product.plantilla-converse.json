@@ -174,6 +174,87 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "collapsible_content_VYyyVK": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_eyA4xc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "text_size": "h4",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_VhdL89": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "text_size": "h4",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_XAakHw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "text_size": "h4",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_HjAfYr": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "text_size": "h4",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_eyA4xc",
+        "collapsible_row_VhdL89",
+        "collapsible_row_XAakHw",
+        "collapsible_row_HjAfYr"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Collapsible content",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1762659360e64cbdab": {
+      "type": "apps",
+      "blocks": {
+        "audien_reviews_review_list_iTj3zm": {
+          "type": "shopify://apps/audien-reviews/blocks/review_list/ce002b21-24e0-4d65-87ca-18c9770b24d4",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "audien_reviews_review_list_iTj3zm"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -184,6 +265,8 @@
     "image_banner_rnYhEh",
     "image_banner_H34i6B",
     "image_banner_yGFVyV",
-    "related-products"
+    "related-products",
+    "1762659360e64cbdab",
+    "collapsible_content_VYyyVK"
   ]
 }
