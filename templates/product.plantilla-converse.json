@@ -190,6 +190,40 @@
         "show_text_below": true
       }
     },
+    "escala_announcement_bar_gTTWB4": {
+      "type": "escala-announcement-bar",
+      "blocks": {
+        "text_8q37yz": {
+          "type": "text",
+          "settings": {
+            "title": "Stock limitado. Cuando se acaben los tuyos, se acabaron."
+          }
+        }
+      },
+      "block_order": [
+        "text_8q37yz"
+      ],
+      "name": "Barra de anuncios",
+      "settings": {
+        "visibility": "desktop-hidden",
+        "speed": 2,
+        "mobile_spacing": 60,
+        "desktop_spacing": 100,
+        "bg_color": "#c41e3a",
+        "text_color": "#ffffff",
+        "mobile_text_size": 16,
+        "desktop_text_size": 18,
+        "italic_text": false,
+        "uppercase_text": true,
+        "bold_text": true,
+        "mobile_image_height": 26,
+        "desktop_image_height": 40,
+        "mobile_padding_top": 12,
+        "mobile_padding_bottom": 12,
+        "desktop_padding_top": 16,
+        "desktop_padding_bottom": 16
+      }
+    },
     "image_banner_H34i6B": {
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
@@ -447,6 +481,7 @@
     "image_banner_ygiGEb",
     "image_banner_4ApXqQ",
     "image_banner_rnYhEh",
+    "escala_announcement_bar_gTTWB4",
     "image_banner_H34i6B",
     "image_banner_yGFVyV",
     "escala_announcement_bar_Mz4khE",
