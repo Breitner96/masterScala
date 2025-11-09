@@ -109,7 +109,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Whisk_e8a3943d53759928dbb4b65b0f1e5ed3dr.png",
+        "image": "shopify://shop_images/5_optimized.webp",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
