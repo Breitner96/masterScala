@@ -484,10 +484,10 @@
         "collapsible_row_kDVMWL": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Son cómodos de verdad o solo se ven bien?",
+            "heading": "¿Qué métodos de pago aceptan?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Son cómodos de verdad. Plantilla acolchada, suela con amortiguación, materiales que respiran. No son esos zapatos bonitos que te destrozan los pies. Podés usarlos todo el día.</p>",
+            "row_content": "<p><strong>Trabajamos con pago contra entrega para </strong>brindarte<strong> seguridad y confianza.</strong></p>",
             "page": ""
           }
         },
