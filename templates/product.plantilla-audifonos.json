@@ -170,6 +170,7 @@
       "block_order": [
         "text_8q37yz"
       ],
+      "disabled": true,
       "name": "Barra de anuncios",
       "settings": {
         "visibility": "desktop-hidden",
@@ -221,6 +222,7 @@
       "block_order": [
         "text_NzpQiF"
       ],
+      "disabled": true,
       "name": "Barra de anuncios",
       "settings": {
         "visibility": "desktop-hidden",
