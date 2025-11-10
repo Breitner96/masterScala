@@ -230,41 +230,6 @@
         "show_text_below": true
       }
     },
-    "escala_announcement_bar_ptwqCY": {
-      "type": "escala-announcement-bar",
-      "blocks": {
-        "text_NzpQiF": {
-          "type": "text",
-          "settings": {
-            "title": "Si no te convencen cuando lleguen, solicita LA GARANTÍA DE SATISFACCIÓN. ✔✔✔"
-          }
-        }
-      },
-      "block_order": [
-        "text_NzpQiF"
-      ],
-      "disabled": true,
-      "name": "Barra de anuncios",
-      "settings": {
-        "visibility": "desktop-hidden",
-        "speed": 2,
-        "mobile_spacing": 60,
-        "desktop_spacing": 100,
-        "bg_color": "#c41e3a",
-        "text_color": "#ffffff",
-        "mobile_text_size": 16,
-        "desktop_text_size": 18,
-        "italic_text": false,
-        "uppercase_text": true,
-        "bold_text": true,
-        "mobile_image_height": 26,
-        "desktop_image_height": 40,
-        "mobile_padding_top": 12,
-        "mobile_padding_bottom": 12,
-        "desktop_padding_top": 16,
-        "desktop_padding_bottom": 16
-      }
-    },
     "image_banner_rnYhEh": {
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
@@ -280,6 +245,54 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
+      }
+    },
+    "escala_announcement_bar_aTDNdh": {
+      "type": "escala-announcement-bar",
+      "blocks": {
+        "text_J6n64Y": {
+          "type": "text",
+          "settings": {
+            "title": "🔥 Black Friday llegó a tus oídos."
+          }
+        },
+        "text_Pr7Gma": {
+          "type": "text",
+          "settings": {
+            "title": "Audífonos inteligentes con hasta 50% OFF solo por tiempo limitado."
+          }
+        },
+        "text_zyN7gK": {
+          "type": "text",
+          "settings": {
+            "title": "Aprovecha el descuento hoy."
+          }
+        }
+      },
+      "block_order": [
+        "text_J6n64Y",
+        "text_Pr7Gma",
+        "text_zyN7gK"
+      ],
+      "name": "Barra de anuncios",
+      "settings": {
+        "visibility": "desktop-hidden",
+        "speed": 1.5,
+        "mobile_spacing": 60,
+        "desktop_spacing": 100,
+        "bg_color": "#f0781c",
+        "text_color": "#ffffff",
+        "mobile_text_size": 14,
+        "desktop_text_size": 14,
+        "italic_text": false,
+        "uppercase_text": true,
+        "bold_text": true,
+        "mobile_image_height": 20,
+        "desktop_image_height": 20,
+        "mobile_padding_top": 12,
+        "mobile_padding_bottom": 12,
+        "desktop_padding_top": 16,
+        "desktop_padding_bottom": 16
       }
     },
     "escala_announcement_bar_nJWrM4": {
@@ -606,8 +619,8 @@
     "escala_announcement_bar_gCp8hk",
     "escala_announcement_bar_gTTWB4",
     "image_banner_4ApXqQ",
-    "escala_announcement_bar_ptwqCY",
     "image_banner_rnYhEh",
+    "escala_announcement_bar_aTDNdh",
     "escala_announcement_bar_nJWrM4",
     "image_banner_H34i6B",
     "escala_announcement_bar_VfLmTF",
