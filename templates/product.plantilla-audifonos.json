@@ -464,10 +464,10 @@
         "collapsible_row_recNjJ": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Cuánto tardan en llegar?",
+            "heading": "¿Cómo se controlan las funciones?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>3 a 8 días hábiles a toda Colombia. Si estás en Bogotá, Medellín, Cali o Barranquilla, normalmente llegan en 2-3 días. Te mandamos el tracking para que sigas tu pedido.</p>",
+            "row_content": "<p>Con <strong>controles táctiles</strong>: puedes reproducir, pausar, cambiar canciones, contestar llamadas o activar el asistente de voz sin tocar tu celular.</p>",
             "page": ""
           }
         },
