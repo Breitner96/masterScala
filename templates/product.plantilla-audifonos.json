@@ -494,30 +494,10 @@
         "collapsible_row_yPJagE": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿El 2x1 es solo por hoy?",
+            "heading": "¿Tienen garantía?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>La promoción dura mientras haya stock de los modelos participantes. No sabemos cuándo se acaba porque depende de cuánto se venda. Si ves el producto disponible con etiqueta \"2x1\", todavía aplicás.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_Mttx7K": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "¿Son de buena calidad o me van a durar un mes?",
-            "text_size": "h5",
-            "icon": "none",
-            "row_content": "<p>Mirá las reseñas reales de arriba. Gente que los usa hace meses y siguen enteros. Usamos materiales que aguantan, costuras reforzadas, y cada par pasa inspección. No vendemos basura, vendemos zapatos que duran.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_LzeTYz": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "¿Puedo pagar contraentrega?",
-            "text_size": "h5",
-            "icon": "none",
-            "row_content": "<p>í, aceptamos pago contraentrega en la mayoría de ciudades. </p>",
+            "row_content": "<p>Sí. Ofrecemos <strong>garantía de 15 días</strong> por defectos de fábrica.<br/><br/>Además, si el producto llega dañado o presenta fallas dentro de los primeros 7 días, <strong>te lo reemplazamos sin costo</strong>.</p>",
             "page": ""
           }
         }
@@ -530,9 +510,7 @@
         "collapsible_row_recNjJ",
         "collapsible_row_Rgmyx7",
         "collapsible_row_kDVMWL",
-        "collapsible_row_yPJagE",
-        "collapsible_row_Mttx7K",
-        "collapsible_row_LzeTYz"
+        "collapsible_row_yPJagE"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
