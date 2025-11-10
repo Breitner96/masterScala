@@ -424,30 +424,30 @@
         "collapsible_row_eyA4xc": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Esto es real o hay trampa?",
+            "heading": "¿Cuánto dura la batería?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Es real. Dos pares, pagás uno. Sin asteriscos raros ni condiciones escondidas. Queremos que pruebes la calidad y vuelvas a comprar, así de simple.</p>",
+            "row_content": "<p>Nuestros audífonos ofrecen <strong>hasta 30 horas de autonomía</strong> con el estuche de carga incluido. Además, con solo <strong>15 minutos de carga rápida</strong>, obtienes <strong>3 horas adicionales de reproducción</strong>.</p>",
             "page": ""
           }
         },
         "collapsible_row_VhdL89": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Por qué tan barato si son buenos?",
+            "heading": "¿Son compatibles con cualquier celular?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Porque no pagamos locales costosos ni publicidad en televisión. Vendemos directo, sin intermediarios. Lo que nos ahorramos, te lo pasamos a vos.</p>",
+            "row_content": "<p>Totalmente. Son <strong>compatibles con Android, iPhone, tablets y computadoras</strong>, gracias a la conexión <strong>Bluetooth 5.0</strong>, que ofrece una señal estable y sin cortes hasta 10 metros de distancia.</p>",
             "page": ""
           }
         },
         "collapsible_row_fd8Vt7": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Van a llegar los dos pares o solo uno?",
+            "heading": "¿Puedo usarlos para hacer deporte?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Van a llegar los dos. En el mismo paquete. Con su caja y todo. </p>",
+            "row_content": "<p>Sí. Tienen <strong>resistencia al agua y al sudor</strong>, lo que los hace ideales para entrenamientos, caminatas o uso diario sin preocupaciones.</p>",
             "page": ""
           }
         },
