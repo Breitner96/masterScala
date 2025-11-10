@@ -47,7 +47,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/1_optimized.webp",
+        "image": "shopify://shop_images/1_optimized_1.webp",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -143,7 +143,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/7_optimized.webp",
+        "image": "shopify://shop_images/2_optimized_de213548-6b7b-498b-a2e4-5d352b8b4f6b.webp",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -194,7 +194,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/3_optimized.webp",
+        "image": "shopify://shop_images/3_optimized_1.webp",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -245,7 +245,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/5_optimized.webp",
+        "image": "shopify://shop_images/4_optimized_a9aa55b4-7b84-4002-a25d-c2e7f2af44bf.webp",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -296,7 +296,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/4_optimized.webp",
+        "image": "shopify://shop_images/5_optimized_cf9691c4-25e3-456b-89dc-4a2c5aaa7030.webp",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -347,7 +347,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/6_optimized.webp",
+        "image": "shopify://shop_images/6_optimized_2073adb9-bdd7-430c-8f1e-22319a3b6899.webp",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
