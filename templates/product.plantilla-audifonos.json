@@ -474,10 +474,10 @@
         "collapsible_row_Rgmyx7": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Y si me quedan grandes o no me gustan?",
+            "heading": "¿Cuánto tarda el envío?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Tenés 15 días para devolverlos si no los usaste y tienen las etiquetas. Te devolvemos tu plata, sin dramas. Pero te adelanto que el 97% de la gente se los queda.</p>",
+            "row_content": "<p>El tiempo de entrega promedio es de <strong>2 a 8 días hábiles</strong> dependiendo de tu ciudad.<br/><br/>Todos los pedidos incluyen <strong>número de seguimiento y garantía de entrega</strong>.</p>",
             "page": ""
           }
         },
