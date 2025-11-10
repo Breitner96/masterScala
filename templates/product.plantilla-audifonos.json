@@ -15,24 +15,37 @@
         "text_w7REBT": {
           "type": "text",
           "settings": {
-            "title": "No es magia. Es quitar el sobreprecio y darte calidad directa."
+            "title": "Hasta 30 horas de libertad total."
+          }
+        },
+        "text_Ay4xJC": {
+          "type": "text",
+          "settings": {
+            "title": "Carga rápida y batería infinita para acompañarte todo el día."
+          }
+        },
+        "text_GNrWLp": {
+          "type": "text",
+          "settings": {
+            "title": "Compra ahora y libérate de los cables."
           }
         }
       },
       "block_order": [
-        "text_w7REBT"
+        "text_w7REBT",
+        "text_Ay4xJC",
+        "text_GNrWLp"
       ],
-      "disabled": true,
       "name": "Barra de anuncios",
       "settings": {
         "visibility": "desktop-hidden",
-        "speed": 2,
+        "speed": 1.5,
         "mobile_spacing": 60,
         "desktop_spacing": 100,
-        "bg_color": "#1c1c1c",
+        "bg_color": "#f0781c",
         "text_color": "#ffffff",
-        "mobile_text_size": 16,
-        "desktop_text_size": 18,
+        "mobile_text_size": 14,
+        "desktop_text_size": 14,
         "italic_text": false,
         "uppercase_text": true,
         "bold_text": true,
