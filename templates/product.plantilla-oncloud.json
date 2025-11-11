@@ -81,7 +81,7 @@
           "type": "variant_picker",
           "settings": {
             "picker_type": "button",
-            "swatch_shape": "square"
+            "swatch_shape": "circle"
           }
         },
         "buy_buttons": {
@@ -105,7 +105,7 @@
       ],
       "settings": {
         "enable_sticky_info": true,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-4",
         "border_image_radius": 20,
         "media_size": "large",
         "constrain_to_viewport": true,
