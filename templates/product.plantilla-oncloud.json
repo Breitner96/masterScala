@@ -269,7 +269,7 @@
         "text_Pr7Gma": {
           "type": "text",
           "settings": {
-            "title": "Materiales de alta resistencia y diseño ergonómico para máxima durabilidad."
+            "title": "Máxima durabilidad."
           }
         },
         "text_zyN7gK": {
@@ -405,70 +405,70 @@
         "collapsible_row_eyA4xc": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Cuánto dura la batería?",
+            "heading": "¿Son adecuados para correr o solo para uso diario?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Nuestros audífonos ofrecen <strong>hasta 30 horas de autonomía</strong> con el estuche de carga incluido. Además, con solo <strong>15 minutos de carga rápida</strong>, obtienes <strong>3 horas adicionales de reproducción</strong>.</p>",
+            "row_content": "<p>Sí. Están diseñados con una suela de amortiguación avanzada que absorbe el impacto, brindando estabilidad tanto para correr como para el uso urbano diario.</p>",
             "page": ""
           }
         },
         "collapsible_row_VhdL89": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Son compatibles con cualquier celular?",
+            "heading": "¿Cómo es la horma de los zapatos?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Totalmente. Son <strong>compatibles con Android, iPhone, tablets y computadoras</strong>, gracias a la conexión <strong>Bluetooth 5.0</strong>, que ofrece una señal estable y sin cortes hasta 10 metros de distancia.</p>",
+            "row_content": "<p>La horma es estándar. Si tu talla suele variar entre dos números, te recomendamos elegir la mayor.</p>",
             "page": ""
           }
         },
         "collapsible_row_fd8Vt7": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Puedo usarlos para hacer deporte?",
+            "heading": "¿Son transpirables?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Sí. Tienen <strong>resistencia al agua y al sudor</strong>, lo que los hace ideales para entrenamientos, caminatas o uso diario sin preocupaciones.</p>",
+            "row_content": "<p>Totalmente. Su malla técnica permite una ventilación constante, manteniendo tus pies frescos incluso en actividades intensas.</p>",
             "page": ""
           }
         },
         "collapsible_row_QTfCFi": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Sirven para llamadas o videollamadas?",
+            "heading": "¿Se pueden lavar?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Perfectamente. Cuentan con <strong>micrófono HD</strong> y modo ambiente, garantizando una <strong>voz clara y sin interferencias</strong> incluso en lugares con viento o tráfico.</p>",
+            "row_content": "<p>Sí, recomendamos limpieza manual con un paño húmedo y jabón neutro. No usar lavadora ni secadora para preservar el material.</p>",
             "page": ""
           }
         },
         "collapsible_row_recNjJ": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Cómo se controlan las funciones?",
+            "heading": "¿Qué tipo de soporte brindan?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Con <strong>controles táctiles</strong>: puedes reproducir, pausar, cambiar canciones, contestar llamadas o activar el asistente de voz sin tocar tu celular.</p>",
+            "row_content": "<p>Cuentan con soporte ergonómico en arco y talón, diseñado para reducir la fatiga y mejorar la postura del pie.</p>",
             "page": ""
           }
         },
         "collapsible_row_Rgmyx7": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Cuánto tarda el envío?",
+            "heading": "¿Son unisex?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>El tiempo de entrega promedio es de <strong>2 a 8 días hábiles</strong> dependiendo de tu ciudad.<br/><br/>Todos los pedidos incluyen <strong>número de seguimiento y garantía de entrega</strong>.</p>",
+            "row_content": "<p>Sí, su diseño minimalista y estructura ergonómica se adaptan perfectamente a hombres y mujeres.</p>",
             "page": ""
           }
         },
         "collapsible_row_kDVMWL": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Qué métodos de pago aceptan?",
+            "heading": "¿Cuál es el tiempo de entrega?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p><strong>Trabajamos con pago contra entrega para </strong>brindarte<strong> seguridad y confianza.</strong></p>",
+            "row_content": "<p>El tiempo de envío varía entre 2 a 8 días hábiles según tu ubicación. Recibirás seguimiento por correo o WhatsApp.</p>",
             "page": ""
           }
         },
