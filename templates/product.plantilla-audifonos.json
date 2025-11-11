@@ -120,6 +120,16 @@
         "padding_bottom": 0
       }
     },
+    "custom_liquid_4nyXqD": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<center>\n<div class=\"fe-pulse\"><a href=\"link direcionamento\"><img src=\"https://i.imgur.com/4Me8z8R.png\"></a></div>\n\n<style> \n @keyframes pulse {\n  from { transform: scale(1); }\n  50% { transform: scale(0.85); }\n  to { transform: scale(1); }\n}\n\n.fe-pulse {\n  animation-name: pulse;\n  animation-duration: 3s;\n  animation-iteration-count: infinite;\n}\n </style>\n</center>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "image_banner_ygiGEb": {
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
@@ -530,6 +540,7 @@
     "escala_announcement_bar_qDVcdK",
     "image_banner_cL3ADr",
     "main",
+    "custom_liquid_4nyXqD",
     "image_banner_ygiGEb",
     "escala_announcement_bar_gCp8hk",
     "escala_announcement_bar_gTTWB4",
