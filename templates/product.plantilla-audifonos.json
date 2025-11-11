@@ -124,7 +124,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<center>\n<div class=\"fe-pulse\"><a href=\"/rsi-btn-hook\"><img src=\"https://i.imgur.com/4Me8z8R.png\"></a></div>\n\n<style> \n @keyframes pulse {\n  from { transform: scale(1); }\n  50% { transform: scale(0.85); }\n  to { transform: scale(1); }\n}\n\n.fe-pulse {\n  animation-name: pulse;\n  animation-duration: 3s;\n  animation-iteration-count: infinite;\n}\n </style>\n</center>",
+        "custom_liquid": "<center>\n<div class=\"fe-pulse\"><a href=\"/rsi-btn-hook\"><img src=\"https://i.imgur.com/4Me8z8R.png\"></a></div>\n\n<style> \n @keyframes pulse {\n  from { transform: scale(1); }\n  50% { transform: scale(0.85); }\n  to { transform: scale(1); }\n}\n\n.fe-pulse {\n  margin: 0px;\n  animation-name: pulse;\n  animation-duration: 3s;\n  animation-iteration-count: infinite;\n}\n </style>\n</center>",
         "color_scheme": "scheme-3",
         "padding_top": 0,
         "padding_bottom": 0
