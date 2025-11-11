@@ -124,7 +124,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<center>\n<div class=\"fe-pulse\"><a href=\"/rsi-btn-hook\"><img src=\"https://i.imgur.com/4Me8z8R.png\"></a></div>\n\n<style> \n @keyframes pulse {\n  from { transform: scale(1); }\n  50% { transform: scale(0.85); }\n  to { transform: scale(1); }\n}\n\n.fe-pulse {\n  margin: 0px;\n  animation-name: pulse;\n  animation-duration: 3s;\n  animation-iteration-count: infinite;\n}\n </style>\n</center>",
+        "custom_liquid": "<div style=\"text-align:center; margin:0; padding:0;\">\n  <div class=\"fe-pulse\" style=\"display:inline-block; margin:0; padding:0;\">\n    <a href=\"/rsi-btn-hook\" style=\"display:inline-block; margin:0; padding:0;\">\n      <img src=\"https://i.imgur.com/4Me8z8R.png\" alt=\"Botón de oferta\" style=\"display:block; margin:0; padding:0; border:none; width:auto; max-width:100%;\">\n    </a>\n  </div>\n\n  <style>\n    @keyframes pulse {\n      0% { transform: scale(1); }\n      50% { transform: scale(0.85); }\n      100% { transform: scale(1); }\n    }\n    .fe-pulse {\n      animation: pulse 3s infinite;\n      margin: 0 !important;\n      padding: 0 !important;\n    }\n  </style>\n</div>",
         "color_scheme": "scheme-3",
         "padding_top": 0,
         "padding_bottom": 0
