@@ -106,15 +106,15 @@
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-4",
-        "border_image_radius": 20,
-        "media_size": "large",
+        "border_image_radius": 40,
+        "media_size": "medium",
         "constrain_to_viewport": true,
         "media_fit": "cover",
         "gallery_layout": "columns",
         "media_position": "left",
         "image_zoom": "none",
         "mobile_thumbnails": "hide",
-        "hide_variants": true,
+        "hide_variants": false,
         "enable_video_looping": false,
         "padding_top": 0,
         "padding_bottom": 0
@@ -322,6 +322,7 @@
         "slide_RttQH9",
         "slide_wrdeFf"
       ],
+      "disabled": true,
       "name": "t:sections.slideshow.presets.name",
       "settings": {
         "layout": "full_bleed",
