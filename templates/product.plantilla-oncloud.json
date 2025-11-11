@@ -263,13 +263,13 @@
         "text_J6n64Y": {
           "type": "text",
           "settings": {
-            "title": "🔥 La comodidad no se explica. Se siente."
+            "title": "Tecnología suiza. Rendimiento garantizado."
           }
         },
         "text_Pr7Gma": {
           "type": "text",
           "settings": {
-            "title": "Haz de cada paso una experiencia ligera y poderosa."
+            "title": "Materiales de alta resistencia y diseño ergonómico para máxima durabilidad."
           }
         },
         "text_zyN7gK": {
@@ -357,19 +357,26 @@
         "text_nVPjxX": {
           "type": "text",
           "settings": {
-            "title": "Activa el modo ambiente o disfruta de tu música sin distracciones."
+            "title": "La comodidad no se explica. Se siente."
           }
         },
         "text_qcMGF4": {
           "type": "text",
           "settings": {
-            "title": "Control total con un solo toque."
+            "title": "Haz de cada paso una experiencia ligera y poderosa."
+          }
+        },
+        "text_k6hYPe": {
+          "type": "text",
+          "settings": {
+            "title": "Ordenar ahora"
           }
         }
       },
       "block_order": [
         "text_nVPjxX",
-        "text_qcMGF4"
+        "text_qcMGF4",
+        "text_k6hYPe"
       ],
       "name": "Barra de anuncios",
       "settings": {
