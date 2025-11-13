@@ -432,20 +432,20 @@
         "collapsible_row_eyA4xc": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Cuánto dura la batería?",
+            "heading": "¿Qué distancia máxima puede alcanzar el dron?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Nuestros audífonos ofrecen <strong>hasta 30 horas de autonomía</strong> con el estuche de carga incluido. Además, con solo <strong>15 minutos de carga rápida</strong>, obtienes <strong>3 horas adicionales de reproducción</strong>.</p>",
+            "row_content": "<p>El dron puede volar hasta <strong>120 metros</strong> de distancia manteniendo una conexión estable con el control remoto. Ideal para capturas amplias y vuelos recreativos.</p>",
             "page": ""
           }
         },
         "collapsible_row_VhdL89": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Son compatibles con cualquier celular?",
+            "heading": ". ¿Cuánto dura la batería?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Totalmente. Son <strong>compatibles con Android, iPhone, tablets y computadoras</strong>, gracias a la conexión <strong>Bluetooth 5.0</strong>, que ofrece una señal estable y sin cortes hasta 10 metros de distancia.</p>",
+            "row_content": "<p>La batería ofrece una autonomía de 8<strong> a 10 horas</strong> por carga, dependiendo de las condiciones de vuelo. Incluye cable USB para recarga rápida.</p>",
             "page": ""
           }
         },
