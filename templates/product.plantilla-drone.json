@@ -153,19 +153,12 @@
         "text_jAYUEN": {
           "type": "text",
           "settings": {
-            "title": "Diseño plegable, textura mate y elegancia en cada detalle.🖤"
-          }
-        },
-        "text_dCAxwH": {
-          "type": "text",
-          "settings": {
-            "title": "Descubre el equilibrio perfecto entre forma y función."
+            "title": "Tecnología compacta, potencia máxima"
           }
         }
       },
       "block_order": [
-        "text_jAYUEN",
-        "text_dCAxwH"
+        "text_jAYUEN"
       ],
       "name": "Barra de anuncios",
       "settings": {
