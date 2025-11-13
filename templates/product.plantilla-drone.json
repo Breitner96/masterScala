@@ -452,30 +452,30 @@
         "collapsible_row_fd8Vt7": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Puedo usarlos para hacer deporte?",
+            "heading": "¿El dron tiene cámara HD?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Sí. Tienen <strong>resistencia al agua y al sudor</strong>, lo que los hace ideales para entrenamientos, caminatas o uso diario sin preocupaciones.</p>",
+            "row_content": "<p>Sí. Incorpora una <strong>cámara HD de alta resolución</strong> con transmisión en vivo para capturar imágenes y videos nítidos.</p>",
             "page": ""
           }
         },
         "collapsible_row_QTfCFi": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Sirven para llamadas o videollamadas?",
+            "heading": "¿Es plegable y fácil de transportar?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Perfectamente. Cuentan con <strong>micrófono HD</strong> y modo ambiente, garantizando una <strong>voz clara y sin interferencias</strong> incluso en lugares con viento o tráfico.</p>",
+            "row_content": "<p>Totalmente. Su diseño <strong>plegable y ultraligero</strong> lo hace perfecto para viajes, paseos y actividades al aire libre.</p>",
             "page": ""
           }
         },
         "collapsible_row_recNjJ": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Cómo se controlan las funciones?",
+            "heading": "Qué incluye el paquete?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Con <strong>controles táctiles</strong>: puedes reproducir, pausar, cambiar canciones, contestar llamadas o activar el asistente de voz sin tocar tu celular.</p>",
+            "row_content": "<ul><li>1 Dron plegable con cámara HD</li><li>1 Control remoto</li><li>1 Batería recargable</li><li>4 Hélices de repuesto</li><li>1 Cable USB</li><li>Manual de usuario<br/></li></ul><p></p>",
             "page": ""
           }
         },
