@@ -1,0 +1,568 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "escala_announcement_bar_qDVcdK": {
+      "type": "escala-announcement-bar",
+      "blocks": {
+        "text_w7REBT": {
+          "type": "text",
+          "settings": {
+            "title": "Hasta 30 horas de libertad total."
+          }
+        },
+        "text_Ay4xJC": {
+          "type": "text",
+          "settings": {
+            "title": "Carga rápida y batería infinita para acompañarte todo el día."
+          }
+        },
+        "text_GNrWLp": {
+          "type": "text",
+          "settings": {
+            "title": "Compra ahora y libérate de los cables."
+          }
+        }
+      },
+      "block_order": [
+        "text_w7REBT",
+        "text_Ay4xJC",
+        "text_GNrWLp"
+      ],
+      "name": "Barra de anuncios",
+      "settings": {
+        "visibility": "desktop-hidden",
+        "speed": 1.5,
+        "mobile_spacing": 60,
+        "desktop_spacing": 100,
+        "bg_color": "#f0781c",
+        "text_color": "#ffffff",
+        "mobile_text_size": 14,
+        "desktop_text_size": 14,
+        "italic_text": false,
+        "uppercase_text": true,
+        "bold_text": true,
+        "mobile_image_height": 20,
+        "desktop_image_height": 20,
+        "mobile_padding_top": 12,
+        "mobile_padding_bottom": 12,
+        "desktop_padding_top": 16,
+        "desktop_padding_bottom": 16
+      }
+    },
+    "image_banner_cL3ADr": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/1_optimized_1.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "square"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "variant_picker",
+        "buy_buttons",
+        "description"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "border_image_radius": 20,
+        "media_size": "large",
+        "constrain_to_viewport": true,
+        "media_fit": "cover",
+        "gallery_layout": "columns",
+        "media_position": "left",
+        "image_zoom": "none",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_liquid_4nyXqD": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div style=\"text-align:center; margin:0; padding:0;\">\n  <div class=\"fe-pulse\" style=\"display:inline-block; margin:0; padding:0;\">\n    <a href=\"/rsi-btn-hook\" style=\"display:inline-block; margin:0; padding:0;\">\n      <img src=\"https://i.imgur.com/4Me8z8R.png\" alt=\"Botón de oferta\" style=\"display:block; margin:0; padding:0; border:none; width:auto; max-width:100%;\">\n    </a>\n  </div>\n\n  <style>\n    @keyframes pulse {\n      0% { transform: scale(1); }\n      50% { transform: scale(0.85); }\n      100% { transform: scale(1); }\n    }\n    .fe-pulse {\n      animation: pulse 3s infinite;\n      margin: 0 !important;\n      padding: 0 !important;\n    }\n  </style>\n</div>",
+        "color_scheme": "scheme-5",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_ygiGEb": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/2_optimized_de213548-6b7b-498b-a2e4-5d352b8b4f6b.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "escala_announcement_bar_gCp8hk": {
+      "type": "escala-announcement-bar",
+      "blocks": {
+        "text_jAYUEN": {
+          "type": "text",
+          "settings": {
+            "title": "Diseño plegable, textura mate y elegancia en cada detalle.🖤"
+          }
+        },
+        "text_dCAxwH": {
+          "type": "text",
+          "settings": {
+            "title": "Descubre el equilibrio perfecto entre forma y función."
+          }
+        }
+      },
+      "block_order": [
+        "text_jAYUEN",
+        "text_dCAxwH"
+      ],
+      "name": "Barra de anuncios",
+      "settings": {
+        "visibility": "desktop-hidden",
+        "speed": 1.5,
+        "mobile_spacing": 60,
+        "desktop_spacing": 100,
+        "bg_color": "#f0781c",
+        "text_color": "#ffffff",
+        "mobile_text_size": 14,
+        "desktop_text_size": 14,
+        "italic_text": false,
+        "uppercase_text": true,
+        "bold_text": true,
+        "mobile_image_height": 20,
+        "desktop_image_height": 20,
+        "mobile_padding_top": 12,
+        "mobile_padding_bottom": 12,
+        "desktop_padding_top": 16,
+        "desktop_padding_bottom": 16
+      }
+    },
+    "escala_announcement_bar_gTTWB4": {
+      "type": "escala-announcement-bar",
+      "blocks": {
+        "text_8q37yz": {
+          "type": "text",
+          "settings": {
+            "title": "Dejá de pagar de más por un logo. Empezá a pagar por calidad."
+          }
+        }
+      },
+      "block_order": [
+        "text_8q37yz"
+      ],
+      "disabled": true,
+      "name": "Barra de anuncios",
+      "settings": {
+        "visibility": "desktop-hidden",
+        "speed": 2,
+        "mobile_spacing": 60,
+        "desktop_spacing": 100,
+        "bg_color": "#c41e3a",
+        "text_color": "#ffffff",
+        "mobile_text_size": 16,
+        "desktop_text_size": 18,
+        "italic_text": false,
+        "uppercase_text": true,
+        "bold_text": true,
+        "mobile_image_height": 26,
+        "desktop_image_height": 40,
+        "mobile_padding_top": 12,
+        "mobile_padding_bottom": 12,
+        "desktop_padding_top": 16,
+        "desktop_padding_bottom": 16
+      }
+    },
+    "image_banner_4ApXqQ": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/3_optimized_1.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_banner_rnYhEh": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/4_optimized_a9aa55b4-7b84-4002-a25d-c2e7f2af44bf.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "escala_announcement_bar_aTDNdh": {
+      "type": "escala-announcement-bar",
+      "blocks": {
+        "text_J6n64Y": {
+          "type": "text",
+          "settings": {
+            "title": "🔥 Black Friday llegó a tus oídos."
+          }
+        },
+        "text_Pr7Gma": {
+          "type": "text",
+          "settings": {
+            "title": "Audífonos inteligentes con hasta 50% OFF solo por tiempo limitado."
+          }
+        },
+        "text_zyN7gK": {
+          "type": "text",
+          "settings": {
+            "title": "Aprovecha el descuento hoy."
+          }
+        }
+      },
+      "block_order": [
+        "text_J6n64Y",
+        "text_Pr7Gma",
+        "text_zyN7gK"
+      ],
+      "name": "Barra de anuncios",
+      "settings": {
+        "visibility": "desktop-hidden",
+        "speed": 1.5,
+        "mobile_spacing": 60,
+        "desktop_spacing": 100,
+        "bg_color": "#f0781c",
+        "text_color": "#ffffff",
+        "mobile_text_size": 14,
+        "desktop_text_size": 14,
+        "italic_text": false,
+        "uppercase_text": true,
+        "bold_text": true,
+        "mobile_image_height": 20,
+        "desktop_image_height": 20,
+        "mobile_padding_top": 12,
+        "mobile_padding_bottom": 12,
+        "desktop_padding_top": 16,
+        "desktop_padding_bottom": 16
+      }
+    },
+    "image_banner_H34i6B": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/5_optimized_cf9691c4-25e3-456b-89dc-4a2c5aaa7030.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "custom_liquid_fFegqP": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div style=\"text-align:center; margin:0; padding:0;\">\n  <div class=\"fe-pulse\" style=\"display:inline-block; margin:0; padding:0;\">\n    <a href=\"/rsi-btn-hook\" style=\"display:inline-block; margin:0; padding:0;\">\n      <img src=\"https://i.imgur.com/4Me8z8R.png\" alt=\"Botón de oferta\" style=\"display:block; margin:0; padding:0; border:none; width:auto; max-width:100%;\">\n    </a>\n  </div>\n\n  <style>\n    @keyframes pulse {\n      0% { transform: scale(1); }\n      50% { transform: scale(0.85); }\n      100% { transform: scale(1); }\n    }\n    .fe-pulse {\n      animation: pulse 3s infinite;\n      margin: 0 !important;\n      padding: 0 !important;\n    }\n  </style>\n</div>",
+        "color_scheme": "scheme-3",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_yGFVyV": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/6_optimized_2073adb9-bdd7-430c-8f1e-22319a3b6899.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "escala_announcement_bar_7CpN8f": {
+      "type": "escala-announcement-bar",
+      "blocks": {
+        "text_nVPjxX": {
+          "type": "text",
+          "settings": {
+            "title": "Activa el modo ambiente o disfruta de tu música sin distracciones."
+          }
+        },
+        "text_qcMGF4": {
+          "type": "text",
+          "settings": {
+            "title": "Control total con un solo toque."
+          }
+        }
+      },
+      "block_order": [
+        "text_nVPjxX",
+        "text_qcMGF4"
+      ],
+      "name": "Barra de anuncios",
+      "settings": {
+        "visibility": "desktop-hidden",
+        "speed": 1.5,
+        "mobile_spacing": 60,
+        "desktop_spacing": 100,
+        "bg_color": "#f0781c",
+        "text_color": "#ffffff",
+        "mobile_text_size": 14,
+        "desktop_text_size": 14,
+        "italic_text": false,
+        "uppercase_text": true,
+        "bold_text": true,
+        "mobile_image_height": 20,
+        "desktop_image_height": 20,
+        "mobile_padding_top": 12,
+        "mobile_padding_bottom": 12,
+        "desktop_padding_top": 16,
+        "desktop_padding_bottom": 16
+      }
+    },
+    "collapsible_content_VYyyVK": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_eyA4xc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Cuánto dura la batería?",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Nuestros audífonos ofrecen <strong>hasta 30 horas de autonomía</strong> con el estuche de carga incluido. Además, con solo <strong>15 minutos de carga rápida</strong>, obtienes <strong>3 horas adicionales de reproducción</strong>.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_VhdL89": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Son compatibles con cualquier celular?",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Totalmente. Son <strong>compatibles con Android, iPhone, tablets y computadoras</strong>, gracias a la conexión <strong>Bluetooth 5.0</strong>, que ofrece una señal estable y sin cortes hasta 10 metros de distancia.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_fd8Vt7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Puedo usarlos para hacer deporte?",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Sí. Tienen <strong>resistencia al agua y al sudor</strong>, lo que los hace ideales para entrenamientos, caminatas o uso diario sin preocupaciones.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_QTfCFi": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Sirven para llamadas o videollamadas?",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Perfectamente. Cuentan con <strong>micrófono HD</strong> y modo ambiente, garantizando una <strong>voz clara y sin interferencias</strong> incluso en lugares con viento o tráfico.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_recNjJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Cómo se controlan las funciones?",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Con <strong>controles táctiles</strong>: puedes reproducir, pausar, cambiar canciones, contestar llamadas o activar el asistente de voz sin tocar tu celular.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Rgmyx7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Cuánto tarda el envío?",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>El tiempo de entrega promedio es de <strong>2 a 8 días hábiles</strong> dependiendo de tu ciudad.<br/><br/>Todos los pedidos incluyen <strong>número de seguimiento y garantía de entrega</strong>.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_kDVMWL": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Qué métodos de pago aceptan?",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p><strong>Trabajamos con pago contra entrega para </strong>brindarte<strong> seguridad y confianza.</strong></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_yPJagE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Tienen garantía?",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Sí. Ofrecemos <strong>garantía de 15 días</strong> por defectos de fábrica.<br/><br/>Además, si el producto llega dañado o presenta fallas dentro de los primeros 7 días, <strong>te lo reemplazamos sin costo</strong>.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_eyA4xc",
+        "collapsible_row_VhdL89",
+        "collapsible_row_fd8Vt7",
+        "collapsible_row_QTfCFi",
+        "collapsible_row_recNjJ",
+        "collapsible_row_Rgmyx7",
+        "collapsible_row_kDVMWL",
+        "collapsible_row_yPJagE"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Preguntas Frecuentes 💬",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-3",
+        "container_color_scheme": "scheme-1",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "custom_liquid_iDfjg4": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div>\n    <style>\n  #popup-postura {\n    position: fixed;\n    top: 20px;\n    left: 50%;\n    transform: translateX(-50%);\n    display: none;\n    align-items: center;\n    background-color: #f2f2f2;\n    color: #000;\n    padding: 10px 18px;\n    border-radius: 12px;\n    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);\n    z-index: 9999;\n    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n    font-size: 13px;\n    animation: fadeIn 0.3s ease-in-out;\n    width: 280px;\n    gap: 12px;\n  }\n\n  #popup-postura img {\n    width: 42px;\n    height: 42px;\n    border-radius: 8px;\n    object-fit: cover;\n    flex-shrink: 0;\n  }\n\n  #popup-text {\n    line-height: 1.4;\n    font-weight: 400;\n    color: #000;\n    word-wrap: break-word;\n  }\n\n  #popup-text .name {\n    color: #1877f2;\n    font-weight: 600;\n    display: inline-flex;\n    align-items: center;\n  }\n\n  .verified-icon {\n    display: inline-block;\n    margin-left: 5px;\n    vertical-align: middle;\n  }\n\n  .city {\n    color: #000;\n  }\n\n  .product {\n    font-weight: 500;\n  }\n\n  .time {\n    color: #999;\n    font-size: 12px;\n    font-style: italic;\n  }\n\n  @keyframes fadeIn {\n    from { opacity: 0; transform: translateY(-10px); }\n    to { opacity: 1; transform: translateY(0); }\n  }\n</style>\n\n<div id=\"popup-postura\" style=\"display: none;\">\n  <img id=\"popup-img\" src=\"https://cdn.shopify.com/s/files/1/0633/5856/6463/files/1753739069D_NQ_NP_2X_835163-MLA46885024836_072021-F.webp?v=1762831301\" alt=\"Producto\">\n  <div id=\"popup-text\">\n        <strong class=\"name\">\n          Valeria Rodríguez\n          <span class=\"verified-icon\" aria-label=\"Verificado\" role=\"img\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\" fill=\"#1877f2\" width=\"16\" height=\"16\">\n              <circle cx=\"8\" cy=\"8\" r=\"8\" fill=\"#1877f2\"></circle>\n              <path d=\"M6.8 10.4L4.6 8.2l-.8.8 3 3 5-5-.8-.8z\" fill=\"#fff\"></path>\n            </svg>\n          </span>\n        </strong> compró <strong class=\"product\">X2 Helicoptero a control AeroFly</strong> en <span class=\"city\">Ibagué</span><span class=\"time\"> — hace 1 minuto</span>\n      </div>\n</div>\n\n<audio id=\"popup-sound\" preload=\"auto\">\n  <source src=\"https://cdn.pixabay.com/audio/2022/03/15/audio_4db5cf1ee4.mp3\" type=\"audio/mpeg\">\n</audio>\n\n<script>\n  document.addEventListener(\"DOMContentLoaded\", function () {\n    const mujeres = [\n      \"Valeria Rodríguez\", \"Daniela Gómez\", \"Camila Herrera\",\n      \"Sofía Morales\", \"Mariana Cruz\", \"Paula Jiménez\",\n      \"Natalia Salazar\", \"Isabela Ríos\", \"Laura Martínez\", \"Andrea Vargas\"\n    ];\n\n    const municipios = [\n      \"Soacha\", \"Chía\", \"Envigado\", \"Itagüí\", \"Pereira\",\n      \"Rionegro\", \"Cúcuta\", \"Ibagué\", \"Villavicencio\", \"Bucaramanga\",\n      \"Palmira\", \"Tunja\", \"Girardot\", \"Sabaneta\", \"Yumbo\"\n    ];\n\n    const tiempos = [\"Ahora\", \"1 minuto\", \"2 minutos\", \"3 minutos\"];\n\n    const popup = document.getElementById(\"popup-postura\");\n    const texto = document.getElementById(\"popup-text\");\n    const sonido = document.getElementById(\"popup-sound\");\n\n    let lastIndex = -1;\n\n    function getRandomIndexExcept(length, except) {\n      let index = Math.floor(Math.random() * length);\n      while (index === except) index = Math.floor(Math.random() * length);\n      return index;\n    }\n\n    function mostrarPopup() {\n      const index = getRandomIndexExcept(mujeres.length, lastIndex);\n      lastIndex = index;\n\n      const nombre = mujeres[index];\n      const ciudad = municipios[Math.floor(Math.random() * municipios.length)];\n      const tiempo = tiempos[Math.floor(Math.random() * tiempos.length)];\n      const tiempoTexto = tiempo === \"Ahora\" ? tiempo : `hace ${tiempo}`;\n\n      texto.innerHTML = `\n        <strong class=\"name\">\n          ${nombre}\n          <span class=\"verified-icon\" aria-label=\"Verificado\" role=\"img\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\" fill=\"#1877f2\" width=\"16\" height=\"16\">\n              <circle cx=\"8\" cy=\"8\" r=\"8\" fill=\"#1877f2\"/>\n              <path d=\"M6.8 10.4L4.6 8.2l-.8.8 3 3 5-5-.8-.8z\" fill=\"#fff\"/>\n            </svg>\n          </span>\n        </strong> compró <strong class=\"product\">{{product.title}}</strong> en <span class=\"city\">${ciudad}</span><span class=\"time\"> — ${tiempoTexto}</span>\n      `;\n\n      popup.style.display = \"flex\";\n      sonido.currentTime = 0;\n      sonido.play();\n\n      setTimeout(() => {\n        popup.style.display = \"none\";\n      }, 7000);\n    }\n\n    setTimeout(() => {\n      mostrarPopup();\n      setInterval(mostrarPopup, 25000);\n    }, 3000);\n  });\n</script>\n    </div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1762659360e64cbdab": {
+      "type": "apps",
+      "blocks": {
+        "audien_reviews_review_list_iTj3zm": {
+          "type": "shopify://apps/audien-reviews/blocks/review_list/ce002b21-24e0-4d65-87ca-18c9770b24d4",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "audien_reviews_review_list_iTj3zm"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    }
+  },
+  "order": [
+    "escala_announcement_bar_qDVcdK",
+    "image_banner_cL3ADr",
+    "main",
+    "custom_liquid_4nyXqD",
+    "image_banner_ygiGEb",
+    "escala_announcement_bar_gCp8hk",
+    "escala_announcement_bar_gTTWB4",
+    "image_banner_4ApXqQ",
+    "image_banner_rnYhEh",
+    "escala_announcement_bar_aTDNdh",
+    "image_banner_H34i6B",
+    "custom_liquid_fFegqP",
+    "image_banner_yGFVyV",
+    "related-products",
+    "escala_announcement_bar_7CpN8f",
+    "collapsible_content_VYyyVK",
+    "custom_liquid_iDfjg4",
+    "1762659360e64cbdab"
+  ]
+}
