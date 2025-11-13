@@ -479,6 +479,16 @@
             "page": ""
           }
         },
+        "collapsible_row_PWbDGe": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Necesito licencia para volarlo?",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>No. Este dron entra en la categoría <strong>recreativa</strong>, por lo que no requiere licencia para su uso personal.</p><p></p>",
+            "page": ""
+          }
+        },
         "collapsible_row_Rgmyx7": {
           "type": "collapsible_row",
           "settings": {
@@ -516,6 +526,7 @@
         "collapsible_row_fd8Vt7",
         "collapsible_row_QTfCFi",
         "collapsible_row_recNjJ",
+        "collapsible_row_PWbDGe",
         "collapsible_row_Rgmyx7",
         "collapsible_row_kDVMWL",
         "collapsible_row_yPJagE"
