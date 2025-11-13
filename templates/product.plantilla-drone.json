@@ -233,38 +233,52 @@
         "show_text_below": true
       }
     },
-    "image_banner_rnYhEh": {
-      "type": "image-banner",
-      "name": "t:sections.image-banner.presets.name",
+    "escala_announcement_bar_gWaFQA": {
+      "type": "escala-announcement-bar",
+      "blocks": {
+        "text_trYegk": {
+          "type": "text",
+          "settings": {
+            "title": "Compra con total confianza"
+          }
+        },
+        "text_9BcKap": {
+          "type": "text",
+          "settings": {
+            "title": "Tu experiencia está protegida de principio a fin."
+          }
+        },
+        "text_yhKi9e": {
+          "type": "text",
+          "settings": {
+            "title": "Pagos seguros, garantía y soporte en cada pedido."
+          }
+        }
+      },
+      "block_order": [
+        "text_trYegk",
+        "text_9BcKap",
+        "text_yhKi9e"
+      ],
+      "name": "Barra de anuncios",
       "settings": {
-        "image": "shopify://shop_images/4.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "image_banner_H34i6B": {
-      "type": "image-banner",
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/5.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "visibility": "desktop-hidden",
+        "speed": 1.5,
+        "mobile_spacing": 60,
+        "desktop_spacing": 100,
+        "bg_color": "#f0781c",
+        "text_color": "#ffffff",
+        "mobile_text_size": 14,
+        "desktop_text_size": 14,
+        "italic_text": false,
+        "uppercase_text": true,
+        "bold_text": true,
+        "mobile_image_height": 20,
+        "desktop_image_height": 20,
+        "mobile_padding_top": 12,
+        "mobile_padding_bottom": 12,
+        "desktop_padding_top": 16,
+        "desktop_padding_bottom": 16
       }
     },
     "escala_announcement_bar_aTDNdh": {
@@ -313,6 +327,40 @@
         "mobile_padding_bottom": 12,
         "desktop_padding_top": 16,
         "desktop_padding_bottom": 16
+      }
+    },
+    "image_banner_rnYhEh": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/4.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_banner_H34i6B": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/5.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "image_banner_wJKzXx": {
@@ -575,9 +623,10 @@
     "escala_announcement_bar_gCp8hk",
     "escala_announcement_bar_gTTWB4",
     "image_banner_4ApXqQ",
+    "escala_announcement_bar_gWaFQA",
+    "escala_announcement_bar_aTDNdh",
     "image_banner_rnYhEh",
     "image_banner_H34i6B",
-    "escala_announcement_bar_aTDNdh",
     "image_banner_wJKzXx",
     "custom_liquid_fFegqP",
     "escala_announcement_bar_7CpN8f",
