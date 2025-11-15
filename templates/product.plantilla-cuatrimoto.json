@@ -15,19 +15,19 @@
         "text_w7REBT": {
           "type": "text",
           "settings": {
-            "title": "Explora el mundo desde las alturas"
+            "title": "¡Aventura eléctrica en cuatro ruedas!”"
           }
         },
         "text_Ay4xJC": {
           "type": "text",
           "settings": {
-            "title": "Captura imágenes aéreas con tu nuevo Drone Plegable HD"
+            "title": "Explora, diviértete y comparte momentos inolvidables con nuestra cuatrimoto eléctrica segura y potente."
           }
         },
         "text_GNrWLp": {
           "type": "text",
           "settings": {
-            "title": "¡Quiero el mío!"
+            "title": "Comprar ahora"
           }
         }
       },
@@ -483,10 +483,10 @@
         "collapsible_row_eyA4xc": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Qué distancia máxima puede alcanzar el dron?",
+            "heading": "¿Qué tipo de batería usa esta cuatrimoto?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>El dron puede volar hasta <strong>120 metros</strong> de distancia manteniendo una conexión estable con el control remoto. Ideal para capturas amplias y vuelos recreativos.</p>",
+            "row_content": "<p>Nuestra cuatrimoto utiliza una batería recargable (dependiendo del modelo: 12 V, 24 V u otro) diseñada para brindar un buen rendimiento y autonomía. El tiempo de carga puede variar según el tipo de cargador, pero generalmente se completa en X-Y horas.</p>",
             "page": ""
           }
         },
