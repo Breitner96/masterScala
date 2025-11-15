@@ -286,13 +286,13 @@
         "text_J6n64Y": {
           "type": "text",
           "settings": {
-            "title": "🔥 Black Friday llegó!."
+            "title": "El regalo perfecto para tu pequeño aventurero"
           }
         },
         "text_Pr7Gma": {
           "type": "text",
           "settings": {
-            "title": "Drone HD con hasta 50% OFF solo por tiempo limitado."
+            "title": "Regalar ahora con 50% OFF"
           }
         },
         "text_zyN7gK": {
@@ -313,8 +313,8 @@
         "speed": 1.5,
         "mobile_spacing": 60,
         "desktop_spacing": 100,
-        "bg_color": "#f0781c",
-        "text_color": "#ffffff",
+        "bg_color": "#46e216",
+        "text_color": "#000000",
         "mobile_text_size": 14,
         "desktop_text_size": 14,
         "italic_text": false,
