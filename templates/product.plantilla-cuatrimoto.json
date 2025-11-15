@@ -332,7 +332,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/6.webp",
+        "image": "shopify://shop_images/Plantilla_de_Cuatrimoto_1.webp",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
