@@ -236,18 +236,11 @@
           "settings": {
             "title": "Frenos automáticos, construcción robusta y garantía de fábrica"
           }
-        },
-        "text_yhKi9e": {
-          "type": "text",
-          "settings": {
-            "title": "Pagos seguros, garantía y soporte en cada pedido."
-          }
         }
       },
       "block_order": [
         "text_trYegk",
-        "text_9BcKap",
-        "text_yhKi9e"
+        "text_9BcKap"
       ],
       "name": "Barra de anuncios",
       "settings": {
@@ -255,8 +248,8 @@
         "speed": 1.5,
         "mobile_spacing": 60,
         "desktop_spacing": 100,
-        "bg_color": "#f0781c",
-        "text_color": "#ffffff",
+        "bg_color": "#46e216",
+        "text_color": "#000000",
         "mobile_text_size": 14,
         "desktop_text_size": 14,
         "italic_text": false,
