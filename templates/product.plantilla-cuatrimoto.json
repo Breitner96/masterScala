@@ -525,6 +525,16 @@
             "page": ""
           }
         },
+        "collapsible_row_kRbxGC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Es segura para niños pequeños?",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Sí. Incluye:<br/><br/>✔ Arranque suave<br/><br/>✔ Velocidad limitada<br/><br/>✔ Barra de seguridad<br/><br/>✔ Capota protectora<br/><br/>✔ Manija para control del adulto (si tu modelo la trae)</p><p></p>",
+            "page": ""
+          }
+        },
         "collapsible_row_Rgmyx7": {
           "type": "collapsible_row",
           "settings": {
@@ -565,6 +575,7 @@
         "collapsible_row_PWbDGe",
         "collapsible_row_b7NipF",
         "collapsible_row_NQDmnh",
+        "collapsible_row_kRbxGC",
         "collapsible_row_Rgmyx7",
         "collapsible_row_kDVMWL",
         "collapsible_row_yPJagE"
