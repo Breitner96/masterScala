@@ -153,12 +153,19 @@
         "text_jAYUEN": {
           "type": "text",
           "settings": {
-            "title": "Tecnología compacta, potencia máxima"
+            "title": "Hasta 12 horas de diversión con una sola carga"
+          }
+        },
+        "text_DUPTD6": {
+          "type": "text",
+          "settings": {
+            "title": "Batería recargable de larga duración + cargador incluido"
           }
         }
       },
       "block_order": [
-        "text_jAYUEN"
+        "text_jAYUEN",
+        "text_DUPTD6"
       ],
       "name": "Barra de anuncios",
       "settings": {
@@ -166,8 +173,8 @@
         "speed": 1.5,
         "mobile_spacing": 60,
         "desktop_spacing": 100,
-        "bg_color": "#f0781c",
-        "text_color": "#ffffff",
+        "bg_color": "#46e216",
+        "text_color": "#000000",
         "mobile_text_size": 14,
         "desktop_text_size": 14,
         "italic_text": false,
