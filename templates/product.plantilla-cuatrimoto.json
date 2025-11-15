@@ -505,6 +505,16 @@
             "page": ""
           }
         },
+        "collapsible_row_b7NipF": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Puede usarse en cualquier tipo de terreno?",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Funciona mejor en superficies como:</p><ul><li>Concreto</li><li>Baldosa</li><li>Calle lisa</li><li>Césped parejo</li></ul><p>No se recomienda para terrenos muy irregulares o con piedras grandes.<br/></p><p></p>",
+            "page": ""
+          }
+        },
         "collapsible_row_Rgmyx7": {
           "type": "collapsible_row",
           "settings": {
@@ -543,6 +553,7 @@
         "collapsible_row_QTfCFi",
         "collapsible_row_recNjJ",
         "collapsible_row_PWbDGe",
+        "collapsible_row_b7NipF",
         "collapsible_row_Rgmyx7",
         "collapsible_row_kDVMWL",
         "collapsible_row_yPJagE"
