@@ -498,10 +498,10 @@
         "collapsible_row_PWbDGe": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Necesito licencia para volarlo?",
+            "heading": "¿La capota se puede quitar?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>No. Este dron entra en la categoría <strong>recreativa</strong>, por lo que no requiere licencia para su uso personal.</p><p></p>",
+            "row_content": "<p>Sí. La <strong>capota es desmontable</strong>, ideal para usar la cuatrimoto tanto en interiores como exteriores sin exposición directa al sol.</p><p></p>",
             "page": ""
           }
         },
