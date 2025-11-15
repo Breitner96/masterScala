@@ -515,6 +515,16 @@
             "page": ""
           }
         },
+        "collapsible_row_NQDmnh": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Hace ruido al rodar?",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>No. Las llantas están diseñadas para ser <strong>silenciosas y estables</strong>, perfectas para uso en interiores y exteriores.<br/></p><p></p>",
+            "page": ""
+          }
+        },
         "collapsible_row_Rgmyx7": {
           "type": "collapsible_row",
           "settings": {
@@ -554,6 +564,7 @@
         "collapsible_row_recNjJ",
         "collapsible_row_PWbDGe",
         "collapsible_row_b7NipF",
+        "collapsible_row_NQDmnh",
         "collapsible_row_Rgmyx7",
         "collapsible_row_kDVMWL",
         "collapsible_row_yPJagE"
