@@ -361,13 +361,13 @@
         "text_nVPjxX": {
           "type": "text",
           "settings": {
-            "title": "¡Llévalo donde quieras y graba cada aventura!"
+            "title": "Envíos seguros a toda Colombia"
           }
         },
         "text_qcMGF4": {
           "type": "text",
           "settings": {
-            "title": "Ligero, estable y con visión aérea en tiempo real."
+            "title": "Compra con confianza: pago seguro, soporte y garantía incluidos"
           }
         }
       },
@@ -381,8 +381,8 @@
         "speed": 1.5,
         "mobile_spacing": 60,
         "desktop_spacing": 100,
-        "bg_color": "#f0781c",
-        "text_color": "#ffffff",
+        "bg_color": "#46e216",
+        "text_color": "#000000",
         "mobile_text_size": 14,
         "desktop_text_size": 14,
         "italic_text": false,
