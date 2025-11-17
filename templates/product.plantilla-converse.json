@@ -361,6 +361,16 @@
         "desktop_padding_bottom": 16
       }
     },
+    "custom_liquid_Q3jJXW": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div style=\"text-align:center; margin:0; padding:0;\">\n  <div class=\"fe-pulse\" style=\"display:inline-block; margin:0; padding:0;\">\n    <a href=\"/rsi-btn-hook\" style=\"display:inline-block; margin:0; padding:0;\">\n      <img src=\"https://i.imgur.com/4Me8z8R.png\" alt=\"Botón de oferta\" style=\"display:block; margin:0; padding:0; border:none; width:auto; max-width:100%;\">\n    </a>\n  </div>\n\n  <style>\n    @keyframes pulse {\n      0% { transform: scale(1); }\n      50% { transform: scale(0.85); }\n      100% { transform: scale(1); }\n    }\n    .fe-pulse {\n      animation: pulse 3s infinite;\n      margin: 0 !important;\n      padding: 0 !important;\n    }\n  </style>\n</div>",
+        "color_scheme": "scheme-3",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "image_banner_yGFVyV": {
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
@@ -603,6 +613,7 @@
     "escala_announcement_bar_nJWrM4",
     "image_banner_H34i6B",
     "escala_announcement_bar_VfLmTF",
+    "custom_liquid_Q3jJXW",
     "image_banner_yGFVyV",
     "escala_announcement_bar_8wzEQe",
     "related-products",
