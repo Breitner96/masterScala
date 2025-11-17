@@ -81,19 +81,12 @@
           "type": "description",
           "disabled": true,
           "settings": {}
-        },
-        "custom_liquid_DEHnPU": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div style=\"width:100%; max-width:420px; margin:auto; font-family:Arial, sans-serif;\">\n\n  <h2 style=\"text-align:center; font-size:22px; color:#c68a53; margin-bottom:12px; font-weight:900;\">\n    GUÍA DE TALLAS\n  </h2>\n\n  <table style=\"width:100%; border-collapse:collapse; font-size:16px;\">\n    \n    <!-- Encabezado -->\n    <tr style=\"background:#d69a63; color:white; font-weight:bold; text-align:center;\">\n      <td style=\"padding:10px; border:1px solid #555;\">TALLAS</td>\n      <td style=\"padding:10px; border:1px solid #555;\">CM</td>\n    </tr>\n\n    <!-- Filas -->\n    <tr style=\"background:#fff; text-align:center;\">\n      <td style=\"padding:10px; border:1px solid #ccc;\">35</td>\n      <td style=\"padding:10px; border:1px solid #ccc;\">23,5</td>\n    </tr>\n\n    <tr style=\"background:#f3f3f3; text-align:center;\">\n      <td style=\"padding:10px; border:1px solid #ccc;\">36</td>\n      <td style=\"padding:10px; border:1px solid #ccc;\">24</td>\n    </tr>\n\n    <tr style=\"background:#fff; text-align:center;\">\n      <td style=\"padding:10px; border:1px solid #ccc;\">37</td>\n      <td style=\"padding:10px; border:1px solid #ccc;\">24,5</td>\n    </tr>\n\n    <tr style=\"background:#f3f3f3; text-align:center;\">\n      <td style=\"padding:10px; border:1px solid #ccc;\">38</td>\n      <td style=\"padding:10px; border:1px solid #ccc;\">25,5</td>\n    </tr>\n\n    <tr style=\"background:#fff; text-align:center;\">\n      <td style=\"padding:10px; border:1px solid #ccc;\">39</td>\n      <td style=\"padding:10px; border:1px solid #ccc;\">26</td>\n    </tr>\n\n    <tr style=\"background:#f3f3f3; text-align:center;\">\n      <td style=\"padding:10px; border:1px solid #ccc;\">40</td>\n      <td style=\"padding:10px; border:1px solid #ccc;\">26,5</td>\n    </tr>\n\n    <tr style=\"background:#fff; text-align:center;\">\n      <td style=\"padding:10px; border:1px solid #ccc;\">41</td>\n      <td style=\"padding:10px; border:1px solid #ccc;\">27</td>\n    </tr>\n\n    <tr style=\"background:#f3f3f3; text-align:center;\">\n      <td style=\"padding:10px; border:1px solid #ccc;\">42</td>\n      <td style=\"padding:10px; border:1px solid #ccc;\">28</td>\n    </tr>\n\n    <tr style=\"background:#fff; text-align:center;\">\n      <td style=\"padding:10px; border:1px solid #ccc;\">43</td>\n      <td style=\"padding:10px; border:1px solid #ccc;\">28,3</td>\n    </tr>\n\n  </table>\n</div>"
-          }
         }
       },
       "block_order": [
         "variant_picker",
         "buy_buttons",
-        "description",
-        "custom_liquid_DEHnPU"
+        "description"
       ],
       "settings": {
         "enable_sticky_info": true,
