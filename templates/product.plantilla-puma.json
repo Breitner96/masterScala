@@ -525,10 +525,10 @@
         "collapsible_row_eyA4xc": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Son adecuados para correr o solo para uso diario?",
+            "heading": "¿Qué materiales tienen?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Sí. Están diseñados con una suela de amortiguación avanzada que absorbe el impacto, brindando estabilidad tanto para correr como para el uso urbano diario.</p>",
+            "row_content": "<p>Están fabricados con:</p><ul><li>Capellada en <strong>cuero sintético + textil de alta resistencia</strong><br/></li><li>Suela en <strong>goma antideslizante</strong><br/></li><li>Plantilla ergonómica para confort todo el día<br/></li></ul>",
             "page": ""
           }
         },
