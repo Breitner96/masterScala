@@ -142,7 +142,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/2_4_11zon.webp",
+        "image": "shopify://shop_images/2_de732d35-2a84-4141-842f-573ead5c9f05.webp",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -235,7 +235,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/3_3_11zon.webp",
+        "image": "shopify://shop_images/3_7ad4d4c4-a819-498a-b31b-71b32158e883.webp",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -347,7 +347,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/4_2_11zon.webp",
+        "image": "shopify://shop_images/4_bfe5b61b-73d6-4977-a184-ef979543e1f9.webp",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -412,7 +412,24 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/5_1_11zon.webp",
+        "image": "shopify://shop_images/5_cd920bff-9508-4790-8a67-40045678b1a5.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_banner_MhgK8c": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/6_8a03dd58-10a3-4384-9487-3e86ba9cb31b.webp",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -652,6 +669,7 @@
     "image_banner_rnYhEh",
     "escala_announcement_bar_aTDNdh",
     "image_banner_H34i6B",
+    "image_banner_MhgK8c",
     "custom_liquid_fFegqP",
     "related-products",
     "escala_announcement_bar_7CpN8f",
