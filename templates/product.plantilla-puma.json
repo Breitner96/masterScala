@@ -535,10 +535,10 @@
         "collapsible_row_VhdL89": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Cómo es la horma de los zapatos?",
+            "heading": "¿Son de horma grande o pequeña?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>La horma es estándar. Si tu talla suele variar entre dos números, te recomendamos elegir la mayor.</p>",
+            "row_content": "<p>La horma es <strong>estándar</strong>, fiel a la talla.<br/>No quedan ni muy ajustados ni muy sueltos.</p>",
             "page": ""
           }
         },
