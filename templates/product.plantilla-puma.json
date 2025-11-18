@@ -562,16 +562,6 @@
             "page": ""
           }
         },
-        "collapsible_row_recNjJ": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "¿Qué tipo de soporte brindan?",
-            "text_size": "h5",
-            "icon": "none",
-            "row_content": "<p>Cuentan con soporte ergonómico en arco y talón, diseñado para reducir la fatiga y mejorar la postura del pie.</p>",
-            "page": ""
-          }
-        },
         "collapsible_row_Rgmyx7": {
           "type": "collapsible_row",
           "settings": {
@@ -608,7 +598,6 @@
         "collapsible_row_VhdL89",
         "collapsible_row_fd8Vt7",
         "collapsible_row_QTfCFi",
-        "collapsible_row_recNjJ",
         "collapsible_row_Rgmyx7",
         "collapsible_row_kDVMWL",
         "collapsible_row_yPJagE"
