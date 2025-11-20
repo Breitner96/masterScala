@@ -84,14 +84,6 @@
             "swatch_shape": "circle"
           }
         },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "disabled": true,
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
-        },
         "description": {
           "type": "description",
           "disabled": true,
@@ -99,17 +91,23 @@
         },
         "custom_liquid_BkAQfA": {
           "type": "custom_liquid",
-          "disabled": true,
           "settings": {
             "custom_liquid": "<!-- Botón / Enlace para abrir -->\n<div id=\"openSizeGuide\" \n     style=\"display:inline-flex; align-items:center; gap:6px; cursor:pointer;\n            font-size:15px; font-weight:600; color:#1a73e8; padding:6px 10px;\n            border-radius:6px; background:#e8f0fe; transition:0.3s;\">\n  \n  <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"#1a73e8\" viewBox=\"0 0 24 24\">\n    <path d=\"M20 6h-3V4a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v16h2a3 3 0 0 0 6 0h4a3 3 0 0 0 6 0h2V8a2 2 0 0 0-2-2zM7 20a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm10 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm2-6H7V6h12v8z\"/>\n  </svg>\n\n  Tabla de tallas\n</div>\n\n<!-- Overlay del popup -->\n<div id=\"sizeGuideModal\" \n     style=\"display:none; position:fixed; inset:0; background:rgba(0,0,0,0.55);\n            z-index:999999999; justify-content:center; align-items:center; padding:20px;\">\n \n  <!-- Caja del popup -->\n  <div style=\"background:#fff; width:100%; max-width:420px; border-radius:14px;\n              padding:16px 18px; position:relative; animation:fadeInScale 0.25s ease;\n              box-shadow:0 10px 25px rgba(0,0,0,0.20); z-index:999999999;\">\n\n    <!-- ❌ Botón cerrar -->\n    <div id=\"closeSizeGuide\"\n         style=\"position:absolute; right:12px; top:10px; cursor:pointer;\n                font-size:26px; font-weight:bold; color:#555;\n                width:32px; height:32px; display:flex; align-items:center;\n                justify-content:center; border-radius:50%;\n                transition:0.2s;\"\n         onmouseover=\"this.style.background='#f2f2f2'\"\n         onmouseout=\"this.style.background='transparent'\">\n      &times;\n    </div>\n\n    <h2 style=\"font-size:18px; margin:10px 0 14px; color:#111; font-weight:700;\">\n      Guía de tallas\n    </h2>\n\n    <img src=\"https://cdn.shopify.com/s/files/1/0654/2698/0975/files/tallascloudstriker.webp?v=1759587124\"\n         alt=\"Guía de tallas\"\n         style=\"width:100%; border-radius:10px;\">\n  </div>\n</div>\n\n<!-- Animación -->\n<style>\n@keyframes fadeInScale {\n  0% {opacity:0; transform:scale(0.85);}\n  100% {opacity:1; transform:scale(1);}\n}\n</style>\n\n<!-- JS -->\n<script>\ndocument.getElementById(\"openSizeGuide\").onclick = () => {\n  document.getElementById(\"sizeGuideModal\").style.display = \"flex\";\n};\ndocument.getElementById(\"closeSizeGuide\").onclick = () => {\n  document.getElementById(\"sizeGuideModal\").style.display = \"none\";\n};\ndocument.getElementById(\"sizeGuideModal\").onclick = (e) => {\n  if (e.target === document.getElementById(\"sizeGuideModal\")) {\n    document.getElementById(\"sizeGuideModal\").style.display = \"none\";\n  }\n};\n</script>"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
           }
         }
       },
       "block_order": [
         "variant_picker",
-        "buy_buttons",
         "description",
-        "custom_liquid_BkAQfA"
+        "custom_liquid_BkAQfA",
+        "buy_buttons"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -130,6 +128,7 @@
     },
     "custom_liquid_4nyXqD": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "<div style=\"text-align:center; margin:0; padding:0;\">\n  <div class=\"fe-pulse\" style=\"display:inline-block; margin:0; padding:0;\">\n    <a href=\"/rsi-btn-hook\" style=\"display:inline-block; margin:0; padding:0;\">\n      <img src=\"https://i.imgur.com/4Me8z8R.png\" alt=\"Botón de oferta\" style=\"display:block; margin:0; padding:0; border:none; width:auto; max-width:100%;\">\n    </a>\n  </div>\n\n  <style>\n    @keyframes pulse {\n      0% { transform: scale(1); }\n      50% { transform: scale(0.85); }\n      100% { transform: scale(1); }\n    }\n    .fe-pulse {\n      animation: pulse 3s infinite;\n      margin: 0 !important;\n      padding: 0 !important;\n    }\n  </style>\n</div>",
