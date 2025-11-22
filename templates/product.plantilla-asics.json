@@ -245,7 +245,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/3_3_11zon.webp",
+        "image": "shopify://shop_images/3_bb3bd2fe-eb36-45aa-b190-be8d6bbdaad7.webp",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -357,7 +357,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/4_2_11zon.webp",
+        "image": "shopify://shop_images/4_84bf9a1f-d3eb-4660-add9-eea60a2b1b65.webp",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -422,7 +422,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/5_1_11zon.webp",
+        "image": "shopify://shop_images/5_cec695e6-b375-4969-aede-9b12cd1b1f96.webp",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -443,6 +443,23 @@
         "color_scheme": "scheme-4",
         "padding_top": 0,
         "padding_bottom": 4
+      }
+    },
+    "image_banner_NJEzn8": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/6_6564bb73-a4ff-44c3-be03-039a38eb3513.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "related-products": {
@@ -664,6 +681,7 @@
     "escala_announcement_bar_aTDNdh",
     "image_banner_H34i6B",
     "custom_liquid_fFegqP",
+    "image_banner_NJEzn8",
     "related-products",
     "escala_announcement_bar_7CpN8f",
     "collapsible_content_VYyyVK",
