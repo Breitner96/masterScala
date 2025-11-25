@@ -607,30 +607,30 @@
         "collapsible_row_eyA4xc": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Son adecuados para correr o solo para uso diario?",
+            "heading": "¿A partir de qué edad es recomendado este juguete?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Sí. Están diseñados con una suela de amortiguación avanzada que absorbe el impacto, brindando estabilidad tanto para correr como para el uso urbano diario.</p>",
+            "row_content": "<p>Este set de bloques magnéticos está recomendado para niños desde <em>3 años en adelante</em>, ya que las piezas son grandes, seguras y fáciles de manipular.</p>",
             "page": ""
           }
         },
         "collapsible_row_VhdL89": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Cómo es la horma de los zapatos?",
+            "heading": "¿Las piezas son seguras para los niños?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>La horma es estándar. Si tu talla suele variar entre dos números, te recomendamos elegir la mayor.</p>",
+            "row_content": "<p>Sí. Están fabricadas con plástico ABS no tóxico y esquinas redondeadas. Los imanes internos están completamente sellados para mayor seguridad.</p>",
             "page": ""
           }
         },
         "collapsible_row_fd8Vt7": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Son transpirables?",
+            "heading": "¿Ayuda realmente al aprendizaje?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Totalmente. Su malla técnica permite una ventilación constante, manteniendo tus pies frescos incluso en actividades intensas.</p>",
+            "row_content": "<p>Sí. Estos bloques estimulan habilidades como:<br/><br/>✔ Creatividad<br/>✔ Coordinación mano-ojo<br/>✔ Resolución de problemas<br/>✔ Pensamiento espacial<br/>✔ Construcción y diseño 3D</p>",
             "page": ""
           }
         },
