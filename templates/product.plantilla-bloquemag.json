@@ -507,6 +507,54 @@
         "padding_bottom": 16
       }
     },
+    "escala_announcement_bar_RhrPpQ": {
+      "type": "escala-announcement-bar",
+      "blocks": {
+        "text_y7id3c": {
+          "type": "text",
+          "settings": {
+            "title": "El regalo educativo más divertido del año"
+          }
+        },
+        "text_g9w7kT": {
+          "type": "text",
+          "settings": {
+            "title": "50% OFF"
+          }
+        },
+        "text_jCTFcG": {
+          "type": "text",
+          "settings": {
+            "title": "PAGO CONTRA ENTREGA"
+          }
+        }
+      },
+      "block_order": [
+        "text_y7id3c",
+        "text_g9w7kT",
+        "text_jCTFcG"
+      ],
+      "name": "Barra de anuncios",
+      "settings": {
+        "visibility": "desktop-hidden",
+        "speed": 1.5,
+        "mobile_spacing": 60,
+        "desktop_spacing": 100,
+        "bg_color": "#db6906",
+        "text_color": "#ffffff",
+        "mobile_text_size": 14,
+        "desktop_text_size": 14,
+        "italic_text": false,
+        "uppercase_text": true,
+        "bold_text": true,
+        "mobile_image_height": 20,
+        "desktop_image_height": 20,
+        "mobile_padding_top": 12,
+        "mobile_padding_bottom": 12,
+        "desktop_padding_top": 16,
+        "desktop_padding_bottom": 16
+      }
+    },
     "image_banner_NJEzn8": {
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
@@ -754,6 +802,7 @@
     "escala_announcement_bar_aTDNdh",
     "image_banner_H34i6B",
     "custom_liquid_fFegqP",
+    "escala_announcement_bar_RhrPpQ",
     "image_banner_NJEzn8",
     "custom_liquid_mfmw4d",
     "related-products",
