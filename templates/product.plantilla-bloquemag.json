@@ -637,10 +637,10 @@
         "collapsible_row_QTfCFi": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Se pueden lavar?",
+            "heading": "¿Las piezas son compatibles con otras marcas?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Sí, recomendamos limpieza manual con un paño húmedo y jabón neutro. No usar lavadora ni secadora para preservar el material.</p>",
+            "row_content": "<p>Sí, la mayoría de sets magnéticos del mismo tipo son compatibles entre sí. Sin embargo, puede variar según el modelo.</p>",
             "page": ""
           }
         },
