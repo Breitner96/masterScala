@@ -276,7 +276,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/3_bb3bd2fe-eb36-45aa-b190-be8d6bbdaad7.webp",
+        "image": "shopify://shop_images/3_e50d381d-13ea-43e1-a48e-a0107bbc3c18.webp",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -388,7 +388,24 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/4_84bf9a1f-d3eb-4660-add9-eea60a2b1b65.webp",
+        "image": "shopify://shop_images/4_5c89a0c8-7ab4-4252-8c6b-d96adcc6894c.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_banner_VkNP9n": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/5_ed5a52d2-1941-42dd-a2d5-fc950a79eb5c.webp",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -453,7 +470,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/5_cec695e6-b375-4969-aede-9b12cd1b1f96.webp",
+        "image": "shopify://shop_images/6_6a0f6978-f678-4414-addd-158e1e123e4e.webp",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -480,7 +497,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/6_6564bb73-a4ff-44c3-be03-039a38eb3513.webp",
+        "image": "shopify://shop_images/7_27e5163c-b3c8-4d66-81b1-10fe8b9ebeeb.webp",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -719,6 +736,7 @@
     "image_banner_4ApXqQ",
     "slideshow_DaHFgt",
     "image_banner_rnYhEh",
+    "image_banner_VkNP9n",
     "escala_announcement_bar_aTDNdh",
     "image_banner_H34i6B",
     "custom_liquid_fFegqP",
