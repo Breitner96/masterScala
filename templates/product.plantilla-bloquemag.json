@@ -647,10 +647,10 @@
         "collapsible_row_recNjJ": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Qué tipo de soporte brindan?",
+            "heading": "¿Qué puedo construir con este set?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Cuentan con soporte ergonómico en arco y talón, diseñado para reducir la fatiga y mejorar la postura del pie.</p>",
+            "row_content": "<p>Castillos, cohetes, figuras 3D, animales, robots, casas, autos y todo lo que la imaginación permita.</p>",
             "page": ""
           }
         },
