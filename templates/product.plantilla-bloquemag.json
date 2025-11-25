@@ -255,54 +255,6 @@
         "show_text_below": true
       }
     },
-    "escala_announcement_bar_eVdJeR": {
-      "type": "escala-announcement-bar",
-      "blocks": {
-        "text_QdbQtz": {
-          "type": "text",
-          "settings": {
-            "title": "Mejora la lógica, la imaginación y la motricidad fina"
-          }
-        },
-        "text_D8TBCU": {
-          "type": "text",
-          "settings": {
-            "title": "APROVECHA 50% OFF"
-          }
-        },
-        "text_4TBaJT": {
-          "type": "text",
-          "settings": {
-            "title": "STOCK LIMITADO"
-          }
-        }
-      },
-      "block_order": [
-        "text_QdbQtz",
-        "text_D8TBCU",
-        "text_4TBaJT"
-      ],
-      "name": "Barra de anuncios",
-      "settings": {
-        "visibility": "desktop-hidden",
-        "speed": 1.5,
-        "mobile_spacing": 60,
-        "desktop_spacing": 100,
-        "bg_color": "#db6906",
-        "text_color": "#ffffff",
-        "mobile_text_size": 14,
-        "desktop_text_size": 14,
-        "italic_text": false,
-        "uppercase_text": true,
-        "bold_text": true,
-        "mobile_image_height": 20,
-        "desktop_image_height": 20,
-        "mobile_padding_top": 12,
-        "mobile_padding_bottom": 12,
-        "desktop_padding_top": 16,
-        "desktop_padding_bottom": 16
-      }
-    },
     "slideshow_DaHFgt": {
       "type": "slideshow",
       "blocks": {
@@ -415,6 +367,54 @@
         "show_text_below": true
       }
     },
+    "escala_announcement_bar_eVdJeR": {
+      "type": "escala-announcement-bar",
+      "blocks": {
+        "text_QdbQtz": {
+          "type": "text",
+          "settings": {
+            "title": "Mejora la lógica, la imaginación y la motricidad fina"
+          }
+        },
+        "text_D8TBCU": {
+          "type": "text",
+          "settings": {
+            "title": "APROVECHA 50% OFF"
+          }
+        },
+        "text_4TBaJT": {
+          "type": "text",
+          "settings": {
+            "title": "STOCK LIMITADO"
+          }
+        }
+      },
+      "block_order": [
+        "text_QdbQtz",
+        "text_D8TBCU",
+        "text_4TBaJT"
+      ],
+      "name": "Barra de anuncios",
+      "settings": {
+        "visibility": "desktop-hidden",
+        "speed": 1.5,
+        "mobile_spacing": 60,
+        "desktop_spacing": 100,
+        "bg_color": "#db6906",
+        "text_color": "#ffffff",
+        "mobile_text_size": 14,
+        "desktop_text_size": 14,
+        "italic_text": false,
+        "uppercase_text": true,
+        "bold_text": true,
+        "mobile_image_height": 20,
+        "desktop_image_height": 20,
+        "mobile_padding_top": 12,
+        "mobile_padding_bottom": 12,
+        "desktop_padding_top": 16,
+        "desktop_padding_bottom": 16
+      }
+    },
     "image_banner_VkNP9n": {
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
@@ -465,8 +465,8 @@
         "speed": 1.5,
         "mobile_spacing": 60,
         "desktop_spacing": 100,
-        "bg_color": "#c8ea28",
-        "text_color": "#121212",
+        "bg_color": "#db6906",
+        "text_color": "#ffffff",
         "mobile_text_size": 14,
         "desktop_text_size": 14,
         "italic_text": false,
@@ -747,9 +747,9 @@
     "escala_announcement_bar_gCp8hk",
     "escala_announcement_bar_gTTWB4",
     "image_banner_4ApXqQ",
-    "escala_announcement_bar_eVdJeR",
     "slideshow_DaHFgt",
     "image_banner_rnYhEh",
+    "escala_announcement_bar_eVdJeR",
     "image_banner_VkNP9n",
     "escala_announcement_bar_aTDNdh",
     "image_banner_H34i6B",
