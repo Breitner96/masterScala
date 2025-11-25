@@ -144,19 +144,26 @@
         "text_jAYUEN": {
           "type": "text",
           "settings": {
-            "title": "Diseñados para moverse contigo."
+            "title": "Plástico ABS"
           }
         },
         "text_dCAxwH": {
           "type": "text",
           "settings": {
-            "title": "Reduce el impacto y potencia tu energía."
+            "title": "Imanes encapsulados"
+          }
+        },
+        "text_MAxEBq": {
+          "type": "text",
+          "settings": {
+            "title": "Bordes redondeados"
           }
         }
       },
       "block_order": [
         "text_jAYUEN",
-        "text_dCAxwH"
+        "text_dCAxwH",
+        "text_MAxEBq"
       ],
       "name": "Barra de anuncios",
       "settings": {
@@ -164,8 +171,8 @@
         "speed": 1.5,
         "mobile_spacing": 60,
         "desktop_spacing": 100,
-        "bg_color": "#c8ea28",
-        "text_color": "#121212",
+        "bg_color": "#db6906",
+        "text_color": "#ffffff",
         "mobile_text_size": 14,
         "desktop_text_size": 14,
         "italic_text": false,
