@@ -675,30 +675,30 @@
         "collapsible_row_VhdL89": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Cómo es la horma de los zapatos?",
+            "heading": "¿Las piezas son completamente magnéticas?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>La horma es estándar. Si tu talla suele variar entre dos números, te recomendamos elegir la mayor.</p>",
+            "row_content": "<p>Sí, las barras contienen imanes internos que se conectan fácilmente a las esferas, permitiendo crear múltiples estructuras en 2D y 3D.</p>",
             "page": ""
           }
         },
         "collapsible_row_fd8Vt7": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Son transpirables?",
+            "heading": "¿Qué materiales se usan y son seguros?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Totalmente. Su malla técnica permite una ventilación constante, manteniendo tus pies frescos incluso en actividades intensas.</p>",
+            "row_content": "<p>Las piezas están hechas de <strong>plástico ABS no tóxico</strong>, resistente a golpes y totalmente seguro para el uso infantil.</p>",
             "page": ""
           }
         },
         "collapsible_row_QTfCFi": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Se pueden lavar?",
+            "heading": "¿Cuántas piezas incluye el set?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Sí, recomendamos limpieza manual con un paño húmedo y jabón neutro. No usar lavadora ni secadora para preservar el material.</p>",
+            "row_content": "<p>Incluye una combinación 168 piezas entre <strong>barras rectas, curvas y esferas magnéticas</strong>.</p>",
             "page": ""
           }
         },
