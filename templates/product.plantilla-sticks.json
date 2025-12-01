@@ -705,10 +705,10 @@
         "collapsible_row_recNjJ": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Qué tipo de soporte brindan?",
+            "heading": "¿Puedo combinarlos con otros sets magnéticos?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Cuentan con soporte ergonómico en arco y talón, diseñado para reducir la fatiga y mejorar la postura del pie.</p>",
+            "row_content": "<p>Sí, en la mayoría de los casos son compatibles con otros juguetes magnéticos de diseño similar.</p>",
             "page": ""
           }
         },
