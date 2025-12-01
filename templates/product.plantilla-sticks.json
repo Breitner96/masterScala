@@ -199,6 +199,12 @@
     "escala_announcement_bar_eVdJeR": {
       "type": "escala-announcement-bar",
       "blocks": {
+        "text_pqmmtt": {
+          "type": "text",
+          "settings": {
+            "title": "¡Diversión educativa garantizada!"
+          }
+        },
         "text_QdbQtz": {
           "type": "text",
           "settings": {
@@ -213,6 +219,7 @@
         }
       },
       "block_order": [
+        "text_pqmmtt",
         "text_QdbQtz",
         "text_4TBaJT"
       ],
@@ -222,7 +229,7 @@
         "speed": 1.5,
         "mobile_spacing": 60,
         "desktop_spacing": 100,
-        "bg_color": "#c8ea28",
+        "bg_color": "#e67712",
         "text_color": "#121212",
         "mobile_text_size": 14,
         "desktop_text_size": 14,
