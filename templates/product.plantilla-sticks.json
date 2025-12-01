@@ -715,20 +715,20 @@
         "collapsible_row_Rgmyx7": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Son unisex?",
+            "heading": "¿Ayuda al desarrollo educativo del niño?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Sí, su diseño minimalista y estructura ergonómica se adaptan perfectamente a hombres y mujeres.</p>",
+            "row_content": "<p>¡Totalmente! Este juguete estimula:</p><ul><li>Creatividad</li><li>Imaginación espacial</li><li>Pensamiento lógico</li><li>Coordinación mano-ojo</li><li>Habilidades STEM (Ciencia, Tecnología, Ingeniería y Matemáticas)<br/></li></ul><h3></h3>",
             "page": ""
           }
         },
         "collapsible_row_kDVMWL": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Cuál es el tiempo de entrega?",
+            "heading": "¿Son fáciles de limpiar?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>El tiempo de envío varía entre 2 a 8 días hábiles según tu ubicación. Recibirás seguimiento por correo o WhatsApp.</p>",
+            "row_content": "<p>Sí, puedes limpiarlas con un trapo húmedo y jabón neutro. Se recomienda secarlas bien antes de guardarlas.</p>",
             "page": ""
           }
         },
