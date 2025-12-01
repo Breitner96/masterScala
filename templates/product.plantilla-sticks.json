@@ -15,25 +15,18 @@
         "text_w7REBT": {
           "type": "text",
           "settings": {
-            "title": "Conquista tu día con comodidad."
-          }
-        },
-        "text_Ay4xJC": {
-          "type": "text",
-          "settings": {
-            "title": "Ligereza, soporte y estilo en cada paso."
+            "title": "¡Despierta la imaginación con los Bloques Magnéticos 3D!"
           }
         },
         "text_GNrWLp": {
           "type": "text",
           "settings": {
-            "title": "Quiero los míos"
+            "title": "¡Quiero los míos!"
           }
         }
       },
       "block_order": [
         "text_w7REBT",
-        "text_Ay4xJC",
         "text_GNrWLp"
       ],
       "name": "Barra de anuncios",
