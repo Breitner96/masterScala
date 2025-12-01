@@ -61,7 +61,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/1_ae4126cc-39e2-4aa0-940b-788b3a671e06.webp",
+        "image": "shopify://shop_images/1_daaa1994-5a05-4ba9-8e67-6fbde271f818.webp",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -128,16 +128,6 @@
         "padding_bottom": 0
       }
     },
-    "custom_liquid_8NyYKH": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<!-- Botón / Enlace para abrir -->\n<div id=\"openSizeGuide\" \n     style=\"display:inline-flex; align-items:center; gap:6px; cursor:pointer;\n            font-size:15px; font-weight:600; color:#1a73e8; padding:6px 10px;\n            border-radius:6px; background:#e8f0fe; transition:0.3s;\">\n  \n  <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"#1a73e8\" viewBox=\"0 0 24 24\">\n    <path d=\"M20 6h-3V4a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v16h2a3 3 0 0 0 6 0h4a3 3 0 0 0 6 0h2V8a2 2 0 0 0-2-2zM7 20a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm10 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm2-6H7V6h12v8z\"/></svg>\n\n  Tabla de tallas\n</div>\n\n<!-- Overlay del popup -->\n<div id=\"sizeGuideModal\" \n     style=\"display:none; position:fixed; inset:0; background:rgba(0,0,0,0.55);\n            z-index:9999999999999; justify-content:center; align-items:flex-start; padding:20px;\n            overflow-y:auto; -webkit-overflow-scrolling:touch;\">\n \n  <!-- Caja del popup -->\n  <div style=\"background:#fff; width:100%; max-width:420px; border-radius:14px;\n              padding:16px 18px; position:relative; animation:fadeInScale 0.25s ease;\n              box-shadow:0 10px 25px rgba(0,0,0,0.20); z-index:9999999999999;\n              margin:5vh auto;                  /* empuja hacia abajo desde el top */\n              max-height:calc(100vh - 40px);    /* limita altura al viewport */\n              overflow:auto;                    /* scroll interno cuando haga falta */\n              -webkit-overflow-scrolling:touch;\">\n\n    <!-- ❌ Botón cerrar -->\n    <div id=\"closeSizeGuide\"\n         style=\"position:absolute; right:12px; top:10px; cursor:pointer;\n                font-size:26px; font-weight:bold; color:#555;\n                width:36px; height:36px; display:flex; align-items:center;\n                justify-content:center; border-radius:50%;\n                transition:0.12s; box-shadow: 0 2px 6px rgba(0,0,0,0.08); background:transparent;\"\n         onmouseover=\"this.style.background='#f2f2f2'\"\n         onmouseout=\"this.style.background='transparent'\">\n      &times;\n    </div>\n\n    <h2 style=\"font-size:18px; margin:10px 0 14px; color:#111; font-weight:700; text-align:center;\">\n      Guía de tallas\n    </h2>\n\n    <!-- Imagen ajustada para no recortarse -->\n    <img src=\"https://cdn.shopify.com/s/files/1/0633/5856/6463/files/Captura_de_pantalla_2025-11-23_a_la_s_1.53.51_p.m..png?v=1763924054\"\n         alt=\"Guía de tallas\"\n         style=\"width:100%; height:auto; display:block; border-radius:10px;\n                object-fit:contain; max-height:70vh;\">\n\n    <!-- (Opcional) pie o contenido extra -->\n    <!-- <p style=\"font-size:13px; color:#666; text-align:center; margin-top:10px;\">Instrucciones para medir...</p> -->\n\n  </div>\n</div>\n\n<!-- Animación -->\n<style>\n@keyframes fadeInScale {\n  0% {opacity:0; transform:scale(0.96);}\n  100% {opacity:1; transform:scale(1);}\n}\n\n/* Scrollbar fino opcional (solo visual) */\n#sizeGuideModal > div::-webkit-scrollbar { width:8px; }\n#sizeGuideModal > div::-webkit-scrollbar-thumb { background:rgba(0,0,0,0.12); border-radius:6px; }\n</style>\n\n<!-- JS -->\n<script>\n(function(){\n  var openBtn = document.getElementById(\"openSizeGuide\");\n  var modal = document.getElementById(\"sizeGuideModal\");\n  var closeBtn = document.getElementById(\"closeSizeGuide\");\n\n  openBtn && openBtn.addEventListener(\"click\", function(){\n    modal.style.display = \"flex\";\n    // intenta forzar que body no oculte overflow si el theme lo hace (opcional)\n    try { document.body.style.overflow = 'hidden'; } catch(e) {}\n  });\n\n  closeBtn && closeBtn.addEventListener(\"click\", function(){\n    modal.style.display = \"none\";\n    try { document.body.style.overflow = ''; } catch(e) {}\n  });\n\n  modal && modal.addEventListener(\"click\", function(e){\n    if (e.target === modal) {\n      modal.style.display = \"none\";\n      try { document.body.style.overflow = ''; } catch(e) {}\n    }\n  });\n\n  // se cierra con ESC\n  document.addEventListener(\"keydown\", function(e){\n    if (e.key === \"Escape\" && modal.style.display === \"flex\") {\n      modal.style.display = \"none\";\n      try { document.body.style.overflow = ''; } catch(e) {}\n    }\n  });\n})();\n</script>",
-        "color_scheme": "scheme-1",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "custom_liquid_4nyXqD": {
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
@@ -193,7 +183,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/2_e318ceb9-61ed-47a0-97c0-ad2085deea16.webp",
+        "image": "shopify://shop_images/2_5f493f2e-ca70-40c2-b526-7adec4b71ed2.webp",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -286,7 +276,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/3_bb3bd2fe-eb36-45aa-b190-be8d6bbdaad7.webp",
+        "image": "shopify://shop_images/3_91a25080-9699-47bd-ad80-73fb7d763558.webp",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -398,7 +388,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/4_84bf9a1f-d3eb-4660-add9-eea60a2b1b65.webp",
+        "image": "shopify://shop_images/4_9ca5fa6e-5999-4b6d-b33d-0407f260c890.webp",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -463,7 +453,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/5_cec695e6-b375-4969-aede-9b12cd1b1f96.webp",
+        "image": "shopify://shop_images/5_571e5320-4970-4c02-a684-970b02996c6c.webp",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -490,7 +480,41 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/6_6564bb73-a4ff-44c3-be03-039a38eb3513.webp",
+        "image": "shopify://shop_images/6_a5dd925f-dbed-4a58-8a69-a3e3074c2489.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_banner_CwWkM8": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/7_4a87daa7-d9f7-4434-992f-cb9ef7b5bcff.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_banner_NneTdC": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/8.webp",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -721,7 +745,6 @@
     "escala_announcement_bar_qDVcdK",
     "image_banner_cL3ADr",
     "main",
-    "custom_liquid_8NyYKH",
     "custom_liquid_4nyXqD",
     "escala_announcement_bar_gCp8hk",
     "image_banner_ygiGEb",
@@ -734,6 +757,8 @@
     "image_banner_H34i6B",
     "custom_liquid_fFegqP",
     "image_banner_NJEzn8",
+    "image_banner_CwWkM8",
+    "image_banner_NneTdC",
     "custom_liquid_mfmw4d",
     "related-products",
     "escala_announcement_bar_7CpN8f",
