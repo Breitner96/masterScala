@@ -665,10 +665,10 @@
         "collapsible_row_eyA4xc": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Son adecuados para correr o solo para uso diario?",
+            "heading": "¿A partir de qué edad es recomendable este juguete?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Sí. Están diseñados con una suela de amortiguación avanzada que absorbe el impacto, brindando estabilidad tanto para correr como para el uso urbano diario.</p>",
+            "row_content": "<p>Está recomendado para niños y niñas <strong>a partir de 3 años</strong>, siempre bajo supervisión de un adulto, ya que contiene piezas pequeñas.</p><h3></h3>",
             "page": ""
           }
         },
