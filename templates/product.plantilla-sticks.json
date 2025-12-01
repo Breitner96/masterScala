@@ -145,11 +145,18 @@
           "settings": {
             "title": "Estructuras 3D ilimitadas"
           }
+        },
+        "text_GnW6KR": {
+          "type": "text",
+          "settings": {
+            "title": "Ideal para niños y niñas desde 3 años"
+          }
         }
       },
       "block_order": [
         "text_jAYUEN",
-        "text_dCAxwH"
+        "text_dCAxwH",
+        "text_GnW6KR"
       ],
       "name": "Barra de anuncios",
       "settings": {
