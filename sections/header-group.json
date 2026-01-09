@@ -18,7 +18,6 @@
     },
     "header": {
       "type": "header",
-      "disabled": true,
       "settings": {
         "logo_position": "middle-center",
         "menu": "main-menu",
