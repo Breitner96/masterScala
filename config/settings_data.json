@@ -144,18 +144,8 @@
     },
     "content_for_index": [],
     "blocks": {
-      "409951731435663064": {
-        "type": "shopify://apps/dakaas-store-effects/blocks/app-embed/bf1c5ad9-e345-428b-a2e7-cfde42309a53",
-        "disabled": false,
-        "settings": {}
-      },
       "13669795325273674392": {
         "type": "shopify://apps/releasit-cod-form/blocks/app-embed/72faf214-4174-4fec-886b-0d0e8d3af9a2",
-        "disabled": false,
-        "settings": {}
-      },
-      "11901248931489288752": {
-        "type": "shopify://apps/audien-reviews/blocks/audien-reviews/ce002b21-24e0-4d65-87ca-18c9770b24d4",
         "disabled": false,
         "settings": {}
       }
@@ -207,7 +197,7 @@
       },
       "scheme-5": {
         "settings": {
-          "background": "#000000",
+          "background": "#dd5e0d",
           "background_gradient": "",
           "text": "#ffffff",
           "button": "#ffffff",
