@@ -308,19 +308,19 @@
         "text_J6n64Y": {
           "type": "text",
           "settings": {
-            "title": "Tecnología y Rendimiento garantizado."
+            "title": "🔥 Piel suave, lisa y renovada"
           }
         },
         "text_Pr7Gma": {
           "type": "text",
           "settings": {
-            "title": "Máxima durabilidad."
+            "title": "💥 Despídete de la piel áspera"
           }
         },
         "text_zyN7gK": {
           "type": "text",
           "settings": {
-            "title": "Ordenar ahora"
+            "title": "🛒 Stock limitado – ordénalo hoy"
           }
         }
       },
@@ -341,7 +341,7 @@
         "desktop_text_size": 14,
         "italic_text": false,
         "uppercase_text": true,
-        "bold_text": true,
+        "bold_text": false,
         "mobile_image_height": 20,
         "desktop_image_height": 20,
         "mobile_padding_top": 12,
