@@ -398,6 +398,33 @@
         "show_text_below": true
       }
     },
+    "image_banner_H34i6B": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/5.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "custom_liquid_fFegqP": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div style=\"text-align:center; margin:0; padding:0;\">\n  <div class=\"fe-pulse\" style=\"display:inline-block; margin:0; padding:0;\">\n    <a href=\"/rsi-btn-hook\" style=\"display:inline-block; margin:0; padding:0;\">\n      <img src=\"https://i.imgur.com/4Me8z8R.png\" alt=\"Botón de oferta\" style=\"display:block; margin:0; padding:0; border:none; width:auto; max-width:100%;\">\n    </a>\n  </div>\n\n  <style>\n    @keyframes pulse {\n      0% { transform: scale(1); }\n      50% { transform: scale(0.85); }\n      100% { transform: scale(1); }\n    }\n    .fe-pulse {\n      animation: pulse 3s infinite;\n      margin: 0 !important;\n      padding: 0 !important;\n    }\n  </style>\n</div>",
+        "color_scheme": "scheme-5",
+        "padding_top": 0,
+        "padding_bottom": 16
+      }
+    },
     "escala_announcement_bar_aTDNdh": {
       "type": "escala-announcement-bar",
       "blocks": {
@@ -444,33 +471,6 @@
         "mobile_padding_bottom": 12,
         "desktop_padding_top": 16,
         "desktop_padding_bottom": 16
-      }
-    },
-    "image_banner_H34i6B": {
-      "type": "image-banner",
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/5.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "custom_liquid_fFegqP": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<div style=\"text-align:center; margin:0; padding:0;\">\n  <div class=\"fe-pulse\" style=\"display:inline-block; margin:0; padding:0;\">\n    <a href=\"/rsi-btn-hook\" style=\"display:inline-block; margin:0; padding:0;\">\n      <img src=\"https://i.imgur.com/4Me8z8R.png\" alt=\"Botón de oferta\" style=\"display:block; margin:0; padding:0; border:none; width:auto; max-width:100%;\">\n    </a>\n  </div>\n\n  <style>\n    @keyframes pulse {\n      0% { transform: scale(1); }\n      50% { transform: scale(0.85); }\n      100% { transform: scale(1); }\n    }\n    .fe-pulse {\n      animation: pulse 3s infinite;\n      margin: 0 !important;\n      padding: 0 !important;\n    }\n  </style>\n</div>",
-        "color_scheme": "scheme-5",
-        "padding_top": 0,
-        "padding_bottom": 16
       }
     },
     "image_banner_NJEzn8": {
@@ -707,9 +707,9 @@
     "slideshow_DaHFgt",
     "escala_announcement_bar_eVdJeR",
     "image_banner_rnYhEh",
-    "escala_announcement_bar_aTDNdh",
     "image_banner_H34i6B",
     "custom_liquid_fFegqP",
+    "escala_announcement_bar_aTDNdh",
     "image_banner_NJEzn8",
     "custom_liquid_mfmw4d",
     "related-products",
