@@ -458,7 +458,7 @@
         "speed": 1.5,
         "mobile_spacing": 60,
         "desktop_spacing": 100,
-        "bg_color": "#dd5e0d",
+        "bg_color": "#f5a51d",
         "text_color": "#ffffff",
         "mobile_text_size": 14,
         "desktop_text_size": 14,
@@ -488,35 +488,6 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
-      }
-    },
-    "custom_liquid_mfmw4d": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<div style=\"text-align:center; margin:0; padding:0;\">\n  <div class=\"fe-pulse\" style=\"display:inline-block; margin:0; padding:0;\">\n    <a href=\"/rsi-btn-hook\" style=\"display:inline-block; margin:0; padding:0;\">\n      <img src=\"https://i.imgur.com/4Me8z8R.png\" alt=\"Botón de oferta\" style=\"display:block; margin:0; padding:0; border:none; width:auto; max-width:100%;\">\n    </a>\n  </div>\n\n  <style>\n    @keyframes pulse {\n      0% { transform: scale(1); }\n      50% { transform: scale(0.85); }\n      100% { transform: scale(1); }\n    }\n    .fe-pulse {\n      animation: pulse 3s infinite;\n      margin: 0 !important;\n      padding: 0 !important;\n    }\n  </style>\n</div>",
-        "color_scheme": "scheme-5",
-        "padding_top": 0,
-        "padding_bottom": 12
-      }
-    },
-    "related-products": {
-      "type": "related-products",
-      "disabled": true,
-      "settings": {
-        "heading": "You may also like",
-        "heading_size": "h2",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "color_scheme": "scheme-1",
-        "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "columns_mobile": "2",
-        "padding_top": 36,
-        "padding_bottom": 28
       }
     },
     "escala_announcement_bar_7CpN8f": {
@@ -565,6 +536,35 @@
         "mobile_padding_bottom": 12,
         "desktop_padding_top": 16,
         "desktop_padding_bottom": 16
+      }
+    },
+    "custom_liquid_mfmw4d": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div style=\"text-align:center; margin:0; padding:0;\">\n  <div class=\"fe-pulse\" style=\"display:inline-block; margin:0; padding:0;\">\n    <a href=\"/rsi-btn-hook\" style=\"display:inline-block; margin:0; padding:0;\">\n      <img src=\"https://i.imgur.com/4Me8z8R.png\" alt=\"Botón de oferta\" style=\"display:block; margin:0; padding:0; border:none; width:auto; max-width:100%;\">\n    </a>\n  </div>\n\n  <style>\n    @keyframes pulse {\n      0% { transform: scale(1); }\n      50% { transform: scale(0.85); }\n      100% { transform: scale(1); }\n    }\n    .fe-pulse {\n      animation: pulse 3s infinite;\n      margin: 0 !important;\n      padding: 0 !important;\n    }\n  </style>\n</div>",
+        "color_scheme": "scheme-5",
+        "padding_top": 0,
+        "padding_bottom": 12
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
       }
     },
     "collapsible_content_VYyyVK": {
@@ -711,9 +711,9 @@
     "custom_liquid_fFegqP",
     "escala_announcement_bar_aTDNdh",
     "image_banner_NJEzn8",
+    "escala_announcement_bar_7CpN8f",
     "custom_liquid_mfmw4d",
     "related-products",
-    "escala_announcement_bar_7CpN8f",
     "collapsible_content_VYyyVK",
     "custom_liquid_iDfjg4",
     "1762659360e64cbdab"
