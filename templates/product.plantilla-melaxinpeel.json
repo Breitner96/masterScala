@@ -15,19 +15,19 @@
         "text_w7REBT": {
           "type": "text",
           "settings": {
-            "title": "Conquista tu día con comodidad."
+            "title": "✨ Exfoliación profesional en casa"
           }
         },
         "text_Ay4xJC": {
           "type": "text",
           "settings": {
-            "title": "Ligereza, soporte y estilo en cada paso."
+            "title": "🌿 Con ácido kójico + cúrcuma"
           }
         },
         "text_GNrWLp": {
           "type": "text",
           "settings": {
-            "title": "Quiero los míos"
+            "title": "💧 Piel más suave desde la primera aplicación"
           }
         }
       },
@@ -39,7 +39,7 @@
       "name": "Barra de anuncios",
       "settings": {
         "visibility": "desktop-hidden",
-        "speed": 1,
+        "speed": 1.5,
         "mobile_spacing": 60,
         "desktop_spacing": 100,
         "bg_color": "#f5a51d",
