@@ -61,7 +61,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/ChatGPT_Image_10_ene_2026_08_18_14_p.m..png",
+        "image": "shopify://shop_images/1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -183,7 +183,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/2_e318ceb9-61ed-47a0-97c0-ad2085deea16.webp",
+        "image": "shopify://shop_images/2.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -276,7 +276,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/3_bb3bd2fe-eb36-45aa-b190-be8d6bbdaad7.webp",
+        "image": "shopify://shop_images/3.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -384,7 +384,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/4_84bf9a1f-d3eb-4660-add9-eea60a2b1b65.webp",
+        "image": "shopify://shop_images/4.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -449,7 +449,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/5_cec695e6-b375-4969-aede-9b12cd1b1f96.webp",
+        "image": "shopify://shop_images/5.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -476,7 +476,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/6_6564bb73-a4ff-44c3-be03-039a38eb3513.webp",
+        "image": "shopify://shop_images/6.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
