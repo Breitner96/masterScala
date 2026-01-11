@@ -48,7 +48,7 @@
         "desktop_text_size": 14,
         "italic_text": false,
         "uppercase_text": true,
-        "bold_text": true,
+        "bold_text": false,
         "mobile_image_height": 20,
         "desktop_image_height": 20,
         "mobile_padding_top": 12,
@@ -177,49 +177,7 @@
         "desktop_text_size": 14,
         "italic_text": false,
         "uppercase_text": true,
-        "bold_text": true,
-        "mobile_image_height": 20,
-        "desktop_image_height": 20,
-        "mobile_padding_top": 12,
-        "mobile_padding_bottom": 12,
-        "desktop_padding_top": 16,
-        "desktop_padding_bottom": 16
-      }
-    },
-    "escala_announcement_bar_gCp8hk": {
-      "type": "escala-announcement-bar",
-      "blocks": {
-        "text_jAYUEN": {
-          "type": "text",
-          "settings": {
-            "title": "Diseñados para moverse contigo."
-          }
-        },
-        "text_dCAxwH": {
-          "type": "text",
-          "settings": {
-            "title": "Reduce el impacto y potencia tu energía."
-          }
-        }
-      },
-      "block_order": [
-        "text_jAYUEN",
-        "text_dCAxwH"
-      ],
-      "disabled": true,
-      "name": "Barra de anuncios",
-      "settings": {
-        "visibility": "desktop-hidden",
-        "speed": 1.5,
-        "mobile_spacing": 60,
-        "desktop_spacing": 100,
-        "bg_color": "#dd5e0d",
-        "text_color": "#ffffff",
-        "mobile_text_size": 14,
-        "desktop_text_size": 14,
-        "italic_text": false,
-        "uppercase_text": true,
-        "bold_text": true,
+        "bold_text": false,
         "mobile_image_height": 20,
         "desktop_image_height": 20,
         "mobile_padding_top": 12,
@@ -262,149 +220,30 @@
         "show_text_below": true
       }
     },
-    "escala_announcement_bar_gTTWB4": {
-      "type": "escala-announcement-bar",
-      "blocks": {
-        "text_8q37yz": {
-          "type": "text",
-          "settings": {
-            "title": "Dejá de pagar de más por un logo. Empezá a pagar por calidad."
-          }
-        }
-      },
-      "block_order": [
-        "text_8q37yz"
-      ],
-      "disabled": true,
-      "name": "Barra de anuncios",
-      "settings": {
-        "visibility": "desktop-hidden",
-        "speed": 2,
-        "mobile_spacing": 60,
-        "desktop_spacing": 100,
-        "bg_color": "#c41e3a",
-        "text_color": "#ffffff",
-        "mobile_text_size": 16,
-        "desktop_text_size": 18,
-        "italic_text": false,
-        "uppercase_text": true,
-        "bold_text": true,
-        "mobile_image_height": 26,
-        "desktop_image_height": 40,
-        "mobile_padding_top": 12,
-        "mobile_padding_bottom": 12,
-        "desktop_padding_top": 16,
-        "desktop_padding_bottom": 16
-      }
-    },
-    "slideshow_DaHFgt": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_3hJXYD": {
-          "type": "slide",
-          "settings": {
-            "heading": "",
-            "heading_size": "h2",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_Lnb689": {
-          "type": "slide",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_RttQH9": {
-          "type": "slide",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_wrdeFf": {
-          "type": "slide",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "slide_3hJXYD",
-        "slide_Lnb689",
-        "slide_RttQH9",
-        "slide_wrdeFf"
-      ],
-      "disabled": true,
-      "name": "t:sections.slideshow.presets.name",
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
     "escala_announcement_bar_eVdJeR": {
       "type": "escala-announcement-bar",
       "blocks": {
+        "text_HGLkBc": {
+          "type": "text",
+          "settings": {
+            "title": "🧪 Inspirado en el cuidado dermatológico coreano"
+          }
+        },
         "text_QdbQtz": {
           "type": "text",
           "settings": {
-            "title": "APROVECHA 50% OFF"
+            "title": "🌱 Ingredientes de cuidado cosmético"
           }
         },
         "text_4TBaJT": {
           "type": "text",
           "settings": {
-            "title": "STOCK LIMITADO"
+            "title": "✅ Apto para todo tipo de piel"
           }
         }
       },
       "block_order": [
+        "text_HGLkBc",
         "text_QdbQtz",
         "text_4TBaJT"
       ],
@@ -420,7 +259,7 @@
         "desktop_text_size": 14,
         "italic_text": false,
         "uppercase_text": true,
-        "bold_text": true,
+        "bold_text": false,
         "mobile_image_height": 20,
         "desktop_image_height": 20,
         "mobile_padding_top": 12,
@@ -749,11 +588,8 @@
     "main",
     "custom_liquid_4nyXqD",
     "escala_announcement_bar_FftP7P",
-    "escala_announcement_bar_gCp8hk",
     "image_banner_ygiGEb",
     "image_banner_rnYhEh",
-    "escala_announcement_bar_gTTWB4",
-    "slideshow_DaHFgt",
     "escala_announcement_bar_eVdJeR",
     "image_banner_4ApXqQ",
     "image_banner_H34i6B",
