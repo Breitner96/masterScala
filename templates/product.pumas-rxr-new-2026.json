@@ -16,6 +16,13 @@
           "type": "title",
           "settings": {}
         },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "dropdown",
+            "swatch_shape": "circle"
+          }
+        },
         "b0b87f18-c9ec-4efd-9230-4bd25d6037e8": {
           "type": "shopify://apps/audien-reviews/blocks/star_rating/ce002b21-24e0-4d65-87ca-18c9770b24d4",
           "disabled": true,
@@ -55,13 +62,6 @@
             "border_radius": 10
           }
         },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "dropdown",
-            "swatch_shape": "circle"
-          }
-        },
         "quantity_selector": {
           "type": "quantity_selector",
           "disabled": true,
@@ -82,11 +82,11 @@
       },
       "block_order": [
         "title_6HhGEd",
+        "variant_picker",
         "b0b87f18-c9ec-4efd-9230-4bd25d6037e8",
         "reviews_DCyymX",
         "price_tQkBTf",
         "like_section_QeCfAP",
-        "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "description"
