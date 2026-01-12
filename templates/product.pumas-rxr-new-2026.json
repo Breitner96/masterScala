@@ -38,10 +38,10 @@
           "settings": {
             "show_skala_price": true,
             "border_radius_percent": 0,
-            "border_percent_color": "#00ff3d",
-            "save_bg_color": "#1773b0",
+            "border_percent_color": "#ff0808",
+            "save_bg_color": "#121212",
             "save_text_color": "#ffffff",
-            "price_color": "#28357d",
+            "price_color": "#121212",
             "comparation_price_color": "#8a8f9b"
           }
         },
