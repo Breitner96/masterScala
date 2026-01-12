@@ -183,10 +183,15 @@
           "type": "description",
           "disabled": true,
           "settings": {}
+        },
+        "b579ad59-85f8-4636-8525-53293bafd3ce": {
+          "type": "shopify://apps/audien-reviews/blocks/star_rating/ce002b21-24e0-4d65-87ca-18c9770b24d4",
+          "settings": {}
         }
       },
       "block_order": [
         "title_6HhGEd",
+        "b579ad59-85f8-4636-8525-53293bafd3ce",
         "reviews_DCyymX",
         "text_P3gfqR",
         "text_CBicGD",
@@ -665,21 +670,6 @@
         "desktop_padding_bottom": 16
       }
     },
-    "ce002b21-24e0-4d65-87ca-18c9770b24d4": {
-      "type": "apps",
-      "blocks": {
-        "ce002b21-24e0-4d65-87ca-18c9770b24d4": {
-          "type": "shopify://apps/audien-reviews/blocks/review_list/ce002b21-24e0-4d65-87ca-18c9770b24d4",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "ce002b21-24e0-4d65-87ca-18c9770b24d4"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "collapsible_content_3jp9mq": {
       "type": "collapsible-content",
       "blocks": {
@@ -787,6 +777,21 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "ce002b21-24e0-4d65-87ca-18c9770b24d4": {
+      "type": "apps",
+      "blocks": {
+        "ce002b21-24e0-4d65-87ca-18c9770b24d4": {
+          "type": "shopify://apps/audien-reviews/blocks/review_list/ce002b21-24e0-4d65-87ca-18c9770b24d4",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "ce002b21-24e0-4d65-87ca-18c9770b24d4"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -804,8 +809,8 @@
     "escala_announcement_bar_cRDUNd",
     "image_banner_FRp8Yi",
     "escala_announcement_bar_8apiYY",
-    "ce002b21-24e0-4d65-87ca-18c9770b24d4",
     "collapsible_content_3jp9mq",
-    "custom_liquid_dpVgT8"
+    "custom_liquid_dpVgT8",
+    "ce002b21-24e0-4d65-87ca-18c9770b24d4"
   ]
 }

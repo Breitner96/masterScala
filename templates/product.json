@@ -66,14 +66,14 @@
           "disabled": true,
           "settings": {}
         },
-        "0b000e26-a06d-4643-97ae-93fd29a8bd7f": {
+        "49112dee-c576-4298-b5c0-968a4a7a02be": {
           "type": "shopify://apps/audien-reviews/blocks/star_rating/ce002b21-24e0-4d65-87ca-18c9770b24d4",
           "settings": {}
         }
       },
       "block_order": [
         "title_6HhGEd",
-        "0b000e26-a06d-4643-97ae-93fd29a8bd7f",
+        "49112dee-c576-4298-b5c0-968a4a7a02be",
         "reviews_DCyymX",
         "price_tQkBTf",
         "like_section_QeCfAP",
