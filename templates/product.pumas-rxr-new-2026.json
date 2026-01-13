@@ -192,10 +192,10 @@
         "collapsible_row_4tBPj3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "¿Son importados?",
             "text_size": "medium",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Si son importados calidad AAA</p>",
             "page": ""
           }
         }
