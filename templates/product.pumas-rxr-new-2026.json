@@ -172,20 +172,20 @@
         "collapsible_row_AzzwQr": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "¿Qué tipo de soporte brindan?",
             "text_size": "h4",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Cuentan con soporte ergonómico en arco y talón, diseñado para reducir la fatiga y mejorar la postura del pie.</p>",
             "page": ""
           }
         },
         "collapsible_row_t3nXXW": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "¿Cuál es el tiempo de entrega?",
             "text_size": "medium",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>El tiempo de envío varía entre 2 a 8 días hábiles según tu ubicación. Recibirás seguimiento por correo o WhatsApp.</p>",
             "page": ""
           }
         },
@@ -207,7 +207,7 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "Collapsible content",
+        "heading": "Preguntas Frecuentes",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "none",
@@ -216,44 +216,6 @@
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_mHNEHQ": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_dQttUV": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "text_gYqCXJ": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_dQttUV",
-        "text_gYqCXJ"
-      ],
-      "settings": {
-        "border_image_radius": 15,
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -280,7 +242,6 @@
     "image_with_text_EFHxJr",
     "image_with_text_gkn43W",
     "collapsible_content_H6Ditr",
-    "image_with_text_mHNEHQ",
     "ce002b21-24e0-4d65-87ca-18c9770b24d4"
   ]
 }
