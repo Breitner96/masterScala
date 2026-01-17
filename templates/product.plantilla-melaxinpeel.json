@@ -77,6 +77,26 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "reviews_6q6xwR": {
+          "type": "reviews",
+          "settings": {}
+        },
+        "title_m34mUg": {
+          "type": "title",
+          "settings": {}
+        },
+        "price_HkfLj6": {
+          "type": "price",
+          "settings": {
+            "show_skala_price": true,
+            "border_radius_percent": 10,
+            "border_percent_color": "#ff5252",
+            "save_bg_color": "#ff5252",
+            "save_text_color": "#ffffff",
+            "price_color": "#28357d",
+            "comparation_price_color": "#8a8f9b"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -105,6 +125,9 @@
         }
       },
       "block_order": [
+        "reviews_6q6xwR",
+        "title_m34mUg",
+        "price_HkfLj6",
         "variant_picker",
         "description",
         "custom_liquid_BkAQfA",
