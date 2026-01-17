@@ -77,12 +77,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "reviews_6q6xwR": {
-          "type": "reviews",
-          "settings": {}
-        },
         "title_m34mUg": {
           "type": "title",
+          "settings": {}
+        },
+        "reviews_6q6xwR": {
+          "type": "reviews",
           "settings": {}
         },
         "price_HkfLj6": {
@@ -125,8 +125,8 @@
         }
       },
       "block_order": [
-        "reviews_6q6xwR",
         "title_m34mUg",
+        "reviews_6q6xwR",
         "price_HkfLj6",
         "variant_picker",
         "description",
