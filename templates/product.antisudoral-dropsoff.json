@@ -222,7 +222,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/dropsoff_optimized_1.png",
+        "image": "shopify://shop_images/2.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -239,7 +239,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/GIF_5.webp",
+        "image": "shopify://shop_images/dropsoff-_1__optimized.png",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "middle-center",
@@ -256,7 +256,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/ChatGPT_Image_4_ene_2026_10_35_31.png",
+        "image": "shopify://shop_images/240831_mododeuso_dropspoff_imagen1080_optimized.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -275,19 +275,19 @@
         "text_HGLkBc": {
           "type": "text",
           "settings": {
-            "title": "🧪 Inspirado en el cuidado dermatológico coreano"
+            "title": "✨ Dropsoff: Controla tu sudor. Recupera tu confianza. 💪"
           }
         },
         "text_QdbQtz": {
           "type": "text",
           "settings": {
-            "title": "🌱 Ingredientes de cuidado cosmético"
+            "title": "🌿 Ingredientes naturales. Resultados reales desde el día 1. ✅"
           }
         },
         "text_4TBaJT": {
           "type": "text",
           "settings": {
-            "title": "✅ Apto para todo tipo de piel"
+            "title": "👋 Adiós sudor excesivo. Hola piel seca y protegida. 💚"
           }
         }
       },
@@ -302,7 +302,7 @@
         "speed": 1.5,
         "mobile_spacing": 60,
         "desktop_spacing": 100,
-        "bg_color": "#f5a51d",
+        "bg_color": "#46c3ed",
         "text_color": "#ffffff",
         "mobile_text_size": 14,
         "desktop_text_size": 14,
