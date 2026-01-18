@@ -334,21 +334,52 @@
         "show_text_below": true
       }
     },
-    "image_banner_4ApXqQ": {
-      "type": "image-banner",
-      "name": "t:sections.image-banner.presets.name",
+    "testimonios_H3jA46": {
+      "type": "testimonios",
+      "blocks": {
+        "slide_RbYHX8": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/13_optimized.jpg",
+            "subheading": "",
+            "testimonialName": "",
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_hHqpVX": {
+          "type": "slide",
+          "settings": {
+            "subheading": "",
+            "testimonialName": "",
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_RbYHX8",
+        "slide_hHqpVX"
+      ],
+      "name": "Testimonio",
       "settings": {
-        "image": "shopify://shop_images/3.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "header_testimonials": "Testimonios",
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
         "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
       }
     },
     "image_banner_H34i6B": {
@@ -659,7 +690,7 @@
     "image_banner_dq7i7w",
     "escala_announcement_bar_eVdJeR",
     "image_banner_rnYhEh",
-    "image_banner_4ApXqQ",
+    "testimonios_H3jA46",
     "image_banner_H34i6B",
     "escala_announcement_bar_aTDNdh",
     "custom_liquid_fFegqP",
