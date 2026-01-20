@@ -1,30 +1,29 @@
 {% comment %}
-  Variant Picker Mejorado con Swatches Visuales y Mejor UX
-  - Swatches de color con vista previa
-  - Botones de talla más interactivos
-  - Feedback visual de disponibilidad
-  - Animaciones suaves
-{% endcomment %}
+  Renders product variant-picker
 
+  Accepts:
+  - product: {Object} product object.
+  - block: {Object} passing the block information.
+  - product_form_id: {String} Id of the product form to which the variant picker is associated.
+  - update_url: {Boolean} whether or not to update url when changing variants. If false, the url isn't updated. Default: true (optional).
+  Usage:
+  {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
+{% endcomment %}
 {%- unless product.has_only_default_variant -%}
   <variant-selects
     id="variant-selects-{{ section.id }}"
     class="no-js-hidden"
     data-section="{{ section.id }}"
     data-url="{{ product.url }}"
-    {% if update_url == false %}data-update-url="false"{% endif %}
+    {% if update_url == false %}
+      data-update-url="false"
+    {% endif %}
     {{ block.shopify_attributes }}
   >
     {%- for option in product.options_with_values -%}
       {%- liquid
         assign swatch_count = option.values | map: 'swatch' | compact | size
         assign picker_type = block.settings.picker_type
-        assign option_name_lower = option.name | downcase
-        assign is_color = false
-        
-        if option_name_lower contains 'color' or option_name_lower contains 'colour' or option_name_lower contains 'col'
-          assign is_color = true
-        endif
 
         if swatch_count > 0 and block.settings.swatch_shape != 'none'
           if block.settings.picker_type == 'dropdown'
@@ -34,127 +33,37 @@
           endif
         endif
       -%}
-
-      {%- comment %} OPCIÓN DE COLOR CON SWATCHES MEJORADOS {% endcomment -%}
-      {%- if picker_type == 'swatch' or is_color -%}
-        <fieldset class="product-form__input product-form__input--swatch enhanced-variant-picker">
-          <legend class="form__label variant-label">
-            <span class="variant-label__name">{{ option.name }}</span>
-            <span class="variant-label__value" data-selected-value="{{ option.name }}">
-              {{ option.selected_value }}
+      {%- if picker_type == 'swatch' -%}
+        <fieldset class="js product-form__input product-form__input--swatch">
+          <legend class="form__label">
+            {{ option.name }}:
+            <span data-selected-swatch-value="{{ option.name }}">
+              {{- option.selected_value -}}
             </span>
           </legend>
-          
-          <div class="variant-swatches {% if is_color %}variant-swatches--color{% endif %}">
-            {%- for value in option.values -%}
-              {%- liquid
-                assign variant_available = false
-                for variant in product.variants
-                  if variant.available and variant.options contains value.option_value
-                    assign variant_available = true
-                    break
-                  endif
-                endfor
-              -%}
-              
-              <div class="swatch-wrapper">
-                <input
-                  type="radio"
-                  id="{{ section.id }}-{{ option.name }}-{{ forloop.index0 }}"
-                  name="{{ option.name }}"
-                  value="{{ value.option_value | escape }}"
-                  form="{{ product_form_id }}"
-                  {% if option.selected_value == value.option_value %}checked{% endif %}
-                  {% unless variant_available %}disabled{% endunless %}
-                  class="swatch-input visually-hidden"
-                >
-                <label
-                  for="{{ section.id }}-{{ option.name }}-{{ forloop.index0 }}"
-                  class="swatch-label {% unless variant_available %}swatch-label--unavailable{% endunless %}"
-                  title="{{ value.option_value }}"
-                >
-                  {%- if value.swatch -%}
-                    <span class="swatch-visual" style="background: {{ value.swatch.color | default: value.swatch.image }};">
-                      {%- if value.swatch.image -%}
-                        <img src="{{ value.swatch.image | img_url: '50x50' }}" alt="{{ value.option_value }}" loading="lazy">
-                      {%- endif -%}
-                    </span>
-                  {%- else -%}
-                    <span class="swatch-visual swatch-visual--text">
-                      {{ value.option_value | slice: 0 }}
-                    </span>
-                  {%- endif -%}
-                  <span class="swatch-name">{{ value.option_value }}</span>
-                  {% unless variant_available %}
-                    <span class="swatch-unavailable-indicator">✕</span>
-                  {% endunless %}
-                </label>
-              </div>
-            {%- endfor -%}
-          </div>
+          {% render 'product-variant-options',
+            product: product,
+            option: option,
+            block: block,
+            picker_type: picker_type
+          %}
         </fieldset>
-
-      {%- comment %} OPCIÓN DE BOTONES PILL (TALLAS) {% endcomment -%}
       {%- elsif picker_type == 'button' -%}
-        <fieldset class="product-form__input product-form__input--pill enhanced-variant-picker">
-          <legend class="form__label variant-label">
-            <span class="variant-label__name">{{ option.name }}</span>
-          </legend>
-          
-          <div class="variant-pills">
-            {%- for value in option.values -%}
-              {%- liquid
-                assign variant_available = false
-                assign variant_low_stock = false
-                for variant in product.variants
-                  if variant.options contains value.option_value
-                    if variant.available
-                      assign variant_available = true
-                      if variant.inventory_quantity <= 5 and variant.inventory_quantity > 0
-                        assign variant_low_stock = true
-                      endif
-                    endif
-                    break
-                  endif
-                endfor
-              -%}
-              
-              <div class="pill-wrapper">
-                <input
-                  type="radio"
-                  id="{{ section.id }}-{{ option.name }}-{{ forloop.index0 }}"
-                  name="{{ option.name }}"
-                  value="{{ value.option_value | escape }}"
-                  form="{{ product_form_id }}"
-                  {% if option.selected_value == value.option_value %}checked{% endif %}
-                  {% unless variant_available %}disabled{% endunless %}
-                  class="pill-input visually-hidden"
-                >
-                <label
-                  for="{{ section.id }}-{{ option.name }}-{{ forloop.index0 }}"
-                  class="pill-label {% unless variant_available %}pill-label--unavailable{% endunless %} {% if variant_low_stock %}pill-label--low-stock{% endif %}"
-                >
-                  <span class="pill-text">{{ value.option_value }}</span>
-                  {% if variant_low_stock %}
-                    <span class="pill-badge">¡Pocas!</span>
-                  {% endif %}
-                  {% unless variant_available %}
-                    <span class="pill-unavailable-line"></span>
-                  {% endunless %}
-                </label>
-              </div>
-            {%- endfor -%}
-          </div>
+        <fieldset class="js product-form__input product-form__input--pill">
+          <legend class="form__label">{{ option.name }}</legend>
+          {% render 'product-variant-options',
+            product: product,
+            option: option,
+            block: block,
+            picker_type: picker_type
+          %}
         </fieldset>
-
-      {%- comment %} OPCIÓN DROPDOWN MEJORADO {% endcomment -%}
       {%- else -%}
-        <div class="product-form__input product-form__input--dropdown enhanced-variant-picker">
-          <label class="form__label variant-label" for="Option-{{ section.id }}-{{ forloop.index0 }}">
-            <span class="variant-label__name">{{ option.name }}</span>
+        <div class="product-form__input product-form__input--dropdown">
+          <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">
+            {{ option.name }}
           </label>
-          
-          <div class="select-wrapper enhanced-select">
+          <div class="select">
             {%- if picker_type == 'swatch_dropdown' -%}
               <span
                 data-selected-dropdown-swatch="options[{{ option.name | escape }}]"
@@ -163,348 +72,79 @@
                 {% render 'swatch', swatch: option.selected_value.swatch, shape: block.settings.swatch_shape %}
               </span>
             {%- endif -%}
-            
             <select
               id="Option-{{ section.id }}-{{ forloop.index0 }}"
-              class="select__select enhanced-select__field"
+              class="select__select"
               name="options[{{ option.name | escape }}]"
               form="{{ product_form_id }}"
             >
-              {%- for value in option.values -%}
-                {%- liquid
-                  assign variant_available = false
-                  for variant in product.variants
-                    if variant.available and variant.options contains value.option_value
-                      assign variant_available = true
-                      break
-                    endif
-                  endfor
-                -%}
-                <option
-                  value="{{ value.option_value | escape }}"
-                  {% if option.selected_value == value.option_value %}selected{% endif %}
-                  {% unless variant_available %}disabled{% endunless %}
-                >
-                  {{ value.option_value }}
-                  {% unless variant_available %} - Agotado{% endunless %}
-                </option>
-              {%- endfor -%}
+              {% render 'product-variant-options',
+                product: product,
+                option: option,
+                block: block,
+                picker_type: picker_type
+              %}
             </select>
-            
-            <div class="select-arrow">
-              <svg width="12" height="8" viewBox="0 0 12 8" fill="none">
-                <path d="M1 1L6 6L11 1" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              </svg>
-            </div>
+            {% render 'icon-caret' %}
           </div>
         </div>
       {%- endif -%}
     {%- endfor -%}
-
     <script type="application/json">
       {{ product.variants | json }}
     </script>
   </variant-selects>
-
-  {%- comment %} ESTILOS CSS MEJORADOS {% endcomment -%}
-  <style>
-    .enhanced-variant-picker {
-      margin-bottom: 2rem;
-    }
-
-    .variant-label {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 1rem;
-      font-weight: 600;
-      font-size: 0.95rem;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-    }
-
-    .variant-label__value {
-      font-weight: 400;
-      color: #666;
-      font-size: 0.9rem;
-    }
-
-    /* === SWATCHES DE COLOR === */
-    .variant-swatches {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.75rem;
-    }
-
-    .swatch-wrapper {
-      position: relative;
-    }
-
-    .swatch-label {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 0.5rem;
-      cursor: pointer;
-      transition: all 0.2s ease;
-      position: relative;
-    }
-
-    .swatch-visual {
-      width: 48px;
-      height: 48px;
-      border-radius: 50%;
-      border: 2px solid #e0e0e0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-      position: relative;
-      overflow: hidden;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }
-
-    .swatch-visual img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-
-    .swatch-visual--text {
-      background: #f5f5f5;
-      font-weight: 700;
-      font-size: 1.2rem;
-      color: #333;
-    }
-
-    .swatch-name {
-      font-size: 0.75rem;
-      color: #666;
-      text-align: center;
-      max-width: 60px;
-      line-height: 1.2;
-    }
-
-    .swatch-input:checked + .swatch-label .swatch-visual {
-      border-color: #000;
-      border-width: 3px;
-      transform: scale(1.1);
-      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-    }
-
-    .swatch-input:checked + .swatch-label .swatch-visual::after {
-      content: '✓';
-      position: absolute;
-      bottom: -2px;
-      right: -2px;
-      background: #000;
-      color: white;
-      width: 18px;
-      height: 18px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 10px;
-      font-weight: bold;
-    }
-
-    .swatch-label:hover .swatch-visual {
-      transform: scale(1.05);
-      border-color: #666;
-    }
-
-    .swatch-label--unavailable {
-      opacity: 0.4;
-      cursor: not-allowed;
-    }
-
-    .swatch-label--unavailable .swatch-visual {
-      position: relative;
-    }
-
-    .swatch-unavailable-indicator {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: #ff4444;
-      font-size: 1.5rem;
-      font-weight: bold;
-      text-shadow: 0 0 3px white;
-    }
-
-    /* === BOTONES PILL (TALLAS) === */
-    .variant-pills {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.625rem;
-    }
-
-    .pill-label {
-      position: relative;
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-      padding: 0.75rem 1.5rem;
-      border: 2px solid #e0e0e0;
-      border-radius: 8px;
-      cursor: pointer;
-      transition: all 0.2s ease;
-      background: white;
-      font-weight: 500;
-      min-width: 60px;
-      justify-content: center;
-    }
-
-    .pill-text {
-      font-size: 0.95rem;
-    }
-
-    .pill-badge {
-      position: absolute;
-      top: -8px;
-      right: -8px;
-      background: #ff6b6b;
-      color: white;
-      font-size: 0.65rem;
-      padding: 2px 6px;
-      border-radius: 10px;
-      font-weight: 600;
-      animation: pulse 2s infinite;
-    }
-
-    @keyframes pulse {
-      0%, 100% { transform: scale(1); }
-      50% { transform: scale(1.1); }
-    }
-
-    .pill-input:checked + .pill-label {
-      background: #000;
-      color: white;
-      border-color: #000;
-      transform: translateY(-2px);
-      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    }
-
-    .pill-label:hover {
-      border-color: #000;
-      transform: translateY(-1px);
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }
-
-    .pill-label--unavailable {
-      opacity: 0.4;
-      cursor: not-allowed;
-      background: #f5f5f5;
-    }
-
-    .pill-label--unavailable:hover {
-      transform: none;
-      border-color: #e0e0e0;
-    }
-
-    .pill-unavailable-line {
-      position: absolute;
-      top: 50%;
-      left: 10%;
-      right: 10%;
-      height: 2px;
-      background: #ff4444;
-      transform: translateY(-50%) rotate(-15deg);
-    }
-
-    /* === SELECT MEJORADO === */
-    .enhanced-select {
-      position: relative;
-    }
-
-    .enhanced-select__field {
-      width: 100%;
-      padding: 1rem 3rem 1rem 1rem;
-      border: 2px solid #e0e0e0;
-      border-radius: 8px;
-      font-size: 1rem;
-      cursor: pointer;
-      transition: all 0.2s ease;
-      appearance: none;
-      background: white;
-    }
-
-    .enhanced-select__field:hover {
-      border-color: #000;
-    }
-
-    .enhanced-select__field:focus {
-      outline: none;
-      border-color: #000;
-      box-shadow: 0 0 0 3px rgba(0,0,0,0.1);
-    }
-
-    .select-arrow {
-      position: absolute;
-      right: 1rem;
-      top: 50%;
-      transform: translateY(-50%);
-      pointer-events: none;
-      transition: transform 0.2s ease;
-    }
-
-    .enhanced-select__field:focus ~ .select-arrow {
-      transform: translateY(-50%) rotate(180deg);
-    }
-
-    /* Utility */
-    .visually-hidden {
-      position: absolute;
-      width: 1px;
-      height: 1px;
-      padding: 0;
-      margin: -1px;
-      overflow: hidden;
-      clip: rect(0, 0, 0, 0);
-      white-space: nowrap;
-      border-width: 0;
-    }
-
-    /* Responsive */
-    @media (max-width: 768px) {
-      .variant-swatches {
-        gap: 0.5rem;
-      }
-      
-      .swatch-visual {
-        width: 42px;
-        height: 42px;
-      }
-
-      .pill-label {
-        padding: 0.625rem 1.25rem;
-        font-size: 0.9rem;
-      }
-    }
-  </style>
 {%- endunless -%}
 
-{%- comment %} NOSCRIPT FALLBACK {% endcomment -%}
 <noscript class="product-form__noscript-wrapper-{{ section.id }}">
   <div class="product-form__input{% if product.has_only_default_variant %} hidden{% endif %}">
     <label class="form__label" for="Variants-{{ section.id }}">
-      {{ 'products.product.product_variants' | t }}
+      {{- 'products.product.product_variants' | t -}}
     </label>
     <div class="select">
-      <select name="id" id="Variants-{{ section.id }}" class="select__select" form="{{ product_form_id }}">
+      <select
+        name="id"
+        id="Variants-{{ section.id }}"
+        class="select__select"
+        form="{{ product_form_id }}"
+      >
         {%- for variant in product.variants -%}
           <option
-            {% if variant == product.selected_or_first_available_variant %}selected{% endif %}
-            {% if variant.available == false %}disabled{% endif %}
+            {% if variant == product.selected_or_first_available_variant %}
+              selected="selected"
+            {% endif %}
+            {% if variant.available == false %}
+              disabled
+            {% endif %}
             value="{{ variant.id }}"
           >
-            {{ variant.title }} - {{ variant.price | money }}
-            {% if variant.available == false %} - Agotado{% endif %}
+            {%- liquid
+              echo variant.title
+              echo variant.price | money | strip_html | prepend: ' - '
+              if variant.available == false
+                echo 'products.product.sold_out' | t | prepend: ' - '
+              endif
+              if variant.quantity_rule.increment > 1
+                echo 'products.product.quantity.multiples_of' | t: quantity: variant.quantity_rule.increment | prepend: ' - '
+              endif
+              if variant.quantity_rule.min > 1
+                echo 'products.product.quantity.minimum_of' | t: quantity: variant.quantity_rule.min | prepend: ' - '
+              endif
+              if variant.quantity_rule.max != null
+                echo 'products.product.quantity.maximum_of' | t: quantity: variant.quantity_rule.max | prepend: ' - '
+              endif
+              # TODO: enable theme-check once `item_count_for_variant` is accepted as valid filter
+              # theme-check-disable
+              assign cart_quantity = cart | item_count_for_variant: variant.id
+              # theme-check-enable
+              if cart_quantity > 0
+                echo 'products.product.quantity.in_cart_html' | t: quantity: cart_quantity | prepend: ' - '
+              endif
+            -%}
           </option>
         {%- endfor -%}
       </select>
+      {% render 'icon-caret' %}
     </div>
   </div>
 </noscript>
