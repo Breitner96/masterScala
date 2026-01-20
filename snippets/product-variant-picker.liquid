@@ -1,5 +1,5 @@
 {% comment %}
-  Renders product variant-picker
+  Renders product variant-picker - Versión Mejorada
 
   Accepts:
   - product: {Object} product object.
@@ -9,6 +9,176 @@
   Usage:
   {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
 {% endcomment %}
+
+<style>
+  /* Estilos mejorados para variant picker */
+  .product-form__input {
+    margin-bottom: 1.5rem;
+  }
+
+  .form__label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.875rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .form__label span {
+    font-weight: 400;
+    color: #666;
+    text-transform: none;
+  }
+
+  /* Mejoras para dropdown/select */
+  .product-form__input--dropdown .select {
+    position: relative;
+  }
+
+  .product-form__input--dropdown .select__select {
+    width: 100%;
+    padding: 0.875rem 2.5rem 0.875rem 1rem;
+    border: 2px solid #e5e5e5;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    transition: all 0.2s ease;
+    appearance: none;
+    background: white;
+    cursor: pointer;
+  }
+
+  .product-form__input--dropdown .select__select:hover {
+    border-color: #999;
+  }
+
+  .product-form__input--dropdown .select__select:focus {
+    outline: none;
+    border-color: #000;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.05);
+  }
+
+  .product-form__input--dropdown .select__select option:disabled {
+    color: #999;
+  }
+
+  /* Mejoras para swatches */
+  .product-form__input--swatch .swatch-wrapper {
+    display: inline-flex;
+    margin-right: 0.625rem;
+    margin-bottom: 0.625rem;
+  }
+
+  .product-form__input--swatch .swatch {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 2px solid #e5e5e5;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    position: relative;
+  }
+
+  .product-form__input--swatch .swatch:hover {
+    transform: scale(1.08);
+    border-color: #666;
+  }
+
+  .product-form__input--swatch input:checked + .swatch {
+    border-color: #000;
+    border-width: 3px;
+    transform: scale(1.1);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .product-form__input--swatch input:disabled + .swatch {
+    opacity: 0.35;
+    cursor: not-allowed;
+  }
+
+  .product-form__input--swatch input:disabled + .swatch:hover {
+    transform: none;
+  }
+
+  /* Mejoras para botones pill */
+  .product-form__input--pill .variant-option {
+    display: inline-flex;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .product-form__input--pill .variant-option label {
+    padding: 0.75rem 1.25rem;
+    border: 2px solid #e5e5e5;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-weight: 500;
+    font-size: 0.9rem;
+    background: white;
+    min-width: 55px;
+    text-align: center;
+  }
+
+  .product-form__input--pill .variant-option label:hover {
+    border-color: #000;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  }
+
+  .product-form__input--pill input:checked + label {
+    background: #000;
+    color: white;
+    border-color: #000;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .product-form__input--pill input:disabled + label {
+    opacity: 0.4;
+    cursor: not-allowed;
+    background: #f5f5f5;
+  }
+
+  .product-form__input--pill input:disabled + label:hover {
+    transform: none;
+    border-color: #e5e5e5;
+    box-shadow: none;
+  }
+
+  /* Swatch dropdown */
+  .dropdown-swatch {
+    position: absolute;
+    left: 0.875rem;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+
+  .product-form__input--dropdown .select__select:has(~ .dropdown-swatch) {
+    padding-left: 3.5rem;
+  }
+
+  /* Animación suave para cambios */
+  .variant-selects {
+    transition: opacity 0.15s ease;
+  }
+
+  @media (max-width: 749px) {
+    .product-form__input--swatch .swatch {
+      width: 40px;
+      height: 40px;
+    }
+
+    .product-form__input--pill .variant-option label {
+      padding: 0.625rem 1rem;
+      font-size: 0.85rem;
+    }
+  }
+</style>
+
 {%- unless product.has_only_default_variant -%}
   <variant-selects
     id="variant-selects-{{ section.id }}"
