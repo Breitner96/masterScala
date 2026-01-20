@@ -232,41 +232,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/2.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "image_banner_kijXiL": {
-      "type": "image-banner",
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/GIF_5.webp",
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "image_banner_dq7i7w": {
-      "type": "image-banner",
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/ChatGPT_Image_4_ene_2026_10_35_31.png",
+        "image": "shopify://shop_images/2_4_11zon.webp",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -344,28 +310,21 @@
         "show_text_below": true
       }
     },
-    "image_banner_nCjYrq": {
-      "type": "image-banner",
-      "name": "t:sections.image-banner.presets.name",
+    "custom_liquid_d6URTi": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "image": "shopify://shop_images/GIF_3_94363fc6-4629-4c09-8bef-23ff0afa2bb1.webp",
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "custom_liquid": "<div style=\"text-align:center; margin:0; padding:0;\">\n  <div class=\"fe-pulse\" style=\"display:inline-block; margin:0; padding:0;\">\n    <a href=\"/rsi-btn-hook\" style=\"display:inline-block; margin:0; padding:0;\">\n      <img src=\"https://i.imgur.com/4Me8z8R.png\" alt=\"Botón de oferta\" style=\"display:block; margin:0; padding:0; border:none; width:auto; max-width:100%;\">\n    </a>\n  </div>\n\n  <style>\n    @keyframes pulse {\n      0% { transform: scale(1); }\n      50% { transform: scale(0.85); }\n      100% { transform: scale(1); }\n    }\n    .fe-pulse {\n      animation: pulse 3s infinite;\n      margin: 0 !important;\n      padding: 0 !important;\n    }\n  </style>\n</div>",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "image_banner_4ApXqQ": {
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/3.jpg",
+        "image": "shopify://shop_images/4_2_11zon.webp",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -683,11 +642,9 @@
     "custom_liquid_4nyXqD",
     "escala_announcement_bar_FftP7P",
     "image_banner_ygiGEb",
-    "image_banner_kijXiL",
-    "image_banner_dq7i7w",
     "escala_announcement_bar_eVdJeR",
     "image_banner_rnYhEh",
-    "image_banner_nCjYrq",
+    "custom_liquid_d6URTi",
     "image_banner_4ApXqQ",
     "image_banner_H34i6B",
     "escala_announcement_bar_aTDNdh",
