@@ -251,19 +251,19 @@
         "text_HGLkBc": {
           "type": "text",
           "settings": {
-            "title": "🧪 Inspirado en el cuidado dermatológico coreano"
+            "title": "👟 TENIS DE ALTA CALIDAD"
           }
         },
         "text_QdbQtz": {
           "type": "text",
           "settings": {
-            "title": "🌱 Ingredientes de cuidado cosmético"
+            "title": "🚚 ULTIMAS UNIDADES EN STOCK"
           }
         },
         "text_4TBaJT": {
           "type": "text",
           "settings": {
-            "title": "✅ Apto para todo tipo de piel"
+            "title": "✅ PAGO CONTRA ENTREGA"
           }
         }
       },
@@ -278,7 +278,7 @@
         "speed": 1.5,
         "mobile_spacing": 60,
         "desktop_spacing": 100,
-        "bg_color": "#f5a51d",
+        "bg_color": "#121212",
         "text_color": "#ffffff",
         "mobile_text_size": 14,
         "desktop_text_size": 14,
