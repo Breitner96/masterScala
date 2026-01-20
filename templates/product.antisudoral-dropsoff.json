@@ -425,7 +425,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/whisk_f37cdff0fdc0ed8b792448a2951c5bb9dr_optimized.png",
+        "image": "shopify://shop_images/whisk_a050e232dc5f61ba40c486364d69bdb4dr_optimized.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
