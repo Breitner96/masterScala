@@ -61,8 +61,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/1.jpg",
-        "image_2": "shopify://shop_images/tenis-lifestyle-street_optimized.png",
+        "image": "shopify://shop_images/tenis-lifestyle-street_optimized.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -144,7 +143,7 @@
       ],
       "settings": {
         "enable_sticky_info": true,
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
         "border_image_radius": 40,
         "media_size": "medium",
         "constrain_to_viewport": true,
