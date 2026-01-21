@@ -568,6 +568,36 @@
             "row_content": "<p>No se reportan efectos secundarios cuando se usa correctamente. Recomendamos realizar una <strong>prueba de sensibilidad</strong> antes del primer uso.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_xVi3yq": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Cuántas aplicaciones rinde el frasco?",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Un frasco de <strong>30 ml rinde aproximadamente entre 4 y 6 semanas</strong>, dependiendo de la zona y frecuencia de uso.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_nzNKtX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Puedo usarlo si tengo la piel sensible?",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Sí. Su fórmula es calmante y nutritiva, ideal para piel sensible o irritada por métodos de depilación tradicionales.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_YjJkfL": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿El producto es original y seguro?",
+            "text_size": "h5",
+            "icon": "none",
+            "row_content": "<p>Sí. Es un producto formulado con ingredientes naturales y <strong>cumple con estándares de calidad</strong> para uso cosmético.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -578,7 +608,10 @@
         "collapsible_row_recNjJ",
         "collapsible_row_Rgmyx7",
         "collapsible_row_kDVMWL",
-        "collapsible_row_yPJagE"
+        "collapsible_row_yPJagE",
+        "collapsible_row_xVi3yq",
+        "collapsible_row_nzNKtX",
+        "collapsible_row_YjJkfL"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
