@@ -323,19 +323,19 @@
         "text_HGLkBc": {
           "type": "text",
           "settings": {
-            "title": "🧪 Inspirado en el cuidado dermatológico coreano"
+            "title": "🧪 Depilación sin dolor ni irritación"
           }
         },
         "text_QdbQtz": {
           "type": "text",
           "settings": {
-            "title": "🌱 Ingredientes de cuidado cosmético"
+            "title": "🌱 Ideal para piel sensible"
           }
         },
         "text_4TBaJT": {
           "type": "text",
           "settings": {
-            "title": "✅ Apto para todo tipo de piel"
+            "title": "✅  Comprar ahora"
           }
         }
       },
@@ -350,7 +350,7 @@
         "speed": 1.5,
         "mobile_spacing": 60,
         "desktop_spacing": 100,
-        "bg_color": "#f5a51d",
+        "bg_color": "#cb3d74",
         "text_color": "#ffffff",
         "mobile_text_size": 14,
         "desktop_text_size": 14,
