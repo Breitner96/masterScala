@@ -283,11 +283,11 @@
         "show_text_below": true
       }
     },
-    "image_banner_4ApXqQ": {
+    "image_banner_rnYhEh": {
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/ChatGPT_Image_20_ene_2026_08_04_52_p.m..webp",
+        "image": "shopify://shop_images/ChatGPT_Image_20_ene_2026_06_18_21_p.m..webp",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -300,11 +300,11 @@
         "show_text_below": true
       }
     },
-    "image_banner_rnYhEh": {
+    "image_banner_4ApXqQ": {
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/ChatGPT_Image_20_ene_2026_06_18_21_p.m..webp",
+        "image": "shopify://shop_images/ChatGPT_Image_20_ene_2026_08_04_52_p.m..webp",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -380,54 +380,6 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
-      }
-    },
-    "escala_announcement_bar_aTDNdh": {
-      "type": "escala-announcement-bar",
-      "blocks": {
-        "text_J6n64Y": {
-          "type": "text",
-          "settings": {
-            "title": "🔥 Piel suave, lisa y renovada"
-          }
-        },
-        "text_Pr7Gma": {
-          "type": "text",
-          "settings": {
-            "title": "💥 Despídete de la piel áspera"
-          }
-        },
-        "text_zyN7gK": {
-          "type": "text",
-          "settings": {
-            "title": "🛒 Stock limitado – ordénalo hoy"
-          }
-        }
-      },
-      "block_order": [
-        "text_J6n64Y",
-        "text_Pr7Gma",
-        "text_zyN7gK"
-      ],
-      "name": "Barra de anuncios",
-      "settings": {
-        "visibility": "desktop-hidden",
-        "speed": 1.5,
-        "mobile_spacing": 60,
-        "desktop_spacing": 100,
-        "bg_color": "#1b9d08",
-        "text_color": "#ffffff",
-        "mobile_text_size": 14,
-        "desktop_text_size": 14,
-        "italic_text": false,
-        "uppercase_text": true,
-        "bold_text": false,
-        "mobile_image_height": 20,
-        "desktop_image_height": 20,
-        "mobile_padding_top": 12,
-        "mobile_padding_bottom": 12,
-        "desktop_padding_top": 16,
-        "desktop_padding_bottom": 16
       }
     },
     "custom_liquid_fFegqP": {
@@ -674,7 +626,6 @@
     "image_banner_4ApXqQ",
     "escala_announcement_bar_eVdJeR",
     "image_banner_H34i6B",
-    "escala_announcement_bar_aTDNdh",
     "custom_liquid_fFegqP",
     "image_banner_NJEzn8",
     "escala_announcement_bar_7CpN8f",
