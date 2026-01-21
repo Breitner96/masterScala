@@ -532,10 +532,10 @@
         "collapsible_row_recNjJ": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Cuándo veré resultados?",
+            "heading": "¿Cómo se aplica correctamente?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Muchos usuarios reportan sensación de suavidad y textura mejorada desde las primeras aplicaciones, y resultados más visibles —como tono más uniforme y piel más radiante— tras <strong>7–14 días de uso constante</strong>.</p>",
+            "row_content": "<p>1. Limpia la zona con agua y jabón neutro </p><p>2. Aplica <strong>2 a 3 gotas</strong> del aceite<br/>3. Masajea suavemente hasta su absorción<br/>4. Úsalo <strong>diariamente</strong>, preferiblemente después de depilarte</p>",
             "page": ""
           }
         },
