@@ -492,40 +492,40 @@
         "collapsible_row_eyA4xc": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Qué es Dr.Melaxin Peel Shot?",
+            "heading": "¿Cómo funciona el aceite Cyperus Rotundus?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Dr.Melaxin Peel Shot es un exfoliante corporal formulado con <strong>ácido kójico, cúrcuma, niacinamida y ácidos exfoliantes suaves (AHA/PHA)</strong> que ayudan a <strong>eliminar células muertas</strong>, <strong>uniformar el tono de la piel</strong> y <strong>dejarla más suave y luminosa</strong>. </p>",
+            "row_content": "<p>Actúa debilitando progresivamente el crecimiento del vello desde la raíz. Con el uso constante después de la depilación, el vello crece más fino, más lento y en menor cantidad.</p>",
             "page": ""
           }
         },
         "collapsible_row_VhdL89": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Cómo funciona este exfoliante?",
+            "heading": "¿En cuánto tiempo veré resultados?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Su fórmula combina agentes que <strong>suavizan y eliminan la piel seca</strong> con ingredientes que <strong>hidratan y aportan luminosidad</strong>, permitiendo una exfoliación eficaz sin resecar ni irritar en la mayoría de los casos.</p>",
+            "row_content": "<p>Los resultados pueden variar según cada persona, pero <strong>muchas usuarias notan cambios visibles a partir de la 4ta semana</strong> de uso constante.</p>",
             "page": ""
           }
         },
         "collapsible_row_fd8Vt7": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Con qué frecuencia debo usarlo?",
+            "heading": "¿Sirve para cualquier tipo de piel?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Aunque depende de tu tipo de piel, muchos exfoliantes similares se recomiendan <strong>2–3 veces por semana</strong> como parte de tu rutina de ducha, evitando uso diario excesivo para no sobre exfoliar la piel.</p>",
+            "row_content": "<p>Sí. Su fórmula es <strong>suave y apta para todo tipo de piel</strong>, incluso piel sensible, ya que no causa ardor ni irritación.</p>",
             "page": ""
           }
         },
         "collapsible_row_QTfCFi": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Este producto es apto para piel sensible?",
+            "heading": "¿En qué zonas del cuerpo se puede usar?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Gracias a su fórmula suave (sin ácidos agresivos ni gránulos abrasivos), este tipo de exfoliantes es generalmente <strong>compatible con piel sensible</strong>, pero siempre es recomendable <strong>hacer una prueba en una pequeña zona primero</strong>.</p>",
+            "row_content": "<p>Puedes usarlo en:</p><ul><li>Piernas</li><li>Cara</li><li>Brazos</li><li>Axilas</li><li>Línea del bikini</li><li>Otras zonas con vello no deseado</li></ul><p><em>(Evitar contacto directo con ojos y mucosas)</em></p>",
             "page": ""
           }
         },
