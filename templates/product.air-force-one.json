@@ -444,10 +444,10 @@
         "collapsible_row_recNjJ": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Por qué debería comprar ahora y no esperar?",
+            "heading": "¿Cómo sé que mi pedido sí quedó confirmado?",
             "text_size": "h5",
             "icon": "none",
-            "row_content": "<p>Tres razones importantes: <br/>1) La oferta 2x1 es limitada y cuando se agoten las últimas 47 unidades disponibles, vuelven a precio regular. <br/>2) Con esta promoción obtienes 50% de descuento real - básicamente estás pagando $[precio]/par en lugar de $[precio × 2]. <br/>3) Muchos clientes se arrepienten de no haber comprado cuando vuelven y la oferta ya terminó. Nuestra garantía de 30 días te protege completamente, así que no tienes nada que perder probándolos ahora mientras dura la promoción. La decisión inteligente es asegurar tu 2x1 hoy.</p>",
+            "row_content": "<p>Apenas completes el formulario, verás una confirmación en pantalla y te contactaremos por <strong>WhatsApp</strong> para validar talla, color y dirección. Así te aseguramos que el envío salga correcto y sin demoras.</p>",
             "page": ""
           }
         }
